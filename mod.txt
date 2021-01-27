@@ -1,0 +1,13 @@
+[ModMeta]
+schema=1
+name=chinese mod
+author=Tsumugi Wenders
+version=1.0.0
+
+[Language]
+code_iso_639_2=zho
+name=Chinese
+
+[LanguageDict]
+code_iso_639_2=zho
+po=game.po
