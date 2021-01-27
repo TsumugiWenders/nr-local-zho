@@ -189,7 +189,7 @@ msgstr "新列车"
 
 msgctxt "accounting_trains_running"
 msgid "Running costs"
-msgstr "运行成本"
+msgstr "运行费用"
 
 msgctxt "accounting_trains_sales"
 msgid "Train sales"
@@ -693,7 +693,7 @@ msgstr "放大视角以进行编辑"
 
 msgctxt "editor_warn_zero_leg"
 msgid "At least one travel time is set to 0. Pax AI will get confused when riding this line."
-msgstr "至少有一个旅行时间被设置为0，当乘坐这条线路时，Pax AI会感到困惑"
+msgstr "至少有一个时刻时间被设置为0，当乘坐这条线路时，AI乘客会感到困惑"
 
 msgctxt "enabled"
 msgid "Enabled"
@@ -909,7 +909,7 @@ msgstr "在这里插入新的停靠点"
 
 msgctxt "line_state"
 msgid "State"
-msgstr "国家"
+msgstr "状态"
 
 msgctxt "line_stop_arrival_header"
 msgid "Arrival"
@@ -1645,7 +1645,7 @@ msgstr "保存游戏"
 
 msgctxt "sax_0"
 msgid "Neutral"
-msgstr "Neutral"
+msgstr "满意度"
 
 msgctxt "sax_m1"
 msgid "Mediocre"
