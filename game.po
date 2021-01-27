@@ -37,7 +37,7 @@ msgstr "财务"
 
 msgctxt "accounting_cash_total"
 msgid "$ Total"
-msgstr "$ 现金"
+msgstr "现金"
 
 msgctxt "accounting_construction"
 msgid "Construction"
@@ -45,19 +45,19 @@ msgstr "建设"
 
 msgctxt "accounting_construction_depots"
 msgid "Depots"
-msgstr "仓库"
+msgstr "车站"
 
 msgctxt "accounting_construction_stations"
 msgid "Stations"
-msgstr "车站"
+msgstr "站台"
 
 msgctxt "accounting_construction_total"
 msgid "Total construction"
-msgstr "总工程量"
+msgstr "总工程花费"
 
 msgctxt "accounting_construction_tracks"
 msgid "Tracks"
-msgstr "轨迹"
+msgstr "轨道"
 
 msgctxt "accounting_financing"
 msgid "Financing"
@@ -89,11 +89,11 @@ msgstr "丢失"
 
 msgctxt "accounting_pax_post"
 msgid "pax"
-msgstr "pax"
+msgstr "乘客"
 
 msgctxt "accounting_pax_reached_depot"
 msgid "Reached depot"
-msgstr "到达仓库"
+msgstr "到达车站"
 
 msgctxt "accounting_pax_reached_destination"
 msgid "Reached destination"
@@ -125,7 +125,7 @@ msgstr "日"
 
 msgctxt "accounting_period_lifetme"
 msgid "Lifetime"
-msgstr "寿命"
+msgstr "全部时间"
 
 msgctxt "accounting_period_month"
 msgid "Month"
@@ -249,7 +249,7 @@ msgstr "返回"
 
 msgctxt "bad_angle"
 msgid "bad angle"
-msgstr "不好的角度"
+msgstr "角度过急"
 
 msgctxt "banner_expain_ignore"
 msgid "Ignored join requests can be authorized in the server management window."
@@ -301,15 +301,15 @@ msgstr "{0} 邀请您加入由 {1} 主持的游戏.你想加入吗?警告：你�
 
 msgctxt "bill_tab_client"
 msgid "By me"
-msgstr "由我决定"
+msgstr "我的蓝图"
 
 msgctxt "bill_tab_global"
 msgid "Global"
-msgstr "全球"
+msgstr "全部蓝图"
 
 msgctxt "bill_tab_selection"
 msgid "Selection"
-msgstr "选择"
+msgstr "选择蓝图"
 
 msgctxt "build"
 msgid "Build"
@@ -337,7 +337,7 @@ msgstr "退出"
 
 msgctxt "client_blueprint_bill"
 msgid "My blueprint bill"
-msgstr "我的蓝图账单"
+msgstr "蓝图花费"
 
 msgctxt "client_conn_info"
 msgid "Host: {0} | {1}ms | {2:.2f}%▲ {3:.2f}%▼ | {4}▲ {5}▼ B/s"
@@ -356,8 +356,8 @@ msgid "Do you want to build the current blueprint for ${}?"
 msgstr "您想以 ${} 的价格来构建当前的蓝图吗?"
 
 msgctxt "confirm_construction"
-msgid "确认建设"
-msgstr "Confirmar construcción"
+msgid "Confirm construction"
+msgstr "确认建设"
 
 msgctxt "confirm_delete"
 msgid "Confirm delete"
@@ -409,7 +409,7 @@ msgstr "制作人员表"
 
 msgctxt "credits_acknowledgments"
 msgid "Acknowledgments"
-msgstr "Acknowledgments"
+msgstr "鸣谢"
 
 msgctxt "credits_art"
 msgid "Art"
@@ -469,11 +469,11 @@ msgstr "列车 {}"
 
 msgctxt "delete_tracks"
 msgid "Delete tracks"
-msgstr "删除列车"
+msgstr "删除轨道"
 
 msgctxt "demand_pax_overall"
 msgid "{:.1f} pax/s"
-msgstr "{:.1f} pax/s"
+msgstr "{:.1f} 乘客/秒"
 
 msgctxt "depot_at"
 msgid "Depot at"
@@ -501,7 +501,7 @@ msgstr "禁用"
 
 msgctxt "display_mode"
 msgid "Mode:"
-msgstr "模式:"
+msgstr "显示:"
 
 msgctxt "display_mode_exclusive_fullscreen"
 msgid "Exclusive fullscreen"
@@ -541,7 +541,7 @@ msgstr "创建新的车站"
 
 msgctxt "editor_move"
 msgid "Move, delete and edit tracks"
-msgstr "移动, 删除并编辑轨道"
+msgstr "移动, 删除和编辑轨道"
 
 msgctxt "editor_select_add_platform"
 msgid "Click platform numbers in stations to add stops to the line"
@@ -741,7 +741,7 @@ msgstr "系统不允许在所选所选文件中写入"
 
 msgctxt "ev_refunds"
 msgid "{} refunds"
-msgstr "{} refunds"
+msgstr "{} 退款"
 
 msgctxt "file_header_date"
 msgid "Date"
@@ -797,11 +797,11 @@ msgstr "好友"
 
 msgctxt "global_blueprint_bill"
 msgid "Global blueprint bill"
-msgstr "全球蓝图法案"
+msgstr "全部蓝图花费"
 
 msgctxt "host_game"
-msgid "服务器游戏"
-msgstr "Hospedar partida"
+msgid "Host game"
+msgstr "创建多人游戏"
 
 msgctxt "icon_file"
 msgid "Icon file:"
@@ -825,7 +825,7 @@ msgstr "车费"
 
 msgctxt "info_table_pax_leg"
 msgid "Leg"
-msgstr "腿(?)"
+msgstr "路程"
 
 msgctxt "info_table_pax_origin"
 msgid "Origin"
@@ -833,7 +833,7 @@ msgstr "产业"
 
 msgctxt "info_table_pax_sax"
 msgid "Sax"
-msgstr "Sax"
+msgstr "满意度"
 
 msgctxt "info_table_pax_total"
 msgid "Total"
@@ -841,7 +841,7 @@ msgstr "总计"
 
 msgctxt "info_train_pax"
 msgid "Pax: {0} / {1}"
-msgstr "Pax: {0} / {1}"
+msgstr "乘客: {0} / {1}"
 
 msgctxt "info_train_speed"
 msgid "Speed: {} km/h"
@@ -853,7 +853,7 @@ msgstr "{} km/h"
 
 msgctxt "intervention"
 msgid "Intervention"
-msgstr "Intervention"
+msgstr "列车干预"
 
 msgctxt "invalid_location"
 msgid "Invalid"
@@ -881,7 +881,7 @@ msgstr "加入多人游戏"
 
 msgctxt "key_info"
 msgid "Key: "
-msgstr "Tecla: "
+msgstr "key: "
 
 msgctxt "language_pick"
 msgid "Language:"
@@ -889,7 +889,7 @@ msgstr "语言:"
 
 msgctxt "line_0_stops"
 msgid "0 stops"
-msgstr "0 paradas"
+msgstr "0 停靠点"
 
 msgctxt "line_error_no_path_between_stops"
 msgid "Cannot find path!"
@@ -921,7 +921,7 @@ msgstr "距离"
 
 msgctxt "line_stop_eta_header"
 msgid "Travel"
-msgstr "旅游e"
+msgstr "时刻"
 
 msgctxt "line_stop_interval_header"
 msgid "Interval"
@@ -949,11 +949,11 @@ msgstr "{} 到"
 
 msgctxt "lineeditor_auto_eta_avg_branch_wait"
 msgid "Avg. branch (mm:ss):"
-msgstr "平均分支 (mm:ss):"
+msgstr "线路编辑器自动等价交换分支等待时间 (mm:ss):"
 
 msgctxt "lineeditor_auto_eta_run"
 msgid "Estimate travel times"
-msgstr "估计旅行时间"
+msgstr "估计运行时间"
 
 msgctxt "lineeditor_auto_eta_speed"
 msgid "Ideal speed (km/h):"
@@ -969,7 +969,7 @@ msgstr "最小间隔时间 (mm:ss):"
 
 msgctxt "lineeditor_bp_station"
 msgid "Build your tracks blueprint to enable this platform"
-msgstr "建立你的轨道蓝图以启用此平台"
+msgstr "建立你的轨道蓝图以启用此站台"
 
 msgctxt "lineeditor_code"
 msgid "Code:"
@@ -1053,7 +1053,7 @@ msgstr "接受新的贷款"
 
 msgctxt "loan_contract_amount"
 msgid "$M Amount:"
-msgstr "金额 $M:"
+msgstr "金额:"
 
 msgctxt "loan_contract_ko"
 msgid "Not approved"
@@ -1097,11 +1097,11 @@ msgstr "提前支付 ${}"
 
 msgctxt "loan_payments"
 msgid "Payments:"
-msgstr "付款:"
+msgstr "支付:"
 
 msgctxt "loan_payments_fmt"
 msgid "{0} out of {1}, next on {2}"
-msgstr "{0} out of {1}, next on {2}"
+msgstr " {1} 中第 {0} 份, 将在 {2} 支付"
 
 msgctxt "loan_subtitle"
 msgid "${} per month"
@@ -1365,7 +1365,7 @@ msgstr "忘记"
 
 msgctxt "mp_action_host_to_invite"
 msgid "Host to invite"
-msgstr "要邀请的主人"
+msgstr "以主持人邀请好友"
 
 msgctxt "mp_action_invite"
 msgid "Invite"
@@ -1429,11 +1429,11 @@ msgstr "新贷款"
 
 msgctxt "new_mod_id_placeholder"
 msgid "<New mod>"
-msgstr "<新模组>"
+msgstr "<New mod>"
 
 msgctxt "new_save_file_name"
 msgid "New save file name:"
-msgstr "信息存档命名:"
+msgstr "新存档命名:"
 
 msgctxt "new_save_placeholder"
 msgid "<Create new save>"
@@ -1481,7 +1481,7 @@ msgstr "国家"
 
 msgctxt "osm_admin_level_3"
 msgid "Zone"
-msgstr "区域"
+msgstr "地区"
 
 msgctxt "osm_admin_level_4"
 msgid "State"
@@ -1509,15 +1509,15 @@ msgstr "Ward"
 
 msgctxt "overpass_n_0"
 msgid "0 overpasses"
-msgstr "0 cruces"
+msgstr "0 高架桥"
 
 msgctxt "overpass_n_1"
 msgid "1 overpass"
-msgstr "1 cruce"
+msgstr "1 高架桥"
 
 msgctxt "overpass_n_many"
 msgid "%d overpasses"
-msgstr "%d cruces"
+msgstr "%d 高架桥"
 
 msgctxt "overwrite"
 msgid "Overwrite"
@@ -1541,11 +1541,11 @@ msgstr "乘客"
 
 msgctxt "pax_waiting"
 msgid "Pax: {0} / {1}"
-msgstr "Pax: {0} / {1}"
+msgstr "乘客等待: {0} / {1}"
 
 msgctxt "pax_waiting_detail"
 msgid "New pax: {0} / Transfer pax: {1} "
-msgstr "New pax: {0} / Transfer. pax: {1} "
+msgstr "新乘客: {0} / 运输乘客: {1} "
 
 msgctxt "paxlist_groupby_dest"
 msgid "Group by destination"
@@ -1565,15 +1565,15 @@ msgstr "显示行程"
 
 msgctxt "paxlist_n_new_pax"
 msgid "{} new pax"
-msgstr "{} new pax"
+msgstr "{} 新乘客"
 
 msgctxt "paxlist_n_pax"
 msgid "{} pax"
-msgstr "{} pax"
+msgstr "{} 乘客"
 
 msgctxt "pick_a_local_mod"
 msgid "Pick a local mod"
-msgstr "选择一个本地模式"
+msgstr "选择一个本地 mod"
 
 msgctxt "pick_placeholder"
 msgid "< Pick >"
@@ -1581,11 +1581,11 @@ msgstr "< 选择 >"
 
 msgctxt "platform_n"
 msgid "Platform "
-msgstr "平台"
+msgstr "站台"
 
 msgctxt "pop_reach"
 msgid "Reach: {}"
-msgstr "Reach: {}"
+msgstr "覆盖范围: {}"
 
 msgctxt "private"
 msgid "Private"
@@ -1677,7 +1677,7 @@ msgstr "满意度: {:.2f}"
 
 msgctxt "sax_tooltip"
 msgid "Overall: {0:+.2f} ({1}) | Time: {2:+.2f} | Fare: {3:+.2f}"
-msgstr "Overall: {0:+.2f} ({1}) | Time: {2:+.2f} | Fare: {3:+.2f}"
+msgstr "整体: {0:+.2f} ({1}) | 时间: {2:+.2f} | 花费: {3:+.2f}"
 
 msgctxt "scaling_mode"
 msgid "Scaling:"
@@ -1709,7 +1709,7 @@ msgstr "世界"
 
 msgctxt "selection_blueprint_bill"
 msgid "Selected blueprints bill"
-msgstr "选定的蓝图账单"
+msgstr "选定的蓝图花费"
 
 msgctxt "settings"
 msgid "Settings"
@@ -1813,7 +1813,7 @@ msgstr "标题:"
 
 msgctxt "tooltip_demand"
 msgid "Local {0}% | Regional {1}% | Long distance {2}%"
-msgstr "Local {0}% | Regional {1}% | Larga distancia {2}%"
+msgstr "本地 {0}% | 区域 {1}% | 长距离 {2}%"
 
 msgctxt "total"
 msgid "Total"
@@ -1837,7 +1837,7 @@ msgstr "地面（地下通道）"
 
 msgctxt "track_hits"
 msgid "track hits"
-msgstr "列车损伤"
+msgstr "轨道冲突"
 
 msgctxt "track_metro1"
 msgid "Metro depth 1"
@@ -1873,7 +1873,7 @@ msgstr "基本颜色:"
 
 msgctxt "train_bill"
 msgid "Train bill"
-msgstr "列车账单"
+msgstr "列车花费"
 
 msgctxt "train_clone"
 msgid "Clone"
@@ -1881,7 +1881,7 @@ msgstr "克隆"
 
 msgctxt "train_code_edit"
 msgid "Serial:"
-msgstr "序列号:"
+msgstr "车号:"
 
 msgctxt "train_decal_color_edit"
 msgid "Decal color:"
@@ -1937,11 +1937,11 @@ msgstr "${} /天"
 
 msgctxt "train_info_mass"
 msgid "Mass / empty:"
-msgstr "重量 / 空:"
+msgstr "当前重量 / 净重:"
 
 msgctxt "train_info_max_pax"
 msgid "Max pax:"
-msgstr "Max pax:"
+msgstr "最大乘客数:"
 
 msgctxt "train_info_max_speed"
 msgid "Max speed:"
@@ -1949,7 +1949,7 @@ msgstr "最快速度:"
 
 msgctxt "train_info_pax"
 msgid "Pax / max:"
-msgstr "Pax / max:"
+msgstr "乘客数 / 最大乘客数:"
 
 msgctxt "train_info_running_cost"
 msgid "Running cost:"
@@ -1957,11 +1957,11 @@ msgstr "运行费用:"
 
 msgctxt "train_info_running_cost_f"
 msgid "${:.4} per km per pax"
-msgstr "${:.4} per km per pax"
+msgstr "${:.4} 每千米每乘客"
 
 msgctxt "train_info_speed"
 msgid "Speed / max:"
-msgstr "速度 / 最大速度:"
+msgstr "当前速度 / 最大速度:"
 
 msgctxt "train_info_status"
 msgid "Status:"
@@ -1973,7 +1973,7 @@ msgstr "运行中"
 
 msgctxt "train_info_status_in_storage"
 msgid "Stored"
-msgstr "车库"
+msgstr "存储"
 
 msgctxt "train_info_status_lost_or_bad_orders"
 msgid "Lost or bad orders"
@@ -2280,8 +2280,8 @@ msgid "Unknown"
 msgstr "未知"
 
 msgctxt "update_note"
-msgid "更新说明:"
-msgstr "Nota update:"
+msgid "Update note:"
+msgstr "更新说明:"
 
 msgctxt "upload_mod"
 msgid "Upload mod"
@@ -2369,9 +2369,8 @@ msgstr "更多语言"
 
 msgctxt "wrong_length"
 msgid "wrong length"
-msgstr "错误的长度"
+msgstr "车站长度过长"
 
 msgctxt "wrong_protocol"
 msgid "Protocol mismatch with server. Make sure both your client and the server are updated to the latest game version."
 msgstr "协议与服务器不匹配。 确保您的客户端和服务器都已更新到最新的游戏版本。"
-
