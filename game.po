@@ -37,7 +37,7 @@ msgstr "财务"
 
 msgctxt "accounting_cash_total"
 msgid "$ Total"
-msgstr "现金"
+msgstr "资金"
 
 msgctxt "accounting_construction"
 msgid "Construction"
@@ -89,7 +89,7 @@ msgstr "丢失"
 
 msgctxt "accounting_pax_post"
 msgid "pax"
-msgstr "乘客"
+msgstr "乘客数"
 
 msgctxt "accounting_pax_reached_depot"
 msgid "Reached depot"
@@ -101,7 +101,7 @@ msgstr "已到达目的地"
 
 msgctxt "accounting_pax_reached_transfer"
 msgid "Reached transfer"
-msgstr "已完成运输"
+msgstr "已运输旅客"
 
 msgctxt "accounting_pax_refunded"
 msgid "Refunded"
@@ -165,7 +165,7 @@ msgstr "票务"
 
 msgctxt "accounting_ticketing_compensations"
 msgid "Compensations"
-msgstr "补偿"
+msgstr "赔偿"
 
 msgctxt "accounting_ticketing_fares"
 msgid "Fares"
@@ -1297,51 +1297,51 @@ msgstr "九月"
 
 msgctxt "month_short_april"
 msgid "Apr"
-msgstr "Apr"
+msgstr "4月"
 
 msgctxt "month_short_august"
 msgid "Aug"
-msgstr "Aug"
+msgstr "8月"
 
 msgctxt "month_short_december"
 msgid "Dec"
-msgstr "Dec"
+msgstr "12月"
 
 msgctxt "month_short_february"
 msgid "Feb"
-msgstr "Feb"
+msgstr "2月"
 
 msgctxt "month_short_january"
 msgid "Jan"
-msgstr "Jan"
+msgstr "1月"
 
 msgctxt "month_short_july"
 msgid "Jul"
-msgstr "Jul"
+msgstr "7月"
 
 msgctxt "month_short_june"
 msgid "Jun"
-msgstr "Jun"
+msgstr "8月"
 
 msgctxt "month_short_march"
 msgid "Mar"
-msgstr "Mar"
+msgstr "3月"
 
 msgctxt "month_short_may"
 msgid "May"
-msgstr "May"
+msgstr "5月"
 
 msgctxt "month_short_november"
 msgid "Nov"
-msgstr "Nov"
+msgstr "11月"
 
 msgctxt "month_short_october"
 msgid "Oct"
-msgstr "Oct"
+msgstr "10月"
 
 msgctxt "month_short_september"
 msgid "Sep"
-msgstr "Sep"
+msgstr "9月"
 
 msgctxt "mp_action_allow"
 msgid "Allow"
@@ -1380,8 +1380,8 @@ msgid "Server information"
 msgstr "服务器信息"
 
 msgctxt "mp_host_label"
-msgid "主机"
-msgstr "Anfitrión"
+msgid "Host"
+msgstr "主机"
 
 msgctxt "mp_info_acl"
 msgid "Access"
@@ -1409,7 +1409,7 @@ msgstr "网络状态"
 
 msgctxt "msaa_mode"
 msgid "MSAA:"
-msgstr "MSAA:"
+msgstr "MSAA(多重采样抗锯齿):"
 
 msgctxt "multiplayer"
 msgid "Multiplayer"
@@ -1502,22 +1502,22 @@ msgstr "地铁"
 msgctxt "osm_admin_level_8"
 msgid "City"
 msgstr "城市"
-# --不会找不到合理解释--
+
 msgctxt "osm_admin_level_9"
 msgid "Ward"
-msgstr "Ward"
+msgstr "村庄"
 
 msgctxt "overpass_n_0"
 msgid "0 overpasses"
-msgstr "0 高架桥"
+msgstr "0 铁道桥"
 
 msgctxt "overpass_n_1"
 msgid "1 overpass"
-msgstr "1 高架桥"
+msgstr "1 铁道桥"
 
 msgctxt "overpass_n_many"
 msgid "%d overpasses"
-msgstr "%d 高架桥"
+msgstr "%d 铁道桥"
 
 msgctxt "overwrite"
 msgid "Overwrite"
@@ -1677,7 +1677,7 @@ msgstr "满意度: {:.2f}"
 
 msgctxt "sax_tooltip"
 msgid "Overall: {0:+.2f} ({1}) | Time: {2:+.2f} | Fare: {3:+.2f}"
-msgstr "整体: {0:+.2f} ({1}) | 时间: {2:+.2f} | 花费: {3:+.2f}"
+msgstr "整体: {0:+.2f} ({1}) | 时间: {2:+.2f} | 票价: {3:+.2f}"
 
 msgctxt "scaling_mode"
 msgid "Scaling:"
@@ -1841,11 +1841,11 @@ msgstr "轨道冲突"
 
 msgctxt "track_metro1"
 msgid "Metro depth 1"
-msgstr "地铁深度 1"
+msgstr "地铁(深度 1)"
 
 msgctxt "track_metro2"
 msgid "Metro depth 2"
-msgstr "地铁深度 2"
+msgstr "地铁(深度 2)"
 
 msgctxt "track_tram"
 msgid "Tram"
@@ -1853,7 +1853,7 @@ msgstr "电车"
 
 msgctxt "track_trench"
 msgid "Trench"
-msgstr "壕沟"
+msgstr "沟渠"
 
 msgctxt "track_tunnel1"
 msgid "Tunnel"
@@ -1861,7 +1861,7 @@ msgstr "隧道"
 
 msgctxt "track_tunnel2"
 msgid "Tunnel depth 4"
-msgstr "隧道深度 4"
+msgstr "隧道(深度 4)"
 
 msgctxt "track_viaduct"
 msgid "Viaduct"
@@ -1965,7 +1965,7 @@ msgstr "当前速度 / 最大速度:"
 
 msgctxt "train_info_status"
 msgid "Status:"
-msgstr "状态:"
+msgstr "数据:"
 
 msgctxt "train_info_status_circulation"
 msgid "Running"
@@ -1973,7 +1973,7 @@ msgstr "运行中"
 # --未找到此项位置--
 msgctxt "train_info_status_in_storage"
 msgid "Stored"
-msgstr "存储"
+msgstr "停放"
 
 msgctxt "train_info_status_lost_or_bad_orders"
 msgid "Lost or bad orders"
@@ -1985,7 +1985,7 @@ msgstr "没有通往目的地的路径"
 
 msgctxt "train_info_storing"
 msgid "Storing in:"
-msgstr "储存在:"
+msgstr "停放在:"
 
 msgctxt "train_intervention_dialog_desc"
 msgid "This intervention will reset the train position to its next stop or depot, pay the costs of relocation, refund its fares, and pay a compensation fine. The price is ${}."
@@ -2021,7 +2021,7 @@ msgstr "车厢:"
 
 msgctxt "train_n_units"
 msgid "Units:"
-msgstr "单位:"
+msgstr "组:"
 
 msgctxt "train_name_edit"
 msgid "Name:"
@@ -2149,11 +2149,11 @@ msgstr "开始于:"
 
 msgctxt "train_total_price_1"
 msgid "Total for 1 unit"
-msgstr "总共一个单位"
+msgstr "总共一组"
 
 msgctxt "train_total_price_many"
 msgid "Total for %d units"
-msgstr "总共为 %d 的单位"
+msgstr "总共 %d 组"
 
 msgctxt "traineditor_clear_selection"
 msgid "Clear selection"
@@ -2201,15 +2201,15 @@ msgstr "列车"
 
 msgctxt "trains_models_n_0"
 msgid "0 models"
-msgstr "0 模组"
+msgstr "0 型号"
 
 msgctxt "trains_models_n_1"
 msgid "1 model"
-msgstr "1 模组"
+msgstr "1 型号"
 
 msgctxt "trains_models_n_many"
 msgid "%d models"
-msgstr "%d 模组"
+msgstr "%d 型号"
 
 msgctxt "trains_n_0"
 msgid "0 trains"
