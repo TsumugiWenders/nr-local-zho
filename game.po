@@ -69,7 +69,7 @@ msgstr "贷款"
 
 msgctxt "accounting_financing_interest"
 msgid "Interest"
-msgstr "利息"
+msgstr "偿还贷款"
 
 msgctxt "accounting_pax"
 msgid "Passengers"
@@ -1209,7 +1209,7 @@ msgstr "新 mod"
 
 msgctxt "mod_uploader_not_in_game"
 msgid "The mod uploader cannot be used with a loaded game."
-msgstr "mod 上传器不能在加载的游戏中使用"
+msgstr "mod 上传器不能在游戏中使用"
 
 msgctxt "mod_uploader_update_mod"
 msgid "Update mod"
@@ -2021,7 +2021,7 @@ msgstr "车厢:"
 
 msgctxt "train_n_units"
 msgid "Units:"
-msgstr "组:"
+msgstr "购买列数:"
 
 msgctxt "train_name_edit"
 msgid "Name:"
@@ -2037,15 +2037,15 @@ msgstr "没有足够的钱来购买火车。请选择更便宜的火车、更少
 
 msgctxt "train_sched_add"
 msgid "Toggle new slots mode"
-msgstr "切换新插槽模式"
+msgstr "切换新建插槽模式"
 
 msgctxt "train_sched_add_help"
 msgid "Click anywhere to add a new schedule slot"
-msgstr "点击任意位置，添加新的日程安排时段"
+msgstr "点击任意位置，添加新的日程安排时间"
 
 msgctxt "train_sched_clear_all_multi"
 msgid "Delete all {} slots"
-msgstr "删除所有 {} 槽位"
+msgstr "删除 {} 的所有槽位"
 
 msgctxt "train_sched_clear_all_single"
 msgid "Delete all slots"
@@ -2065,7 +2065,7 @@ msgstr "复制所选槽位"
 
 msgctxt "train_sched_copy_week"
 msgid "Copy entire week schedule of train {}"
-msgstr "复制整个星期的火车时刻表 {}"
+msgstr "复制列车 {} 整周的时间表"
 
 msgctxt "train_sched_del"
 msgid "Delete selected slot"
@@ -2109,23 +2109,23 @@ msgstr "周 *"
 
 msgctxt "train_sched_paste_all_day"
 msgid "Paste slots in every day"
-msgstr "把每天的时间段贴在上面"
+msgstr "粘贴全部时间表"
 
 msgctxt "train_sched_paste_all_train"
 msgid "Paste slots in every train {} schedule"
-msgstr "在每趟列车 {} 时刻表中粘贴时段表"
+msgstr "在每趟列车 {} 时刻表中粘贴时段"
 
 msgctxt "train_sched_paste_day"
 msgid "Paste slots on train {0} {1} schedule"
-msgstr "在 {0} 列车时刻表上粘贴 {1} 时段表"
+msgstr "在 {0} 列车时间表上粘贴 {1} 时间表"
 
 msgctxt "train_sched_paste_week"
 msgid "Replace entire week schedule in train {}"
-msgstr "替换列车的整个星期的时间表 {}"
+msgstr "替换列车 {} 的周时间表"
 
 msgctxt "train_sched_paste_week_all"
 msgid "Replace entire week schedule in all trains"
-msgstr "替换所有列车的一周时刻表"
+msgstr "替换所有列车的周时间表"
 
 msgctxt "train_sched_slot_kind"
 msgid "Order:"
@@ -2149,11 +2149,11 @@ msgstr "开始于:"
 
 msgctxt "train_total_price_1"
 msgid "Total for 1 unit"
-msgstr "总共一组"
+msgstr "总共一列花销"
 
 msgctxt "train_total_price_many"
 msgid "Total for %d units"
-msgstr "总共 %d 组"
+msgstr "总共 %d 列花销"
 
 msgctxt "traineditor_clear_selection"
 msgid "Clear selection"
@@ -2269,11 +2269,11 @@ msgstr "标题过长"
 
 msgctxt "ugc_warn_already"
 msgid "A Mod is still being created and/or updated, please wait"
-msgstr "一个模组仍在创建和/或更新中，请稍等"
+msgstr "一个模组仍在创建或更新中，请稍等"
 
 msgctxt "unit_price"
 msgid "Unit price"
-msgstr "单位价格"
+msgstr "列车单价"
 
 msgctxt "unknown"
 msgid "Unknown"
