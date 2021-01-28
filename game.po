@@ -45,11 +45,11 @@ msgstr "建设"
 
 msgctxt "accounting_construction_depots"
 msgid "Depots"
-msgstr "车库"
+msgstr "车辆段"
 
 msgctxt "accounting_construction_stations"
 msgid "Stations"
-msgstr "站台"
+msgstr "车站"
 
 msgctxt "accounting_construction_total"
 msgid "Total construction"
@@ -61,7 +61,7 @@ msgstr "轨道"
 
 msgctxt "accounting_financing"
 msgid "Financing"
-msgstr "融资"
+msgstr "财务"
 
 msgctxt "accounting_financing_credit"
 msgid "Credit"
@@ -77,7 +77,7 @@ msgstr "乘客"
 
 msgctxt "accounting_pax_boarded"
 msgid "Boarded train"
-msgstr "已上车"
+msgstr "车上乘客"
 
 msgctxt "accounting_pax_compensated"
 msgid "Compensated"
@@ -93,7 +93,7 @@ msgstr "乘客"
 
 msgctxt "accounting_pax_reached_depot"
 msgid "Reached depot"
-msgstr "到达车库"
+msgstr "到达车辆段"
 
 msgctxt "accounting_pax_reached_destination"
 msgid "Reached destination"
@@ -101,7 +101,7 @@ msgstr "已到达目的地"
 
 msgctxt "accounting_pax_reached_transfer"
 msgid "Reached transfer"
-msgstr "已完成转让"
+msgstr "已完成运输"
 
 msgctxt "accounting_pax_refunded"
 msgid "Refunded"
@@ -113,11 +113,11 @@ msgstr "车费过于昂贵遭到拒绝"
 
 msgctxt "accounting_pax_spawned"
 msgid "Started trip"
-msgstr "开始行程"
+msgstr "行程中乘客"
 
 msgctxt "accounting_pax_waited_too_long"
 msgid "Waited too long"
-msgstr "长时间等待"
+msgstr "乘客长时间等待"
 
 msgctxt "accounting_period_day"
 msgid "Day"
@@ -269,7 +269,7 @@ msgstr "{} 加入游戏"
 
 msgctxt "banner_prompt_client_join_anon"
 msgid "Do you want to join a game hosted by {}? Your current game will be autosaved and you will quit the current server."
-msgstr "您想要加入属于 {} 的游戏吗? 您当前的游戏进度将被自动保存，您将退出当前的服务器。"
+msgstr "您想要加入属于 {} 的游戏吗? 您当前的游戏进度将被自动保存，您将退出当前的服务器"
 
 msgctxt "banner_prompt_client_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? Your current game will be autosaved and you will quit the current server."
@@ -293,7 +293,7 @@ msgstr "{0} 邀请您加入 {1} 主持的游戏。您想加入吗?"
 
 msgctxt "banner_prompt_server_join_anon"
 msgid "Do you want to join a game hosted by {}? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
-msgstr "你想加入由 {} 主持的游戏吗?警告：你正在主持一场游戏。您所有连接的玩家将被断开。您当前的游戏将被自动保存"
+msgstr "你想加入由 {} 主持的游戏吗?警告：你正在主持一场游戏，所有连接的玩家将被断开。您当前的游戏将被自动保存"
 
 msgctxt "banner_prompt_server_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
@@ -353,7 +353,7 @@ msgstr "您想建造当前的蓝图吗?"
 
 msgctxt "confirm_bp_price"
 msgid "Do you want to build the current blueprint for ${}?"
-msgstr "您想以 ${} 的价格来构建当前的蓝图吗?"
+msgstr "您想以 ${} 的价格来建造当前的蓝图吗?"
 
 msgctxt "confirm_construction"
 msgid "Confirm construction"
@@ -365,11 +365,11 @@ msgstr "确认删除"
 
 msgctxt "confirm_delete_desc"
 msgid "One or more selected tracks are already built. Deleting them will not refund your money. This operation cannot be undone. Are you sure?"
-msgstr "一个或多个选定的轨道已经建立。删除它们不会退还您的钱。此操作无法撤销。您确定吗?"
+msgstr "一个或多个选定的轨道已经建成。删除它们不会退还您的钱。此操作无法撤销。您确定吗?"
 
 msgctxt "conflict_map_hit"
 msgid "water or road hits"
-msgstr "水域或道路损坏"
+msgstr "水域或道路冲突"
 
 msgctxt "conflicts"
 msgid "Conflicts"
@@ -377,7 +377,7 @@ msgstr "冲突"
 
 msgctxt "conflicts_pop_desc"
 msgid "One or more tracks have conflicts and cannot be constructed. Move, edit or delete all tracks marked in red."
-msgstr "一条或多条轨道有冲突，无法建设。移动、编辑或删除所有红色标记的轨道"
+msgstr "一条或多条轨道发生冲突，无法建设、移动、编辑或删除所有红色标记的轨道"
 
 msgctxt "connecting_elip"
 msgid "Connecting..."
@@ -425,20 +425,20 @@ msgstr "致谢"
 
 msgctxt "crossings_n_0"
 msgid "0 crossings"
-msgstr "0 个交叉点"
+msgstr "0 个交叉"
 
 msgctxt "crossings_n_1"
 msgid "1 crossing"
-msgstr "1 个交叉点"
+msgstr "1 个交叉"
 
 msgctxt "crossings_n_many"
 msgid "%d crossings"
-msgstr "%d 个交叉点"
-
+msgstr "%d 个交叉"
+# --未找到此项位置--
 msgctxt "custom_admin_level_poi"
 msgid "POI"
 msgstr "POI"
-
+# --未找到此项位置--
 msgctxt "custom_admin_level_transport"
 msgid "Transportation"
 msgstr "交通"
@@ -477,19 +477,19 @@ msgstr "{:.1f} 乘客/秒"
 
 msgctxt "depot_at"
 msgid "Depot at"
-msgstr "车库"
+msgstr "车辆段"
 
 msgctxt "depots_n_0"
 msgid "0 depots"
-msgstr "0 车库"
+msgstr "0 车辆段"
 
 msgctxt "depots_n_1"
 msgid "1 depot"
-msgstr "1 车库"
+msgstr "1 车辆段"
 
 msgctxt "depots_n_many"
 msgid "%d depots"
-msgstr "%d 车库"
+msgstr "%d 车辆段"
 
 msgctxt "description"
 msgid "Description:"
@@ -502,14 +502,14 @@ msgstr "禁用"
 msgctxt "display_mode"
 msgid "Mode:"
 msgstr "显示:"
-
+# --未使用此项--
 msgctxt "display_mode_exclusive_fullscreen"
 msgid "Exclusive fullscreen"
 msgstr "极致全屏（未使用）"
 
 msgctxt "display_mode_windowed"
 msgid "Windowed"
-msgstr "窗口"
+msgstr "显示器"
 
 msgctxt "display_mode_windowed_fullscreen"
 msgid "Windowed fullscreen"
@@ -521,7 +521,7 @@ msgstr "窗口:"
 
 msgctxt "display_screen_leave_alone"
 msgid "Do not set"
-msgstr "未设定"
+msgstr "默认"
 
 msgctxt "done"
 msgid "Done"
@@ -537,11 +537,11 @@ msgstr "创建新的轨道分支"
 
 msgctxt "editor_depot"
 msgid "Create new depot"
-msgstr "创建新的车库"
+msgstr "创建新的车辆段"
 
 msgctxt "editor_move"
 msgid "Move, delete and edit tracks"
-msgstr "移动, 删除和编辑轨道"
+msgstr "移动、删除与编辑轨道"
 
 msgctxt "editor_select_add_platform"
 msgid "Click platform numbers in stations to add stops to the line"
@@ -553,7 +553,7 @@ msgstr "点击轨迹段，将路径点添加到线路上"
 
 msgctxt "editor_select_pick_depot"
 msgid "Click a depot on the map to set this train slot order"
-msgstr "点击地图上的一个车库，来设置该列车的时段顺序"
+msgstr "点击地图上的一个车辆段，来设置该列车的运行时段顺序"
 
 msgctxt "editor_station"
 msgid "Create new station platforms"
@@ -561,11 +561,11 @@ msgstr "创建新的站台"
 
 msgctxt "editor_tip_add_esc"
 msgid "Esc to go to edit mode"
-msgstr "按 Esc 进入编辑模式"
+msgstr "按 Esc 回到编辑模式"
 
 msgctxt "editor_tip_add_left1"
 msgid "Left click on the existing end of track control points to continue an existing track"
-msgstr "左键单击轨道控制点的现有终点，以延长现有的轨道"
+msgstr "左键单击轨道控制点的终点，以延长现有的轨道"
 
 msgctxt "editor_tip_add_left2"
 msgid "Left click anywhere else to create a new track"
@@ -573,7 +573,7 @@ msgstr "在任何地方点击左键来创建新的轨道"
 
 msgctxt "editor_tip_branch_esc"
 msgid "Esc to go to edit mode"
-msgstr "按 Esc 进入编辑模式"
+msgstr "按 Esc 回到编辑模式"
 
 msgctxt "editor_tip_branch_left"
 msgid "Left click to create the branch"
@@ -585,7 +585,7 @@ msgstr "将鼠标光标移到现有轨道附近，就会看到新的轨道分支
 
 msgctxt "editor_tip_branch_shift"
 msgid "Press shift for opposite direction"
-msgstr "按住 shift 使方向相反"
+msgstr "按 shift 键进行反方向操作"
 
 msgctxt "editor_tip_cont_esc"
 msgid "Esc to cancel"
@@ -601,11 +601,11 @@ msgstr "将鼠标指针停留在现有轨道的末端，看看它与你当前轨
 
 msgctxt "editor_tip_create_del"
 msgid "Del to delete selected tracks"
-msgstr "Del 删除选定的轨道"
+msgstr "按 Del 删除选定的轨道"
 
 msgctxt "editor_tip_create_drag"
 msgid "Drag any selected track control point to move the selection"
-msgstr "拖动任何选定的轨道控制点，以移动选择"
+msgstr "拖动任何选定的轨道控制点来移动选区"
 
 msgctxt "editor_tip_create_esc"
 msgid "Esc to cancel selection"
@@ -617,7 +617,7 @@ msgstr "在轨道控制点上点击左键，进行选择"
 
 msgctxt "editor_tip_create_left2"
 msgid "Left click on station name plate to edit station details"
-msgstr "左键点击站名板，以编辑站内详情"
+msgstr "左键点击站名板，以编辑车站详情"
 
 msgctxt "editor_tip_create_left3"
 msgid "Left click on track control points to reset selection"
@@ -625,11 +625,11 @@ msgstr "左键点击轨道控制点，以重新选择"
 
 msgctxt "editor_tip_create_sleft"
 msgid "Shift left click to add or remove points from selection"
-msgstr "Shift + 左键单击，添加或删除选择中的点"
+msgstr "Shift + 左键单击，添加或删除选中的点"
 
 msgctxt "editor_tip_depot_esc"
 msgid "Esc to go to edit mode"
-msgstr "按 ESC 进入编辑模式"
+msgstr "按 ESC 回到编辑模式"
 
 msgctxt "editor_tip_depot_fin_esc"
 msgid "Esc to cancel"
@@ -637,11 +637,11 @@ msgstr "按 ESC 取消"
 
 msgctxt "editor_tip_depot_fin_left"
 msgid "Left click to finish creating a new depot"
-msgstr "左键单击完成创建新的车库"
+msgstr "左键单击完成创建新的车辆段"
 
 msgctxt "editor_tip_depot_left"
 msgid "Left click to create a new depot"
-msgstr "左键点击创建一个新的车库"
+msgstr "左键点击创建一个新的车辆段"
 
 msgctxt "editor_tip_link_esc"
 msgid "Esc to go to edit mode"
@@ -649,11 +649,11 @@ msgstr "按 ESC 回到编辑模式"
 
 msgctxt "editor_tip_link_left"
 msgid "Left click to link tracks"
-msgstr "左键点击链接轨道"
+msgstr "左键点击以连接轨道"
 
 msgctxt "editor_tip_link_move"
 msgid "Move away the mouse cursor to cancel"
-msgstr "移开鼠标光标以取消"
+msgstr "移开鼠标光标取消"
 
 msgctxt "editor_tip_move_esc"
 msgid "Esc to cancel movement"
@@ -677,11 +677,11 @@ msgstr "按 Esc 取消"
 
 msgctxt "editor_tip_station_fin_left"
 msgid "Left click to finish creating a new station platform"
-msgstr "左键单击完成创建新的车站平台"
+msgstr "左键单击完成创建新的车站 "
 
 msgctxt "editor_tip_station_left"
 msgid "Left click to create a new station platform"
-msgstr "左键点击创建一个新的车站平台"
+msgstr "左键点击创建一个新的车站"
 
 msgctxt "editor_tip_undo"
 msgid "Ctrl-Z to undo the last edit"
@@ -693,7 +693,7 @@ msgstr "放大视角以进行编辑"
 
 msgctxt "editor_warn_zero_leg"
 msgid "At least one travel time is set to 0. Pax AI will get confused when riding this line."
-msgstr "至少有一个时刻时间被设置为0，当乘坐这条线路时，AI乘客会感到困惑"
+msgstr "至少有一个时刻表时间被设置为0，当AI乘客乘坐这条线路时，会感到困惑"
 
 msgctxt "enabled"
 msgid "Enabled"
@@ -829,7 +829,7 @@ msgstr "路程"
 
 msgctxt "info_table_pax_origin"
 msgid "Origin"
-msgstr "产业"
+msgstr "旅客出发"
 
 msgctxt "info_table_pax_sax"
 msgid "Sax"
@@ -881,7 +881,7 @@ msgstr "加入多人游戏"
 
 msgctxt "key_info"
 msgid "Key: "
-msgstr "key: "
+msgstr "按键: "
 
 msgctxt "language_pick"
 msgid "Language:"
@@ -913,19 +913,19 @@ msgstr "状态"
 
 msgctxt "line_stop_arrival_header"
 msgid "Arrival"
-msgstr "到达"
+msgstr "到达时间"
 
 msgctxt "line_stop_distance_header"
 msgid "Distance"
-msgstr "距离"
+msgstr "目的地距离"
 
 msgctxt "line_stop_eta_header"
 msgid "Travel"
-msgstr "时刻"
+msgstr "时刻表"
 
 msgctxt "line_stop_interval_header"
 msgid "Interval"
-msgstr "间隔"
+msgstr "间隔时间"
 
 msgctxt "line_stop_min_header"
 msgid "Min."
@@ -937,7 +937,7 @@ msgstr "通过"
 
 msgctxt "line_stop_wait_header"
 msgid "Wait"
-msgstr "等待"
+msgstr "等待时间"
 
 msgctxt "line_stops"
 msgid "Stops"
@@ -946,10 +946,10 @@ msgstr "停靠"
 msgctxt "line_to"
 msgid "{} to"
 msgstr "{} 到"
-
+# --未找到此项位置，而且也不知道如何翻译--
 msgctxt "lineeditor_auto_eta_avg_branch_wait"
 msgid "Avg. branch (mm:ss):"
-msgstr "线路编辑器自动等价交换分支等待时间 (mm:ss):"
+msgstr "岔道待避时间 (mm:ss):"
 
 msgctxt "lineeditor_auto_eta_run"
 msgid "Estimate travel times"
@@ -969,19 +969,19 @@ msgstr "最小间隔时间 (mm:ss):"
 
 msgctxt "lineeditor_bp_station"
 msgid "Build your tracks blueprint to enable this platform"
-msgstr "建立你的轨道蓝图以启用此站台"
+msgstr "建设你的轨道蓝图以启用此车站"
 
 msgctxt "lineeditor_code"
 msgid "Code:"
-msgstr "代码:"
+msgstr "线路编号:"
 
 msgctxt "lineeditor_color"
 msgid "Color:"
-msgstr "颜色:"
+msgstr "线路颜色:"
 
 msgctxt "lineeditor_name"
 msgid "Name:"
-msgstr "名称:"
+msgstr "线路名称:"
 
 msgctxt "lineeditor_price_base"
 msgid "Base ticket price:"
@@ -1089,7 +1089,7 @@ msgstr "只有管理员才可以贷款"
 
 msgctxt "loan_paid_interest"
 msgid "Paid interest:"
-msgstr "已付利息:"
+msgstr "已偿还:"
 
 msgctxt "loan_pay_early"
 msgid "Pay early ${}"
@@ -1101,7 +1101,7 @@ msgstr "支付:"
 
 msgctxt "loan_payments_fmt"
 msgid "{0} out of {1}, next on {2}"
-msgstr " {1} 中第 {0} 份, 将在 {2} 支付"
+msgstr " {1} 期中第 {0} 份, 将在 {2} 支付"
 
 msgctxt "loan_subtitle"
 msgid "${} per month"
@@ -1117,7 +1117,7 @@ msgstr "要上传的本地Mod:"
 
 msgctxt "lonely_station"
 msgid "Lonely Station"
-msgstr "独立的车站"
+msgstr "孤立的车站"
 
 msgctxt "main_options"
 msgid "Options"
@@ -1134,7 +1134,7 @@ msgstr "本地"
 msgctxt "map_names_prio"
 msgid "Map names priority:"
 msgstr "地图名称优先级:"
-
+# --未找到此项位置，未使用此项--
 msgctxt "matches_n_0"
 msgid "0 coincidencias"
 msgstr "0 coincidencias"
@@ -1146,7 +1146,7 @@ msgstr "1 coincidencia"
 msgctxt "matches_n_many"
 msgid "%d coincidencias"
 msgstr "%d coincidencias"
-
+# --
 msgctxt "missing_mod"
 msgid "This mod is enabled in the current game, but it is not installed in this PC. Some textures may be missing."
 msgstr "这个mod在当前游戏中是启用的，但在这台电脑上没有安装。一些车辆纹理可能会丢失"
@@ -1193,11 +1193,11 @@ msgstr "mod 开发指南"
 
 msgctxt "mod_uploader_info_open_browser"
 msgid "Visit Workshop"
-msgstr "在 Workshop 中浏览"
+msgstr "在创意工坊中浏览"
 
 msgctxt "mod_uploader_info_player_workshop"
 msgid "Manage Workshop"
-msgstr "管理 Workshop"
+msgstr "管理创意工坊"
 
 msgctxt "mod_uploader_info_use_uploader"
 msgid "Use Mod Uploader"
@@ -1217,7 +1217,7 @@ msgstr "升级 mod"
 
 msgctxt "mod_uploader_view_ws_mod"
 msgid "View mod in Workshop"
-msgstr "在 Workshop 中查看"
+msgstr "在创意工坊中查看"
 
 msgctxt "mod_version"
 msgid "Version:"
@@ -1485,7 +1485,7 @@ msgstr "地区"
 
 msgctxt "osm_admin_level_4"
 msgid "State"
-msgstr "状态"
+msgstr "省份"
 
 msgctxt "osm_admin_level_5"
 msgid "Region"
@@ -1502,7 +1502,7 @@ msgstr "地铁"
 msgctxt "osm_admin_level_8"
 msgid "City"
 msgstr "城市"
-
+# --不会找不到合理解释--
 msgctxt "osm_admin_level_9"
 msgid "Ward"
 msgstr "Ward"
@@ -1545,7 +1545,7 @@ msgstr "乘客等待: {0} / {1}"
 
 msgctxt "pax_waiting_detail"
 msgid "New pax: {0} / Transfer pax: {1} "
-msgstr "新乘客: {0} / 运输乘客: {1} "
+msgstr "新乘客: {0} / 运输中乘客: {1} "
 
 msgctxt "paxlist_groupby_dest"
 msgid "Group by destination"
@@ -1598,7 +1598,7 @@ msgstr "个人资料"
 msgctxt "public"
 msgid "Public"
 msgstr "公开"
-
+## --？？？？--
 msgctxt "purchase"
 msgid "Purchase"
 msgstr "购买"
@@ -1649,27 +1649,27 @@ msgstr "满意度"
 
 msgctxt "sax_m1"
 msgid "Mediocre"
-msgstr "Mediocre"
+msgstr "一般水平"
 
 msgctxt "sax_m2"
 msgid "Bad"
-msgstr "Bad"
+msgstr "差"
 
 msgctxt "sax_m3"
 msgid "Very bad"
-msgstr "Very Bad"
+msgstr "非常差"
 
 msgctxt "sax_p1"
 msgid "Good"
-msgstr "Good"
+msgstr "好"
 
 msgctxt "sax_p2"
 msgid "Very good"
-msgstr "Very good"
-
+msgstr "非常好"
+# --+1s--
 msgctxt "sax_p3"
 msgid "Excellent"
-msgstr "Excellent"
+msgstr "Excited"
 
 msgctxt "sax_score"
 msgid "Satisfaction: {:.2f}"
@@ -1769,19 +1769,19 @@ msgstr "Steamworks ID:"
 
 msgctxt "stop_idx"
 msgid "Stop {}"
-msgstr "停止 {}"
+msgstr "停靠 {}"
 
 msgctxt "stops_n_0"
 msgid "0 stops"
-msgstr "0 停止"
+msgstr "0 停靠"
 
 msgctxt "stops_n_1"
 msgid "1 stop"
-msgstr "1 停止"
+msgstr "1 停靠"
 
 msgctxt "stops_n_many"
 msgid "%d stops"
-msgstr "%d 停止"
+msgstr "%d 停靠"
 
 msgctxt "strangers"
 msgid "Strangers"
@@ -1789,7 +1789,7 @@ msgstr "陌生人"
 
 msgctxt "subs_in_workshop"
 msgid "Subscribe in Workshop"
-msgstr "在 Workshop 中订阅"
+msgstr "在创意工坊中订阅"
 
 msgctxt "subscribe_to_mods"
 msgid "Subscribe to mods"
@@ -1833,7 +1833,7 @@ msgstr "地面（有道路交叉口）"
 
 msgctxt "track_ground_underpasses"
 msgid "Ground"
-msgstr "地面（地下通道）"
+msgstr "地面（地下）"
 
 msgctxt "track_hits"
 msgid "track hits"
@@ -1881,7 +1881,7 @@ msgstr "克隆"
 
 msgctxt "train_code_edit"
 msgid "Serial:"
-msgstr "车号:"
+msgstr "列车车号:"
 
 msgctxt "train_decal_color_edit"
 msgid "Decal color:"
@@ -1889,11 +1889,11 @@ msgstr "装饰颜色:"
 
 msgctxt "train_decal_edit"
 msgid "Decal:"
-msgstr "装饰:"
+msgstr "列车装饰:"
 
 msgctxt "train_decal_pick_edit"
 msgid "Pick a decal"
-msgstr "选择一个贴纸"
+msgstr "选择一个装饰"
 
 msgctxt "train_decal_use_line_color"
 msgid "Use line color"
@@ -1937,7 +1937,7 @@ msgstr "${} /天"
 
 msgctxt "train_info_mass"
 msgid "Mass / empty:"
-msgstr "当前重量 / 净重:"
+msgstr "毛重 / 净重:"
 
 msgctxt "train_info_max_pax"
 msgid "Max pax:"
@@ -1970,7 +1970,7 @@ msgstr "状态:"
 msgctxt "train_info_status_circulation"
 msgid "Running"
 msgstr "运行中"
-
+# --未找到此项位置--
 msgctxt "train_info_status_in_storage"
 msgid "Stored"
 msgstr "存储"
@@ -1989,7 +1989,7 @@ msgstr "储存在:"
 
 msgctxt "train_intervention_dialog_desc"
 msgid "This intervention will reset the train position to its next stop or depot, pay the costs of relocation, refund its fares, and pay a compensation fine. The price is ${}."
-msgstr "本次干预将重新设定列车位置，使其到达下一站或车库，并支付搬迁费用，退还车费，并支付赔偿金。价格为 ${}."
+msgstr "本次干预将重新设定列车位置，使其到达下一站或车辆段，并支付搬迁费用，退还车费，并支付赔偿金。价格为 ${}."
 
 msgctxt "train_intervention_dialog_title"
 msgid "Train intervention"
@@ -2073,7 +2073,7 @@ msgstr "删除所选槽位"
 
 msgctxt "train_sched_depot_pick"
 msgid "Pick depot"
-msgstr "选择车库"
+msgstr "选择车辆段"
 
 msgctxt "train_sched_line"
 msgid "Line:"
@@ -2113,15 +2113,15 @@ msgstr "把每天的时间段贴在上面"
 
 msgctxt "train_sched_paste_all_train"
 msgid "Paste slots in every train {} schedule"
-msgstr "在每趟列车 {} 时刻表中粘贴时段"
+msgstr "在每趟列车 {} 时刻表中粘贴时段表"
 
 msgctxt "train_sched_paste_day"
 msgid "Paste slots on train {0} {1} schedule"
-msgstr "在 {0} {1} 列车时刻表上粘贴时段"
+msgstr "在 {0} 列车时刻表上粘贴 {1} 时段表"
 
 msgctxt "train_sched_paste_week"
 msgid "Replace entire week schedule in train {}"
-msgstr "在列车上替换整个星期的时间表 {}"
+msgstr "替换列车的整个星期的时间表 {}"
 
 msgctxt "train_sched_paste_week_all"
 msgid "Replace entire week schedule in all trains"
@@ -2133,7 +2133,7 @@ msgstr "命令:"
 
 msgctxt "train_sched_slot_kind_depot"
 msgid "Store in depot"
-msgstr "存放在车库里"
+msgstr "存放在车辆段里"
 
 msgctxt "train_sched_slot_kind_line"
 msgid "Run a line"
@@ -2289,7 +2289,7 @@ msgstr "上传模组"
 
 msgctxt "view_in_workshop"
 msgid "View in Workshop"
-msgstr "在 Workshop 中查看"
+msgstr "在创意工坊中查看"
 
 msgctxt "visibility"
 msgid "Visibility:"
@@ -2321,31 +2321,31 @@ msgstr "星期六"
 
 msgctxt "weekday_short_friday"
 msgid "Fri"
-msgstr "Fri"
+msgstr "周五"
 
 msgctxt "weekday_short_monday"
 msgid "Mon"
-msgstr "Mon"
+msgstr "周一"
 
 msgctxt "weekday_short_saturday"
 msgid "Sat"
-msgstr "Sat"
+msgstr "周六"
 
 msgctxt "weekday_short_sunday"
 msgid "Sun"
-msgstr "Sun"
+msgstr "周日"
 
 msgctxt "weekday_short_thursday"
 msgid "Thu"
-msgstr "Thu"
+msgstr "周四"
 
 msgctxt "weekday_short_tuesday"
 msgid "Tue"
-msgstr "Tue"
+msgstr "周二"
 
 msgctxt "weekday_short_wednesday"
 msgid "Wed"
-msgstr "Wed"
+msgstr "周三"
 
 msgctxt "weekday_sunday"
 msgid "Sunday"
