@@ -5,6 +5,4 @@
 
 [https://steamcommunity.com/sharedfiles/filedetails/?id=2268014666](https://steamcommunity.com/sharedfiles/filedetails/?id=2268014666)
 
-当前翻译不是100%的完美，其中很多地方还不是太明白，仅供参考，勉强能玩。
-
-欢迎dalao PR 
+当前翻译不是100%的完美，因技术因素游戏内一些语句无法翻译。翻译不是完全的的成熟。如果您注意到错误或改进，欢迎issues或PR。
