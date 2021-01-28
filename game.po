@@ -561,11 +561,11 @@ msgstr "创建新的站台"
 
 msgctxt "editor_tip_add_esc"
 msgid "Esc to go to edit mode"
-msgstr "Esc进入编辑模式"
+msgstr "按 Esc 进入编辑模式"
 
 msgctxt "editor_tip_add_left1"
 msgid "Left click on the existing end of track control points to continue an existing track"
-msgstr "左键单击轨道控制点的现有终点，以继续现有的轨道"
+msgstr "左键单击轨道控制点的现有终点，以延长现有的轨道"
 
 msgctxt "editor_tip_add_left2"
 msgid "Left click anywhere else to create a new track"
@@ -573,11 +573,11 @@ msgstr "在任何地方点击左键来创建新的轨道"
 
 msgctxt "editor_tip_branch_esc"
 msgid "Esc to go to edit mode"
-msgstr "Esc 进入编辑模式"
+msgstr "按 Esc 进入编辑模式"
 
 msgctxt "editor_tip_branch_left"
 msgid "Left click to create the branch"
-msgstr "左键单击以创建分支"
+msgstr "左键单击以创建轨道分支"
 
 msgctxt "editor_tip_branch_mouse"
 msgid "Hover the mouse cursor near an existing track to see a new track branch"
@@ -585,11 +585,11 @@ msgstr "将鼠标光标移到现有轨道附近，就会看到新的轨道分支
 
 msgctxt "editor_tip_branch_shift"
 msgid "Press shift for opposite direction"
-msgstr "按住 shift ，方向相反"
+msgstr "按住 shift 使方向相反"
 
 msgctxt "editor_tip_cont_esc"
 msgid "Esc to cancel"
-msgstr "Esc 取消"
+msgstr "按 Esc 取消"
 
 msgctxt "editor_tip_cont_left"
 msgid "Left click to create a new track segment. Hold Shift to keep creating more segments."
@@ -609,7 +609,7 @@ msgstr "拖动任何选定的轨道控制点，以移动选择"
 
 msgctxt "editor_tip_create_esc"
 msgid "Esc to cancel selection"
-msgstr "Esc 取消选择"
+msgstr "按 Esc 取消选择"
 
 msgctxt "editor_tip_create_left1"
 msgid "Left click on track control points to select"
@@ -657,7 +657,7 @@ msgstr "移开鼠标光标以取消"
 
 msgctxt "editor_tip_move_esc"
 msgid "Esc to cancel movement"
-msgstr "Esc 取消运动"
+msgstr "按 Esc 取消移动"
 
 msgctxt "editor_tip_move_left"
 msgid "Release left button to stop moving control point"
@@ -669,11 +669,11 @@ msgstr "松开左键，结束矩形选择"
 
 msgctxt "editor_tip_station_esc"
 msgid "Esc to go to edit mode"
-msgstr "Esc 回到编辑模式"
+msgstr "按 Esc 回到编辑模式"
 
 msgctxt "editor_tip_station_fin_esc"
 msgid "Esc to cancel"
-msgstr "Esc 取消"
+msgstr "按 Esc 取消"
 
 msgctxt "editor_tip_station_fin_left"
 msgid "Left click to finish creating a new station platform"
