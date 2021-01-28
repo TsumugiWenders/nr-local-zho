@@ -81,7 +81,7 @@ msgstr "车上乘客"
 
 msgctxt "accounting_pax_compensated"
 msgid "Compensated"
-msgstr "补偿"
+msgstr "已补偿"
 
 msgctxt "accounting_pax_lost"
 msgid "Lost"
@@ -585,7 +585,7 @@ msgstr "将鼠标光标移到现有轨道附近，就会看到新的轨道分支
 
 msgctxt "editor_tip_branch_shift"
 msgid "Press shift for opposite direction"
-msgstr "按 shift 键进行反方向操作"
+msgstr "按住 shift 键改变道岔方向"
 
 msgctxt "editor_tip_cont_esc"
 msgid "Esc to cancel"
@@ -2025,7 +2025,7 @@ msgstr "单位:"
 
 msgctxt "train_name_edit"
 msgid "Name:"
-msgstr "名称:"
+msgstr "列车名称:"
 
 msgctxt "train_purchase_no_cash"
 msgid "Not enough money for purchase"
