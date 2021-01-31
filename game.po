@@ -41,7 +41,7 @@ msgstr "资金"
 
 msgctxt "accounting_construction"
 msgid "Construction"
-msgstr "建设"
+msgstr "基础设施"
 
 msgctxt "accounting_construction_depots"
 msgid "Depots"
@@ -53,7 +53,7 @@ msgstr "车站"
 
 msgctxt "accounting_construction_total"
 msgid "Total construction"
-msgstr "总工程花费"
+msgstr "总计"
 
 msgctxt "accounting_construction_tracks"
 msgid "Tracks"
@@ -77,35 +77,35 @@ msgstr "乘客"
 
 msgctxt "accounting_pax_boarded"
 msgid "Boarded train"
-msgstr "车上乘客"
+msgstr "发送乘客"
 
 msgctxt "accounting_pax_compensated"
 msgid "Compensated"
-msgstr "已补偿"
-
+msgstr "赔偿"
+# --資金總覽Lost是找不到路的意思不是損失-- ????????????
 msgctxt "accounting_pax_lost"
 msgid "Lost"
 msgstr "丢失"
 
 msgctxt "accounting_pax_post"
 msgid "pax"
-msgstr "乘客数"
+msgstr "乘客"
 
 msgctxt "accounting_pax_reached_depot"
 msgid "Reached depot"
-msgstr "到达车辆段"
+msgstr "被送到车辆段乘客"
 
 msgctxt "accounting_pax_reached_destination"
 msgid "Reached destination"
-msgstr "已到达目的地"
+msgstr "到达乘客"
 
 msgctxt "accounting_pax_reached_transfer"
 msgid "Reached transfer"
-msgstr "已运输旅客"
+msgstr "中转乘客"
 
 msgctxt "accounting_pax_refunded"
 msgid "Refunded"
-msgstr "已退还"
+msgstr "退票"
 
 msgctxt "accounting_pax_refused_fare"
 msgid "Refused too high fare"
@@ -113,11 +113,11 @@ msgstr "车费过于昂贵遭到拒绝"
 
 msgctxt "accounting_pax_spawned"
 msgid "Started trip"
-msgstr "行程中乘客"
+msgstr "购票乘客"
 
 msgctxt "accounting_pax_waited_too_long"
 msgid "Waited too long"
-msgstr "乘客长时间等待"
+msgstr "等待时间过长"
 
 msgctxt "accounting_period_day"
 msgid "Day"
@@ -173,7 +173,7 @@ msgstr "票价"
 
 msgctxt "accounting_ticketing_refunds"
 msgid "Refunds"
-msgstr "退款"
+msgstr "退票"
 
 msgctxt "accounting_trains"
 msgid "Trains"
@@ -181,15 +181,15 @@ msgstr "列车"
 
 msgctxt "accounting_trains_intervention"
 msgid "Interventions"
-msgstr "干预措施"
+msgstr "干预花费"
 
 msgctxt "accounting_trains_purchases"
 msgid "New trains"
-msgstr "新列车"
+msgstr "列车购置"
 
 msgctxt "accounting_trains_running"
 msgid "Running costs"
-msgstr "运行费用"
+msgstr "运营费用"
 
 msgctxt "accounting_trains_sales"
 msgid "Train sales"
@@ -509,7 +509,7 @@ msgstr "极致全屏（未使用）"
 
 msgctxt "display_mode_windowed"
 msgid "Windowed"
-msgstr "显示器"
+msgstr "窗口"
 
 msgctxt "display_mode_windowed_fullscreen"
 msgid "Windowed fullscreen"
@@ -517,7 +517,7 @@ msgstr "全屏"
 
 msgctxt "display_screen"
 msgid "Display:"
-msgstr "窗口:"
+msgstr "显示屏幕:"
 
 msgctxt "display_screen_leave_alone"
 msgid "Do not set"
@@ -693,7 +693,7 @@ msgstr "放大视角以进行编辑"
 
 msgctxt "editor_warn_zero_leg"
 msgid "At least one travel time is set to 0. Pax AI will get confused when riding this line."
-msgstr "至少有一个时刻表时间被设置为0，当AI乘客乘坐这条线路时，会感到困惑"
+msgstr "至少有一个运行时间被设置为0，当AI乘客乘坐这条线路时，会感到困惑"
 
 msgctxt "enabled"
 msgid "Enabled"
@@ -825,7 +825,7 @@ msgstr "车费"
 
 msgctxt "info_table_pax_leg"
 msgid "Leg"
-msgstr "路程"
+msgstr "当前用时"
 
 msgctxt "info_table_pax_origin"
 msgid "Origin"
@@ -837,7 +837,7 @@ msgstr "满意度"
 
 msgctxt "info_table_pax_total"
 msgid "Total"
-msgstr "总计"
+msgstr "总计用时"
 
 msgctxt "info_train_pax"
 msgid "Pax: {0} / {1}"
@@ -921,7 +921,7 @@ msgstr "目的地距离"
 
 msgctxt "line_stop_eta_header"
 msgid "Travel"
-msgstr "时刻表"
+msgstr "运行时间"
 
 msgctxt "line_stop_interval_header"
 msgid "Interval"
@@ -949,7 +949,7 @@ msgstr "{} 到"
 # --未找到此项位置，而且也不知道如何翻译--
 msgctxt "lineeditor_auto_eta_avg_branch_wait"
 msgid "Avg. branch (mm:ss):"
-msgstr "岔道待避时间 (mm:ss):"
+msgstr "平均停站时间 (mm:ss):"
 
 msgctxt "lineeditor_auto_eta_run"
 msgid "Estimate travel times"
@@ -1045,7 +1045,7 @@ msgstr "少女祈祷中..."
 
 msgctxt "loan_balance"
 msgid "Balance:"
-msgstr "余额:"
+msgstr "结余:"
 
 msgctxt "loan_contract_accept"
 msgid "Take new loan"
@@ -1097,11 +1097,11 @@ msgstr "提前支付 ${}"
 
 msgctxt "loan_payments"
 msgid "Payments:"
-msgstr "支付:"
+msgstr "偿还:"
 
 msgctxt "loan_payments_fmt"
 msgid "{0} out of {1}, next on {2}"
-msgstr " {1} 期中第 {0} 份, 将在 {2} 支付"
+msgstr "总 {1} 期中的第 {0} 份, 将在 {2} 支付"
 
 msgctxt "loan_subtitle"
 msgid "${} per month"
@@ -1117,7 +1117,7 @@ msgstr "要上传的本地Mod:"
 
 msgctxt "lonely_station"
 msgid "Lonely Station"
-msgstr "孤立的车站"
+msgstr "独立的车站"
 
 msgctxt "main_options"
 msgid "Options"
@@ -1129,7 +1129,7 @@ msgstr "英语"
 
 msgctxt "map_names_native"
 msgid "Native"
-msgstr "本地"
+msgstr "本地语言"
 
 msgctxt "map_names_prio"
 msgid "Map names priority:"
@@ -1565,7 +1565,7 @@ msgstr "显示行程"
 
 msgctxt "paxlist_n_new_pax"
 msgid "{} new pax"
-msgstr "{} 新乘客"
+msgstr "{} 乘客"
 
 msgctxt "paxlist_n_pax"
 msgid "{} pax"
@@ -1877,7 +1877,7 @@ msgstr "列车花费"
 
 msgctxt "train_clone"
 msgid "Clone"
-msgstr "克隆"
+msgstr "复制列车"
 
 msgctxt "train_code_edit"
 msgid "Serial:"
@@ -1925,7 +1925,7 @@ msgstr "线路:"
 
 msgctxt "train_info_location"
 msgid "Location:"
-msgstr "地点:"
+msgstr "当前地点:"
 
 msgctxt "train_info_maintenance_cost"
 msgid "Maintenace cost:"
