@@ -191,6 +191,10 @@ msgctxt "accounting_trains_running"
 msgid "Running costs"
 msgstr "运营费用"
 
+msgctxt "accounting_trains_maintenance"
+msgid "maintenance costs"
+msgstr "维护费用"
+
 msgctxt "accounting_trains_sales"
 msgid "Train sales"
 msgstr "出售列车"
@@ -565,7 +569,7 @@ msgstr "按 Esc 回到编辑模式"
 
 msgctxt "editor_tip_add_left1"
 msgid "Left click on the existing end of track control points to continue an existing track"
-msgstr "左键单击轨道控制点的终点，以延长现有的轨道"
+msgstr "左键单击轨道控制点(十字点)，以延伸现有的轨道"
 
 msgctxt "editor_tip_add_left2"
 msgid "Left click anywhere else to create a new track"
@@ -593,11 +597,11 @@ msgstr "按 Esc 取消"
 
 msgctxt "editor_tip_cont_left"
 msgid "Left click to create a new track segment. Hold Shift to keep creating more segments."
-msgstr "左键单击，创建新的轨道段。按住Shift键，继续创造更多的轨道段"
+msgstr "左键单击，创建新的轨道。按住Shift键，继续创造更多的轨道"
 
 msgctxt "editor_tip_cont_mouse"
 msgid "Hover the mouse cursor over an existing end of track to see how it would look linked with your current track"
-msgstr "将鼠标指针停留在现有轨道的末端，看看它与你当前轨道的链接效果如何"
+msgstr "将鼠标指针停留在现有轨道的末端，看看它与你当前轨道的连接效果如何"
 
 msgctxt "editor_tip_create_del"
 msgid "Del to delete selected tracks"
@@ -613,19 +617,19 @@ msgstr "按 Esc 取消选择"
 
 msgctxt "editor_tip_create_left1"
 msgid "Left click on track control points to select"
-msgstr "在轨道控制点上点击左键，进行选择"
+msgstr "左键点击轨道控制点选择轨道段"
 
 msgctxt "editor_tip_create_left2"
 msgid "Left click on station name plate to edit station details"
-msgstr "左键点击站名板，以编辑车站详情"
+msgstr "左键点击站名板，编辑车站参数"
 
 msgctxt "editor_tip_create_left3"
 msgid "Left click on track control points to reset selection"
-msgstr "左键点击轨道控制点，以重新选择"
+msgstr "左键点击选择轨道控制点"
 
 msgctxt "editor_tip_create_sleft"
 msgid "Shift left click to add or remove points from selection"
-msgstr "Shift + 左键单击，添加或删除选中的点"
+msgstr "Shift + 左键单击，选择或取消选择多个控制点"
 
 msgctxt "editor_tip_depot_esc"
 msgid "Esc to go to edit mode"
@@ -678,7 +682,7 @@ msgstr "按 Esc 取消"
 msgctxt "editor_tip_station_fin_left"
 msgid "Left click to finish creating a new station platform"
 msgstr "左键单击完成创建新的车站 "
-
+## --(当两个车站重合且站名唯一时为换乘站)--
 msgctxt "editor_tip_station_left"
 msgid "Left click to create a new station platform"
 msgstr "左键点击创建一个新的车站"
@@ -829,7 +833,7 @@ msgstr "当前用时"
 
 msgctxt "info_table_pax_origin"
 msgid "Origin"
-msgstr "旅客出发"
+msgstr "出发地"
 
 msgctxt "info_table_pax_sax"
 msgid "Sax"
@@ -946,10 +950,12 @@ msgstr "停靠"
 msgctxt "line_to"
 msgid "{} to"
 msgstr "{} 到"
-# --未找到此项位置，而且也不知道如何翻译--
+
+# --此项开发者已移除--
 msgctxt "lineeditor_auto_eta_avg_branch_wait"
 msgid "Avg. branch (mm:ss):"
-msgstr "平均停站时间 (mm:ss):"
+msgstr "Avg. branch (mm:ss):"
+# --end--
 
 msgctxt "lineeditor_auto_eta_run"
 msgid "Estimate travel times"
@@ -1245,7 +1251,7 @@ msgstr "速度视图"
 
 msgctxt "mods"
 msgid "Mods"
-msgstr "Mods"
+msgstr "模组"
 
 msgctxt "month_april"
 msgid "April"
@@ -1613,7 +1619,7 @@ msgstr "退回到桌面"
 
 msgctxt "quit_game"
 msgid "Quit game"
-msgstr "退出游戏"
+msgstr "退回到主菜单"
 
 msgctxt "renderer"
 msgid "Renderer:"
