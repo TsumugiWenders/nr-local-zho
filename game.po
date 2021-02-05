@@ -169,7 +169,7 @@ msgstr "赔偿"
 
 msgctxt "accounting_ticketing_fares"
 msgid "Fares"
-msgstr "票价"
+msgstr "售票"
 
 msgctxt "accounting_ticketing_refunds"
 msgid "Refunds"
@@ -941,7 +941,7 @@ msgstr "通过"
 
 msgctxt "line_stop_wait_header"
 msgid "Wait"
-msgstr "等待时间"
+msgstr "停靠时间"
 
 msgctxt "line_stops"
 msgid "Stops"
@@ -1839,7 +1839,7 @@ msgstr "地面（有道路交叉口）"
 
 msgctxt "track_ground_underpasses"
 msgid "Ground"
-msgstr "地面（地下）"
+msgstr "地面"
 
 msgctxt "track_hits"
 msgid "track hits"
@@ -2380,3 +2380,4 @@ msgstr "车站长度过长"
 msgctxt "wrong_protocol"
 msgid "Protocol mismatch with server. Make sure both your client and the server are updated to the latest game version."
 msgstr "协议与服务器不匹配。 确保您的客户端和服务器都已更新到最新的游戏版本。"
+
