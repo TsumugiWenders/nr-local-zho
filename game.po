@@ -9,12 +9,12 @@ msgstr "补偿: 全部站点"
 #v1.1.37
 msgctxt "accounting_pax_intervention"
 msgid "Compen.: intervention"
-msgstr "补偿: 干预"
+msgstr "列车干预赔偿乘客"
 
 #v1.1.37
 msgctxt "accounting_ticketing_profit"
 msgid "Profit"
-msgstr "利润"
+msgstr "收益"
 
 #v1.1.37
 msgctxt "accounting_trains_maintenance"
@@ -404,7 +404,7 @@ msgstr "{}被保存为不同的游戏版本。你是想覆盖它，还是给它�
 #v1.1.37
 msgctxt "paxlist_groupby_next"
 msgid "Group by next stop"
-msgstr "按下一站分组"
+msgstr "按行程下一站分组"
 
 #v1.1.37
 msgctxt "pending_validations"
@@ -479,12 +479,12 @@ msgstr "你已经落后于主机了。加快时间追赶"
 #v1.1.37
 msgctxt "train_info_dynamics"
 msgid "Dynamics:"
-msgstr "动态:"
+msgstr "动力:"
 
 #v1.1.37
 msgctxt "train_info_total_power"
 msgid "Total power:"
-msgstr "总计功率"
+msgstr "装机功率:"
 
 #v1.1.37
 msgctxt "train_list_filter_all"
@@ -749,7 +749,7 @@ msgstr "财务"
 #v1.1.31
 msgctxt "accounting_cash_total"
 msgid "$ Total"
-msgstr "资金"
+msgstr "合计"
 
 #v1.1.31
 msgctxt "accounting_construction"
@@ -1304,7 +1304,7 @@ msgstr "显示:"
 #v1.1.31
 msgctxt "display_mode_exclusive_fullscreen"
 msgid "Exclusive fullscreen"
-msgstr "极致全屏"
+msgstr "全屏"
 
 #v1.1.31
 msgctxt "display_mode_windowed"
@@ -1314,7 +1314,7 @@ msgstr "窗口"
 #v1.1.31
 msgctxt "display_mode_windowed_fullscreen"
 msgid "Windowed fullscreen"
-msgstr "全屏"
+msgstr "无边框窗口"
 
 #v1.1.31
 msgctxt "display_screen"
@@ -2614,7 +2614,7 @@ msgstr "差"
 #v1.1.31
 msgctxt "sax_m3"
 msgid "Very bad"
-msgstr "非常差"
+msgstr "很差"
 
 #v1.1.31
 msgctxt "sax_p1"
@@ -2624,7 +2624,7 @@ msgstr "好"
 #v1.1.31
 msgctxt "sax_p2"
 msgid "Very good"
-msgstr "非常好"
+msgstr "很好"
 
 #v1.1.31
 msgctxt "sax_p3"
