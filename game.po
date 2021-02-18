@@ -1,11 +1,5 @@
 # ----------------------------------------------------------
-# unmodified strings
-
-# ----------------------------------------------------------
-# modified strings
-
-# ----------------------------------------------------------
-# new strings
+# 未修改的字符串
 
 msgctxt "10_minutes"
 msgid "10 minutes"
@@ -34,10 +28,6 @@ msgstr "60 分钟"
 msgctxt "accounting"
 msgid "Accounting"
 msgstr "财务"
-
-msgctxt "accounting_cash_total"
-msgid "$ Total"
-msgstr "资金"
 
 msgctxt "accounting_construction"
 msgid "Construction"
@@ -82,7 +72,7 @@ msgstr "发送乘客"
 msgctxt "accounting_pax_compensated"
 msgid "Compensated"
 msgstr "赔偿"
-# --資金總覽Lost是找不到路的意思不是損失-- ????????????
+
 msgctxt "accounting_pax_lost"
 msgid "Lost"
 msgstr "丢失"
@@ -183,6 +173,10 @@ msgctxt "accounting_trains_intervention"
 msgid "Interventions"
 msgstr "干预花费"
 
+msgctxt "accounting_trains_maintenance"
+msgid "maintenance costs"
+msgstr "维护费用"
+
 msgctxt "accounting_trains_purchases"
 msgid "New trains"
 msgstr "列车购置"
@@ -190,10 +184,6 @@ msgstr "列车购置"
 msgctxt "accounting_trains_running"
 msgid "Running costs"
 msgstr "运营费用"
-
-msgctxt "accounting_trains_maintenance"
-msgid "maintenance costs"
-msgstr "维护费用"
 
 msgctxt "accounting_trains_sales"
 msgid "Train sales"
@@ -438,11 +428,11 @@ msgstr "1 个交叉"
 msgctxt "crossings_n_many"
 msgid "%d crossings"
 msgstr "%d 个交叉"
-# --未找到此项位置--
+
 msgctxt "custom_admin_level_poi"
 msgid "POI"
 msgstr "POI"
-# --未找到此项位置--
+
 msgctxt "custom_admin_level_transport"
 msgid "Transportation"
 msgstr "交通"
@@ -506,18 +496,10 @@ msgstr "禁用"
 msgctxt "display_mode"
 msgid "Mode:"
 msgstr "显示:"
-# --未使用此项--
-msgctxt "display_mode_exclusive_fullscreen"
-msgid "Exclusive fullscreen"
-msgstr "极致全屏（未使用）"
 
 msgctxt "display_mode_windowed"
 msgid "Windowed"
 msgstr "窗口"
-
-msgctxt "display_mode_windowed_fullscreen"
-msgid "Windowed fullscreen"
-msgstr "全屏"
 
 msgctxt "display_screen"
 msgid "Display:"
@@ -682,7 +664,7 @@ msgstr "按 Esc 取消"
 msgctxt "editor_tip_station_fin_left"
 msgid "Left click to finish creating a new station platform"
 msgstr "左键单击完成创建新的车站 "
-## --(当两个车站重合且站名唯一时为换乘站)--
+
 msgctxt "editor_tip_station_left"
 msgid "Left click to create a new station platform"
 msgstr "左键点击创建一个新的车站"
@@ -951,12 +933,6 @@ msgctxt "line_to"
 msgid "{} to"
 msgstr "{} 到"
 
-# --此项开发者已移除--
-msgctxt "lineeditor_auto_eta_avg_branch_wait"
-msgid "Avg. branch (mm:ss):"
-msgstr "Avg. branch (mm:ss):"
-# --end--
-
 msgctxt "lineeditor_auto_eta_run"
 msgid "Estimate travel times"
 msgstr "估计运行时间"
@@ -1140,19 +1116,7 @@ msgstr "本地语言"
 msgctxt "map_names_prio"
 msgid "Map names priority:"
 msgstr "地图名称优先级:"
-# --未找到此项位置，未使用此项--
-msgctxt "matches_n_0"
-msgid "0 coincidencias"
-msgstr "0 coincidencias"
 
-msgctxt "matches_n_1"
-msgid "1 coincidencia"
-msgstr "1 coincidencia"
-
-msgctxt "matches_n_many"
-msgid "%d coincidencias"
-msgstr "%d coincidencias"
-# --
 msgctxt "missing_mod"
 msgid "This mod is enabled in the current game, but it is not installed in this PC. Some textures may be missing."
 msgstr "这个mod在当前游戏中是启用的，但在这台电脑上没有安装。一些车辆纹理可能会丢失"
@@ -1604,7 +1568,7 @@ msgstr "个人资料"
 msgctxt "public"
 msgid "Public"
 msgstr "公开"
-## --？？？？--
+
 msgctxt "purchase"
 msgid "Purchase"
 msgstr "购买"
@@ -1668,14 +1632,6 @@ msgstr "非常差"
 msgctxt "sax_p1"
 msgid "Good"
 msgstr "好"
-
-msgctxt "sax_p2"
-msgid "Very good"
-msgstr "非常好"
-# --+1s--
-msgctxt "sax_p3"
-msgid "Excellent"
-msgstr "Excited"
 
 msgctxt "sax_score"
 msgid "Satisfaction: {:.2f}"
@@ -1976,7 +1932,7 @@ msgstr "数据:"
 msgctxt "train_info_status_circulation"
 msgid "Running"
 msgstr "运行中"
-# --未找到此项位置--
+
 msgctxt "train_info_status_in_storage"
 msgid "Stored"
 msgstr "停放"
@@ -2165,10 +2121,6 @@ msgctxt "traineditor_clear_selection"
 msgid "Clear selection"
 msgstr "清除选择"
 
-msgctxt "traineditor_delete_all_selected"
-msgid "Delete selected trains"
-msgstr "删除所选列车"
-
 msgctxt "traineditor_overflow_desc"
 msgid "Too many trains selected to show the slot editor, but it is still possible to use some bulk editing operations."
 msgstr "选择的列车太多，无法显示槽位编辑器，但仍可进行一些批量编辑操作"
@@ -2180,10 +2132,6 @@ msgstr "选择所有列车"
 msgctxt "traineditor_tooltip_buy_mode"
 msgid "Purchase new trains"
 msgstr "购买新列车"
-
-msgctxt "traineditor_tooltip_del"
-msgid "Delete selected train"
-msgstr "删除选择列车"
 
 msgctxt "traineditor_tooltip_list_mode"
 msgid "List trains and edit their details and schedule"
@@ -2381,3 +2329,107 @@ msgctxt "wrong_protocol"
 msgid "Protocol mismatch with server. Make sure both your client and the server are updated to the latest game version."
 msgstr "协议与服务器不匹配。 确保您的客户端和服务器都已更新到最新的游戏版本。"
 
+# ----------------------------------------------------------
+# 修改的字符串
+
+msgctxt "accounting_cash_total"
+msgid "$ Total"
+msgstr "合计"
+
+msgctxt "sax_p2"
+msgid "Very good"
+msgstr "很好"
+
+msgctxt "sax_p3"
+msgid "Excellent"
+msgstr "非常好"
+
+msgctxt "display_mode_exclusive_fullscreen"
+msgid "Exclusive fullscreen"
+msgstr "全屏"
+
+msgctxt "display_mode_windowed_fullscreen"
+msgid "Windowed fullscreen"
+msgstr "无边框窗口"
+
+# ----------------------------------------------------------
+# 新添加的字符串
+
+msgctxt "accounting_pax_intervention"
+msgid "intervention"
+msgstr "列车干预赔偿乘客"
+
+msgctxt "accounting_ticketing_profit"
+msgid "Profit"
+msgstr "收益"
+
+msgctxt "continue_game"
+msgid "Continue game"
+msgstr "继续游戏"
+
+msgctxt "info_table_pax_next"
+msgid "Next stop"
+msgstr "下一站"
+
+msgctxt "paxlist_groupby_next"
+msgid "Group by next stop"
+msgstr "按行程下一站分组"
+
+msgctxt "train_info_total_power"
+msgid "Total power:"
+msgstr "装机功率:"
+
+msgctxt "train_info_dynamics"
+msgid "Dynamics:"
+msgstr "动力:"
+
+msgctxt "train_list_filter_all"
+msgid "All trains"
+msgstr "所有列车"
+
+msgctxt "train_list_filter_by_line"
+msgid "Group by line"
+msgstr "以线路分组"
+
+msgctxt "train_list_filter_by_model"
+msgid "Group by model"
+msgstr "以型号分组"
+
+msgctxt "train_list_filter_depot"
+msgid "In depot"
+msgstr "在车辆段中"
+
+msgctxt "traineditor_sell_all_selected"
+msgid "Sell selected trains"
+msgstr "出售所有选择列车"
+
+msgctxt "traineditor_tooltip_sell"
+msgid "Sell selected train"
+msgstr "出售选择列车"
+
+# ----------------------------------------------------------
+#删除的（老版本）字符串
+
+msgctxt "lineeditor_auto_eta_avg_branch_wait"
+msgid "Avg. branch (mm:ss):"
+msgstr "Avg. branch (mm:ss):"
+
+msgctxt "matches_n_0"
+msgid "0 coincidencias"
+msgstr "0 coincidencias"
+
+msgctxt "matches_n_1"
+msgid "1 coincidencia"
+msgstr "1 coincidencia"
+
+msgctxt "matches_n_many"
+msgid "%d coincidencias"
+msgstr "%d coincidencias"
+
+msgctxt "traineditor_delete_all_selected"
+msgid "Delete selected trains"
+msgstr "删除所选列车"
+
+msgctxt "traineditor_tooltip_del"
+msgid "Delete selected train"
+msgstr "删除选择列车"
