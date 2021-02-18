@@ -2121,10 +2121,6 @@ msgctxt "traineditor_clear_selection"
 msgid "Clear selection"
 msgstr "清除选择"
 
-msgctxt "traineditor_delete_all_selected"
-msgid "Delete selected trains"
-msgstr "删除所选列车"
-
 msgctxt "traineditor_overflow_desc"
 msgid "Too many trains selected to show the slot editor, but it is still possible to use some bulk editing operations."
 msgstr "选择的列车太多，无法显示槽位编辑器，但仍可进行一些批量编辑操作"
@@ -2371,6 +2367,14 @@ msgctxt "continue_game"
 msgid "Continue game"
 msgstr "继续游戏"
 
+msgctxt "info_table_pax_next"
+msgid "Next stop"
+msgstr "下一站"
+
+msgctxt "paxlist_groupby_next"
+msgid "Group by next stop"
+msgstr "按行程下一站分组"
+
 msgctxt "train_info_total_power"
 msgid "Total power:"
 msgstr "装机功率:"
@@ -2395,6 +2399,10 @@ msgctxt "train_list_filter_depot"
 msgid "In depot"
 msgstr "在车辆段中"
 
+msgctxt "traineditor_sell_all_selected"
+msgid "Sell selected trains"
+msgstr "出售所有选择列车"
+
 msgctxt "traineditor_tooltip_sell"
 msgid "Sell selected train"
 msgstr "出售选择列车"
@@ -2417,6 +2425,10 @@ msgstr "1 coincidencia"
 msgctxt "matches_n_many"
 msgid "%d coincidencias"
 msgstr "%d coincidencias"
+
+msgctxt "traineditor_delete_all_selected"
+msgid "Delete selected trains"
+msgstr "删除所选列车"
 
 msgctxt "traineditor_tooltip_del"
 msgid "Delete selected train"
