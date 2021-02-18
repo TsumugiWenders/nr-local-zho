@@ -5,4 +5,5 @@
 
 [https://steamcommunity.com/sharedfiles/filedetails/?id=2268014666](https://steamcommunity.com/sharedfiles/filedetails/?id=2268014666)
 
-当前翻译不是100%的完美，因技术因素游戏内一些语句无法翻译。翻译不是完全的的成熟。如果您注意到错误或改进，欢迎在issues中提供出您的建议，或者PR参与到翻译中。
+当前翻译不是100%的完美，因技术因素游戏内一些语句无法翻译。翻译不是完全的的成熟。如果您注意到错误或改进，欢迎在issues中提供出您的建议，或者PR参与到翻译中。或者亲自参加翻译工作群：698224998
+
