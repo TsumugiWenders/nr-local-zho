@@ -119,7 +119,7 @@ msgstr "目的地站"
 #v1.1.37
 msgctxt "info_table_pax_fare_tp"
 msgid "Fare(s) paid so far"
-msgstr "目前已购买的车票"
+msgstr "迄今已付的车票"
 
 #v1.1.37
 msgctxt "info_table_pax_leg_tp"
@@ -184,7 +184,7 @@ msgstr "旅客退票"
 #v1.1.37
 msgctxt "lineeditor_auto_acc_ramp"
 msgid "Acceleration ramp:"
-msgstr "Acceleration ramp:"
+msgstr "自动加速度计算:"
 
 #v1.1.37
 msgctxt "lineeditor_auto_acc_ramp_01"
