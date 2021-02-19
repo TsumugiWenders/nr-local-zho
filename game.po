@@ -4,7 +4,7 @@
 #v1.1.37
 msgctxt "accounting_found_station_too_full"
 msgid "Compen.: full station"
-msgstr "补偿: 全部站点"
+msgstr "赔偿: 全部站点"
 
 #v1.1.37
 msgctxt "accounting_pax_intervention"
@@ -29,7 +29,7 @@ msgstr "财务时间: {} UTC-0"
 #v1.1.37
 msgctxt "client_stream_stats"
 msgid "Client stream stats"
-msgstr "客户端流统计"
+msgstr "客户端信息统计"
 
 #v1.1.37
 msgctxt "continue_game"
@@ -49,12 +49,12 @@ msgstr "要移动或删除轨道，必须选择它们的控制点"
 #v1.1.37
 msgctxt "error_too_new_save_v"
 msgid "The game version ({}.{}.{}.{}) that created this save file is newer than your game version ({}.{}.{}.{}). Update the game to load this file."
-msgstr "创建此存档的游戏版本({}.{}.{}.{})比你的游戏版本({}.{}.{}.{})新. 更新游戏以加载该存档."
+msgstr "创建此存档的游戏版本({}.{}.{}.{})比你的游戏版本({}.{}.{}.{})更新. 更新游戏以加载该存档."
 
 #v1.1.37
 msgctxt "error_too_old_save_v"
 msgid "The game version ({}.{}.{}.{}) that created this save file is too old and it cannot be loaded. Try the legacy branches in Steam."
-msgstr "创建此存档的游戏版本({}.{}.{}.{})比你的游戏版本旧.请尝试使用Steam中的旧版分支"
+msgstr "创建此存档的游戏版本({}.{}.{}.{})比你的游戏版本更旧.请尝试使用Steam中的旧版分支"
 
 #v1.1.37
 msgctxt "ev_too_short_warn"
@@ -104,7 +104,7 @@ msgstr "游戏速度:"
 #v1.1.37
 msgctxt "host_game_speed_warn"
 msgid "Large and complex builds, with many trains and stations, may not be playable at more than 1x speed in a multiplayer session."
-msgstr "大型和复杂的建筑，包括许多火车和车站，在多人游戏中可能无法以超过1倍的速度进行游戏"
+msgstr "在多人游戏中可能无法以超过1倍的速度进行游戏,因为包含许多大型和复杂的建筑,火车和车站"
 
 #v1.1.37
 msgctxt "info_table_count_tp"
@@ -119,7 +119,7 @@ msgstr "目的地站"
 #v1.1.37
 msgctxt "info_table_pax_fare_tp"
 msgid "Fare(s) paid so far"
-msgstr "目前已支付的车票"
+msgstr "目前已购买的车票"
 
 #v1.1.37
 msgctxt "info_table_pax_leg_tp"
@@ -159,107 +159,107 @@ msgstr "按字母顺序排列"
 #v1.1.37
 msgctxt "line_list_sort_pax_Compensation"
 msgid "Compensations"
-msgstr "赔偿"
+msgstr "旅客赔偿"
 
 #v1.1.37
 msgctxt "line_list_sort_pax_board"
 msgid "Boarded"
-msgstr "上车"
+msgstr "输送人数"
 
 #v1.1.37
 msgctxt "line_list_sort_pax_fares"
 msgid "Fares"
-msgstr "票价"
+msgstr "线路收入"
 
 #v1.1.37
 msgctxt "line_list_sort_pax_profit"
 msgid "Profit"
-msgstr "利润"
+msgstr "获得利润"
 
 #v1.1.37
 msgctxt "line_list_sort_pax_refunds"
 msgid "Refunds"
-msgstr "退票"
+msgstr "旅客退票"
 
 #v1.1.37
 msgctxt "lineeditor_auto_acc_ramp"
 msgid "Acceleration ramp:"
-msgstr "Rampa aceleración:"
+msgstr "Acceleration ramp:"
 
 #v1.1.37
 msgctxt "lineeditor_auto_acc_ramp_01"
 msgid "Fixed 0.1 ms-2"
-msgstr "Fija 0.1 ms-2"
+msgstr "0.1 ms-2 修正"
 
 #v1.1.37
 msgctxt "lineeditor_auto_acc_ramp_02"
 msgid "Fixed 0.2 ms-2"
-msgstr "Fija 0.2 ms-2"
+msgstr "0.2 ms-2 修正"
 
 #v1.1.37
 msgctxt "lineeditor_auto_acc_ramp_03"
 msgid "Fixed 0.3 ms-2"
-msgstr "Fija 0.3 ms-2"
+msgstr "0.3 ms-2 修正"
 
 #v1.1.37
 msgctxt "lineeditor_auto_acc_ramp_04"
 msgid "Fixed 0.4 ms-2"
-msgstr "Fija 0.4 ms-2"
+msgstr "0.4 ms-2 修正"
 
 #v1.1.37
 msgctxt "lineeditor_auto_acc_ramp_05"
 msgid "Fixed 0.5 ms-2"
-msgstr "Fija 0.5 ms-2"
+msgstr "0.5 ms-2 修正"
 
 #v1.1.37
 msgctxt "lineeditor_auto_eta_max_speed"
 msgid "Train max speed:"
-msgstr 列车最大速度:"
+msgstr "列车最大速度:"
 
 #v1.1.37
 msgctxt "lineeditor_auto_eta_title"
 msgid "Leg travel times calculator"
-msgstr "旅行时间计算器"
+msgstr "列车时刻计算器"
 
 #v1.1.37
 msgctxt "lineeditor_auto_inverval_sugg"
 msgid "Min. interval hint:"
-msgstr "Sug. intervalo min.:"
+msgstr "建议最小间隔时间:"
 
 #v1.1.37
 msgctxt "lineeditor_auto_inverval_title"
 msgid "Min. interval time bulk edit"
-msgstr "Editar todos los intevalos min."
+msgstr "最小间隔时间计算"
 
 #v1.1.37
 msgctxt "lineeditor_auto_wait_title"
 msgid "Min. stop time bulk edit"
-msgstr "Editar todos los tiempos min. de parada"
+msgstr "最小停靠时间计算"
 
 #v1.1.37
 msgctxt "lineeditor_bulk_wait"
 msgid "Min. stop time (h:mm:ss):"
-msgstr "Parada min. (h:mm:ss):"
+msgstr "最小停靠时间(h:mm:ss):"
 
 #v1.1.37
 msgctxt "lineeditor_bulk_wait_run"
 msgid "Set min. stop times"
-msgstr "Cambiar paradas min."
+msgstr "设置最小停靠时间"
 
 #v1.1.37
 msgctxt "lineeditor_move_camera"
 msgid "Pan and zoom view when selecting a line or station"
-msgstr "Centrar la cámara al seleccionar una línea o estación"
+msgstr "选择线路或车站时,可进行平移或缩放查看"
 
 #v1.1.37
 msgctxt "lineeditor_tooltip_show_mini_editor"
 msgid "Timing calculator"
-msgstr "Calculadora de tiempos"
+msgstr "时刻计算器"
 
 #v1.1.37
 msgctxt "list_sort_reverse"
 msgid "Reverse"
-msgstr "Orden inverso"
+msgstr "逆向排序"
 
 #v1.1.37
 msgctxt "max_speed_desc"
@@ -279,12 +279,12 @@ msgstr "启用所有已安装的模组"
 #v1.1.37
 msgctxt "mod_enable_in_game"
 msgid "Enable in this game"
-msgstr "在存档中启用"
+msgstr "在当前游戏中启用"
 
 #v1.1.37
 msgctxt "mod_icon_hint"
 msgid "JPG format in RGB, max 1MB"
-msgstr "RGB色域的JPG图片, 最大1MB"
+msgstr "RGB色域的JPG格式图片, 最大1MB"
 
 #v1.1.37
 msgctxt "mod_keep_desc"
@@ -344,37 +344,37 @@ msgstr "流统计(主机界面)"
 #v1.1.37
 msgctxt "mvo_user_line_stops"
 msgid "Line stops"
-msgstr "线路停止"
+msgstr "线路停靠点及导航点显示"
 
 #v1.1.37
 msgctxt "mvo_user_station_event"
 msgid "Station events"
-msgstr "车站时间"
+msgstr "车辆段事件显示"
 
 #v1.1.37
 msgctxt "mvo_user_station_icons"
 msgid "Station icons"
-msgstr "车站图标"
+msgstr "车辆段图标显示"
 
 #v1.1.37
 msgctxt "mvo_user_station_names"
 msgid "Station names"
-msgstr "车站名称"
+msgstr "车站名称显示"
 
 #v1.1.37
 msgctxt "mvo_user_train_counters"
 msgid "Train counters"
-msgstr "列车计数"
+msgstr "列车上下客及停靠时间信息显示"
 
 #v1.1.37
 msgctxt "mvo_user_train_icons"
 msgid "Train icons"
-msgstr "列车图标"
+msgstr "列车图标显示"
 
 #v1.1.37
 msgctxt "mvo_user_zoom_out_tracks"
 msgid "Zoomed out tracks"
-msgstr "缩小轨道"
+msgstr "当缩小视图时隐藏轨道"
 
 #v1.1.37
 msgctxt "no_line_header"
@@ -399,7 +399,7 @@ msgstr "覆盖其他版本的存档文件"
 #v1.1.37
 msgctxt "ovewrite_other_desc"
 msgid "{} was saved with a different game version. Do you want to overwrite it, or rename it to keep its original contents, then save the game?"
-msgstr "{}被保存为不同的游戏版本。你是想覆盖它，还是给它重新命名以保持原来的内容，然后再保存游戏?"
+msgstr "{} 被保存为不同的游戏版本.你是想覆盖它,还是给它重新命名以保持原来的内容,然后再保存游戏?"
 
 #v1.1.37
 msgctxt "paxlist_groupby_next"
@@ -409,7 +409,7 @@ msgstr "按行程下一站分组"
 #v1.1.37
 msgctxt "pending_validations"
 msgid "Validating tracks and stations, {} to go"
-msgstr "从　{} 开始验证轨道和站点"
+msgstr "从 {} 开始验证轨道和站点"
 
 #v1.1.37
 msgctxt "rename_save"
@@ -419,12 +419,12 @@ msgstr "重命名并保存"
 #v1.1.37
 msgctxt "right_bar_company"
 msgid "Company and accounting"
-msgstr "公司与财会"
+msgstr "公司与财务"
 
 #v1.1.37
 msgctxt "right_bar_main"
 msgid "Main menu"
-msgstr "主菜单"
+msgstr "游戏菜单"
 
 #v1.1.37
 msgctxt "right_bar_map"
@@ -434,7 +434,7 @@ msgstr "地图选项"
 #v1.1.37
 msgctxt "right_bar_mods"
 msgid "Mods"
-msgstr "模组"
+msgstr "模组管理"
 
 #v1.1.37
 msgctxt "right_bar_online"
@@ -449,12 +449,12 @@ msgstr "搜索"
 #v1.1.37
 msgctxt "sax_refund_warn_fare"
 msgid "Refund risk due to fare"
-msgstr "因车费而产生的退款风险"
+msgstr "因车票昂贵而产生的退票风险"
 
 #v1.1.37
 msgctxt "sax_tooltip2"
 msgid "{0} (Neutral at {1}, ${2:.2f})"
-msgstr "{0} (Neutral a {1}, ${2:.2f})"
+msgstr "{0} (满意度 a {1}, ${2:.2f})"
 
 #v1.1.37
 msgctxt "sax_tooltip_new"
@@ -469,12 +469,12 @@ msgstr "<空名称>"
 #v1.1.37
 msgctxt "stream_ahead_desc"
 msgid "You are ahead of the host. Pausing your clock to wait for it."
-msgstr "你已经领先于主机。暂停你的时钟来等待它"
+msgstr "你的时间已经超前于主机时间了,请暂停时间来同步主机时间"
 
 #v1.1.37
 msgctxt "stream_catch_up_desc"
 msgid "You are falling behind the host. Speeding up the clock to catch up."
-msgstr "你已经落后于主机了。加快时间追赶"
+msgstr "你的时间已经落后于主机时间了,请加快时间来同步主机时间"
 
 #v1.1.37
 msgctxt "train_info_dynamics"
@@ -509,12 +509,12 @@ msgstr "在车辆段中"
 #v1.1.37
 msgctxt "train_sched_pause_warn"
 msgid "Unpause the game to apply orders. Orders may take some time to apply."
-msgstr "解除游戏暂停，以执行命令。订单可能需要一些时间来申请"
+msgstr "解除游戏暂停，以执行命令。命令可能需要一些时间来执行"
 
 #v1.1.37
 msgctxt "traineditor_move_camera"
 msgid "Focus camera when selecting a train"
-msgstr "在选择列车时对焦相机"
+msgstr "在选择列车时跟踪选择的列车"
 
 #v1.1.37
 msgctxt "traineditor_sell_all_selected"
@@ -534,17 +534,17 @@ msgstr "标题是必须的"
 #v1.1.37
 msgctxt "used_active_mod"
 msgid "This mod is used by one or more objects in the game, and cannot be disabled."
-msgstr "这个mod会被游戏中的一个或多个对象使用，并且不能被禁用"
+msgstr "这个mod会被游戏中的一个或多个对象使用,并且不能被禁用"
 
 #v1.1.37
 msgctxt "wrong_protocol_desc"
 msgid "Your serialization and protocol do not match with the server. Make sure both your game and the server are running exactly the same game version, as displayed in the main menu."
-msgstr "您的游戏版本与主机不匹配。确保你的游戏和主机的游戏都是同一个版本，就像主菜单中显示的那样"
+msgstr "您的游戏版本与主机不匹配。确保你的游戏和主机的游戏都是同一个版本"
 
 #v1.1.37
 msgctxt "wrong_schema_mod"
 msgid "This mod data is enabled in the current game, but its installed files require a newer game version. Update the game."
-msgstr "此模组在当前游戏中已启用，但其安装的文件需要更新的游戏版本．请更新游戏"
+msgstr "此模组在当前游戏中已启用,但其安装的文件需要更新的游戏版本.请更新游戏"
 
 
 
@@ -554,57 +554,57 @@ msgstr "此模组在当前游戏中已启用，但其安装的文件需要更新
 #v1.1.37
 msgctxt "accounting_pax_lost"
 msgid "Compen.: lost"
-msgstr "赔偿金: 流失"
+msgstr "因无法找到路径而赔偿"
 
 #v1.1.37
 msgctxt "accounting_pax_reached_depot"
 msgid "Refund: reached depot"
-msgstr "退款: 被送到车辆段"
+msgstr "因被送到车辆段而退票"
 
 #v1.1.37
 msgctxt "accounting_pax_refunded"
 msgid "Refunded (incl. compen.)"
-msgstr "退款(包括补偿)"
+msgstr "退票(包括赔偿)"
 
 #v1.1.37
 msgctxt "accounting_pax_refused_fare"
 msgid "Refund: too high fare"
-msgstr "退款：票价太高"
+msgstr "因票价太高而退票"
 
 #v1.1.37
 msgctxt "accounting_pax_waited_too_long"
 msgid "Compen.: waited too long"
-msgstr "补偿：等待时间太长"
+msgstr "因等待时间太长而获赔偿"
 
 #v1.1.37
 msgctxt "conflicts_pop_desc"
 msgid "One or more tracks have conflicts and cannot be constructed, or their validation is still pending. Move, edit or delete all tracks marked in red."
-msgstr "一条或多条轨道有冲突，无法构建，或者它们的验证仍在等待中。移动、编辑或删除所有用红色标记的轨道"
+msgstr "一条或多条轨道发生冲突或仍在验证中，无法建设、移动、编辑或删除所有红色标记的轨道"
 
 #v1.1.37
 msgctxt "editor_add"
 msgid "Append to tracks or create [N]ew ones"
-msgstr "添加到轨道或创建新的轨道"
+msgstr "[N] 添加轨道或创建新的轨道"
 
 #v1.1.37
 msgctxt "editor_branch"
 msgid "Create new track [B]ranches"
-msgstr "[B]创建新的轨道分支"
+msgstr "[B] 创建新的轨道分支"
 
 #v1.1.37
 msgctxt "editor_depot"
 msgid "Create new de[P]ot"
-msgstr "[P]创建新的车辆段"
+msgstr "[P] 创建新的车辆段"
 
 #v1.1.37
 msgctxt "editor_move"
 msgid "[M]ove, delete and edit tracks"
-msgstr "[M]移动删除或编辑轨道"
+msgstr "[M] 移动、删除与编辑轨道"
 
 #v1.1.37
 msgctxt "editor_station"
 msgid "Create new s[T]ation platforms"
-msgstr "[t]创建新的车站"
+msgstr "[T] 创建新的车站平台"
 
 #v1.1.37
 msgctxt "editor_tip_create_left1"
@@ -624,12 +624,12 @@ msgstr "左键点击轨道或车站控制点来重新选择"
 #v1.1.37
 msgctxt "editor_warn_zero_leg"
 msgid "At least one travel time is set to 0. Pax AI will get confused when riding this line. Try the timing calculator."
-msgstr "Al menos uno de los tiempos de viaje está a 0. La IA no podrá elaborar planes de viaje correctamente. Prueba la calculadora de tiempos."
+msgstr "至少有一个列车时刻被设置为0，当AI乘客乘坐这条线路时，会感到困惑,请使用列车时刻计算器"
 
 #v1.1.37
 msgctxt "error_too_old_save"
 msgid "The game version that created this save file is too old and it cannot be loaded. Try the older v1.1 legacy branches in Steam."
-msgstr "创建此游戏的游戏版本太旧，无法加载。试试Steam上过时的v1.1版本"
+msgstr "创建此游戏的游戏版本太旧,无法加载.试试Steam上过时的v1.1分支版本"
 
 #v1.1.37
 msgctxt "info_table_count"
@@ -644,7 +644,7 @@ msgstr "支付"
 #v1.1.37
 msgctxt "lineeditor_auto_eta_run"
 msgid "Estimate leg travel times"
-msgstr "估计旅程时间"
+msgstr "估计列车时刻"
 
 #v1.1.37
 msgctxt "lineeditor_auto_inverval"
@@ -654,17 +654,17 @@ msgstr "最小间隔时间(h:mm:ss):"
 #v1.1.37
 msgctxt "loan_n"
 msgid "Loan {0} of {1}"
-msgstr "贷款 {0} 中的 {1}"
+msgstr "贷款 {1} 个中的第 {0} 个"
 
 #v1.1.37
 msgctxt "missing_mod"
 msgid "This mod data is enabled in the current game, but it is not installed in this PC. Some textures might be missing."
-msgstr "此mod数据在当前游戏中已被启用，但在此电脑上并未安装。一些纹理可能会丢失"
+msgstr "此mod数据在当前游戏中已被启用，但在此电脑上并未安装。一些列车纹理可能会丢失"
 
 #v1.1.37
 msgctxt "mode_map_default"
 msgid "Plain map [Home]"
-msgstr "默认地图视图 [Inicio]"
+msgstr "地图视图 [Home]"
 
 #v1.1.37
 msgctxt "mode_map_population"
@@ -674,22 +674,22 @@ msgstr "人口视图 [Home]"
 #v1.1.37
 msgctxt "mode_map_tracks"
 msgid "Plain tracks [End]"
-msgstr "默认轨道视图 [Fin]"
+msgstr "轨道视图 [End]"
 
 #v1.1.37
 msgctxt "mode_map_tracks_lines"
 msgid "Lines overlay [End]"
-msgstr "线路视图 [Fin]"
+msgstr "线路视图 [End]"
 
 #v1.1.37
 msgctxt "mode_map_tracks_speed"
 msgid "Speed overlay [End]"
-msgstr "速度视图 [in]"
+msgstr "速度视图 [End]"
 
 #v1.1.37
 msgctxt "paxlist_n_new_pax"
 msgid "{} new"
-msgstr "新 {} 乘客"
+msgstr "{} 新乘客"
 
 #v1.1.37
 msgctxt "subscribe_to_mods"
@@ -704,7 +704,7 @@ msgstr "列车维护费用:"
 #v1.1.37
 msgctxt "train_list_filter_alert"
 msgid "With alert warnings"
-msgstr "有警告"
+msgstr "当前有警告列车"
 
 
 
@@ -1300,7 +1300,7 @@ msgstr "禁用"
 msgctxt "display_mode"
 msgid "Mode:"
 msgstr "显示:"
-# --未使用此项--
+
 #v1.1.31
 msgctxt "display_mode_exclusive_fullscreen"
 msgid "Exclusive fullscreen"
