@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
 name=chinese mod
-author=Tsumugi Wenders
-version=1.1.37.beta1-4e647c9
+author=Tsumugi Wenders & WONDEO
+version=1.1.37.beta1-93003b9
 
 [Language]
 code_iso_639_2=zho
