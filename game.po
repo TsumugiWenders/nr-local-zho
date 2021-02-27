@@ -1773,7 +1773,7 @@ msgstr "列车图标显示"
 
 msgctxt "mvo_user_zoom_out_tracks"
 msgid "Zoomed out tracks"
-msgstr "当缩小视图时轨道显示"
+msgstr "当缩小视图时继续显示轨道"
 
 msgctxt "new_game"
 msgid "New game"
@@ -2093,7 +2093,7 @@ msgstr "预期 {0}, ${1:.2f}"
 
 msgctxt "sax_tooltip2"
 msgid "{0} (Neutral at {1}, ${2:.2f})"
-msgstr "{0} (满意度 a {1}, ${2:.2f})"
+msgstr "{0} (平淡于 a {1}, ${2:.2f})"
 
 msgctxt "scaling_mode"
 msgid "Scaling:"
