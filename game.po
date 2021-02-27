@@ -1857,15 +1857,15 @@ msgstr "特别行政区"
 
 msgctxt "osm_admin_level_4"
 msgid "State"
-msgstr "省、自治区、直辖市"
+msgstr "省级"
 
 msgctxt "osm_admin_level_5"
 msgid "Region"
-msgstr "市、区、自治州、盟"
+msgstr "市级"
 
 msgctxt "osm_admin_level_6"
 msgid "County"
-msgstr "市辖区、县级市、县、自治县、旗、自治旗、特区、林区"
+msgstr "县级"
 
 msgctxt "osm_admin_level_7"
 msgid "Metro"
@@ -1873,11 +1873,11 @@ msgstr "国家级新区"
 
 msgctxt "osm_admin_level_8"
 msgid "City"
-msgstr "街道、镇、乡、民族乡、苏木、民族苏木、县辖区"
+msgstr "乡级"
 
 msgctxt "osm_admin_level_9"
 msgid "Ward"
-msgstr "区"
+msgstr "街道"
 
 msgctxt "overpass_n_0"
 msgid "0 overpasses"
