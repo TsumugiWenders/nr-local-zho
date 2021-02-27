@@ -50,7 +50,7 @@ msgstr "{} 被保存为不同的游戏版本。你是想覆盖它,还是给它�
 
 msgctxt "pending_validations"
 msgid "Validating tracks and stations, {} to go"
-msgstr "正在验证轨道和站点，还剩 {} "
+msgstr "正在验证轨道和站点，还剩{} "
 
 msgctxt "stream_ahead_desc"
 msgid "You are ahead of the host. Pausing your clock to wait for it."
@@ -74,27 +74,27 @@ msgstr "没有足够的钱以购买火车。请选择更便宜的火车、更少
 
 msgctxt "train_sched_add"
 msgid "Toggle new slots mode"
-msgstr "切换新建槽位模式"
+msgstr "切换新建时段模式"
 
 msgctxt "train_sched_clear_all_multi"
 msgid "Delete all {} slots"
-msgstr "删除 {} 所有列车的所有槽位"
+msgstr "删除列车{}的所有时间段"
 
 msgctxt "train_sched_clear_day"
 msgid "Delete all {0} slots from train {1}"
-msgstr "删除 {0} 列车 {1} 的所有槽位"
+msgstr "删除列车{1}在{0}的所有时间段"
 
 msgctxt "train_sched_paste_all_train"
 msgid "Paste slots in every train {} schedule"
-msgstr "在每趟列车时间表上粘贴 {} 时间表"
+msgstr "在所有列车 {} 的时间表中贴上时间段"
 
 msgctxt "train_sched_paste_week"
 msgid "Replace entire week schedule in train {}"
-msgstr "替换列车 {} 整周的时间表"
+msgstr "取代列车{}整个周的时间表"
 
 msgctxt "train_sched_paste_week_all"
 msgid "Replace entire week schedule in all trains"
-msgstr "替换所有列车整周的时间表"
+msgstr "取代所有列车整个周时间表"
 
 msgctxt "train_total_price_1"
 msgid "Total for 1 unit"
@@ -149,7 +149,7 @@ msgstr "财务"
 
 msgctxt "accounting_cash_total"
 msgid "$ Total"
-msgstr "合计"
+msgstr "总计"
 
 msgctxt "accounting_construction"
 msgid "Construction"
@@ -865,11 +865,11 @@ msgstr "保存游戏时出现内部错误"
 
 msgctxt "error_too_new_save_v"
 msgid "The game version ({}.{}.{}.{}) that created this save file is newer than your game version ({}.{}.{}.{}). Update the game to load this file."
-msgstr "创建此存档的游戏版本({}.{}.{}.{})比你的游戏版本({}.{}.{}.{})更新. 更新游戏以加载该存档."
+msgstr "创建此存档的游戏版本({}.{}.{}.{})比你的游戏版本({}.{}.{}.{})更新，更新游戏以加载该存档"
 
 msgctxt "error_too_old_save_v"
 msgid "The game version ({}.{}.{}.{}) that created this save file is too old and it cannot be loaded. Try the legacy branches in Steam."
-msgstr "创建此存档的游戏版本({}.{}.{}.{})比你的游戏版本更旧.请尝试使用Steam中的旧版分支"
+msgstr "创建此存档的游戏版本({}.{}.{}.{})比你的游戏版本更旧，请尝试使用Steam中的旧版分支"
 
 msgctxt "error_writing_file"
 msgid "Error writing to file"
@@ -981,7 +981,7 @@ msgstr "游戏速度:"
 
 msgctxt "host_game_speed_warn"
 msgid "Large and complex builds, with many trains and stations, may not be playable at more than 1x speed in a multiplayer session."
-msgstr "在多人游戏中可能无法以超过1倍的速度进行游戏,因为包含许多大型和复杂的建筑,火车和车站"
+msgstr "在多人游戏中可能无法以超过1倍的速度进行游戏,因为游戏中包含许多大型和复杂的建筑与运算,例如火车和车站"
 
 msgctxt "icon_file"
 msgid "Icon file:"
@@ -1005,7 +1005,7 @@ msgstr "目的地"
 
 msgctxt "info_table_pax_destination_tp"
 msgid "Destination station"
-msgstr "目的地"
+msgstr "目的车站"
 
 msgctxt "info_table_pax_fare_tp"
 msgid "Fare(s) paid so far"
@@ -1021,11 +1021,11 @@ msgstr "当前行程段的耗时，包括车站等待时间"
 
 msgctxt "info_table_pax_next"
 msgid "Next stop"
-msgstr "下一停靠站"
+msgstr "下一站"
 
 msgctxt "info_table_pax_next_tp"
 msgid "Next stop station"
-msgstr "下一停靠站站点"
+msgstr "下一车站站点"
 
 msgctxt "info_table_pax_origin"
 msgid "Origin"
@@ -1033,7 +1033,7 @@ msgstr "出发地"
 
 msgctxt "info_table_pax_origin_tp"
 msgid "Origin station"
-msgstr "出发站"
+msgstr "出发车站"
 
 msgctxt "info_table_pax_sax"
 msgid "Sax"
@@ -1093,7 +1093,7 @@ msgstr "语言:"
 
 msgctxt "line_0_stops"
 msgid "0 stops"
-msgstr "0 停靠点"
+msgstr "0 个车站"
 
 msgctxt "line_error_no_path_between_stops"
 msgid "Cannot find path!"
@@ -1129,11 +1129,11 @@ msgstr "旅客退票"
 
 msgctxt "line_n_stops"
 msgid "{0}, {1} stops"
-msgstr "{0}, {1} 停靠"
+msgstr "{0}, {1} 个车站"
 
 msgctxt "line_new_stop_cell"
 msgid "New stops are inserted here"
-msgstr "在这里插入新的停靠点"
+msgstr "在这里插入新的车站"
 
 msgctxt "line_state"
 msgid "State"
@@ -1165,11 +1165,11 @@ msgstr "通过"
 
 msgctxt "line_stop_wait_header"
 msgid "Wait"
-msgstr "停靠时间"
+msgstr "停站时间"
 
 msgctxt "line_stops"
 msgid "Stops"
-msgstr "停靠"
+msgstr "车站"
 
 msgctxt "line_to"
 msgid "{} to"
@@ -1181,23 +1181,23 @@ msgstr "自动加速度计算:"
 
 msgctxt "lineeditor_auto_acc_ramp_01"
 msgid "Fixed 0.1 ms-2"
-msgstr "0.1 ms² 修正"
+msgstr "固定 0.1 ms-2"
 
 msgctxt "lineeditor_auto_acc_ramp_02"
 msgid "Fixed 0.2 ms-2"
-msgstr "0.2 ms² 修正"
+msgstr "固定 0.2 ms-2"
 
 msgctxt "lineeditor_auto_acc_ramp_03"
 msgid "Fixed 0.3 ms-2"
-msgstr "0.3 ms² 修正"
+msgstr "固定 0.3 ms-2"
 
 msgctxt "lineeditor_auto_acc_ramp_04"
 msgid "Fixed 0.4 ms-2"
-msgstr "0.4 ms² 修正"
+msgstr "固定 0.4 ms-2"
 
 msgctxt "lineeditor_auto_acc_ramp_05"
 msgid "Fixed 0.5 ms-2"
-msgstr "0.5 ms² 修正"
+msgstr "固定 0.5 ms-2"
 
 msgctxt "lineeditor_auto_eta_max_speed"
 msgid "Train max speed:"
@@ -1273,7 +1273,7 @@ msgstr "每公里价格:"
 
 msgctxt "lineeditor_tooltip_add_stop_mode"
 msgid "Add stops to line"
-msgstr "在线路上增加停靠站"
+msgstr "在线路上增加车站"
 
 msgctxt "lineeditor_tooltip_add_waypoint_mode"
 msgid "Add waypoints to line"
@@ -1285,11 +1285,11 @@ msgstr "删除选中线路"
 
 msgctxt "lineeditor_tooltip_del_stop"
 msgid "Delete selected stop"
-msgstr "删除选中停靠点"
+msgstr "删除选中车站"
 
 msgctxt "lineeditor_tooltip_down_stop"
 msgid "Move down selected stop"
-msgstr "向下移动选定的停靠点"
+msgstr "向下移动选定的车站"
 
 msgctxt "lineeditor_tooltip_new"
 msgid "Create a new line"
@@ -1297,11 +1297,11 @@ msgstr "创建一条新线路"
 
 msgctxt "lineeditor_tooltip_show_mini_editor"
 msgid "Timing calculator"
-msgstr "时刻计算器"
+msgstr "时间计算器"
 
 msgctxt "lineeditor_tooltip_up_stop"
 msgid "Move up selected stop"
-msgstr "向上移动选定的停靠点"
+msgstr "向上移动选定的车站"
 
 msgctxt "lines"
 msgid "Lines"
@@ -1309,15 +1309,15 @@ msgstr "线路"
 
 msgctxt "lines_n_0"
 msgid "0 lines"
-msgstr "0 线路"
+msgstr "0 条线路"
 
 msgctxt "lines_n_1"
 msgid "1 line"
-msgstr "1 线路"
+msgstr "1 条线路"
 
 msgctxt "lines_n_many"
 msgid "%d lines"
-msgstr "%d 线路"
+msgstr "%d 条线路"
 
 msgctxt "list_sort_reverse"
 msgid "Reverse"
@@ -1513,15 +1513,15 @@ msgstr "使用 mod 上传器"
 
 msgctxt "mod_uploader_new_mod"
 msgid "New mod"
-msgstr "新 mod"
+msgstr "新模组"
 
 msgctxt "mod_uploader_not_in_game"
 msgid "The mod uploader cannot be used with a loaded game."
-msgstr "mod 上传器不能在游戏中使用"
+msgstr "模组上传器不能在游戏中使用"
 
 msgctxt "mod_uploader_update_mod"
 msgid "Update mod"
-msgstr "升级 mod"
+msgstr "更新模组"
 
 msgctxt "mod_uploader_view_ws_mod"
 msgid "View mod in Workshop"
@@ -1685,7 +1685,7 @@ msgstr "拒绝"
 
 msgctxt "mp_action_disconnect"
 msgid "Disconnect"
-msgstr "断开连点"
+msgstr "断开链接"
 
 msgctxt "mp_action_forget"
 msgid "Forget"
@@ -1693,7 +1693,7 @@ msgstr "忘记"
 
 msgctxt "mp_action_host_to_invite"
 msgid "Host to invite"
-msgstr "以主持人邀请好友"
+msgstr "以主持人身份邀请好友"
 
 msgctxt "mp_action_invite"
 msgid "Invite"
@@ -1781,7 +1781,7 @@ msgstr "新游戏"
 
 msgctxt "new_game_options"
 msgid "New game options"
-msgstr "新游戏选项"
+msgstr "创建游戏选项"
 
 msgctxt "new_loan"
 msgid "New loan"
@@ -1789,7 +1789,7 @@ msgstr "新贷款"
 
 msgctxt "new_mod_id_placeholder"
 msgid "<New mod>"
-msgstr "<New mod>"
+msgstr "<新模组>"
 
 msgctxt "new_save_file_name"
 msgid "New save file name:"
@@ -1801,7 +1801,7 @@ msgstr "<创建新的存档>"
 
 msgctxt "no_cash_pop_desc"
 msgid "Not enough money to build the blueprint. Delete some blueprint tracks or make more money."
-msgstr "没有足够的钱来建造蓝图。删除一些蓝图轨道或赚取更多的钱"
+msgstr "没有足够的钱来建造蓝图，删除一些蓝图轨道或赚取更多的钱"
 
 msgctxt "no_line_header"
 msgid "<No line>"
@@ -1841,7 +1841,7 @@ msgstr "图形"
 
 msgctxt "options_mods_upload"
 msgid "Uploader"
-msgstr "上传"
+msgstr "上传器"
 
 msgctxt "osm_admin_level_10"
 msgid "Quarter"
@@ -1869,7 +1869,7 @@ msgstr "县"
 
 msgctxt "osm_admin_level_7"
 msgid "Metro"
-msgstr "地铁"
+msgstr "省会"
 
 msgctxt "osm_admin_level_8"
 msgid "City"
@@ -1877,19 +1877,19 @@ msgstr "城市"
 
 msgctxt "osm_admin_level_9"
 msgid "Ward"
-msgstr "村庄"
+msgstr "区"
 
 msgctxt "overpass_n_0"
 msgid "0 overpasses"
-msgstr "0 铁道桥"
+msgstr "0 座铁道桥"
 
 msgctxt "overpass_n_1"
 msgid "1 overpass"
-msgstr "1 铁道桥"
+msgstr "1 座铁道桥"
 
 msgctxt "overpass_n_many"
 msgid "%d overpasses"
-msgstr "%d 铁道桥"
+msgstr "%d 座铁道桥"
 
 msgctxt "overwrite"
 msgid "Overwrite"
@@ -1917,11 +1917,11 @@ msgstr "乘客"
 
 msgctxt "pax_waiting"
 msgid "Pax: {0} / {1}"
-msgstr "乘客等待: {0} / {1}"
+msgstr "等待乘客: {0} / {1}"
 
 msgctxt "pax_waiting_detail"
 msgid "New pax: {0} / Transfer pax: {1} "
-msgstr "新乘客: {0} / 运输中乘客: {1} "
+msgstr "新乘客: {0} / 中转乘客: {1} "
 
 msgctxt "paxlist_groupby_dest"
 msgid "Group by destination"
@@ -1937,7 +1937,7 @@ msgstr "显示全部"
 
 msgctxt "paxlist_groupby_origin"
 msgid "Group by origin"
-msgstr "默认分组"
+msgstr "按出发站分组"
 
 msgctxt "paxlist_groupby_plan"
 msgid "Show trips"
@@ -1953,7 +1953,7 @@ msgstr "{} 乘客"
 
 msgctxt "pick_a_local_mod"
 msgid "Pick a local mod"
-msgstr "选择一个本地 mod"
+msgstr "选择一个本地模组"
 
 msgctxt "pick_placeholder"
 msgid "< Pick >"
@@ -1965,7 +1965,7 @@ msgstr "站台"
 
 msgctxt "pop_reach"
 msgid "Reach: {}"
-msgstr "覆盖范围: {}"
+msgstr "覆盖人口: {}"
 
 msgctxt "private"
 msgid "Private"
@@ -2045,7 +2045,7 @@ msgstr "保存"
 
 msgctxt "save_file_name"
 msgid "Save file name"
-msgstr "保存文件名称"
+msgstr "保存存档名称"
 
 msgctxt "save_game"
 msgid "Save game"
@@ -2053,7 +2053,7 @@ msgstr "保存游戏"
 
 msgctxt "sax_0"
 msgid "Neutral"
-msgstr "满意度"
+msgstr "平淡"
 
 msgctxt "sax_m1"
 msgid "Mediocre"
@@ -2149,23 +2149,23 @@ msgstr "<空名称>"
 
 msgctxt "station_name_use_auto"
 msgid "Use automatic name"
-msgstr "使用自动名称"
+msgstr "使用自动生成名称"
 
 msgctxt "station_pop_area"
 msgid "Area:"
-msgstr "车站:"
+msgstr "覆盖区域:"
 
 msgctxt "stations_n_0"
 msgid "0 stations"
-msgstr "0 车站"
+msgstr "0 个车站"
 
 msgctxt "stations_n_1"
 msgid "1 station"
-msgstr "1 车站"
+msgstr "1 个车站"
 
 msgctxt "stations_n_many"
 msgid "%d stations"
-msgstr "%d 车站"
+msgstr "%d 个车站"
 
 msgctxt "steam_chat"
 msgid "Steam Chat and Friends"
@@ -2173,7 +2173,7 @@ msgstr "Steam 聊天和好友"
 
 msgctxt "steam_chat_client_info"
 msgid "The Join Game options in Steam Chat and Steam Friends can be used to request access to other player games."
-msgstr "Steam聊天和Steam好友中的加入游戏选项，可以用来请求访问其他玩家的游戏"
+msgstr "Steam聊天和Steam好友中的加入游戏选项可以用来请求访问其他玩家的游戏"
 
 msgctxt "steam_chat_server_info"
 msgid "The Invite options in Steam Chat and Steam Friends can be used to invite other players to your hosted game. Your settings for the the Access rules apply to Steam invites."
@@ -2189,19 +2189,19 @@ msgstr "Steamworks ID:"
 
 msgctxt "stop_idx"
 msgid "Stop {}"
-msgstr "停靠 {}"
+msgstr "车站 {}"
 
 msgctxt "stops_n_0"
 msgid "0 stops"
-msgstr "0 停靠"
+msgstr "0 个车站"
 
 msgctxt "stops_n_1"
 msgid "1 stop"
-msgstr "1 停靠"
+msgstr "1 个车站"
 
 msgctxt "stops_n_many"
 msgid "%d stops"
-msgstr "%d 停靠"
+msgstr "%d 个车站"
 
 msgctxt "strangers"
 msgid "Strangers"
@@ -2249,7 +2249,7 @@ msgstr "地面"
 
 msgctxt "track_ground_crossings"
 msgid "Ground (with road crossings)"
-msgstr "地面（有道路交叉口）"
+msgstr "地面（有平交道口）"
 
 msgctxt "track_ground_underpasses"
 msgid "Ground"
@@ -2293,7 +2293,7 @@ msgstr "基本颜色:"
 
 msgctxt "train_bill"
 msgid "Train bill"
-msgstr "列车花费"
+msgstr "列车费用"
 
 msgctxt "train_clone"
 msgid "Clone"
@@ -2325,7 +2325,7 @@ msgstr "目的地:"
 
 msgctxt "train_info_dim"
 msgid "Dimensions:"
-msgstr "尺寸:"
+msgstr "外型尺寸:"
 
 msgctxt "train_info_dim_d"
 msgid "{0} cars / {1:.2f}m / {2:.2f}m"
@@ -2337,7 +2337,7 @@ msgstr "动力:"
 
 msgctxt "train_info_empty_mass"
 msgid "Empty mass:"
-msgstr "净重:"
+msgstr "空重:"
 
 msgctxt "train_info_line"
 msgid "Line:"
@@ -2357,7 +2357,7 @@ msgstr "${} /天"
 
 msgctxt "train_info_mass"
 msgid "Mass / empty:"
-msgstr "毛重 / 净重:"
+msgstr "总重 / 空重:"
 
 msgctxt "train_info_max_pax"
 msgid "Max pax:"
@@ -2377,7 +2377,7 @@ msgstr "运行费用:"
 
 msgctxt "train_info_running_cost_f"
 msgid "${:.4} per km per pax"
-msgstr "${:.4} 每千米每乘客"
+msgstr "每公里${:.4}(人)"
 
 msgctxt "train_info_speed"
 msgid "Speed / max:"
@@ -2461,23 +2461,23 @@ msgstr "点击任意位置，添加新的日程安排时间"
 
 msgctxt "train_sched_clear_all_single"
 msgid "Delete all slots"
-msgstr "删除所有槽位"
+msgstr "删除所有时间段"
 
 msgctxt "train_sched_copy_day"
 msgid "Copy all {0} slots from train {1}"
-msgstr "从列车 {1} 复制所有 {0} 槽位"
+msgstr "复制列车{1}在{0}的所有时间段"
 
 msgctxt "train_sched_copy_slot"
 msgid "Copy selected slot"
-msgstr "复制所选槽位"
+msgstr "复制所选的时间段"
 
 msgctxt "train_sched_copy_week"
 msgid "Copy entire week schedule of train {}"
-msgstr "复制列车 {} 整周的时间表"
+msgstr "复制列车{}的整个时间段"
 
 msgctxt "train_sched_del"
 msgid "Delete selected slot"
-msgstr "删除所选槽位"
+msgstr "删除所选的时间段"
 
 msgctxt "train_sched_depot_pick"
 msgid "Pick depot"
@@ -2485,11 +2485,11 @@ msgstr "选择车辆段"
 
 msgctxt "train_sched_line"
 msgid "Line:"
-msgstr "线路:"
+msgstr "路线："
 
 msgctxt "train_sched_new_slot"
 msgid "New"
-msgstr "新"
+msgstr "新增"
 
 msgctxt "train_sched_noun_all"
 msgid "All"
@@ -2497,11 +2497,11 @@ msgstr "全部"
 
 msgctxt "train_sched_noun_day"
 msgid "Day"
-msgstr "天"
+msgstr "单天"
 
 msgctxt "train_sched_noun_slot"
 msgid "Slot"
-msgstr "槽位"
+msgstr "时段"
 
 msgctxt "train_sched_noun_train"
 msgid "Train"
@@ -2509,19 +2509,19 @@ msgstr "列车"
 
 msgctxt "train_sched_noun_week"
 msgid "Week"
-msgstr "周"
+msgstr "星期"
 
 msgctxt "train_sched_noun_week_all"
 msgid "Week *"
-msgstr "周 *"
+msgstr "星期(全部)"
 
 msgctxt "train_sched_paste_all_day"
 msgid "Paste slots in every day"
-msgstr "粘贴全部时间表"
+msgstr "在每一天贴上时间段"
 
 msgctxt "train_sched_paste_day"
 msgid "Paste slots on train {0} {1} schedule"
-msgstr "在 {0} 列车时间表上粘贴 {1} 时间表"
+msgstr "为列车{0}贴上{1}的时间段"
 
 msgctxt "train_sched_pause_warn"
 msgid "Unpause the game to apply orders. Orders may take some time to apply."
@@ -2569,11 +2569,11 @@ msgstr "购买新列车"
 
 msgctxt "traineditor_tooltip_list_mode"
 msgid "List trains and edit their details and schedule"
-msgstr "列出列车，并编辑其详细信息和时刻表"
+msgstr "列出火车并编辑其详细资讯和时间表"
 
 msgctxt "traineditor_tooltip_sched_mode"
 msgid "Edit the schedule of multiple trains simultaneously"
-msgstr "同时编辑多趟列车的时刻表"
+msgstr "同时编辑多列火车的时间表"
 
 msgctxt "traineditor_tooltip_sell"
 msgid "Sell selected train"
@@ -2593,27 +2593,27 @@ msgstr "列车"
 
 msgctxt "trains_models_n_0"
 msgid "0 models"
-msgstr "0 型号"
+msgstr "0种 型号"
 
 msgctxt "trains_models_n_1"
 msgid "1 model"
-msgstr "1 型号"
+msgstr "1种 型号"
 
 msgctxt "trains_models_n_many"
 msgid "%d models"
-msgstr "%d 型号"
+msgstr "%d种 型号"
 
 msgctxt "trains_n_0"
 msgid "0 trains"
-msgstr "0 列车"
+msgstr "0列 列车"
 
 msgctxt "trains_n_1"
 msgid "1 train"
-msgstr "1 列车"
+msgstr "1列 列车"
 
 msgctxt "trains_n_many"
 msgid "%d trains"
-msgstr "%d 列车"
+msgstr "%d列 列车"
 
 msgctxt "ugc_error_conn"
 msgid "Error while connecting with Steamworks"
@@ -2625,7 +2625,7 @@ msgstr "必须登录Steam才能执行此操作"
 
 msgctxt "ugc_error_priv"
 msgid "Not enough privileges with the current user account in Steam"
-msgstr "Steam中当前用户账号的权限不够"
+msgstr "Steam中当前用户账号的权限不足"
 
 msgctxt "ugc_error_timeout"
 msgid "Timeout while connecting with Steam"
@@ -2641,11 +2641,11 @@ msgstr "描述过长"
 
 msgctxt "ugc_valid_folder_req"
 msgid "A valid local mod is required"
-msgstr "需要一个有效的本地MOD"
+msgstr "需要有效的本地模组"
 
 msgctxt "ugc_valid_image_req"
 msgid "An icon image file is required"
-msgstr "需要一个图标图像文件"
+msgstr "需要一个图标文件"
 
 msgctxt "ugc_valid_title_too_long"
 msgid "Title is too long"
@@ -2653,7 +2653,7 @@ msgstr "标题过长"
 
 msgctxt "ugc_warn_already"
 msgid "A Mod is still being created and/or updated, please wait"
-msgstr "一个模组仍在创建或更新中，请稍等"
+msgstr "模组仍在创建或更新中，请稍等"
 
 msgctxt "unit_price"
 msgid "Unit price"
