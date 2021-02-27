@@ -1845,7 +1845,7 @@ msgstr "上传器"
 
 msgctxt "osm_admin_level_10"
 msgid "Quarter"
-msgstr "街区"
+msgstr "村、社区"
 
 msgctxt "osm_admin_level_2"
 msgid "Country"
@@ -1853,27 +1853,27 @@ msgstr "国家"
 
 msgctxt "osm_admin_level_3"
 msgid "Zone"
-msgstr "地区"
+msgstr "特别行政区"
 
 msgctxt "osm_admin_level_4"
 msgid "State"
-msgstr "省份"
+msgstr "省、自治区、直辖市"
 
 msgctxt "osm_admin_level_5"
 msgid "Region"
-msgstr "区域"
+msgstr "市、区、自治州、盟"
 
 msgctxt "osm_admin_level_6"
 msgid "County"
-msgstr "县"
+msgstr "市辖区、县级市、县、自治县、旗、自治旗、特区、林区"
 
 msgctxt "osm_admin_level_7"
 msgid "Metro"
-msgstr "省会"
+msgstr "国家级新区"
 
 msgctxt "osm_admin_level_8"
 msgid "City"
-msgstr "城市"
+msgstr "街道、镇、乡、民族乡、苏木、民族苏木、县辖区"
 
 msgctxt "osm_admin_level_9"
 msgid "Ward"
