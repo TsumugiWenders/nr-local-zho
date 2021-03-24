@@ -1,4 +1,11 @@
 # ----------------------------------------------------------
+# Beta 1.1.59版本 新添加字符串
+
+msgctxt "right_bar_assets"
+msgid "Assets"
+msgstr "资产"
+
+# ----------------------------------------------------------
 # 1.1.58版本 新添加字符串
 
 msgctxt "confirm_delete_line"
@@ -455,7 +462,7 @@ msgstr "编组"
 
 msgctxt "train_info_arrives"
 msgid "Arrives in {0}, {1:.1f} km of {2:.1f} km"
-msgstr "{0} 车 / {1:.2f}m / {2:.2f}m"
+msgstr "预计到站 {0}, {1:.1f} km / {2:.1f} km"
 
 msgctxt "train_info_car_name"
 msgid "Car:"
