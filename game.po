@@ -1,4 +1,15 @@
 # ----------------------------------------------------------
+# Beta 1.1.61版本 新添加字符串
+
+msgctxt "accounting_pax_new"
+msgid "Started trip"
+msgstr "    本日新乘客"
+
+msgctxt "accounting_pax_never_serviced"
+msgid "Never serviced"
+msgstr "    历史新乘客"
+
+# ----------------------------------------------------------
 # Beta 1.1.59版本 新添加字符串
 
 msgctxt "right_bar_assets"
