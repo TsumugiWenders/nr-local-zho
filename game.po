@@ -736,7 +736,7 @@ msgstr "{2}年 {0} {1}日 所在周"
 
 msgctxt "acl_action_allow"
 msgid "Always allow"
-msgstr "总是允许"
+msgstr "始终允许"
 
 msgctxt "acl_action_drop"
 msgid "Ignore"
@@ -744,7 +744,7 @@ msgstr "忽略"
 
 msgctxt "acl_action_queue"
 msgid "Ask me"
-msgstr "询问我"
+msgstr "询问"
 
 msgctxt "acl_allowed"
 msgid "Allowed"
@@ -756,7 +756,7 @@ msgstr "拒绝"
 
 msgctxt "acl_friend_action"
 msgid "If an uninvited friend wants to join:"
-msgstr "一个未被邀请的朋友想加入:"
+msgstr "一个未被邀请的好友想加入:"
 
 msgctxt "acl_pending"
 msgid "Pending"
@@ -804,11 +804,11 @@ msgstr "{} 加入游戏"
 
 msgctxt "banner_prompt_client_join_anon"
 msgid "Do you want to join a game hosted by {}? Your current game will be autosaved and you will quit the current server."
-msgstr "您想要加入属于 {} 的游戏吗？ 您当前的游戏进度将被自动保存，您将退出当前的服务器"
+msgstr "您想要加入属于 {} 的游戏吗？ 您当前的游戏进度将被自动保存，并会退出当前的服务器"
 
 msgctxt "banner_prompt_client_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? Your current game will be autosaved and you will quit the current server."
-msgstr "{0} 邀请您加入由 {1} 主办的游戏。 您想加入吗？您当前的游戏进度将被自动保存，您将退出当前的服务器"
+msgstr "{0} 邀请您加入由 {1} 主办的游戏，您当前的游戏进度将被自动保存，并会退出当前的服务器。您确认要加入吗？"
 
 msgctxt "banner_prompt_game_join_anon"
 msgid "Do you want to join a game hosted by {}? Your current game will be autosaved."
@@ -816,7 +816,7 @@ msgstr "您想加入由 {} 主办的游戏吗？ 您当前的游戏进度将被�
 
 msgctxt "banner_prompt_game_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? Your current game will be autosaved."
-msgstr "{0} 邀请您加入由 {1} 主持的游戏。您想加入吗？ 您的当前游戏将被自动保存"
+msgstr "{0} 邀请您加入由 {1} 主持的游戏，您当前的游戏进度将被自动保存。您确认要加入吗？"
 
 msgctxt "banner_prompt_nogame_join_anon"
 msgid "Do you want to join a game hosted by {}?"
@@ -824,7 +824,7 @@ msgstr "您想加入由 {} 主持的游戏吗？"
 
 msgctxt "banner_prompt_nogame_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join?"
-msgstr "{0} 邀请您加入 {1} 主持的游戏。您想加入吗？"
+msgstr "{0} 邀请您加入由 {1} 主持的游戏。您确认要加入吗？"
 
 msgctxt "banner_prompt_server_join_anon"
 msgid "Do you want to join a game hosted by {}? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
@@ -832,7 +832,7 @@ msgstr "你想加入由 {} 主持的游戏吗？警告:你正在主持一场游�
 
 msgctxt "banner_prompt_server_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
-msgstr "{0} 邀请您加入由 {1} 主持的游戏。你想加入吗？警告:你目前正在主持一个游戏。你所有连接的玩家都会被断开。您当前的游戏将被自动保存"
+msgstr "{0} 邀请您加入由 {1} 主持的游戏。警告:你目前正在主持一个游戏，当前游戏中所有连接的玩家都会被断开。您当前的游戏将被自动保存。您确认要加入吗？"
 
 msgctxt "bill_tab_client"
 msgid "By me"
@@ -996,11 +996,11 @@ msgstr "简体中文"
 
 msgctxt "default_han_font_jpn"
 msgid "Japanese"
-msgstr "日语"
+msgstr "日文"
 
 msgctxt "default_han_font_kor"
 msgid "Korean"
-msgstr "韩语"
+msgstr "韩文"
 
 msgctxt "default_han_font_zho"
 msgid "Traditional Chinese"
