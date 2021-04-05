@@ -9,6 +9,10 @@ msgctxt "accounting_pax_never_serviced"
 msgid "Never serviced"
 msgstr "    历史新乘客"
 
+msgctxt "lineeditor_tooltip_purchase_trains"
+msgid "Purchase new trains for this line"
+msgstr "为本线路购买新列车"
+
 # ----------------------------------------------------------
 # Beta 1.1.59版本 新添加字符串
 
@@ -872,7 +876,7 @@ msgstr "退出"
 
 msgctxt "client_blueprint_bill"
 msgid "My blueprint bill"
-msgstr "蓝图花费"
+msgstr "蓝图费用"
 
 msgctxt "client_conn_info"
 msgid "Host: {0} | {1}ms | {2:.2f}%▲ {3:.2f}%▼ | {4}▲ {5}▼ B/s"
@@ -1100,7 +1104,7 @@ msgstr "点击轨迹段，将路径点添加到线路上"
 
 msgctxt "editor_select_pick_depot"
 msgid "Click a depot on the map to set this train slot order"
-msgstr "点击地图上的一个车辆段，来设置该列车的运行时段顺序"
+msgstr "点击地图上的车辆段，以确认这个时间段"
 
 msgctxt "editor_station"
 msgid "Create new s[T]ation platforms"
@@ -1144,7 +1148,7 @@ msgstr "左键单击，创建新的轨道。按住Shift键，继续创造更多�
 
 msgctxt "editor_tip_cont_mouse"
 msgid "Hover the mouse cursor over an existing end of track to see how it would look linked with your current track"
-msgstr "将鼠标指针停留在现有轨道的末端，看看它与你当前轨道的连接效果如何"
+msgstr "将鼠标指向现有轨道的末端，看看与你刚设计轨道的连接效果"
 
 msgctxt "editor_tip_create_del"
 msgid "Del to delete selected tracks"
@@ -1276,11 +1280,11 @@ msgstr "保存游戏时出现内部错误"
 
 msgctxt "error_too_new_save"
 msgid "The game version that created this save file is newer than your game version. Update the game to load this file."
-msgstr "创建此存档的游戏版本比你的游戏版本要新，请更新游戏以加载这个文件"
+msgstr "创建此存档的游戏版本比你的游戏版本新，请更新游戏以加载这个文件"
 
 msgctxt "error_too_new_save_v"
 msgid "The game version ({}.{}.{}.{}) that created this save file is newer than your game version ({}.{}.{}.{}). Update the game to load this file."
-msgstr "创建此存档的游戏版本({}.{}.{}.{})比你的游戏版本({}.{}.{}.{})更新，更新游戏以加载该存档"
+msgstr "创建此存档的游戏版本({}.{}.{}.{})比当前的游戏版本({}.{}.{}.{})新，更新游戏以加载该存档"
 
 msgctxt "error_too_old_save"
 msgid "The game version that created this save file is too old and it cannot be loaded. Try the older v1.1 legacy branches in Steam."
@@ -1288,7 +1292,7 @@ msgstr "创建此存档的游戏版本太旧，无法加载。请尝试Steam上�
 
 msgctxt "error_too_old_save_v"
 msgid "The game version ({}.{}.{}.{}) that created this save file is too old and it cannot be loaded. Try the legacy branches in Steam."
-msgstr "创建此存档的游戏版本({}.{}.{}.{})比你的游戏版本更旧，请尝试使用Steam中的旧版分支"
+msgstr "创建此存档的游戏版本({}.{}.{}.{})比当前的游戏版本旧，请尝试使用Steam中的旧版分支"
 
 msgctxt "error_writing_file"
 msgid "Error writing to file"
@@ -1296,7 +1300,7 @@ msgstr "文件写入错误"
 
 msgctxt "error_writing_file_desc"
 msgid "The system does not allow to write in the selected file"
-msgstr "系统不允许在所选所选文件中写入"
+msgstr "系统不允许在所选文件中写入"
 
 msgctxt "ev_refunds"
 msgid "{} refunds"
@@ -1360,7 +1364,7 @@ msgstr "连接-其他游戏"
 
 msgctxt "friend_state_hosting"
 msgid "Hosting"
-msgstr "服务器中"
+msgstr "主持服务器中"
 
 msgctxt "friend_state_in_game"
 msgid "In-game"
@@ -1388,7 +1392,7 @@ msgstr "{year}年 {month} {day}日 ，{weekday} / {hours:02d}:{mins:02d}:{secs:0
 
 msgctxt "global_blueprint_bill"
 msgid "Global blueprint bill"
-msgstr "全部蓝图花费"
+msgstr "全部蓝图费用"
 
 msgctxt "host_game"
 msgid "Host game"
@@ -1400,7 +1404,7 @@ msgstr "游戏速度:"
 
 msgctxt "host_game_speed_warn"
 msgid "Large and complex builds, with many trains and stations, may not be playable at more than 1x speed in a multiplayer session."
-msgstr "在多人游戏中可能无法以超过1倍的速度进行游戏，因为游戏中包含许多大型和复杂的建筑与运算，例如火车和车站"
+msgstr "在多人游戏中可能无法以超过1倍的速度进行游戏，因为游戏中包含许多需要大量复杂的创建与运算的场景。"
 
 msgctxt "icon_file"
 msgid "Icon file:"
@@ -1748,7 +1752,7 @@ msgstr "%d 条线路"
 
 msgctxt "list_sort_reverse"
 msgid "Reverse"
-msgstr "逆向排序"
+msgstr "逆序"
 
 msgctxt "load_game"
 msgid "Load game"
@@ -1888,7 +1892,7 @@ msgstr "保留创意工坊的描述"
 
 msgctxt "mod_keep_icon"
 msgid "Keep Steamworks icon"
-msgstr "保持创意工坊的图标"
+msgstr "保留创意工坊的图标"
 
 msgctxt "mod_name"
 msgid "Name:"
@@ -1928,7 +1932,7 @@ msgstr "上传 mod 中……"
 
 msgctxt "mod_uploader_info"
 msgid "The mod uploader is a tool for mod developers. If you want to use mods when playing the game, subscribe to them in the Steam Workshop and enable them when creating a new game."
-msgstr "mod 上传器是 mod 开发者的工具。如果你想在游戏中使用 mod ，请在 Steam 创意工坊中订阅它们，并在创建新游戏时启用它们"
+msgstr "mod 上传器是 mod 开发者的工具。如果你想在游戏中使用 mod ，请在 Steam 创意工坊中订阅，并在创建新游戏时启用模组"
 
 msgctxt "mod_uploader_info_guide"
 msgid "Mod development guide"
@@ -2568,7 +2572,7 @@ msgstr "世界"
 
 msgctxt "selection_blueprint_bill"
 msgid "Selected blueprints bill"
-msgstr "选定的蓝图花费"
+msgstr "选定的蓝图费用"
 
 msgctxt "settings"
 msgid "Settings"
@@ -3176,7 +3180,7 @@ msgstr "可见性:"
 
 msgctxt "vsync_mode"
 msgid "VSync:"
-msgstr "VSync:"
+msgstr "VSync(垂直同步):"
 
 msgctxt "warning"
 msgid "Warning"
