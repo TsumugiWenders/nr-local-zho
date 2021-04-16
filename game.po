@@ -7,11 +7,11 @@ msgstr "Km"
 
 msgctxt "accounting_pax_never_serviced"
 msgid "Never serviced"
-msgstr " 历史新乘客"
+msgstr "    历史新乘客"
 
 msgctxt "accounting_pax_new"
 msgid "New pax"
-msgstr " 新行程旅客"
+msgstr "    新行程旅客"
 
 msgctxt "accounting_period_lifetime"
 msgid "Lifetime"
@@ -234,19 +234,19 @@ msgstr "基础设施"
 
 msgctxt "accounting_construction_depots"
 msgid "Depots"
-msgstr " 车辆段"
+msgstr "    车辆段"
 
 msgctxt "accounting_construction_stations"
 msgid "Stations"
-msgstr " 车站"
+msgstr "    车站"
 
 msgctxt "accounting_construction_total"
 msgid "Total construction"
-msgstr " 总计"
+msgstr "    总计"
 
 msgctxt "accounting_construction_tracks"
 msgid "Tracks"
-msgstr " 轨道"
+msgstr "    轨道"
 
 msgctxt "accounting_financing"
 msgid "Financing"
@@ -254,15 +254,15 @@ msgstr "财务"
 
 msgctxt "accounting_financing_credit"
 msgid "Credit"
-msgstr " 贷款"
+msgstr "    贷款"
 
 msgctxt "accounting_financing_interest"
 msgid "Interest"
-msgstr " 偿还贷款"
+msgstr "    偿还贷款"
 
 msgctxt "accounting_found_station_too_full"
 msgid "Compen.: full station"
-msgstr " 因车站爆满无法进站而获得赔偿"
+msgstr "            因车站爆满无法进站而获得赔偿"
 
 msgctxt "accounting_pax"
 msgid "Passengers"
@@ -270,19 +270,19 @@ msgstr "乘客"
 
 msgctxt "accounting_pax_boarded"
 msgid "Boarded train"
-msgstr " 发送乘客"
+msgstr "    发送乘客"
 
 msgctxt "accounting_pax_compensated"
 msgid "Compensated"
-msgstr " 赔偿"
+msgstr "        赔偿"
 
 msgctxt "accounting_pax_intervention"
 msgid "Compen.: intervention"
-msgstr " 因列车干预而获得赔偿"
+msgstr "            因列车干预而获得赔偿"
 
 msgctxt "accounting_pax_lost"
 msgid "Compen.: lost"
-msgstr " 因线路更改或删除而获得赔偿"
+msgstr "            因线路更改或删除而获得赔偿"
 
 msgctxt "accounting_pax_post"
 msgid "pax"
@@ -290,31 +290,31 @@ msgstr "乘客"
 
 msgctxt "accounting_pax_reached_depot"
 msgid "Refund: reached depot"
-msgstr " 因被送到车辆段而退票"
+msgstr "        因被送到车辆段而退票"
 
 msgctxt "accounting_pax_reached_destination"
 msgid "Reached destination"
-msgstr " 到达乘客"
+msgstr "    到达乘客"
 
 msgctxt "accounting_pax_reached_transfer"
 msgid "Reached transfer"
-msgstr " 中转乘客"
+msgstr "    中转乘客"
 
 msgctxt "accounting_pax_refunded"
 msgid "Refunded (incl. compen.)"
-msgstr " 总退票人数(含赔偿)"
+msgstr "    总退票人数(含赔偿)"
 
 msgctxt "accounting_pax_refused_fare"
 msgid "Refund: too high fare"
-msgstr " 因票价过高而退票"
+msgstr "        因票价过高而退票"
 
 msgctxt "accounting_pax_spawned"
 msgid "Started trip"
-msgstr " 购票乘客"
+msgstr "    购票乘客"
 
 msgctxt "accounting_pax_waited_too_long"
 msgid "Compen.: waited too long"
-msgstr " 因等待时间过长而获得赔偿"
+msgstr "            因等待时间过长而获得赔偿"
 
 msgctxt "accounting_period_day"
 msgid "Day"
@@ -358,19 +358,19 @@ msgstr "票务"
 
 msgctxt "accounting_ticketing_compensations"
 msgid "Compensations"
-msgstr " 赔偿"
+msgstr "    赔偿"
 
 msgctxt "accounting_ticketing_fares"
 msgid "Fares"
-msgstr " 售票"
+msgstr "    售票"
 
 msgctxt "accounting_ticketing_profit"
 msgid "Profit"
-msgstr " 收益"
+msgstr "    收益"
 
 msgctxt "accounting_ticketing_refunds"
 msgid "Refunds"
-msgstr " 退票"
+msgstr "    退票"
 
 msgctxt "accounting_trains"
 msgid "Trains"
@@ -378,23 +378,23 @@ msgstr "列车"
 
 msgctxt "accounting_trains_intervention"
 msgid "Interventions"
-msgstr " 干预"
+msgstr "    干预"
 
 msgctxt "accounting_trains_maintenance"
 msgid "Maintenance"
-msgstr " 维护"
+msgstr "    维护"
 
 msgctxt "accounting_trains_purchases"
 msgid "New trains"
-msgstr " 购买"
+msgstr "    购买"
 
 msgctxt "accounting_trains_running"
 msgid "Running costs"
-msgstr " 运营"
+msgstr "    运营"
 
 msgctxt "accounting_trains_sales"
 msgid "Train sales"
-msgstr " 出售"
+msgstr "    出售"
 
 msgctxt "accounting_utc_warn"
 msgid "Accounting time: {} UTC0"
@@ -1606,7 +1606,7 @@ msgstr "贷款时间:"
 
 msgctxt "loan_n"
 msgid "Loan {0} of {1}"
-msgstr "贷款 {0} / {1} "
+msgstr "贷款   {0} / {1} "
 
 msgctxt "loan_need_admin"
 msgid "Only admins can take loans"
