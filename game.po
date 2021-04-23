@@ -1,526 +1,200 @@
 # ----------------------------------------------------------
-# Beta 1.1.61版本 新添加字符串
+# 1.1.72 版本 新添加字符串
 
-msgctxt "accounting_pax_new"
-msgid "Started trip"
-msgstr "    本日新乘客"
+msgctxt "accounting_km_post"
+msgid "km"
+msgstr "Km"
 
 msgctxt "accounting_pax_never_serviced"
 msgid "Never serviced"
 msgstr "    历史新乘客"
 
-# ----------------------------------------------------------
-# Beta 1.1.59版本 新添加字符串
+msgctxt "accounting_pax_new"
+msgid "New pax"
+msgstr "    新行程旅客"
+
+msgctxt "accounting_period_lifetime"
+msgid "Lifetime"
+msgstr "生涯"
+
+msgctxt "accounting_period_lifetime_unknown"
+msgid "Since its creation"
+msgstr "自游戏创建以来"
+
+msgctxt "accounting_stats_now"
+msgid "Now"
+msgstr "当前"
+
+msgctxt "asset_lines"
+msgid "Lines"
+msgstr "线路"
+
+msgctxt "asset_stations"
+msgid "Stations"
+msgstr "车站"
+
+msgctxt "asset_trains"
+msgid "Trains"
+msgstr "列车"
+
+msgctxt "balance"
+msgid "Balance"
+msgstr "平衡性"
+
+msgctxt "confirm_set_no_cash"
+msgid "Confirm switching to unlimited money"
+msgstr "确认切换到无限金钱模式"
+
+msgctxt "confirm_set_no_cash_desc"
+msgid "Switching to unlimited money cannot be undone. Are you sure?"
+msgstr "如果切换成无限金钱模式将无法切换回来，您确定要切换吗?"
+
+msgctxt "delete_line_sell_trains"
+msgid "Delete and sell trains"
+msgstr "删除线路并出售列车"
+
+msgctxt "editor_warn_need_train_acc"
+msgid "Schedule at least one train to this line."
+msgstr "请至少安排一列列车到这条线路上。"
+
+msgctxt "editor_warn_train_speed_too_high"
+msgid "Trains might be unable to adapt to dynamic traffic and mass conditions at this min. speed"
+msgstr "列车可能无法适应最低速度下的动态交通和拥堵状况。"
+
+msgctxt "lineeditor_tooltip_purchase_trains"
+msgid "Purchase new trains for this line"
+msgstr "为本线路购买新列车"
+
+msgctxt "option_company_switch_no_cash"
+msgid "Switch to unlimited money"
+msgstr "切换到无限金钱模式"
+
+msgctxt "option_local_pax_ai"
+msgid "Pax AI at stations:"
+msgstr "车站的旅客AI:"
+
+msgctxt "option_local_pax_ai_disabled"
+msgid "Only considers optimal train"
+msgstr "仅考虑最优列车"
+
+msgctxt "option_local_pax_ai_enabled"
+msgid "Considers any train"
+msgstr "考虑任何列车"
+
+msgctxt "ridership"
+msgid "Ridership"
+msgstr "乘客数"
 
 msgctxt "right_bar_assets"
 msgid "Assets"
 msgstr "资产"
 
-# ----------------------------------------------------------
-# 1.1.58版本 新添加字符串
+msgctxt "rtstat_coverage"
+msgid "Coverage"
+msgstr "覆盖人口"
 
-msgctxt "confirm_delete_line"
-msgid "Confirm line deletion"
-msgstr "确认删除线路"
+msgctxt "rtstat_leg_m"
+msgid "Leg remaining distance"
+msgstr "当前行程段剩余距离"
 
-msgctxt "confirm_delete_line_desc"
-msgid "Do you want to delete the line named {}?"
-msgstr "你确定要删除线路 {} 吗？"
+msgctxt "rtstat_leg_s"
+msgid "Leg remaining time"
+msgstr "当前行程段剩余时间"
 
-msgctxt "delete_line"
-msgid "Delete line"
-msgstr "删除线路"
+msgctxt "rtstat_pax_avg_leg_time"
+msgid "Avg. leg time of contained pax"
+msgstr "在本站候车乘客的平均候车时间"
 
-msgctxt "editor_warn_zero_interval"
-msgid "At least one interval time is set to 0. Use the timing calculator after you are done editing the line."
-msgstr "至少有一个间隔时间被设置为0。编辑完线路后请使用列车时刻计算器。"
+msgctxt "rtstat_pax_avg_time"
+msgid "Avg. total time of contained pax"
+msgstr "在本站候车乘客的平均总行程时间"
 
-msgctxt "filter_all_matches"
-msgid "{} models"
-msgstr "{} 组列车模型"
+msgctxt "rtstat_pax_capacity"
+msgid "Capacity"
+msgstr "车站容量"
 
-msgctxt "filter_high"
-msgid "High"
-msgstr "最高"
+msgctxt "rtstat_pax_capactity_usage"
+msgid "Capacity used %"
+msgstr "车站利用率%"
 
-msgctxt "filter_high_c"
-msgid "High:"
-msgstr "最高:"
+msgctxt "rtstat_pax_new"
+msgid "Contains new pax"
+msgstr "在本站候车的新乘客"
 
-msgctxt "filter_low"
-msgid "Low"
-msgstr "最低"
+msgctxt "rtstat_pax_total"
+msgid "Contains total pax"
+msgstr "在本站候车乘客的总人数"
 
-msgctxt "filter_low_c"
-msgid "Low:"
-msgstr "最低:"
+msgctxt "rtstat_pax_transfer"
+msgid "Contains transfer pax"
+msgstr "在本站候车的中转乘客"
 
-msgctxt "filter_max_pax"
-msgid "Max pax"
-msgstr "最大乘客数"
+msgctxt "rtstat_pax_with_destination"
+msgid "Pax with destination at"
+msgstr "以本站为目的地乘客"
 
-msgctxt "filter_max_speed"
-msgid "Max speed"
-msgstr "最快速度"
+msgctxt "rtstat_pax_with_next"
+msgid "Pax with next stop at"
+msgstr "在本站下车（含中转）乘客"
 
-msgctxt "filter_price"
-msgid "Price"
-msgstr "价格"
+msgctxt "rtstat_pax_with_origin"
+msgid "Pax with origin at"
+msgstr "在本站始发乘客"
 
-msgctxt "filter_range_high"
-msgid "At most {0} {1}"
-msgstr "最高 {0} {1}"
+msgctxt "rtstat_sax_avg"
+msgid "Satisfaction"
+msgstr "满意度"
 
-msgctxt "filter_range_low"
-msgid "At least {0} {1}"
-msgstr "最低 {0} {1}"
+msgctxt "rtstat_spawn_rate"
+msgid "Spawn rate"
+msgstr "乘客生成速度"
 
-msgctxt "filter_range_low_high"
-msgid "{0} to {1} {2}"
-msgstr "从 {0} 到 {1} {2}"
+msgctxt "rtstat_speed"
+msgid "Speed"
+msgstr "速度"
 
-msgctxt "filter_some_matches"
-msgid "{0} of {1} models"
-msgstr "找到 {0}/{1} 组列车模型"
+msgctxt "sort_sep_accounting"
+msgid "--- Accounting ---"
+msgstr "---财务---"
 
-msgctxt "filter_year_intro"
-msgid "Year introduced"
-msgstr "开行年份"
+msgctxt "sort_sep_real_time"
+msgid "--- Real time ---"
+msgstr "---实时---"
 
-msgctxt "filter_year_retired"
-msgid "Year retired"
-msgstr "封存年份"
+msgctxt "switch_no_cash"
+msgid "Switch to unlimited"
+msgstr "切换到无限金钱模式"
 
-msgctxt "info_table_pax_fare"
-msgid "Paid"
-msgstr "车费"
+msgctxt "train_info_price"
+msgid "Price:"
+msgstr "单价:"
 
-msgctxt "last_interval"
-msgid "Last interval"
-msgstr "上列间隔"
+msgctxt "train_new_for_line_name"
+msgid "New train for {}"
+msgstr "{} 的新列车"
 
-msgctxt "last_train"
-msgid "Last train"
-msgstr "末班车"
+msgctxt "train_purchase_sched"
+msgid "Schedule:"
+msgstr "时间表:"
 
-msgctxt "lineeditor_auto_eta_expected_pax"
-msgid "Pax occupancy %:"
-msgstr "满座率 %:"
+msgctxt "train_purchase_sched_empty"
+msgid "Blank schedule"
+msgstr "空白时间表"
 
-msgctxt "lineeditor_pax_transfer_ai"
-msgid "Pax AI at transfers:"
-msgstr "运行时的旅客AI:"
+msgctxt "train_purchase_sched_simple"
+msgid "Run an existing line"
+msgstr "使用现有线路的时间表"
 
-msgctxt "lineeditor_pax_transfer_max_int"
-msgid "Considers line max interval"
-msgstr "优先考虑线路最大间隔"
-
-msgctxt "lineeditor_pax_transfer_min_int"
-msgid "Considers stop min interval"
-msgstr "优先考虑停站最小间隔"
-
-msgctxt "lineeditor_tooltip_lock_all_stops"
-msgid "Lock all stop times"
-msgstr "锁定所有停站时间"
-
-msgctxt "lineeditor_tooltip_unlock_all_stops"
-msgid "Unlock all stop times"
-msgstr "解锁所有停站时间"
-
-msgctxt "loader_cancelling"
-msgid "Cancelling"
-msgstr "取消中"
-
-msgctxt "loader_db_snapshot"
-msgid "Loading database snapshot"
-msgstr "正在加载数据库快照"
-
-msgctxt "loader_decompressing"
-msgid "Decompressing"
-msgstr "解压缩"
-
-msgctxt "loader_deserializing"
-msgid "Deserializing"
-msgstr "反序列化"
-
-msgctxt "loader_error_invalid"
-msgid "Invalid state"
-msgstr "无效状态"
-
-msgctxt "loader_final"
-msgid "Finalizing"
-msgstr "少女祈祷中"
-
-msgctxt "loader_importing_db"
-msgid "Importing database"
-msgstr "导入数据库"
-
-msgctxt "loader_importing_sim"
-msgid "Importing simulation state"
-msgstr "导入模拟状态"
-
-msgctxt "loader_parsing_header"
-msgid "Parsing header"
-msgstr "正在解析标头"
-
-msgctxt "loader_prep_import"
-msgid "Preparing database import"
-msgstr "准备数据库导入"
-
-msgctxt "loader_scrubbing"
-msgid "Scrubbing"
-msgstr "回写数据"
-
-msgctxt "loader_spawn"
-msgid "Spawning game loader"
-msgstr "生成游戏加载器"
-
-msgctxt "loader_updating_rules"
-msgid "Updating game rules"
-msgstr "更新游戏规则"
-
-msgctxt "msg_loading_error"
-msgid "Error loading game"
-msgstr "加载游戏时错误"
-
-msgctxt "msg_loading_game_default"
-msgid "The game is being loaded, please wait."
-msgstr "游戏正在加载中，请稍后。"
-
-msgctxt "msg_loading_game_taks"
-msgid "The game is being loaded: {}..."
-msgstr "游戏正在加载中，{} …"
-
-msgctxt "msg_loading_game_title"
-msgid "Loading game"
-msgstr "正在加载游戏"
-
-msgctxt "mvo_user_map_region_names"
-msgid "Map labels"
-msgstr "地图标签显示"
-
-msgctxt "option_company_demand"
-msgid "Pax demand factor:"
-msgstr "旅客需求系数:"
-
-msgctxt "other"
-msgid "Other"
-msgstr "其他"
-
-msgctxt "path_board_at"
-msgid "Wait and board at platform {}"
-msgstr "在 {} 站台等候上车"
-
-msgctxt "path_pax_train_warn"
-msgid "Path starts at pax next stop"
-msgstr "路径将于下一站开始"
-
-msgctxt "paxlist_waiting_pax"
-msgid "Waiting for pax..."
-msgstr "等待乘客…"
-
-msgctxt "search_section_train_models"
-msgid "Purchase train"
-msgstr "采购列车"
-
-msgctxt "stop_leg_at_speed"
-msgid "at"
-msgstr "最低"
-
-msgctxt "stop_leg_at_speed_units"
-msgid "km/h min."
+msgctxt "unit_kmh"
+msgid "km/h"
 msgstr "Km/h"
 
-msgctxt "stop_leg_m"
-msgid "{}m in"
-msgstr "{} m 用时"
-
-msgctxt "tag_autorack"
-msgid "Autorack"
-msgstr "全自动"
-
-msgctxt "tag_baggage"
-msgid "Baggage"
-msgstr "行李"
-
-msgctxt "tag_bar"
-msgid "Bar"
-msgstr "酒吧"
-
-msgctxt "tag_brake"
-msgid "Brake"
-msgstr "刹车"
-
-msgctxt "tag_broad"
-msgid "Broad"
-msgstr "宽体"
-
-msgctxt "tag_cable"
-msgid "Cable"
-msgstr "电车"
-
-msgctxt "tag_cable_car"
-msgid "Cable car"
-msgstr "缆车车厢"
-
-msgctxt "tag_coach"
-msgid "Coach"
-msgstr "长途"
-
-msgctxt "tag_commuter"
-msgid "Commuter"
-msgstr "通勤"
-
-msgctxt "tag_compartments"
-msgid "Compartments"
-msgstr "包间"
-
-msgctxt "tag_deposit"
-msgid "Deposit"
-msgstr "存包处"
-
-msgctxt "tag_diesel"
-msgid "Diesel"
-msgstr "内燃机车"
-
-msgctxt "tag_electric"
-msgid "Electric"
-msgstr "电气机车"
-
-msgctxt "tag_end_of_train"
-msgid "End of train"
-msgstr "车尾"
-
-msgctxt "tag_fantasy"
-msgid "Fantasy"
-msgstr "幻想"
-
-msgctxt "tag_filter_any"
-msgid "Any"
-msgstr "任意"
-
-msgctxt "tag_filter_ignore"
-msgid "Ignore"
-msgstr "忽略"
-
-msgctxt "tag_filter_n_tags"
-msgid "{} tags"
-msgstr "{} 个标签"
-
-msgctxt "tag_generator"
-msgid "Generator"
-msgstr "发电机"
-
-msgctxt "tag_heritage"
-msgid "Heritage"
-msgstr "遗产"
-
-msgctxt "tag_high_speed"
-msgid "High speed"
-msgstr "高速"
-
-msgctxt "tag_hotel"
-msgid "Hotel"
-msgstr "酒店"
-
-msgctxt "tag_intercity"
-msgid "Intercity"
-msgstr "城际"
-
-msgctxt "tag_light_rail"
-msgid "Light rail"
-msgstr "轻轨"
-
-msgctxt "tag_linear_induction"
-msgid "Linear induction"
-msgstr "牵引动力"
-
-msgctxt "tag_locomotive"
-msgid "Locomotive"
-msgstr "火车头"
-
-msgctxt "tag_long_distance"
-msgid "Long distance"
-msgstr "长途"
-
-msgctxt "tag_lounge"
-msgid "Lounge"
-msgstr "休息室"
-
-msgctxt "tag_maglev"
-msgid "Maglev"
-msgstr "磁悬浮"
-
-msgctxt "tag_metro"
-msgid "Metro"
-msgstr "地铁"
-
-msgctxt "tag_minimum_gauge"
-msgid "Minimum gauge"
-msgstr "窄轨"
-
-msgctxt "tag_monorail"
-msgid "Monorail"
-msgstr "单轨"
-
-msgctxt "tag_mu"
-msgid "Multiple unit"
-msgstr "动车组"
-
-msgctxt "tag_narrow"
-msgid "Narrow"
-msgstr "窄体"
-
-msgctxt "tag_observation"
-msgid "Observation"
-msgstr "观光"
-
-msgctxt "tag_people_mover"
-msgid "People mover"
-msgstr "捷运"
-
-msgctxt "tag_private"
-msgid "Private"
-msgstr "私人"
-
-msgctxt "tag_prototype"
-msgid "Prototype"
-msgstr "原型"
-
-msgctxt "tag_push_pull"
-msgid "Push-pull"
-msgstr "推拉"
-
-msgctxt "tag_railbus"
-msgid "Railbus"
-msgstr "铁路客车"
-
-msgctxt "tag_regional"
-msgid "Regional"
-msgstr "区域"
-
-msgctxt "tag_restaurant"
-msgid "Restaurant"
-msgstr "餐厅"
-
-msgctxt "tag_shuttle"
-msgid "Shuttle"
-msgstr "穿梭"
-
-msgctxt "tag_sitting"
-msgid "Sitting"
-msgstr "座票"
-
-msgctxt "tag_sleeper"
-msgid "Sleeper"
-msgstr "卧铺"
-
-msgctxt "tag_standard"
-msgid "Standard"
-msgstr "标准"
-
-msgctxt "tag_standing"
-msgid "Standing"
-msgstr "站票"
-
-msgctxt "tag_steam"
-msgid "Steam"
-msgstr "蒸汽"
-
-msgctxt "tag_tender"
-msgid "Tender"
-msgstr "煤水车"
-
-msgctxt "tag_third_rail"
-msgid "Third rail"
-msgstr "三轨"
-
-msgctxt "tag_tilting"
-msgid "Tilting"
-msgstr "摆式"
-
-msgctxt "tag_tram"
-msgid "Tram"
-msgstr "有轨电车"
-
-msgctxt "tag_turbine"
-msgid "Turbine"
-msgstr "涡轮"
-
-msgctxt "tag_tyres"
-msgid "Tyres"
-msgstr "轮胎"
-
-msgctxt "tags_gauge"
-msgid "Gauge"
-msgstr "仪表"
-
-msgctxt "tags_misc"
-msgid "Misc."
-msgstr "杂项"
-
-msgctxt "tags_power"
-msgid "Power"
-msgstr "动力"
-
-msgctxt "tags_role"
-msgid "Role"
-msgstr "规则"
-
-msgctxt "tags_units"
-msgid "Units"
-msgstr "编组"
-
-msgctxt "train_info_arrives"
-msgid "Arrives in {0}, {1:.1f} km of {2:.1f} km"
-msgstr "预计到站 {0}, {1:.1f} km / {2:.1f} km"
-
-msgctxt "train_info_car_name"
-msgid "Car:"
-msgstr "车厢:"
-
-msgctxt "train_info_departs"
-msgid "Departs in {}"
-msgstr "{} 后出发"
-
-msgctxt "train_info_departs_from"
-msgid "Departs in {0} from {1}"
-msgstr "{0} 后从 {1} 出发"
-
-msgctxt "train_info_dim_car"
-msgid "{0:.2f}m / {1:.2f}m"
-msgstr "{0:.2f}m / {1:.2f}m"
-
-msgctxt "train_info_late"
-msgid "Late by {0}, {1:.1f} km of {2:.1f} km"
-msgstr "晚点 {0}, {1:.1f} km / {2:.1f} km"
-
-msgctxt "train_n_copies"
-msgid "Trains:"
-msgstr "数量:"
-
-msgctxt "train_texture_info"
-msgid "Train textures: {} of {} max"
-msgstr "列车纹理: 已用{} 最多 {}"
-
-msgctxt "train_textures_option"
-msgid "Train textures:"
-msgstr "列车纹理"
-
-msgctxt "train_units_inst"
-msgid "Units:"
-msgstr "编组"
-
-msgctxt "train_want_clone_schedule"
-msgid "Clone schedule of {}"
-msgstr "克隆 {} 的整个时间表"
-
-msgctxt "transfers_to"
-msgid "Transfers to {}"
-msgstr "移动到 {}"
+msgctxt "unit_pax"
+msgid "pax"
+msgstr "乘客"
 
 # ----------------------------------------------------------
-# 1.1.47 及以前版本 新添加字符串
+# 1.1.58 及以前版本 新添加字符串
 
 msgctxt "10_minutes"
 msgid "10 minutes"
@@ -646,10 +320,6 @@ msgctxt "accounting_period_day"
 msgid "Day"
 msgstr "日"
 
-msgctxt "accounting_period_lifetme"
-msgid "Lifetime"
-msgstr "全部时间"
-
 msgctxt "accounting_period_month"
 msgid "Month"
 msgstr "月"
@@ -727,7 +397,7 @@ msgid "Train sales"
 msgstr "    出售"
 
 msgctxt "accounting_utc_warn"
-msgid "Accounting time: {} UTC-0"
+msgid "Accounting time: {} UTC0"
 msgstr "财务时间: {} UTC-0"
 
 msgctxt "accounting_week_title"
@@ -736,7 +406,7 @@ msgstr "{2}年 {0} {1}日 所在周"
 
 msgctxt "acl_action_allow"
 msgid "Always allow"
-msgstr "总是允许"
+msgstr "始终允许"
 
 msgctxt "acl_action_drop"
 msgid "Ignore"
@@ -744,7 +414,7 @@ msgstr "忽略"
 
 msgctxt "acl_action_queue"
 msgid "Ask me"
-msgstr "询问我"
+msgstr "询问"
 
 msgctxt "acl_allowed"
 msgid "Allowed"
@@ -756,7 +426,7 @@ msgstr "拒绝"
 
 msgctxt "acl_friend_action"
 msgid "If an uninvited friend wants to join:"
-msgstr "一个未被邀请的朋友想加入:"
+msgstr "一个未被邀请的好友想加入:"
 
 msgctxt "acl_pending"
 msgid "Pending"
@@ -804,11 +474,11 @@ msgstr "{} 加入游戏"
 
 msgctxt "banner_prompt_client_join_anon"
 msgid "Do you want to join a game hosted by {}? Your current game will be autosaved and you will quit the current server."
-msgstr "您想要加入属于 {} 的游戏吗？ 您当前的游戏进度将被自动保存，您将退出当前的服务器"
+msgstr "您想要加入属于 {} 的游戏吗？ 您当前的游戏进度将被自动保存，并会退出当前的服务器"
 
 msgctxt "banner_prompt_client_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? Your current game will be autosaved and you will quit the current server."
-msgstr "{0} 邀请您加入由 {1} 主办的游戏。 您想加入吗？您当前的游戏进度将被自动保存，您将退出当前的服务器"
+msgstr "{0} 邀请您加入由 {1} 主办的游戏，您当前的游戏进度将被自动保存，并会退出当前的服务器。您确认要加入吗？"
 
 msgctxt "banner_prompt_game_join_anon"
 msgid "Do you want to join a game hosted by {}? Your current game will be autosaved."
@@ -816,7 +486,7 @@ msgstr "您想加入由 {} 主办的游戏吗？ 您当前的游戏进度将被�
 
 msgctxt "banner_prompt_game_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? Your current game will be autosaved."
-msgstr "{0} 邀请您加入由 {1} 主持的游戏。您想加入吗？ 您的当前游戏将被自动保存"
+msgstr "{0} 邀请您加入由 {1} 主持的游戏，您当前的游戏进度将被自动保存。您确认要加入吗？"
 
 msgctxt "banner_prompt_nogame_join_anon"
 msgid "Do you want to join a game hosted by {}?"
@@ -824,7 +494,7 @@ msgstr "您想加入由 {} 主持的游戏吗？"
 
 msgctxt "banner_prompt_nogame_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join?"
-msgstr "{0} 邀请您加入 {1} 主持的游戏。您想加入吗？"
+msgstr "{0} 邀请您加入由 {1} 主持的游戏。您确认要加入吗？"
 
 msgctxt "banner_prompt_server_join_anon"
 msgid "Do you want to join a game hosted by {}? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
@@ -832,7 +502,7 @@ msgstr "你想加入由 {} 主持的游戏吗？警告:你正在主持一场游�
 
 msgctxt "banner_prompt_server_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
-msgstr "{0} 邀请您加入由 {1} 主持的游戏。你想加入吗？警告:你目前正在主持一个游戏。你所有连接的玩家都会被断开。您当前的游戏将被自动保存"
+msgstr "{0} 邀请您加入由 {1} 主持的游戏。警告:你目前正在主持一个游戏，当前游戏中所有连接的玩家都会被断开。您当前的游戏将被自动保存。您确认要加入吗？"
 
 msgctxt "bill_tab_client"
 msgid "By me"
@@ -872,7 +542,7 @@ msgstr "退出"
 
 msgctxt "client_blueprint_bill"
 msgid "My blueprint bill"
-msgstr "蓝图花费"
+msgstr "蓝图费用"
 
 msgctxt "client_conn_info"
 msgid "Host: {0} | {1}ms | {2:.2f}%▲ {3:.2f}%▼ | {4}▲ {5}▼ B/s"
@@ -905,6 +575,14 @@ msgstr "确认删除"
 msgctxt "confirm_delete_desc"
 msgid "One or more selected tracks are already built. Deleting them will not refund your money. This operation cannot be undone. Are you sure?"
 msgstr "一个或多个选定的轨道已经建成。删除它们不会退还您的钱。此操作无法撤销。您确定吗？"
+
+msgctxt "confirm_delete_line"
+msgid "Confirm line deletion"
+msgstr "确认删除线路"
+
+msgctxt "confirm_delete_line_desc"
+msgid "Do you want to delete the line named {}?"
+msgstr "你确定要删除线路 {} 吗？"
 
 msgctxt "conflict_map_hit"
 msgid "water or road hits"
@@ -996,11 +674,11 @@ msgstr "简体中文"
 
 msgctxt "default_han_font_jpn"
 msgid "Japanese"
-msgstr "日语"
+msgstr "日文"
 
 msgctxt "default_han_font_kor"
 msgid "Korean"
-msgstr "韩语"
+msgstr "韩文"
 
 msgctxt "default_han_font_zho"
 msgid "Traditional Chinese"
@@ -1013,6 +691,10 @@ msgstr "列车 {}"
 msgctxt "delete_game_tooltip"
 msgid "Move selected game to the trash bin"
 msgstr "将选中的存档移动到回收站"
+
+msgctxt "delete_line"
+msgid "Delete line"
+msgstr "删除线路"
 
 msgctxt "delete_tracks"
 msgid "Delete tracks"
@@ -1100,7 +782,7 @@ msgstr "点击轨迹段，将路径点添加到线路上"
 
 msgctxt "editor_select_pick_depot"
 msgid "Click a depot on the map to set this train slot order"
-msgstr "点击地图上的一个车辆段，来设置该列车的运行时段顺序"
+msgstr "点击地图上的车辆段，以确认这个时间段"
 
 msgctxt "editor_station"
 msgid "Create new s[T]ation platforms"
@@ -1144,7 +826,7 @@ msgstr "左键单击，创建新的轨道。按住Shift键，继续创造更多�
 
 msgctxt "editor_tip_cont_mouse"
 msgid "Hover the mouse cursor over an existing end of track to see how it would look linked with your current track"
-msgstr "将鼠标指针停留在现有轨道的末端，看看它与你当前轨道的连接效果如何"
+msgstr "将鼠标指向现有轨道的末端，看看与你刚设计轨道的连接效果"
 
 msgctxt "editor_tip_create_del"
 msgid "Del to delete selected tracks"
@@ -1242,6 +924,10 @@ msgctxt "editor_tip_zoom"
 msgid "Zoom in to edit"
 msgstr "放大视角以进行编辑"
 
+msgctxt "editor_warn_zero_interval"
+msgid "At least one interval time is set to 0. Use the timing calculator after you are done editing the line."
+msgstr "至少有一个间隔时间被设置为0。编辑完线路后请使用列车时刻计算器。"
+
 msgctxt "editor_warn_zero_leg"
 msgid "At least one leg travel time is set to 0. Use the timing calculator after you are done editing the line."
 msgstr "至少有一个运行时间被设置为0。编辑完线路后请使用列车时刻计算器。"
@@ -1276,11 +962,11 @@ msgstr "保存游戏时出现内部错误"
 
 msgctxt "error_too_new_save"
 msgid "The game version that created this save file is newer than your game version. Update the game to load this file."
-msgstr "创建此存档的游戏版本比你的游戏版本要新，请更新游戏以加载这个文件"
+msgstr "创建此存档的游戏版本比你的游戏版本新，请更新游戏以加载这个文件"
 
 msgctxt "error_too_new_save_v"
 msgid "The game version ({}.{}.{}.{}) that created this save file is newer than your game version ({}.{}.{}.{}). Update the game to load this file."
-msgstr "创建此存档的游戏版本({}.{}.{}.{})比你的游戏版本({}.{}.{}.{})更新，更新游戏以加载该存档"
+msgstr "创建此存档的游戏版本({}.{}.{}.{})比当前的游戏版本({}.{}.{}.{})新，更新游戏以加载该存档"
 
 msgctxt "error_too_old_save"
 msgid "The game version that created this save file is too old and it cannot be loaded. Try the older v1.1 legacy branches in Steam."
@@ -1288,7 +974,7 @@ msgstr "创建此存档的游戏版本太旧，无法加载。请尝试Steam上�
 
 msgctxt "error_too_old_save_v"
 msgid "The game version ({}.{}.{}.{}) that created this save file is too old and it cannot be loaded. Try the legacy branches in Steam."
-msgstr "创建此存档的游戏版本({}.{}.{}.{})比你的游戏版本更旧，请尝试使用Steam中的旧版分支"
+msgstr "创建此存档的游戏版本({}.{}.{}.{})比当前的游戏版本旧，请尝试使用Steam中的旧版分支"
 
 msgctxt "error_writing_file"
 msgid "Error writing to file"
@@ -1296,7 +982,7 @@ msgstr "文件写入错误"
 
 msgctxt "error_writing_file_desc"
 msgid "The system does not allow to write in the selected file"
-msgstr "系统不允许在所选所选文件中写入"
+msgstr "系统不允许在所选文件中写入"
 
 msgctxt "ev_refunds"
 msgid "{} refunds"
@@ -1338,6 +1024,62 @@ msgctxt "file_picker_version_old"
 msgid "1.1.35 or earlier (model v{})"
 msgstr "1.1.35 或更早 (model v{})"
 
+msgctxt "filter_all_matches"
+msgid "{} models"
+msgstr "{} 组列车模型"
+
+msgctxt "filter_high"
+msgid "High"
+msgstr "最高"
+
+msgctxt "filter_high_c"
+msgid "High:"
+msgstr "最高:"
+
+msgctxt "filter_low"
+msgid "Low"
+msgstr "最低"
+
+msgctxt "filter_low_c"
+msgid "Low:"
+msgstr "最低:"
+
+msgctxt "filter_max_pax"
+msgid "Max pax"
+msgstr "最大乘客数"
+
+msgctxt "filter_max_speed"
+msgid "Max speed"
+msgstr "最快速度"
+
+msgctxt "filter_price"
+msgid "Price"
+msgstr "价格"
+
+msgctxt "filter_range_high"
+msgid "At most {0} {1}"
+msgstr "最高 {0} {1}"
+
+msgctxt "filter_range_low"
+msgid "At least {0} {1}"
+msgstr "最低 {0} {1}"
+
+msgctxt "filter_range_low_high"
+msgid "{0} to {1} {2}"
+msgstr "从 {0} 到 {1} {2}"
+
+msgctxt "filter_some_matches"
+msgid "{0} of {1} models"
+msgstr "找到 {0}/{1} 组列车模型"
+
+msgctxt "filter_year_intro"
+msgid "Year introduced"
+msgstr "开行年份"
+
+msgctxt "filter_year_retired"
+msgid "Year retired"
+msgstr "封存年份"
+
 msgctxt "friend_state_away"
 msgid "Away"
 msgstr "离开"
@@ -1360,7 +1102,7 @@ msgstr "连接-其他游戏"
 
 msgctxt "friend_state_hosting"
 msgid "Hosting"
-msgstr "服务器中"
+msgstr "主持服务器中"
 
 msgctxt "friend_state_in_game"
 msgid "In-game"
@@ -1388,7 +1130,7 @@ msgstr "{year}年 {month} {day}日 ，{weekday} / {hours:02d}:{mins:02d}:{secs:0
 
 msgctxt "global_blueprint_bill"
 msgid "Global blueprint bill"
-msgstr "全部蓝图花费"
+msgstr "全部蓝图费用"
 
 msgctxt "host_game"
 msgid "Host game"
@@ -1400,7 +1142,7 @@ msgstr "游戏速度:"
 
 msgctxt "host_game_speed_warn"
 msgid "Large and complex builds, with many trains and stations, may not be playable at more than 1x speed in a multiplayer session."
-msgstr "在多人游戏中可能无法以超过1倍的速度进行游戏，因为游戏中包含许多大型和复杂的建筑与运算，例如火车和车站"
+msgstr "在多人游戏中可能无法以超过1倍的速度进行游戏，因为游戏中包含许多需要大量复杂的创建与运算的场景。"
 
 msgctxt "icon_file"
 msgid "Icon file:"
@@ -1425,6 +1167,10 @@ msgstr "目的地"
 msgctxt "info_table_pax_destination_tp"
 msgid "Destination station"
 msgstr "目的车站"
+
+msgctxt "info_table_pax_fare"
+msgid "Paid"
+msgstr "车费"
 
 msgctxt "info_table_pax_fare_tp"
 msgid "Fare(s) paid so far"
@@ -1518,6 +1264,14 @@ msgctxt "language_pick"
 msgid "Language:"
 msgstr "语言:"
 
+msgctxt "last_interval"
+msgid "Last interval"
+msgstr "上列间隔"
+
+msgctxt "last_train"
+msgid "Last train"
+msgstr "末班车"
+
 msgctxt "line_0_stops"
 msgid "0 stops"
 msgstr "0 个车站"
@@ -1606,25 +1360,9 @@ msgctxt "lineeditor_auto_acc_ramp"
 msgid "Acceleration ramp:"
 msgstr "自动加速度计算:"
 
-msgctxt "lineeditor_auto_acc_ramp_01"
-msgid "Fixed 0.1 ms-2"
-msgstr "固定 0.1 ms²"
-
-msgctxt "lineeditor_auto_acc_ramp_02"
-msgid "Fixed 0.2 ms-2"
-msgstr "固定 0.2 ms²"
-
-msgctxt "lineeditor_auto_acc_ramp_03"
-msgid "Fixed 0.3 ms-2"
-msgstr "固定 0.3 ms²"
-
-msgctxt "lineeditor_auto_acc_ramp_04"
-msgid "Fixed 0.4 ms-2"
-msgstr "固定 0.4 ms²"
-
-msgctxt "lineeditor_auto_acc_ramp_05"
-msgid "Fixed 0.5 ms-2"
-msgstr "固定 0.5 ms²"
+msgctxt "lineeditor_auto_eta_expected_pax"
+msgid "Pax occupancy %:"
+msgstr "满座率 %:"
 
 msgctxt "lineeditor_auto_eta_max_speed"
 msgid "Train max speed:"
@@ -1690,6 +1428,18 @@ msgctxt "lineeditor_name"
 msgid "Name:"
 msgstr "线路名称:"
 
+msgctxt "lineeditor_pax_transfer_ai"
+msgid "Pax AI at transfers:"
+msgstr "运行时的旅客AI:"
+
+msgctxt "lineeditor_pax_transfer_max_int"
+msgid "Considers line max interval"
+msgstr "优先考虑线路最大间隔"
+
+msgctxt "lineeditor_pax_transfer_min_int"
+msgid "Considers stop min interval"
+msgstr "优先考虑停站最小间隔"
+
 msgctxt "lineeditor_price_base"
 msgid "Base ticket price:"
 msgstr "基础票价:"
@@ -1718,6 +1468,10 @@ msgctxt "lineeditor_tooltip_down_stop"
 msgid "Move down selected stop"
 msgstr "向下移动选定的车站"
 
+msgctxt "lineeditor_tooltip_lock_all_stops"
+msgid "Lock all stop times"
+msgstr "锁定所有停站时间"
+
 msgctxt "lineeditor_tooltip_new"
 msgid "Create a new line"
 msgstr "创建一条新线路"
@@ -1725,6 +1479,10 @@ msgstr "创建一条新线路"
 msgctxt "lineeditor_tooltip_show_mini_editor"
 msgid "Timing calculator"
 msgstr "时间计算器"
+
+msgctxt "lineeditor_tooltip_unlock_all_stops"
+msgid "Unlock all stop times"
+msgstr "解锁所有停站时间"
 
 msgctxt "lineeditor_tooltip_up_stop"
 msgid "Move up selected stop"
@@ -1748,11 +1506,63 @@ msgstr "%d 条线路"
 
 msgctxt "list_sort_reverse"
 msgid "Reverse"
-msgstr "逆向排序"
+msgstr "逆序"
 
 msgctxt "load_game"
 msgid "Load game"
 msgstr "加载游戏"
+
+msgctxt "loader_cancelling"
+msgid "Cancelling"
+msgstr "取消中"
+
+msgctxt "loader_db_snapshot"
+msgid "Loading database snapshot"
+msgstr "正在加载数据库快照"
+
+msgctxt "loader_decompressing"
+msgid "Decompressing"
+msgstr "解压缩"
+
+msgctxt "loader_deserializing"
+msgid "Deserializing"
+msgstr "反序列化"
+
+msgctxt "loader_error_invalid"
+msgid "Invalid state"
+msgstr "无效状态"
+
+msgctxt "loader_final"
+msgid "Finalizing"
+msgstr "少女祈祷中"
+
+msgctxt "loader_importing_db"
+msgid "Importing database"
+msgstr "导入数据库"
+
+msgctxt "loader_importing_sim"
+msgid "Importing simulation state"
+msgstr "导入模拟状态"
+
+msgctxt "loader_parsing_header"
+msgid "Parsing header"
+msgstr "正在解析标头"
+
+msgctxt "loader_prep_import"
+msgid "Preparing database import"
+msgstr "准备数据库导入"
+
+msgctxt "loader_scrubbing"
+msgid "Scrubbing"
+msgstr "回写数据"
+
+msgctxt "loader_spawn"
+msgid "Spawning game loader"
+msgstr "生成游戏加载器"
+
+msgctxt "loader_updating_rules"
+msgid "Updating game rules"
+msgstr "更新游戏规则"
 
 msgctxt "loading_elip"
 msgid "Loading..."
@@ -1888,7 +1698,7 @@ msgstr "保留创意工坊的描述"
 
 msgctxt "mod_keep_icon"
 msgid "Keep Steamworks icon"
-msgstr "保持创意工坊的图标"
+msgstr "保留创意工坊的图标"
 
 msgctxt "mod_name"
 msgid "Name:"
@@ -1928,7 +1738,7 @@ msgstr "上传 mod 中……"
 
 msgctxt "mod_uploader_info"
 msgid "The mod uploader is a tool for mod developers. If you want to use mods when playing the game, subscribe to them in the Steam Workshop and enable them when creating a new game."
-msgstr "mod 上传器是 mod 开发者的工具。如果你想在游戏中使用 mod ，请在 Steam 创意工坊中订阅它们，并在创建新游戏时启用它们"
+msgstr "mod 上传器是 mod 开发者的工具。如果你想在游戏中使用 mod ，请在 Steam 创意工坊中订阅，并在创建新游戏时启用模组"
 
 msgctxt "mod_uploader_info_guide"
 msgid "Mod development guide"
@@ -2178,6 +1988,22 @@ msgctxt "msaa_mode"
 msgid "MSAA:"
 msgstr "MSAA(多重采样抗锯齿):"
 
+msgctxt "msg_loading_error"
+msgid "Error loading game"
+msgstr "加载游戏时错误"
+
+msgctxt "msg_loading_game_default"
+msgid "The game is being loaded, please wait."
+msgstr "游戏正在加载中，请稍后。"
+
+msgctxt "msg_loading_game_taks"
+msgid "The game is being loaded: {}..."
+msgstr "游戏正在加载中，{} …"
+
+msgctxt "msg_loading_game_title"
+msgid "Loading game"
+msgstr "正在加载游戏"
+
 msgctxt "multiplayer"
 msgid "Multiplayer"
 msgstr "多人游戏"
@@ -2185,6 +2011,10 @@ msgstr "多人游戏"
 msgctxt "mvo_user_line_stops"
 msgid "Line stops"
 msgstr "线路停靠点及导航点显示"
+
+msgctxt "mvo_user_map_region_names"
+msgid "Map labels"
+msgstr "地图标签显示"
 
 msgctxt "mvo_user_station_event"
 msgid "Station events"
@@ -2254,6 +2084,10 @@ msgctxt "open_games_folder_tooltip"
 msgid "Open saved games folder"
 msgstr "打开存档所在的文件夹"
 
+msgctxt "option_company_demand"
+msgid "Pax demand factor:"
+msgstr "旅客需求系数:"
+
 msgctxt "option_company_name"
 msgid "Company name:"
 msgstr "公司名称:"
@@ -2314,6 +2148,10 @@ msgctxt "osm_admin_level_9"
 msgid "Ward"
 msgstr "街道"
 
+msgctxt "other"
+msgid "Other"
+msgstr "其他"
+
 msgctxt "overpass_n_0"
 msgid "0 overpasses"
 msgstr "0 座铁道桥"
@@ -2349,6 +2187,14 @@ msgstr "{} 被保存为不同的游戏版本。你是想覆盖它，还是给它
 msgctxt "paste"
 msgid "Paste"
 msgstr "粘贴"
+
+msgctxt "path_board_at"
+msgid "Wait and board at platform {}"
+msgstr "在 {} 站台等候上车"
+
+msgctxt "path_pax_train_warn"
+msgid "Path starts at pax next stop"
+msgstr "路径将于下一站开始"
 
 msgctxt "pax_tab"
 msgid "Passengers"
@@ -2389,6 +2235,10 @@ msgstr "{} 新乘客"
 msgctxt "paxlist_n_pax"
 msgid "{} pax"
 msgstr "{} 乘客"
+
+msgctxt "paxlist_waiting_pax"
+msgid "Waiting for pax..."
+msgstr "等待乘客…"
 
 msgctxt "pending_validations"
 msgid "Validating tracks and stations, {} to go"
@@ -2558,6 +2408,10 @@ msgctxt "search_section_stations"
 msgid "Stations"
 msgstr "车站"
 
+msgctxt "search_section_train_models"
+msgid "Purchase train"
+msgstr "采购列车"
+
 msgctxt "search_section_trains"
 msgid "Trains"
 msgstr "列车"
@@ -2568,7 +2422,7 @@ msgstr "世界"
 
 msgctxt "selection_blueprint_bill"
 msgid "Selected blueprints bill"
-msgstr "选定的蓝图花费"
+msgstr "选定的蓝图费用"
 
 msgctxt "settings"
 msgid "Settings"
@@ -2634,6 +2488,18 @@ msgctxt "stop_idx"
 msgid "Stop {}"
 msgstr "车站 {}"
 
+msgctxt "stop_leg_at_speed"
+msgid "at"
+msgstr "最低"
+
+msgctxt "stop_leg_at_speed_units"
+msgid "km/h min."
+msgstr "Km/h"
+
+msgctxt "stop_leg_m"
+msgid "{}m in"
+msgstr "{} m 用时"
+
 msgctxt "stops_n_0"
 msgid "0 stops"
 msgstr "0 个车站"
@@ -2665,6 +2531,242 @@ msgstr "在创意工坊中订阅"
 msgctxt "subscribe_to_mods"
 msgid "Subscribe to new mods"
 msgstr "订阅新的模组"
+
+msgctxt "tag_autorack"
+msgid "Autorack"
+msgstr "全自动"
+
+msgctxt "tag_baggage"
+msgid "Baggage"
+msgstr "行李"
+
+msgctxt "tag_bar"
+msgid "Bar"
+msgstr "酒吧"
+
+msgctxt "tag_brake"
+msgid "Brake"
+msgstr "刹车"
+
+msgctxt "tag_broad"
+msgid "Broad"
+msgstr "宽体"
+
+msgctxt "tag_cable"
+msgid "Cable"
+msgstr "电车"
+
+msgctxt "tag_cable_car"
+msgid "Cable car"
+msgstr "缆车车厢"
+
+msgctxt "tag_coach"
+msgid "Coach"
+msgstr "长途"
+
+msgctxt "tag_commuter"
+msgid "Commuter"
+msgstr "通勤"
+
+msgctxt "tag_compartments"
+msgid "Compartments"
+msgstr "包间"
+
+msgctxt "tag_deposit"
+msgid "Deposit"
+msgstr "存包处"
+
+msgctxt "tag_diesel"
+msgid "Diesel"
+msgstr "内燃机车"
+
+msgctxt "tag_electric"
+msgid "Electric"
+msgstr "电气机车"
+
+msgctxt "tag_end_of_train"
+msgid "End of train"
+msgstr "车尾"
+
+msgctxt "tag_fantasy"
+msgid "Fantasy"
+msgstr "幻想"
+
+msgctxt "tag_filter_any"
+msgid "Any"
+msgstr "任意"
+
+msgctxt "tag_filter_ignore"
+msgid "Ignore"
+msgstr "忽略"
+
+msgctxt "tag_filter_n_tags"
+msgid "{} tags"
+msgstr "{} 个标签"
+
+msgctxt "tag_generator"
+msgid "Generator"
+msgstr "发电机"
+
+msgctxt "tag_heritage"
+msgid "Heritage"
+msgstr "遗产"
+
+msgctxt "tag_high_speed"
+msgid "High speed"
+msgstr "高速"
+
+msgctxt "tag_hotel"
+msgid "Hotel"
+msgstr "酒店"
+
+msgctxt "tag_intercity"
+msgid "Intercity"
+msgstr "城际"
+
+msgctxt "tag_light_rail"
+msgid "Light rail"
+msgstr "轻轨"
+
+msgctxt "tag_linear_induction"
+msgid "Linear induction"
+msgstr "牵引动力"
+
+msgctxt "tag_locomotive"
+msgid "Locomotive"
+msgstr "火车头"
+
+msgctxt "tag_long_distance"
+msgid "Long distance"
+msgstr "长途"
+
+msgctxt "tag_lounge"
+msgid "Lounge"
+msgstr "休息室"
+
+msgctxt "tag_maglev"
+msgid "Maglev"
+msgstr "磁悬浮"
+
+msgctxt "tag_metro"
+msgid "Metro"
+msgstr "地铁"
+
+msgctxt "tag_minimum_gauge"
+msgid "Minimum gauge"
+msgstr "窄轨"
+
+msgctxt "tag_monorail"
+msgid "Monorail"
+msgstr "单轨"
+
+msgctxt "tag_mu"
+msgid "Multiple unit"
+msgstr "动车组"
+
+msgctxt "tag_narrow"
+msgid "Narrow"
+msgstr "窄体"
+
+msgctxt "tag_observation"
+msgid "Observation"
+msgstr "观光"
+
+msgctxt "tag_people_mover"
+msgid "People mover"
+msgstr "捷运"
+
+msgctxt "tag_private"
+msgid "Private"
+msgstr "私人"
+
+msgctxt "tag_prototype"
+msgid "Prototype"
+msgstr "原型"
+
+msgctxt "tag_push_pull"
+msgid "Push-pull"
+msgstr "推拉"
+
+msgctxt "tag_railbus"
+msgid "Railbus"
+msgstr "铁路客车"
+
+msgctxt "tag_regional"
+msgid "Regional"
+msgstr "区域"
+
+msgctxt "tag_restaurant"
+msgid "Restaurant"
+msgstr "餐厅"
+
+msgctxt "tag_shuttle"
+msgid "Shuttle"
+msgstr "穿梭"
+
+msgctxt "tag_sitting"
+msgid "Sitting"
+msgstr "座票"
+
+msgctxt "tag_sleeper"
+msgid "Sleeper"
+msgstr "卧铺"
+
+msgctxt "tag_standard"
+msgid "Standard"
+msgstr "标准"
+
+msgctxt "tag_standing"
+msgid "Standing"
+msgstr "站票"
+
+msgctxt "tag_steam"
+msgid "Steam"
+msgstr "蒸汽"
+
+msgctxt "tag_tender"
+msgid "Tender"
+msgstr "煤水车"
+
+msgctxt "tag_third_rail"
+msgid "Third rail"
+msgstr "三轨"
+
+msgctxt "tag_tilting"
+msgid "Tilting"
+msgstr "摆式"
+
+msgctxt "tag_tram"
+msgid "Tram"
+msgstr "有轨电车"
+
+msgctxt "tag_turbine"
+msgid "Turbine"
+msgstr "涡轮"
+
+msgctxt "tag_tyres"
+msgid "Tyres"
+msgstr "轮胎"
+
+msgctxt "tags_gauge"
+msgid "Gauge"
+msgstr "仪表"
+
+msgctxt "tags_misc"
+msgid "Misc."
+msgstr "杂项"
+
+msgctxt "tags_power"
+msgid "Power"
+msgstr "动力"
+
+msgctxt "tags_role"
+msgid "Role"
+msgstr "规则"
+
+msgctxt "tags_units"
+msgid "Units"
+msgstr "编组"
 
 msgctxt "time_h_m"
 msgid "{0}h {1}m"
@@ -2770,6 +2872,22 @@ msgctxt "train_decal_use_line_color"
 msgid "Use line color"
 msgstr "使用线路颜色"
 
+msgctxt "train_info_arrives"
+msgid "Arrives in {0}, {1:.1f} km of {2:.1f} km"
+msgstr "预计到站 {0}, {1:.1f} km / {2:.1f} km"
+
+msgctxt "train_info_car_name"
+msgid "Car:"
+msgstr "车厢:"
+
+msgctxt "train_info_departs"
+msgid "Departs in {}"
+msgstr "{} 后出发"
+
+msgctxt "train_info_departs_from"
+msgid "Departs in {0} from {1}"
+msgstr "{0} 后从 {1} 出发"
+
 msgctxt "train_info_destination"
 msgid "Destination:"
 msgstr "目的地:"
@@ -2777,6 +2895,10 @@ msgstr "目的地:"
 msgctxt "train_info_dim"
 msgid "Dimensions:"
 msgstr "外型尺寸:"
+
+msgctxt "train_info_dim_car"
+msgid "{0:.2f}m / {1:.2f}m"
+msgstr "{0:.2f}m / {1:.2f}m"
 
 msgctxt "train_info_dim_d"
 msgid "{0} units / {1:.2f}m / {2:.2f}m"
@@ -2789,6 +2911,10 @@ msgstr "动力:"
 msgctxt "train_info_empty_mass"
 msgid "Empty mass:"
 msgstr "空重:"
+
+msgctxt "train_info_late"
+msgid "Late by {0}, {1:.1f} km of {2:.1f} km"
+msgstr "晚点 {0}, {1:.1f} km / {2:.1f} km"
 
 msgctxt "train_info_line"
 msgid "Line:"
@@ -2902,13 +3028,17 @@ msgctxt "train_model_edit"
 msgid "Model:"
 msgstr "型号:"
 
+msgctxt "train_n_copies"
+msgid "Trains:"
+msgstr "数量:"
+
 msgctxt "train_name_edit"
 msgid "Name:"
 msgstr "列车名称:"
 
 msgctxt "train_price"
-msgid "Train price"
-msgstr "整列单价"
+msgid "Train price:"
+msgstr "列车单价:"
 
 msgctxt "train_purchase_no_cash"
 msgid "Not enough money for purchase"
@@ -3034,13 +3164,29 @@ msgctxt "train_sched_start_stop"
 msgid "Start from:"
 msgstr "开始于:"
 
+msgctxt "train_texture_info"
+msgid "Train textures: {} of {} max"
+msgstr "列车纹理: 已用{} 最多 {}"
+
+msgctxt "train_textures_option"
+msgid "Train textures:"
+msgstr "列车纹理"
+
 msgctxt "train_total_price_1"
-msgid "Total for 1 train"
-msgstr "共计 1列 总价"
+msgid "Total for 1 train:"
+msgstr "共计 1列 总价:"
 
 msgctxt "train_total_price_many"
-msgid "Total for %d trains"
-msgstr "共计 %d列 总价"
+msgid "Total for %d trains:"
+msgstr "共计 %d列 总价:"
+
+msgctxt "train_units_inst"
+msgid "Units:"
+msgstr "编组"
+
+msgctxt "train_want_clone_schedule"
+msgid "Clone from {}"
+msgstr "从 {} 克隆时间表"
 
 msgctxt "traineditor_clear_selection"
 msgid "Clear selection"
@@ -3101,6 +3247,10 @@ msgstr "1列 列车"
 msgctxt "trains_n_many"
 msgid "%d trains"
 msgstr "%d列 列车"
+
+msgctxt "transfers_to"
+msgid "Transfers to {}"
+msgstr "移动到 {}"
 
 msgctxt "ugc_error_conn"
 msgid "Error while connecting with Steamworks"
@@ -3176,7 +3326,7 @@ msgstr "可见性:"
 
 msgctxt "vsync_mode"
 msgid "VSync:"
-msgstr "VSync:"
+msgstr "VSync(垂直同步):"
 
 msgctxt "warning"
 msgid "Warning"
@@ -3258,13 +3408,8 @@ msgctxt "wrong_schema_mod"
 msgid "This mod data is enabled in the current game, but its installed files require a newer game version. Update the game."
 msgstr "此模组在当前游戏中已启用，但其安装的文件需要更新的游戏版本。请更新游戏"
 
-
 # ----------------------------------------------------------
 #删除的（老版本）字符串
-
-msgctxt "info_table_pax_fare"
-msgid "Fare"
-msgstr "车费"
 
 msgctxt "lineeditor_auto_eta_avg_branch_wait"
 msgid "Avg. branch (mm:ss):"
@@ -3282,13 +3427,13 @@ msgctxt "matches_n_many"
 msgid "%d coincidencias"
 msgstr "%d coincidencias"
 
+msgctxt "info_table_pax_fare"
+msgid "Fare"
+msgstr "车费"
+
 msgctxt "sax_tooltip"
 msgid "Overall: {0:+.2f} ({1}) | Time: {2:+.2f} | Fare: {3:+.2f}"
 msgstr "整体: {0:+.2f} ({1}) | 时间: {2:+.2f} | 票价: {3:+.2f}"
-
-msgctxt "search_section_nearby"
-msgid "Nearby"
-msgstr "附近"
 
 msgctxt "train_info_force"
 msgid "Tractive force:"
@@ -3301,6 +3446,22 @@ msgstr "所有线路"
 msgctxt "train_list_filter_all_models"
 msgid "All models"
 msgstr "所有型号"
+
+msgctxt "traineditor_delete_all_selected"
+msgid "Delete selected trains"
+msgstr "删除所选列车"
+
+msgctxt "traineditor_tooltip_del"
+msgid "Delete selected train"
+msgstr "删除选择列车"
+
+msgctxt "wrong_protocol"
+msgid "Protocol mismatch with server. Make sure both your client and the server are updated to the latest game version."
+msgstr "协议与服务器不匹配。 确保您的客户端和服务器都已更新到最新的游戏版本。"
+
+msgctxt "search_section_nearby"
+msgid "Nearby"
+msgstr "附近"
 
 msgctxt "train_n_cars_edit"
 msgid "Cars:"
@@ -3322,18 +3483,30 @@ msgctxt "trains_models_n_many"
 msgid "%d models"
 msgstr "%d种 型号"
 
-msgctxt "traineditor_delete_all_selected"
-msgid "Delete selected trains"
-msgstr "删除所选列车"
-
-msgctxt "traineditor_tooltip_del"
-msgid "Delete selected train"
-msgstr "删除选择列车"
-
 msgctxt "unit_price"
 msgid "Unit price"
 msgstr "列车单价"
 
-msgctxt "wrong_protocol"
-msgid "Protocol mismatch with server. Make sure both your client and the server are updated to the latest game version."
-msgstr "协议与服务器不匹配。 确保您的客户端和服务器都已更新到最新的游戏版本。"
+msgctxt "accounting_period_lifetme"
+msgid "Lifetime"
+msgstr "全部时间"
+
+msgctxt "lineeditor_auto_acc_ramp_01"
+msgid "Fixed 0.1 ms-2"
+msgstr "固定 0.1 ms²"
+
+msgctxt "lineeditor_auto_acc_ramp_02"
+msgid "Fixed 0.2 ms-2"
+msgstr "固定 0.2 ms²"
+
+msgctxt "lineeditor_auto_acc_ramp_03"
+msgid "Fixed 0.3 ms-2"
+msgstr "固定 0.3 ms²"
+
+msgctxt "lineeditor_auto_acc_ramp_04"
+msgid "Fixed 0.4 ms-2"
+msgstr "固定 0.4 ms²"
+
+msgctxt "lineeditor_auto_acc_ramp_05"
+msgid "Fixed 0.5 ms-2"
+msgstr "固定 0.5 ms²"
