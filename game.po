@@ -1,4 +1,35 @@
 # ----------------------------------------------------------
+# Beta 1.2.2 版本 新添加字符串
+
+msgctxt "editor_tip_cont_alt"
+msgid "Alt to toggle the parallel track side"
+msgstr "Alt键交叉轨道，改变轨道行进的方向"
+
+msgctxt "lineeditor_basics"
+msgid "Basics:"
+msgstr "线路设置:"
+
+msgctxt "lineeditor_default_timings"
+msgid "Default timings:"
+msgstr "时间表:"
+
+msgctxt "lineeditor_service_level"
+msgid "Service level:"
+msgstr "提供服务:"
+
+msgctxt "lineeditor_service_level_closed"
+msgid "Closed"
+msgstr "停驶"
+
+msgctxt "lineeditor_service_level_full"
+msgid "Full"
+msgstr "载客"
+
+msgctxt "mvo_user_signals"
+msgid "Signals"
+msgstr "信号显示"
+
+# ----------------------------------------------------------
 # 1.1.72 版本 新添加字符串
 
 msgctxt "accounting_km_post"
