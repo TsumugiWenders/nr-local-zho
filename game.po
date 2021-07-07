@@ -70,7 +70,7 @@ msgstr "列车"
 
 msgctxt "balance"
 msgid "Balance"
-msgstr "平衡性"
+msgstr "余额"
 
 msgctxt "confirm_set_no_cash"
 msgid "Confirm switching to unlimited money"
@@ -206,15 +206,15 @@ msgstr "{} 的新列车"
 
 msgctxt "train_purchase_sched"
 msgid "Schedule:"
-msgstr "时间表:"
+msgstr "时刻表:"
 
 msgctxt "train_purchase_sched_empty"
 msgid "Blank schedule"
-msgstr "空白时间表"
+msgstr "空白时刻表"
 
 msgctxt "train_purchase_sched_simple"
 msgid "Run an existing line"
-msgstr "使用现有线路的时间表"
+msgstr "应用既有线的时刻表"
 
 msgctxt "unit_kmh"
 msgid "km/h"
