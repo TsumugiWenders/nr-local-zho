@@ -2,7 +2,7 @@
 schema=1
 name=chinese mod
 author=Tsumugi Wenders & WONDEO
-version=1.1.2 beta
+version=1.2.16 beta
 
 [Language]
 code_iso_639_2=zho
