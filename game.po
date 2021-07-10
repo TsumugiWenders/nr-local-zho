@@ -347,7 +347,7 @@ msgstr "双轨设置信号为左行"
 
 msgctxt "plat_auto_scissors"
 msgid "Auto append scissor intersections and path signals for double platforms"
-msgstr "自动添加站台交叉线及路径信号"
+msgstr "自动添加站台交叉渡线及路径信号"
 
 msgctxt "plat_auto_stops"
 msgid "Auto append platform stop point signals"
@@ -379,39 +379,39 @@ msgstr "切换方向"
 
 msgctxt "signal_kind_block_balise"
 msgid "Block balise"
-msgstr "应答器"
+msgstr "闭塞信号机"
 
 msgctxt "signal_kind_name_oneway"
 msgid "One way"
-msgstr "单行线"
+msgstr "单行标志"
 
 msgctxt "signal_kind_name_platform_stop"
 msgid "Platform train stop point"
-msgstr "停车线"
+msgstr "停车标志"
 
 msgctxt "signal_kind_path"
 msgid "Path signal"
-msgstr "通路信号机"
+msgstr "进路信号机"
 
 msgctxt "signal_kind_simple_block"
 msgid "Simple block"
-msgstr "简易信号机"
+msgstr "闭塞信号机"
 
 msgctxt "signal_limits_block"
 msgid "Bounds other signals:"
-msgstr "信号范围:"
+msgstr "进路排列终点:"
 
 msgctxt "signal_limits_block_always"
 msgid "Always"
-msgstr "前方任意信号机"
+msgstr "任意进路"
 
 msgctxt "signal_limits_block_same"
 msgid "Only for same direction"
-msgstr "仅同方向信号机"
+msgstr "仅同方向进路"
 
 msgctxt "signal_long_check"
 msgid "Check path up to:"
-msgstr "检查通路"
+msgstr "排列通路至:"
 
 msgctxt "signal_side"
 msgid "Side (cosmetic):"
@@ -431,11 +431,11 @@ msgstr "1"
 
 msgctxt "signal_stop_check_only_signals"
 msgid "Only signals"
-msgstr "仅信号机"
+msgstr "信号机"
 
 msgctxt "signal_stop_check_signals_stops"
 msgid "Signals and train stop"
-msgstr "信号机及车站"
+msgstr "信号机或停车点"
 
 msgctxt "signal_toggle"
 msgid "Toggle"
