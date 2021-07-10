@@ -339,19 +339,19 @@ msgstr "热键绑定"
 
 msgctxt "plat_auto_direction"
 msgid "Auto append direction signals"
-msgstr "自动添加方向信号"
+msgstr "自动添加单行方向标志"
 
 msgctxt "plat_auto_direction_lr"
 msgid "Drive on left for double platforms"
-msgstr "双轨设置信号为左行"
+msgstr "双轨设置单行方向为左行"
 
 msgctxt "plat_auto_scissors"
 msgid "Auto append scissor intersections and path signals for double platforms"
-msgstr "自动添加站台交叉渡线及路径信号"
+msgstr "自动添加站台交叉渡线及信号机"
 
 msgctxt "plat_auto_stops"
 msgid "Auto append platform stop point signals"
-msgstr "自动添加站台停车线"
+msgstr "自动添加站台停车标志"
 
 msgctxt "signal_dir_m1"
 msgid "-1"
