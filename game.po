@@ -395,7 +395,7 @@ msgstr "进路信号机"
 
 msgctxt "signal_kind_simple_block"
 msgid "Simple block"
-msgstr "闭塞信号机"
+msgstr "闭塞区边界"
 
 msgctxt "signal_limits_block"
 msgid "Bounds other signals:"
