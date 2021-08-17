@@ -4157,3 +4157,10 @@ msgstr "城市有轨电车"
 msgctxt "AlstomCitadis_comp"
 msgid "CityTram"
 msgstr "城市有轨电车"
+
+# ----------------------------------------------------------
+# 轨道翻译
+
+msgctxt "waw_example_track_1_name"
+msgid "Example tracks mod"
+msgstr "测试铁轨mod 翻译"
