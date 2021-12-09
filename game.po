@@ -1,4 +1,27 @@
 # ----------------------------------------------------------
+# Beta 1.3.12 新添加字符串
+
+msgctxt "alert_on"
+msgid "Alert on:"
+msgstr "警报:"
+
+msgctxt "alert_after"
+msgid "After"
+msgstr "在"
+
+msgctxt "lineeditor_tags"
+msgid "Tags:"
+msgstr "标签:"
+
+msgctxt "right_bar_tags"
+msgid "Tags"
+msgstr "标签"
+
+msgctxt "signal_kind_name_noway"
+msgid "No way"
+msgstr "禁行标志"
+
+# ----------------------------------------------------------
 # 1.2.29 版本 新添加字符串
 
 msgctxt "depth_layer_n"
