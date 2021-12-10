@@ -4233,6 +4233,7 @@ msgctxt "JR_West_681_name"
 msgid "JR West 681 series"
 msgstr "JR西日本681系"
 
+
 msgctxt "YamanoteE231500_name"
 msgid "Kayou 231"
 msgstr "E231系-500番台"
@@ -4248,6 +4249,7 @@ msgstr "TRAIN SUITE 四季島"
 msgctxt "waw_tour1_name"
 msgid "Kokana Excursion"
 msgstr "TWILIGHT EXPRESS 瑞風"
+
 
 msgctxt "SIM_TWDA_name"
 msgid "SIM_TWDA"
