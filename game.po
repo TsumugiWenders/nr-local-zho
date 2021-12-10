@@ -86,15 +86,15 @@ msgstr "油罐车"
 
 msgctxt "teo.plat_auto_direction_lr"
 msgid "Drive on left for double platforms"
-msgstr "双站台设置信号为左行"
+msgstr "双站台设置单行方向为左行"
 
 msgctxt "teo.plat_auto_scissors"
 msgid "Auto append scissor intersections and path signals for double platforms"
-msgstr "双站台自动添加交叉线及路径信号"
+msgstr "双站台自动添加站台交叉渡线及信号机"
 
 msgctxt "teo.plat_auto_stops"
 msgid "Auto append platform stop point signals"
-msgstr "双站台自动添加停车线"
+msgstr "双站台自动添加站台停车标志"
 
 msgctxt "teo.twoex_mode"
 msgid "Double track mode"
@@ -2545,7 +2545,7 @@ msgstr "< 选择 >"
 
 msgctxt "plat_auto_direction"
 msgid "Auto append direction signals"
-msgstr "自动添加方向信号"
+msgstr "自动添加单行方向标志"
 
 msgctxt "platform_n"
 msgid "Platform "
@@ -2821,23 +2821,23 @@ msgstr "切换方向"
 
 msgctxt "signal_kind_block_balise"
 msgid "Block balise"
-msgstr "应答器"
+msgstr "闭塞区边界"
 
 msgctxt "signal_kind_name_oneway"
 msgid "One way"
-msgstr "单行线"
+msgstr "单行标志"
 
 msgctxt "signal_kind_name_platform_stop"
 msgid "Platform train stop point"
-msgstr "停车线"
+msgstr "停车标志"
 
 msgctxt "signal_kind_path"
 msgid "Path signal"
-msgstr "通路信号机"
+msgstr "进路信号机"
 
 msgctxt "signal_kind_simple_block"
 msgid "Simple block"
-msgstr "简易信号机"
+msgstr "闭塞信号机"
 
 msgctxt "signal_limits_block"
 msgid "Bounds other signals:"
@@ -4032,15 +4032,15 @@ msgstr "%d coincidencias"
 
 msgctxt "plat_auto_direction_lr"
 msgid "Drive on left for double platforms"
-msgstr "双轨设置信号为左行"
+msgstr "双轨设置单行方向为左行"
 
 msgctxt "plat_auto_scissors"
 msgid "Auto append scissor intersections and path signals for double platforms"
-msgstr "自动添加站台交叉线及路径信号"
+msgstr "自动添加站台交叉渡线及信号机"
 
 msgctxt "plat_auto_stops"
 msgid "Auto append platform stop point signals"
-msgstr "自动添加站台停车线"
+msgstr "自动添加站台停车标志"
 
 msgctxt "sax_tooltip"
 msgid "Overall: {0:+.2f} ({1}) | Time: {2:+.2f} | Fare: {3:+.2f}"
