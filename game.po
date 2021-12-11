@@ -43,7 +43,7 @@ msgstr "列车动力"
 
 msgctxt "cat_train_role"
 msgid "Train role"
-msgstr "列车作用"
+msgstr "列车用途"
 
 msgctxt "cat_train_unit"
 msgid "Train unit"
@@ -95,7 +95,7 @@ msgstr "导出财务数据"
 
 msgctxt "parent"
 msgid "Parent:"
-msgstr "起点："
+msgstr "上一级:"
 
 msgctxt "plots_button_tp"
 msgid "Open charts window"
@@ -175,7 +175,7 @@ msgstr "<最高等级>"
 
 msgctxt "tag_new"
 msgid "New tag"
-msgstr "新站标签"
+msgstr "新增标签"
 
 msgctxt "tags_empty"
 msgid "<No tags>"
