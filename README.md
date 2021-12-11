@@ -12,25 +12,30 @@
 ## ----------------------------------------------------------
 ## 列车翻译
 
-#车厢
+# ----- 
+# （MOD名称）
+# ID:（Steam创意工坊ID）
+
 msgctxt "（TrainUnit.name_loc）"
 msgid "（TrainUnit.name_en）"
-msgstr "（翻译）"
+msgstr "（车厢翻译）"
 
-#列车
 msgctxt "（TrainMultipleUnit.name_loc）"
 msgid "（TrainMultipleUnit.name_en）"
-msgstr "（翻译）"
+msgstr "（列车翻译）"
 
-#编组
 msgctxt "（TrainMultipleUnit.composition[0]）"
 msgid "（TrainMultipleUnit.composition[1]）"
-msgstr "（翻译）"
+msgstr "（编组翻译）"
 
 ## ----------------------------------------------------------
 ## 轨道翻译
 
+# ----- 
+# （MOD名称）
+# ID:（Steam创意工坊ID）
+
 msgctxt "（TrackKind.Name_loc）"
 msgid "（TrackKind.Name_en）"
-msgstr "（翻译）"
+msgstr "（轨道翻译）"
 ```
