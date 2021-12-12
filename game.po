@@ -5292,124 +5292,76 @@ msgid "Metro Type Suburb B car with motor"
 msgstr "市域地铁B型 动力车"
 
 # ----- 
-# 日本国铁(JNR, JR) KiHa 44 系列 
-# ID:2645604628
+# 日本国铁(JNR, JR) KiHa 40
+# ID:（非公开，因为这个mod已经过时，mod作者要避免有人错误订阅旧的版本。）
 
-msgctxt "JNR_KiHa40_mu_name"
-msgid "JNR KiHa 40 series"
-msgstr "国鉄キハ40系"
-
-# ----- 
-# 日本国铁(JNR, JR) KiHa 49 系列 
-# ID:2645604628
-
-msgctxt "JNR_KiHa66_mu_name"
-msgid "JNR KiHa 66 series"
-msgstr "国鉄キハ66系"
-
-# ----- 
-# 日本国铁(JNR, JR) KiHa 41 系列 
-# ID:2645604628
+msgctxt "KiHa40_name"
+msgid "JNR KiHa 40 (Discontinued)"
+msgstr "国鉄キハ40 (已停止支援)"
 
 msgctxt "KiHa40_100_name"
 msgid "JNR KiHa 40 (Subclass-100) (Discontinued)"
 msgstr "国鉄キハ40-100番台 (已停止支援)"
 
 # ----- 
-# 日本国铁(JNR, JR) KiHa 46 系列 
-# ID:2645604628
-
-msgctxt "KiHa40_1700_c_1"
-msgid "JR KiHa40-1700 (1-10 Cars)"
-msgstr "JRキハ40-1700番台(1-10节)"
-
-# ----- 
-# 日本国铁(JNR, JR) KiHa 43 系列 
-# ID:2645604628
-
-msgctxt "KiHa40_1700_name"
-msgid "JR KiHa 40-1700"
-msgstr "JRキハ40-1700番台"
-
-# ----- 
-# 日本国铁(JNR, JR) KiHa 45 系列 
-# ID:2645604628
-
-msgctxt "KiHa40_700_c_1"
-msgid "JR KiHa40-700 (1-10 Cars)"
-msgstr "JRキハ40-700番台(1-10节)"
-
-# ----- 
-# 日本国铁(JNR, JR) KiHa 42 系列 
+# 日本国铁(JNR, JR) KiHa 40 系列
 # ID:2645604628
 
 msgctxt "KiHa40_700_name"
 msgid "JR KiHa 40-700"
 msgstr "JRキハ40-700番台"
 
-# ----- 
-# 日本国铁(JNR, JR) KiHa 40 系列 
-# ID:2645604628
+msgctxt "KiHa40_1700_name"
+msgid "JR KiHa 40-1700"
+msgstr "JRキハ40-1700番台"
 
-msgctxt "KiHa40_name"
-msgid "JNR KiHa 40 (Discontinued)"
-msgstr "国鉄キハ40 (已停止支援)"
+msgctxt "JNR_KiHa40_mu_name"
+msgid "JNR KiHa 40 series"
+msgstr "国鉄キハ40系"
 
-# ----- 
-# 日本国铁(JNR, JR) KiHa 54 系列 
-# ID:2645604628
+msgctxt "KiHa40_700_c_1"
+msgid "JR KiHa40-700 (1-10 Cars)"
+msgstr "JRキハ40-700番台(1-10节)"
 
-msgctxt "KiHa66_c_10"
-msgid "KiHa66 (10 Cars)"
-msgstr "キハ66 (10节)"
-
-# ----- 
-# 日本国铁(JNR, JR) KiHa 50 系列 
-# ID:2645604628
-
-msgctxt "KiHa66_c_2"
-msgid "KiHa66 (2 Cars)"
-msgstr "キハ66 (2节)"
+msgctxt "KiHa40_1700_c_1"
+msgid "JR KiHa40-1700 (1-10 Cars)"
+msgstr "JRキハ40-1700番台(1-10节)"
 
 # ----- 
-# 日本国铁(JNR, JR) KiHa 51 系列 
-# ID:2645604628
-
-msgctxt "KiHa66_c_4"
-msgid "KiHa66 (4 Cars)"
-msgstr "キハ66 (4节)"
-
-# ----- 
-# 日本国铁(JNR, JR) KiHa 52 系列 
-# ID:2645604628
-
-msgctxt "KiHa66_c_6"
-msgid "KiHa66 (6 Cars)"
-msgstr "キハ66 (6节)"
-
-# ----- 
-# 日本国铁(JNR, JR) KiHa 53 系列 
-# ID:2645604628
-
-msgctxt "KiHa66_c_8"
-msgid "KiHa66 (8 Cars)"
-msgstr "キハ66 (8节)"
-
-# ----- 
-# 日本国铁(JNR, JR) KiHa 47 系列 
-# ID:2645604628
+# 日本国铁(JNR, JR) KiHa 66
+# ID:（待定）
 
 msgctxt "KiHa66_name"
 msgid "JNR KiHa 66"
 msgstr "国鉄キハ66"
 
-# ----- 
-# 日本国铁(JNR, JR) KiHa 48 系列 
-# ID:2645604628
-
 msgctxt "KiHa67_name"
 msgid "JNR KiHa 67"
 msgstr "国鉄キハ67"
+
+msgctxt "JNR_KiHa66_mu_name"
+msgid "JNR KiHa 66 series"
+msgstr "国鉄キハ66系"
+
+msgctxt "KiHa66_c_2"
+msgid "KiHa66 (2 Cars)"
+msgstr "キハ66 (2节)"
+
+msgctxt "KiHa66_c_4"
+msgid "KiHa66 (4 Cars)"
+msgstr "キハ66 (4节)"
+
+msgctxt "KiHa66_c_6"
+msgid "KiHa66 (6 Cars)"
+msgstr "キハ66 (6节)"
+
+msgctxt "KiHa66_c_8"
+msgid "KiHa66 (8 Cars)"
+msgstr "キハ66 (8节)"
+
+msgctxt "KiHa66_c_10"
+msgid "KiHa66 (10 Cars)"
+msgstr "キハ66 (10节)"
 
 # ----- 
 #  其他
