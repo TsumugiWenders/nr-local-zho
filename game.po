@@ -1338,11 +1338,11 @@ msgstr "需要重新启动游戏"
 
 msgctxt "game_speed_down"
 msgid "Game speed down"
-msgstr "加快时间流逝"
+msgstr "减慢时间流逝"
 
 msgctxt "game_speed_up"
 msgid "Game speed up"
-msgstr "减慢时间流逝"
+msgstr "加快时间流逝"
 
 msgctxt "global_blueprint_bill"
 msgid "Global blueprint bill"
@@ -2010,7 +2010,7 @@ msgstr "地图与UI会在游戏最大速度时禁用。放慢游戏速度启用�
 
 msgctxt "missing_mod"
 msgid "This mod data is enabled in the current game, but it is not installed in this PC. Some textures might be missing."
-msgstr "此mod数据在当前游戏中已被启用，但此电脑上并未安装。一些列车纹理可能会丢失"
+msgstr "此mod数据在当前游戏中已被启用，但此电脑上并未安装。一些列车贴图可能会丢失"
 
 msgctxt "mod_author"
 msgid "Author:"
@@ -2922,11 +2922,11 @@ msgstr "闭塞信号机"
 
 msgctxt "signal_limits_block"
 msgid "Bounds other signals:"
-msgstr "信号范围:"
+msgstr "拦截信号范围:"
 
 msgctxt "signal_limits_block_always"
 msgid "Always"
-msgstr "前方任意信号机"
+msgstr "任意信号机"
 
 msgctxt "signal_limits_block_same"
 msgid "Only for same direction"
@@ -3102,19 +3102,19 @@ msgstr "刹车"
 
 msgctxt "tag_broad"
 msgid "Broad"
-msgstr "宽体"
+msgstr "宽轨"
 
 msgctxt "tag_cable"
 msgid "Cable"
-msgstr "电车"
+msgstr "缆索"
 
 msgctxt "tag_cable_car"
 msgid "Cable car"
-msgstr "缆车车厢"
+msgstr "地面缆车车厢"
 
 msgctxt "tag_coach"
 msgid "Coach"
-msgstr "长途"
+msgstr "铁路客车"
 
 msgctxt "tag_commuter"
 msgid "Commuter"
@@ -3126,15 +3126,15 @@ msgstr "包间"
 
 msgctxt "tag_diesel"
 msgid "Diesel"
-msgstr "内燃机车"
+msgstr "内燃"
 
 msgctxt "tag_electric"
 msgid "Electric"
-msgstr "电气机车"
+msgstr "电力"
 
 msgctxt "tag_end_of_train"
 msgid "End of train"
-msgstr "车尾"
+msgstr "守车"
 
 msgctxt "tag_fantasy"
 msgid "Fantasy"
@@ -3178,7 +3178,7 @@ msgstr "轻轨"
 
 msgctxt "tag_linear_induction"
 msgid "Linear induction"
-msgstr "牵引动力"
+msgstr "直线电机"
 
 msgctxt "tag_locomotive"
 msgid "Locomotive"
@@ -3202,7 +3202,7 @@ msgstr "地铁"
 
 msgctxt "tag_minimum_gauge"
 msgid "Minimum gauge"
-msgstr "窄轨"
+msgstr "最小轨距"
 
 msgctxt "tag_monorail"
 msgid "Monorail"
@@ -3214,7 +3214,7 @@ msgstr "动车组"
 
 msgctxt "tag_narrow"
 msgid "Narrow"
-msgstr "窄体"
+msgstr "窄轨"
 
 msgctxt "tag_observation"
 msgid "Observation"
@@ -3238,7 +3238,7 @@ msgstr "推拉"
 
 msgctxt "tag_railbus"
 msgid "Railbus"
-msgstr "铁路客车"
+msgstr "超短编动车组"
 
 msgctxt "tag_regional"
 msgid "Regional"
@@ -3246,7 +3246,7 @@ msgstr "区域"
 
 msgctxt "tag_restaurant"
 msgid "Restaurant"
-msgstr "餐厅"
+msgstr "餐车"
 
 msgctxt "tag_shuttle"
 msgid "Shuttle"
@@ -3302,7 +3302,7 @@ msgstr "轮胎"
 
 msgctxt "tags_gauge"
 msgid "Gauge"
-msgstr "仪表"
+msgstr "轨距"
 
 msgctxt "tags_misc"
 msgid "Misc."
@@ -3314,7 +3314,7 @@ msgstr "动力"
 
 msgctxt "tags_role"
 msgid "Role"
-msgstr "规则"
+msgstr "用途"
 
 msgctxt "tags_units"
 msgid "Units"
