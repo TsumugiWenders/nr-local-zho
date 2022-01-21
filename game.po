@@ -3110,7 +3110,7 @@ msgstr "缆索"
 
 msgctxt "tag_cable_car"
 msgid "Cable car"
-msgstr "地面缆车车厢"
+msgstr "地面缆车"
 
 msgctxt "tag_coach"
 msgid "Coach"
