@@ -3246,7 +3246,7 @@ msgstr "区域"
 
 msgctxt "tag_restaurant"
 msgid "Restaurant"
-msgstr "餐车"
+msgstr "餐厅"
 
 msgctxt "tag_shuttle"
 msgid "Shuttle"
