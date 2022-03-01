@@ -9,6 +9,7 @@
 
 #列车及轨道MOD翻译指南
 ```
+
 ## ----------------------------------------------------------
 ## 列车翻译
 
@@ -28,6 +29,7 @@ msgctxt "（TrainMultipleUnit.composition[0]）"
 msgid "（TrainMultipleUnit.composition[1]）"
 msgstr "（编组翻译）"
 
+
 ## ----------------------------------------------------------
 ## 轨道翻译
 
@@ -39,6 +41,7 @@ msgctxt "（TrackKind.Name_loc）"
 msgid "（TrackKind.Name_en）"
 msgstr "（轨道翻译）"
 
+
 ## ----------------------------------------------------------
 ## 建筑翻译
 
@@ -49,5 +52,5 @@ msgstr "（轨道翻译）"
 msgctxt "（BuildingKind.Name_loc）"
 msgid "（BuildingKind.Name_en）"
 msgstr "（建筑翻译）"
-```
+
 ```
