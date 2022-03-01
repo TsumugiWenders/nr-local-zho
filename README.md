@@ -38,4 +38,16 @@ msgstr "（编组翻译）"
 msgctxt "（TrackKind.Name_loc）"
 msgid "（TrackKind.Name_en）"
 msgstr "（轨道翻译）"
+
+## ----------------------------------------------------------
+## 建筑翻译
+
+# ----- 
+# （MOD名称）
+# ID:（Steam创意工坊ID）
+
+msgctxt "（BuildingKind.Name_loc）"
+msgid "（BuildingKind.Name_en）"
+msgstr "（建筑翻译）"
+```
 ```
