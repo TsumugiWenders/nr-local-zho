@@ -1,4 +1,27 @@
 # ----------------------------------------------------------
+# Beta 1.4.2 版本 新添加字符串
+
+msgctxt "building_info_price_f"
+msgid "${} per m²"
+msgstr "每平米 ${}"
+
+msgctxt "building_all_kinds_info"
+msgid "Show all building kinds and pick your favorites"
+msgstr "显示所有建筑类型并选进你的收藏栏"
+
+msgctxt "editor_building"
+msgid "Create new building"
+msgstr "创建新的建筑"
+
+msgctxt "kb_track_building"
+msgid "Tracks: new building"
+msgstr "轨道:创建建筑"
+
+msgctxt "mvo_user_platform_names"
+msgid "Platform names"
+msgstr "站台名称显示"
+
+# ----------------------------------------------------------
 # 1.3.13 版本 新添加字符串
 
 msgctxt "acc_export_desc"
@@ -6043,3 +6066,142 @@ msgstr "真实国铁有砟轨道 160km/h"
 msgctxt "China_Ballast_80_name"
 msgid "China Ballast 80"
 msgstr "真实国铁有砟轨道 80km/h"
+
+
+## ----------------------------------------------------------
+## 建筑翻译
+
+# ----- 
+# Built-in buildings
+
+msgctxt "waw_glass_01_name"
+msgid "Glass tile"
+msgstr "玻璃砖"
+
+msgctxt "waw_glass_02_name"
+msgid "Glass panel"
+msgstr "玻璃面板"
+
+msgctxt "waw_glass_03_name"
+msgid "Glass frame panel"
+msgstr "玻璃框架面板"
+
+msgctxt "waw_glass_04_name"
+msgid "Glass frame panel"
+msgstr "玻璃装饰面板"
+
+msgctxt "waw_glass_05_name"
+msgid "Glass deco frame panel"
+msgstr "玻璃装饰框架面板"
+
+msgctxt "waw_glass_06_name"
+msgid "Round skylight"
+msgstr "圆形天窗"
+
+msgctxt "waw_glass_06b_name"
+msgid "Round skylight, 9-patch"
+msgstr "圆形天窗（可拉伸）"
+
+msgctxt "waw_glass_07_name"
+msgid "Skylight panel"
+msgstr "天窗面板"
+
+msgctxt "waw_glass_07b_name"
+msgid "Skylight panel, 9-patch"
+msgstr "天窗面板（可拉伸）"
+
+msgctxt "waw_tile_01_name"
+msgid "Pavement tile"
+msgstr "地砖"
+
+msgctxt "waw_tile_02_name"
+msgid "Checkerboard tile"
+msgstr "棋盘砖"
+
+msgctxt "waw_tile_03_name"
+msgid "Shiny tile"
+msgstr "闪亮的砖"
+
+msgctxt "waw_tile_04_name"
+msgid "Granite tile"
+msgstr "花岗岩砖"
+
+msgctxt "waw_tile_05_name"
+msgid "Pavement tile, light border"
+msgstr "浅色地砖"
+
+msgctxt "waw_tile_06_name"
+msgid "Pavement tile, dark border"
+msgstr "深浅两色地砖"
+
+msgctxt "waw_tile_07_name"
+msgid "Herringbone tile"
+msgstr "人字形地砖"
+
+msgctxt "waw_tile_08_name"
+msgid "Octogonal tile"
+msgstr "八角砖"
+
+msgctxt "waw_tile_09_name"
+msgid "Grating"
+msgstr "光栅"
+
+msgctxt "waw_tile_10_name"
+msgid "Cupola"
+msgstr "穹顶"
+
+msgctxt "waw_tile_11_name"
+msgid "Awning, wide"
+msgstr "宽型雨棚"
+
+msgctxt "waw_tile_11b_name"
+msgid "Awning, wide"
+msgstr "宽型雨棚（可拉伸）"
+
+msgctxt "waw_tile_12_name"
+msgid "Awning, inset"
+msgstr "雨棚"
+
+msgctxt "waw_tile_13_name"
+msgid "Triangular roof"
+msgstr "锥形屋顶"
+
+msgctxt "waw_tile_14_name"
+msgid "Vaulted roof"
+msgstr "拱形屋顶"
+
+msgctxt "waw_tile_15_name"
+msgid "Round tower"
+msgstr "圆塔"
+
+msgctxt "waw_tile_16_name"
+msgid "Concrete"
+msgstr "混凝土"
+
+msgctxt "waw_tile_17_name"
+msgid "Stucco"
+msgstr "灰泥"
+
+msgctxt "waw_tile_18_name"
+msgid "Stone"
+msgstr "石头"
+
+msgctxt "waw_tile_19_name"
+msgid "Marble"
+msgstr "大理石"
+
+msgctxt "waw_tile_20_name"
+msgid "Concrete"
+msgstr "玄武岩"
+
+msgctxt "waw_tile_21_name"
+msgid "Grass"
+msgstr "草地"
+
+msgctxt "waw_mortar_name"
+msgid "Mortar"
+msgstr "水泥"
+
+msgctxt "waw_wall_profile_name"
+msgid "Wall profile"
+msgstr "墙面"
