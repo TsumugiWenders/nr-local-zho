@@ -6743,11 +6743,11 @@ msgstr "树摆件-绿化带"
 
 # ----- 
 # Flat Color "Building"
-# ID:2770696024
+# ID:（非公开，因为这个mod已经过时，mod作者要避免有人错误订阅旧的版本。）
 
 msgctxt "nla_flat_color_base_name"
-msgid "Flat color (#FFFFFF)"
-msgstr "单色地面 (#FFFFFF)"
+msgid "Flat color(Disable it now)"
+msgstr "单色地面 (请尽快停用)"
 
 # ----- 
 # 日本国铁与JR站台边缘
