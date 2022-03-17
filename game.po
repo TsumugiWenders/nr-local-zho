@@ -25,6 +25,10 @@ msgctxt "mvo_user_platform_names"
 msgid "Platform names"
 msgstr "站台名称显示"
 
+msgctxt "open_games_backup_folder_tooltip"
+msgid "Open saved games auto backup folder"
+msgstr "打开自动存档所在的文件夹"
+
 # ----------------------------------------------------------
 # 1.3.13 版本 新添加字符串
 
