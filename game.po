@@ -6551,15 +6551,15 @@ msgstr "地砖"
 
 msgctxt "waw_tile_02_name"
 msgid "Checkerboard tile"
-msgstr "棋盘砖"
+msgstr "棋盘地砖"
 
 msgctxt "waw_tile_03_name"
 msgid "Shiny tile"
-msgstr "闪亮的砖"
+msgstr "闪亮的地砖"
 
 msgctxt "waw_tile_04_name"
 msgid "Granite tile"
-msgstr "花岗岩砖"
+msgstr "花岗岩地砖"
 
 msgctxt "waw_tile_05_name"
 msgid "Pavement tile, light border"
@@ -6575,7 +6575,7 @@ msgstr "人字形地砖"
 
 msgctxt "waw_tile_08_name"
 msgid "Octogonal tile"
-msgstr "八角砖"
+msgstr "八角地砖"
 
 msgctxt "waw_tile_09_name"
 msgid "Grating"
@@ -6626,7 +6626,7 @@ msgid "Marble"
 msgstr "大理石"
 
 msgctxt "waw_tile_20_name"
-msgid "Concrete"
+msgid "Basalt"
 msgstr "玄武岩"
 
 msgctxt "waw_tile_21_name"
