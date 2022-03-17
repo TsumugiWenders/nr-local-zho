@@ -17,6 +17,10 @@ msgctxt "kb_track_building"
 msgid "Tracks: new building"
 msgstr "轨道:创建建筑"
 
+msgctxt "loader_tracks_n"
+msgid "Validating tracks, {} to go"
+msgstr "正在验证轨道，还剩{}"
+
 msgctxt "mvo_user_platform_names"
 msgid "Platform names"
 msgstr "站台名称显示"
@@ -98,7 +102,7 @@ msgstr "标签:"
 
 msgctxt "loader_stations_n"
 msgid "Validating stations, {} to go"
-msgstr "正在验证站点，还剩{}"
+msgstr "正在验证车站，还剩{}"
 
 msgctxt "minutes"
 msgid "minutes"
@@ -6640,6 +6644,18 @@ msgstr "水泥"
 msgctxt "waw_wall_profile_name"
 msgid "Wall profile"
 msgstr "墙面"
+
+msgctxt "waw_white_name"
+msgid "Solid color"
+msgstr "纯色"
+
+msgctxt "waw_corr_01_name"
+msgid "Corrugated translucent"
+msgstr "波纹半透明"
+
+msgctxt "waw_corr_02_name"
+msgid "Corrugated"
+msgstr "波纹"
 
 # ----- 
 # 中国铁路标志
