@@ -1793,11 +1793,11 @@ msgstr "线路名称:"
 
 msgctxt "lineeditor_price_base"
 msgid "Base ticket price:"
-msgstr "基础票价:"
+msgstr "起步价:"
 
 msgctxt "lineeditor_price_km"
 msgid "Price per km:"
-msgstr "每公里价格:"
+msgstr "每公里票价:"
 
 msgctxt "lineeditor_reference_train"
 msgid "Reference train:"
