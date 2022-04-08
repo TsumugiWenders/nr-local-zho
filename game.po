@@ -1,251 +1,348 @@
 # ----------------------------------------------------------
-# Beta 1.4.2 版本 新添加字符串
+# 1.4.15 版本 新添加字符串
 
-msgctxt "building_info_price_f"
-msgid "${} per m²"
-msgstr "每平米 ${}"
+msgctxt "accounting_construction_buildings"
+msgid "Buildings"
+msgstr "建筑"
+
+msgctxt "alerts_pause_game"
+msgid "Alerts pause game"
+msgstr "警报时暂停游戏"
+
+msgctxt "alerts_pause_game_fastest"
+msgid "Even at fastest speed"
+msgstr "最快速度下仍然暂停"
+
+msgctxt "bill_show_full"
+msgid "Show full billing details"
+msgstr "显示完整的账单详情"
 
 msgctxt "building_all_kinds_info"
 msgid "Show all building kinds and pick your favorites"
 msgstr "显示所有建筑类型并选进你的收藏栏"
 
+msgctxt "building_constraint_curved"
+msgid "Trace track curve"
+msgstr "轨迹曲线"
+
+msgctxt "building_constraint_draw_layer"
+msgid "Draw depth:"
+msgstr "绘制图层:"
+
+msgctxt "building_constraint_pick"
+msgid "Pick track"
+msgstr "选择轨道"
+
+msgctxt "building_constraint_type"
+msgid "Locked to track:"
+msgstr "锁定到轨道:"
+
+msgctxt "building_constraints_editor"
+msgid "Building properties"
+msgstr "建筑物"
+
+msgctxt "building_draw_layer_0"
+msgid "Under tracks"
+msgstr "轨道下方"
+
+msgctxt "building_draw_layer_1"
+msgid "Over tracks"
+msgstr "轨道上方"
+
+msgctxt "building_draw_layer_3"
+msgid "Roof"
+msgstr "房顶"
+
+msgctxt "building_info_price_f"
+msgid "${} per m\xC2\xB2"
+msgstr "每平米 ${}"
+
+msgctxt "building_label"
+msgid "[*] Label"
+msgstr "[*]标签"
+
+msgctxt "building_label_bg_fill"
+msgid "Fill background"
+msgstr "填充背景"
+
+msgctxt "building_label_font"
+msgid "Font size:"
+msgstr "字体大小:"
+
+msgctxt "building_label_font_0"
+msgid "Small"
+msgstr "小"
+
+msgctxt "building_label_font_1"
+msgid "Medium"
+msgstr "中"
+
+msgctxt "building_label_font_2"
+msgid "Large"
+msgstr "大"
+
+msgctxt "building_label_text"
+msgid "Text:"
+msgstr "文本:"
+
+msgctxt "building_max_zoom"
+msgid "Max zoom:"
+msgstr "最大缩放:"
+
+msgctxt "building_platform_footprint_extension"
+msgid "[*] Platform footprint extension"
+msgstr "[*]车站扩展平台"
+
+msgctxt "buildings_total"
+msgid "Buildings total"
+msgstr "建筑合计"
+
+msgctxt "client_blueprint_bill_short"
+msgid "My blueprints"
+msgstr "我的蓝图"
+
+msgctxt "clip_auto_name"
+msgid "Clip #{}"
+msgstr "素材#{}"
+
+msgctxt "confirm_clip_unknown"
+msgid "Clip contains unknown objects or mods"
+msgstr "素材中包含物品物品或模组"
+
+msgctxt "confirm_clip_unknown_desc_1"
+msgid "One or more objects in the clip references an unknown object kind:\n"
+msgstr "素材中的部分物品引用了未知的对象类型:\n"
+
+msgctxt "confirm_clip_unknown_desc_2"
+msgid "One or more objects in the clip references an unknown mod:\n"
+msgstr "素材中的部分物品引用了未知的模组:\n"
+
+msgctxt "confirm_clip_unknown_desc_3"
+msgid "Copy with built-in to replace unknown objects with built-in objects, avoiding new mods and object kinds being imported into your game.\n"
+msgstr "用 built-in 中的对象替换未知对象，以避免将新的模组和对象类型导入游戏。\n"
+
+msgctxt "confirm_clip_unknown_desc_4"
+msgid "Copy with new mods to import new object kinds and to enable their mods in your game. You will then need to subscribe to these mods in the Steam Workshop if you are not yet subscribed."
+msgstr "导入新的对象类型，并在游戏中启用对应的模组。若模组未订阅，则需要前往创意工坊先订阅。"
+
+msgctxt "constraint_disp"
+msgid "Displace (m):"
+msgstr "位移(米):"
+
+msgctxt "constraint_straight"
+msgid "Keep straight"
+msgstr "保持直线"
+
+msgctxt "copied_from_coll"
+msgid "Copied! Paste with Ctrl-V"
+msgstr "使用 Ctrl + V 键粘贴"
+
+msgctxt "default_user_label"
+msgid "Edit me"
+msgstr "编辑素材"
+
+msgctxt "delete_clip"
+msgid "Delete clip"
+msgstr "删除素材"
+
+msgctxt "edit_clip_name"
+msgid "Edit clip name"
+msgstr "编辑素材名称"
+
 msgctxt "editor_building"
-msgid "Create new building"
+msgid "Create new buildings"
 msgstr "创建新的建筑"
+
+msgctxt "editor_pick_building_parent_left"
+msgid "Click a control point to make it the building parent"
+msgstr "点击一个轨道控制点来绑定到建筑节点"
+
+msgctxt "editor_tip_copy"
+msgid "Ctrl-C to copy selected objects into clipboard"
+msgstr "Ctrl + C 键将选定的对象复制到剪贴板"
+
+msgctxt "editor_tip_create_drag_alt"
+msgid "Alt and drag any selected control point to rotate the selection"
+msgstr "点击 Alt 键并拖动选定的控制点来旋转对象"
+
+msgctxt "editor_tip_move_building_sizer"
+msgid "Drag the building control point to resize and rotate the building"
+msgstr "拖动建筑控制点来调整和旋转建筑"
+
+msgctxt "editor_tip_move_building_sizer_ctrl"
+msgid "Hold Ctrl to line up the control point on its current axis."
+msgstr "按住 Ctrl 键将控制点与当前轴对齐"
+
+msgctxt "editor_tip_new_building_fin_left"
+msgid "Left click to finish creating a new building"
+msgstr "左键点击完成创建新的建筑"
+
+msgctxt "editor_tip_new_building_left"
+msgid "Left click to create a new building"
+msgstr "左键单击创建一个新的建筑"
+
+msgctxt "editor_tip_paste"
+msgid "Ctrl-V to paste clipboard objects"
+msgstr "Ctrl + V 键粘贴对象"
+
+msgctxt "editor_tip_rot_left"
+msgid "Release left button to stop rotating the selection"
+msgstr "松开左键停止旋转选择的对象"
+
+msgctxt "empty_clipboard"
+msgid "<Empty clipboard>"
+msgstr "<空剪贴板>"
+
+msgctxt "enable_new_mods"
+msgid "Copy with new mods"
+msgstr "复制并启用新模组"
+
+msgctxt "global_blueprint_bill_short"
+msgid "Global"
+msgstr "全球"
+
+msgctxt "help_show_full"
+msgid "Show help"
+msgstr "显示帮助"
+
+msgctxt "info_company_buildings"
+msgid "Buildings:"
+msgstr "建筑:"
+
+msgctxt "info_company_lines"
+msgid "Lines:"
+msgstr "线路:"
+
+msgctxt "info_company_stations"
+msgid "Stations:"
+msgstr "车站:"
+
+msgctxt "info_company_tracks"
+msgid "Track segments:"
+msgstr "轨道段:"
+
+msgctxt "info_company_trains"
+msgid "Trains:"
+msgstr "列车:"
+
+msgctxt "invalid_size"
+msgid "invalid size"
+msgstr "无效的大小"
 
 msgctxt "kb_track_building"
 msgid "Tracks: new building"
 msgstr "轨道:创建建筑"
 
+msgctxt "layer_ground_g"
+msgid "G"
+msgstr "地"
+
 msgctxt "loader_tracks_n"
 msgid "Validating tracks, {} to go"
 msgstr "正在验证轨道，还剩{}"
+
+msgctxt "mvo_user_labels"
+msgid "User labels"
+msgstr "用户标签"
+
+msgctxt "mvo_user_layer_draw_over_O"
+msgid "O"
+msgstr "上"
+
+msgctxt "mvo_user_layer_draw_roof_R"
+msgid "R"
+msgstr "顶"
+
+msgctxt "mvo_user_layer_draw_under_U"
+msgid "U"
+msgstr "底"
+
+msgctxt "mvo_user_layer_toggles"
+msgid "Display layers:"
+msgstr "显示图层:"
 
 msgctxt "mvo_user_platform_names"
 msgid "Platform names"
 msgstr "站台名称显示"
 
+msgctxt "mvo_user_track_depth"
+msgid "Tunnels under roads"
+msgstr "隧道在地图道路下方显示"
+
 msgctxt "open_games_backup_folder_tooltip"
 msgid "Open saved games auto backup folder"
 msgstr "打开自动存档所在的文件夹"
 
-# ----------------------------------------------------------
-# 1.3.13 版本 新添加字符串
+msgctxt "plat_buildings_base"
+msgid "Auto append building base"
+msgstr "自动添加基础建筑"
 
-msgctxt "acc_export_desc"
-msgid "Accounting data has been exported to {}"
-msgstr "财务数据已导出至{}"
+msgctxt "plat_buildings_floor"
+msgid "Auto append building floors and ceiling"
+msgstr "自动添加地板和天花板"
 
-msgctxt "acc_export_title"
-msgid "Exported accounting data"
-msgstr "财务数据导出成功"
+msgctxt "plat_curved"
+msgid "Curved tracks and buildings"
+msgstr "轨道和建筑可弯曲"
 
-msgctxt "alert_after"
-msgid "After:"
-msgstr "在"
+msgctxt "plats_n_0"
+msgid "0 platforms"
+msgstr "0 个站台"
 
-msgctxt "alert_on"
-msgid "Alert on:"
-msgstr "警报:"
+msgctxt "plats_n_1"
+msgid "1 platform"
+msgstr "1 个站台"
 
-msgctxt "autoexport_config_name"
-msgid "Autoexport accounting:"
-msgstr "自动导出财务数据:"
+msgctxt "plats_n_many"
+msgid "%d platforms"
+msgstr "%d 个站台"
 
-msgctxt "autoexport_config_value"
-msgid "Enabled"
-msgstr "启用"
+msgctxt "save_clipboard"
+msgid "Save clipboard"
+msgstr "保存到剪贴板"
 
-msgctxt "autoexporting"
-msgid "Autoexporting..."
-msgstr "自动导出中……"
+msgctxt "selection_blueprint_bill_short"
+msgid "Selected"
+msgstr "已选"
 
-msgctxt "cat_track_gauge"
-msgid "Track gauge"
-msgstr "轨距"
+msgctxt "show_all_clips"
+msgid "Show saved clipboard clips"
+msgstr "显示剪贴板"
 
-msgctxt "cat_train_misc"
-msgid "Train miscellany"
-msgstr "列车杂项"
+msgctxt "signal_edit_invalid_track"
+msgid "This signal is still functional but it is not allowed on this kind of track starting from version 1.4. Some train maneuvers might be disabled in this track. Move it to a different track."
+msgstr "该信号仍有效，但从1.4版本开始，此信号不允许在此类轨道上使用。若你仍要使用，则一些列车功能将被禁用。"
 
-msgctxt "cat_train_power"
-msgid "Train power"
-msgstr "列车动力"
+msgctxt "signal_edit_plat_stop_obsolete"
+msgid "This signal is still functional but it has been obsoleted. Some train maneuvers might be disabled in this track."
+msgstr "该信号仍有效，但已被淘汰。若你仍要使用，则一些列车功能将被禁用。"
 
-msgctxt "cat_train_role"
-msgid "Train role"
-msgstr "列车用途"
+msgctxt "signal_edit_simple_block_obsolete"
+msgid "This signal is still functional but it has been obsoleted by path signals. Replace your simple block signaling with path signals."
+msgstr "该信号仍有效，但已被进路信号机替代。"
 
-msgctxt "cat_train_unit"
-msgid "Train unit"
-msgstr "列车编组"
+msgctxt "station_platform_auto_name"
+msgid "Platform auto name"
+msgstr "自动生成站台名称"
 
-msgctxt "charts_title"
-msgid "Charts"
-msgstr "图表"
+msgctxt "station_platform_user_name"
+msgid "Platform name:"
+msgstr "站台名称:"
 
-msgctxt "color"
-msgid "Color:"
-msgstr "颜色:"
+msgctxt "trackeditor_hide_controls"
+msgid "Hide control points at low zoom"
+msgstr "低缩放时隐藏控制点"
 
-msgctxt "line_list_group_all"
-msgid "Group by: All lines"
-msgstr "显示所有线路"
+msgctxt "tracks_total"
+msgid "Tracks total"
+msgstr "轨道合计"
 
-msgctxt "line_list_group_no_tags"
-msgid "Group by: Untagged"
-msgstr "显示无标签线路"
-
-msgctxt "line_list_group_tags"
-msgid "Group by: Tags"
-msgstr "按标签分组"
-
-msgctxt "lineeditor_tags"
-msgid "Tags:"
-msgstr "标签:"
-
-msgctxt "loader_stations_n"
-msgid "Validating stations, {} to go"
-msgstr "正在验证车站，还剩{}"
-
-msgctxt "minutes"
-msgid "minutes"
-msgstr "分钟后"
-
-msgctxt "mode_map_layer_regions"
-msgid "Regions layer"
-msgstr "行政视图"
-
-msgctxt "name"
-msgid "Name:"
-msgstr "名称:"
-
-msgctxt "option_company_acc_export"
-msgid "Export accounting data"
-msgstr "导出财务数据"
-
-msgctxt "parent"
-msgid "Parent:"
-msgstr "上一级:"
-
-msgctxt "plots_button_tp"
-msgid "Open charts window"
-msgstr "打开图表窗口"
-
-msgctxt "right_bar_tags"
-msgid "Tags"
-msgstr "标签"
-
-msgctxt "signal_alert_opt_custom"
-msgid "Custom wait time"
-msgstr "自定义等等时间"
-
-msgctxt "signal_alert_opt_default"
-msgid "Same wait time as global option"
-msgstr "与全局等待时间相同"
-
-msgctxt "signal_alert_opts"
-msgid "Alert on:"
-msgstr "警报:"
-
-msgctxt "signal_filter_applies"
-msgid "Applies to all trains"
-msgstr "适用于所有列车"
-
-msgctxt "signal_filter_except"
-msgid "Except:"
-msgstr "排除:"
-
-msgctxt "signal_filter_ignored"
-msgid "Ignored by all trains"
-msgstr "不适用于所有列车"
-
-msgctxt "signal_filter_label"
-msgid "By default:"
-msgstr "默认情况:"
-
-msgctxt "signal_filter_none"
-msgid "<No exceptions>"
-msgstr "<没有例外>"
-
-msgctxt "signal_filter_op_or"
-msgid "OR"
-msgstr "或"
-
-msgctxt "signal_kind_name_noway"
-msgid "No way"
-msgstr "禁行标志"
-
-msgctxt "signal_warn_max_length"
-msgid "The block of track protected by this signal is too long. Introduce more signals in the block, like balises, to make it shorter."
-msgstr "闭塞区间过长，建议添加更多信号。"
-
-msgctxt "signal_warn_too_close"
-msgid "Too close"
-msgstr "距离太短"
-
-msgctxt "tag_del"
-msgid "Delete tag"
-msgstr "删除标签"
-
-msgctxt "tag_info_builtin"
-msgid "Built-in tag"
-msgstr "内置标签"
-
-msgctxt "tag_info_def_name"
-msgid "New tag"
-msgstr "新增标签"
-
-msgctxt "tag_info_mp"
-msgid "Cannot edit in multiplayer"
-msgstr "无法在多人模式中编辑"
-
-msgctxt "tag_info_top_level"
-msgid "<Top level>"
-msgstr "<最高等级>"
-
-msgctxt "tag_new"
-msgid "New tag"
-msgstr "新增标签"
-
-msgctxt "tags_empty"
-msgid "<No tags>"
-msgstr "<无标签>"
-
-msgctxt "train_alert_banner"
-msgid "{} ({})\n{}\nSince: {} UTC{}"
-msgstr "{} ({})\n{}\n发生时间:: {} UTC-{}"
-
-msgctxt "train_alert_center_train"
-msgid "Go to train"
-msgstr "前往列车位置"
-
-msgctxt "train_alert_line_banner"
-msgid "{} ({} / {})\n{}\nSince: {} UTC{}"
-msgstr "{} ({} / {})\n{}\n发生时间: {} UTC{}"
-
-msgctxt "train_info_status_busy_track"
-msgid "Track is occupied or reserved"
-msgstr "轨道被占用或被保留"
-
-msgctxt "train_info_status_line_closed"
-msgid "Line is closed"
-msgstr "线路已关闭"
-
-msgctxt "train_info_status_signal_wait"
-msgid "Waiting at signal"
-msgstr "等待信号"
-
-msgctxt "train_list_filter_by_line_tags"
-msgid "Group by line tags"
-msgstr "按线路标签分组"
-
-msgctxt "train_list_filter_tags"
-msgid "Group by tags"
-msgstr "按标签分组"
+msgctxt "use_placeholders"
+msgid "Copy with built-in"
+msgstr "用内置对象复制"
 
 # ----------------------------------------------------------
-# 1.2.29 及以前版本 字符串
+# 1.3.13 及以前版本 字符串
 
 msgctxt "10_minutes"
 msgid "10 minutes"
@@ -271,6 +368,14 @@ msgctxt "60_minutes"
 msgid "60 minutes"
 msgstr "60 分钟"
 
+msgctxt "acc_export_desc"
+msgid "Accounting data has been exported to {}"
+msgstr "财务数据已导出至{}"
+
+msgctxt "acc_export_title"
+msgid "Exported accounting data"
+msgstr "财务数据导出成功"
+
 msgctxt "accounting"
 msgid "Accounting"
 msgstr "财务"
@@ -288,8 +393,8 @@ msgid "Depots"
 msgstr "    车辆段"
 
 msgctxt "accounting_construction_stations"
-msgid "Stations"
-msgstr "    车站"
+msgid "Platforms"
+msgstr "    站台"
 
 msgctxt "accounting_construction_total"
 msgid "Total construction"
@@ -511,6 +616,14 @@ msgctxt "acl_stranger_action"
 msgid "If an uninvited stranger wants to join:"
 msgstr "一个未被邀请的陌生人想加入:"
 
+msgctxt "alert_after"
+msgid "After:"
+msgstr "在"
+
+msgctxt "alert_on"
+msgid "Alert on:"
+msgstr "警报:"
+
 msgctxt "apply"
 msgid "Apply"
 msgstr "应用"
@@ -526,6 +639,18 @@ msgstr "车站"
 msgctxt "asset_trains"
 msgid "Trains"
 msgstr "列车"
+
+msgctxt "autoexport_config_name"
+msgid "Autoexport accounting:"
+msgstr "自动导出财务数据:"
+
+msgctxt "autoexport_config_value"
+msgid "Enabled"
+msgstr "启用"
+
+msgctxt "autoexporting"
+msgid "Autoexporting..."
+msgstr "自动导出中……"
 
 msgctxt "autosave_interval"
 msgid "Autosave interval:"
@@ -635,6 +760,30 @@ msgctxt "cancel_quit"
 msgid "Quit"
 msgstr "退出"
 
+msgctxt "cat_track_gauge"
+msgid "Track gauge"
+msgstr "轨距"
+
+msgctxt "cat_train_misc"
+msgid "Train miscellany"
+msgstr "列车杂项"
+
+msgctxt "cat_train_power"
+msgid "Train power"
+msgstr "列车动力"
+
+msgctxt "cat_train_role"
+msgid "Train role"
+msgstr "列车用途"
+
+msgctxt "cat_train_unit"
+msgid "Train unit"
+msgstr "列车编组"
+
+msgctxt "charts_title"
+msgid "Charts"
+msgstr "图表"
+
 msgctxt "client_blueprint_bill"
 msgid "My blueprint bill"
 msgstr "蓝图费用"
@@ -646,6 +795,10 @@ msgstr "服务器: {0} | {1}ms | {2:.2f}%▲ {3:.2f}%▼ | {4}▲ {5}▼ B/s"
 msgctxt "client_stream_stats"
 msgid "Client stream stats"
 msgstr "客户端信息统计"
+
+msgctxt "color"
+msgid "Color:"
+msgstr "颜色:"
 
 msgctxt "company_tab_info"
 msgid "Info"
@@ -668,8 +821,8 @@ msgid "Confirm delete"
 msgstr "确认删除"
 
 msgctxt "confirm_delete_desc"
-msgid "One or more selected tracks are already built. Deleting them will not refund your money. This operation cannot be undone. Are you sure?"
-msgstr "一个或多个选定的轨道已经建成。删除它们不会退还您的钱。此操作无法撤销。您确定吗？"
+msgid "One or more selected objects are already built. Deleting them will not refund your money. This operation cannot be undone. Are you sure?"
+msgstr "一个或多个选定的对象已经建成。删除它们不会退还您的钱。此操作无法撤销。您确定吗？"
 
 msgctxt "confirm_delete_line"
 msgid "Confirm line deletion"
@@ -744,12 +897,12 @@ msgid "To a track point"
 msgstr "轨迹点"
 
 msgctxt "constraints_editor"
-msgid "Track constraints"
-msgstr "轨道绑定"
+msgid "Track properties"
+msgstr "轨道属性"
 
 msgctxt "construct_no_bps"
-msgid "There are no pending track or station blueprints to build"
-msgstr "没有待建的轨道或车站蓝图"
+msgid "There are no pending blueprints to build"
+msgstr "没有待建的蓝图"
 
 msgctxt "construction_conflicts_cash"
 msgid "Not enough money for construction"
@@ -844,8 +997,8 @@ msgid "Delete and sell trains"
 msgstr "删除线路并出售列车"
 
 msgctxt "delete_tracks"
-msgid "Delete tracks"
-msgstr "删除轨道"
+msgid "Delete objects"
+msgstr "删除对象"
 
 msgctxt "demand_pax_overall"
 msgid "{:.1f} pax/s"
@@ -933,7 +1086,7 @@ msgstr "创建新的信号"
 
 msgctxt "editor_pick_constraint_parent_esc"
 msgid "Esc to cancel picking"
-msgstr "按Esc取消选择"
+msgstr "按 ESC 键取消选择"
 
 msgctxt "editor_pick_constraint_parent_left"
 msgid "Click a control point to make it the constraint parent"
@@ -957,11 +1110,11 @@ msgstr "创建新的车站站台"
 
 msgctxt "editor_tip_add_esc"
 msgid "Esc to go to edit mode"
-msgstr "按 Esc 回到编辑模式"
+msgstr "按 ESC 键回到编辑模式"
 
 msgctxt "editor_tip_add_left1"
 msgid "Left click on the existing end of track control points to continue an existing track"
-msgstr "左键单击轨道控制点(十字点)，以延伸现有的轨道"
+msgstr "左键点击轨道控制点(十字点)，以延伸现有的轨道"
 
 msgctxt "editor_tip_add_left2"
 msgid "Left click anywhere else to create a new track"
@@ -969,7 +1122,7 @@ msgstr "在任何地方点击左键来创建新的轨道"
 
 msgctxt "editor_tip_branch_esc"
 msgid "Esc to go to edit mode"
-msgstr "按 Esc 回到编辑模式"
+msgstr "按 ESC 键回到编辑模式"
 
 msgctxt "editor_tip_branch_left"
 msgid "Left click to create the branch"
@@ -981,55 +1134,55 @@ msgstr "将鼠标光标移到现有轨道附近以创建新的轨道分支"
 
 msgctxt "editor_tip_cont_alt"
 msgid "Alt to toggle the parallel track side"
-msgstr "Alt键交叉轨道，改变轨道行进的方向"
+msgstr "按 Alt 键交叉轨道，改变轨道行进的方向"
 
 msgctxt "editor_tip_cont_ctrl"
 msgid "Hold Ctrl to line up track with its previous track segment."
-msgstr "按住Ctrl键可以拉出直线。"
+msgstr "按住 Ctrl 键可以拉出直线。"
 
 msgctxt "editor_tip_cont_esc"
 msgid "Esc to cancel"
-msgstr "按 Esc 取消"
+msgstr "按 ESC 键取消"
 
 msgctxt "editor_tip_cont_left"
 msgid "Left click to create a new track segment. Hold Shift to keep creating more segments."
-msgstr "左键单击，创建新的轨道。按住Shift键，继续创造更多的轨道"
+msgstr "左键单击，创建新的轨道。按住 Shift 键，继续创造更多的轨道"
 
 msgctxt "editor_tip_cont_mouse"
 msgid "Hover the mouse cursor over an existing end of track to see how it would look linked with your current track"
 msgstr "将鼠标指向现有轨道的末端，看看与你刚设计轨道的连接效果"
 
 msgctxt "editor_tip_create_del"
-msgid "Del to delete selected tracks"
-msgstr "按 Del 删除选定的轨道"
+msgid "Del to delete selected objects"
+msgstr "按 Delete 键删除选定的对象"
 
 msgctxt "editor_tip_create_drag"
-msgid "Drag any selected track control point to move the selection"
-msgstr "拖动任何选定的轨道控制点来移动选区"
+msgid "Drag any selected control point to move the selection"
+msgstr "拖动任何选定的控制点来移动选区"
 
 msgctxt "editor_tip_create_esc"
 msgid "Esc to cancel selection"
-msgstr "按 Esc 取消选择"
+msgstr "按 ESC 键取消选择"
 
 msgctxt "editor_tip_create_left1"
-msgid "Left click on track or station control points to select them"
-msgstr "左键点击轨道或车站控制点来选择它们"
+msgid "Left click on object control points to select them"
+msgstr "左键点击控制点来选择它们"
 
 msgctxt "editor_tip_create_left2"
 msgid "Left click on station name plates to edit station details"
 msgstr "左键点击站名板，以编辑站点详情"
 
 msgctxt "editor_tip_create_left3"
-msgid "Left click on track or station control points to reset selection"
-msgstr "左键点击轨道或车站控制点来重新选择"
+msgid "Left click on control points to reset selection"
+msgstr "左键点击控制点来重新选择"
 
 msgctxt "editor_tip_create_prompt_sel"
-msgid "To move or delete tracks, you must select their control points"
-msgstr "要移动或删除轨道，必须选择它们的控制点"
+msgid "To move or delete objects, you must select their control points"
+msgstr "要移动或删除对象，必须选择它们的控制点"
 
 msgctxt "editor_tip_create_rebp2"
-msgid "{} to change selected built track(s) into blueprint track(s)"
-msgstr "按{}键将已经建造的轨道重新更改为蓝图"
+msgid "{} to change selected built object(s) into blueprint object(s)"
+msgstr "按{}键将已经建造的对象重新更改为蓝图"
 
 msgctxt "editor_tip_create_sleft"
 msgid "Shift left click to add or remove points from selection"
@@ -1037,23 +1190,23 @@ msgstr "Shift + 左键单击，选择或取消选择多个控制点"
 
 msgctxt "editor_tip_depot_esc"
 msgid "Esc to go to edit mode"
-msgstr "按 ESC 回到编辑模式"
+msgstr "按 ESC 键回到编辑模式"
 
 msgctxt "editor_tip_depot_fin_esc"
 msgid "Esc to cancel"
-msgstr "按 ESC 取消"
+msgstr "按 ESC 键取消"
 
 msgctxt "editor_tip_depot_fin_left"
 msgid "Left click to finish creating a new depot"
-msgstr "左键单击完成创建新的车辆段"
+msgstr "左键点击完成创建新的车辆段"
 
 msgctxt "editor_tip_depot_left"
 msgid "Left click to create a new depot"
-msgstr "左键点击创建一个新的车辆段"
+msgstr "左键单击创建一个新的车辆段"
 
 msgctxt "editor_tip_link_esc"
 msgid "Esc to go to edit mode"
-msgstr "按 ESC 回到编辑模式"
+msgstr "按 ESC 键回到编辑模式"
 
 msgctxt "editor_tip_link_left"
 msgid "Left click to link tracks"
@@ -1069,15 +1222,15 @@ msgstr "在轨道分支上拖动轨道控制点可以改变其位置"
 
 msgctxt "editor_tip_move_esc"
 msgid "Esc to cancel movement"
-msgstr "按 Esc 取消移动"
+msgstr "按 ESC 键取消移动"
 
 msgctxt "editor_tip_move_left"
-msgid "Release left button to stop moving the control point"
-msgstr "放开左键，停止移动控制点"
+msgid "Release left button to stop moving the selection"
+msgstr "放开左键停止选择"
 
 msgctxt "editor_tip_new_signal_esc"
 msgid "Esc to go to signal edit mode"
-msgstr "按Esc键回到信号编辑模式"
+msgstr "按 ESC 键回到信号编辑模式"
 
 msgctxt "editor_tip_new_signal_left"
 msgid "Left click to create signal"
@@ -1085,7 +1238,7 @@ msgstr "左键单击来创建信号"
 
 msgctxt "editor_tip_new_signal_shift"
 msgid "Shift to change signal facing direction"
-msgstr "按Shift键改变信号方向"
+msgstr "按 Shift 键改变信号方向"
 
 msgctxt "editor_tip_rect_left"
 msgid "Release the left button to end rectangle selection"
@@ -1093,7 +1246,7 @@ msgstr "松开左键，结束矩形选择"
 
 msgctxt "editor_tip_sel_signal_del"
 msgid "Del to delete selected signals"
-msgstr "按Del键删除选中的信号"
+msgstr "按 Delete 键删除选中的信号"
 
 msgctxt "editor_tip_sel_signal_drag"
 msgid "Drag to move selected signal"
@@ -1101,7 +1254,7 @@ msgstr "可以拖动选中的信号"
 
 msgctxt "editor_tip_sel_signal_esc"
 msgid "Esc to go to track edit mode"
-msgstr "按Esc键回到轨道编辑模式"
+msgstr "按 ESC 键回到轨道编辑模式"
 
 msgctxt "editor_tip_sel_signal_flip"
 msgid "{} to flip direction of selected signals"
@@ -1117,19 +1270,19 @@ msgstr "放开左键，停止移动信号"
 
 msgctxt "editor_tip_sel_signal_sel_esc"
 msgid "Esc to clear selection"
-msgstr "按Esc取消选择"
+msgstr "按 ESC 键取消选择"
 
 msgctxt "editor_tip_sel_signal_sleft"
 msgid "Shift left click to select additional signals"
-msgstr "按住Shift键后可多选信号"
+msgstr "按 Shift 键后可多选信号"
 
 msgctxt "editor_tip_station_esc"
 msgid "Esc to go to edit mode"
-msgstr "按 Esc 回到编辑模式"
+msgstr "按 ESC 键回到编辑模式"
 
 msgctxt "editor_tip_station_fin_esc"
 msgid "Esc to cancel"
-msgstr "按 Esc 取消"
+msgstr "按 ESC 键取消"
 
 msgctxt "editor_tip_station_fin_left"
 msgid "Left click to finish creating a new station platform"
@@ -1141,7 +1294,7 @@ msgstr "左键点击创建一个新的车站"
 
 msgctxt "editor_tip_undo"
 msgid "Ctrl-Z to undo the last edit"
-msgstr "Ctrl-Z 撤销最后一次编辑"
+msgstr "Ctrl + Z 键撤销最后一次编辑"
 
 msgctxt "editor_tip_zoom"
 msgid "Zoom in to edit"
@@ -1435,6 +1588,10 @@ msgctxt "info_table_pax_destination_tp"
 msgid "Destination station"
 msgstr "目的车站"
 
+msgctxt "info_table_pax_fare"
+msgid "Paid"
+msgstr "车费"
+
 msgctxt "info_table_pax_fare_tp"
 msgid "Fare(s) paid so far"
 msgstr "迄今已付的车票"
@@ -1659,6 +1816,18 @@ msgctxt "line_error_no_path_to_start"
 msgid "Cannot find path to start of line!"
 msgstr "找不到线路开始路径！"
 
+msgctxt "line_list_group_all"
+msgid "Group by: All lines"
+msgstr "显示所有线路"
+
+msgctxt "line_list_group_no_tags"
+msgid "Group by: Untagged"
+msgstr "显示无标签线路"
+
+msgctxt "line_list_group_tags"
+msgid "Group by: Tags"
+msgstr "按标签分组"
+
 msgctxt "line_list_sort_alpha"
 msgid "Sort by: Alphabetical"
 msgstr "按字母顺序排序"
@@ -1831,6 +2000,10 @@ msgctxt "lineeditor_stop_panel_editor"
 msgid "Stop {0}: {1}"
 msgstr "车站:{0}:{1}站台"
 
+msgctxt "lineeditor_tags"
+msgid "Tags:"
+msgstr "标签:"
+
 msgctxt "lineeditor_tooltip_add_stop_mode"
 msgid "Add stops to line"
 msgstr "在线路上增加车站"
@@ -1935,6 +2108,10 @@ msgctxt "loader_spawn"
 msgid "Spawning game loader"
 msgstr "生成游戏加载器"
 
+msgctxt "loader_stations_n"
+msgid "Validating stations, {} to go"
+msgstr "正在验证车站，还剩{}"
+
 msgctxt "loader_updating_rules"
 msgid "Updating game rules"
 msgstr "更新游戏规则"
@@ -2038,6 +2215,10 @@ msgstr "地图名称优先级:"
 msgctxt "max_speed_desc"
 msgid "Map and UI is disabled in max speed mode. Slow down to cancel."
 msgstr "地图与UI会在游戏最大速度时禁用。放慢游戏速度启用地图与UI。"
+
+msgctxt "minutes"
+msgid "minutes"
+msgstr "分钟后"
 
 msgctxt "missing_mod"
 msgid "This mod data is enabled in the current game, but it is not installed in this PC. Some textures might be missing."
@@ -2150,6 +2331,10 @@ msgstr "在创意工坊中查看"
 msgctxt "mod_version"
 msgid "Version:"
 msgstr "版本:"
+
+msgctxt "mode_map_layer_regions"
+msgid "Regions layer"
+msgstr "行政视图"
 
 msgctxt "mode_map_population"
 msgid "Population layer"
@@ -2419,6 +2604,10 @@ msgctxt "mvo_user_zoom_out_tracks"
 msgid "Zoomed out tracks"
 msgstr "当缩小视图时继续显示轨道"
 
+msgctxt "name"
+msgid "Name:"
+msgstr "名称:"
+
 msgctxt "new_game"
 msgid "New game"
 msgstr "新游戏"
@@ -2466,6 +2655,10 @@ msgstr "打开"
 msgctxt "open_games_folder_tooltip"
 msgid "Open saved games folder"
 msgstr "打开存档所在的文件夹"
+
+msgctxt "option_company_acc_export"
+msgid "Export accounting data"
+msgstr "导出财务数据"
 
 msgctxt "option_company_demand"
 msgid "Pax demand factor:"
@@ -2587,6 +2780,10 @@ msgctxt "ovewrite_other_desc"
 msgid "{} was saved with a different game version. Do you want to overwrite it, or rename it to keep its original contents, then save the game?"
 msgstr "{} 被保存为不同的游戏版本。你是想覆盖它，还是给它重新命名以保持原来的内容，然后再保存游戏？"
 
+msgctxt "parent"
+msgid "Parent:"
+msgstr "上一级:"
+
 msgctxt "paste"
 msgid "Paste"
 msgstr "粘贴"
@@ -2666,6 +2863,10 @@ msgstr "站台"
 msgctxt "platforms"
 msgid "Platforms"
 msgstr "站台"
+
+msgctxt "plots_button_tp"
+msgid "Open charts window"
+msgstr "打开图表窗口"
 
 msgctxt "pop_reach"
 msgid "Reach: {}"
@@ -2750,6 +2951,10 @@ msgstr "多人游戏状态"
 msgctxt "right_bar_search"
 msgid "Search"
 msgstr "搜索"
+
+msgctxt "right_bar_tags"
+msgid "Tags"
+msgstr "标签"
 
 msgctxt "rtstat_coverage"
 msgid "Coverage"
@@ -2907,6 +3112,18 @@ msgctxt "settings"
 msgid "Settings"
 msgstr "设置"
 
+msgctxt "signal_alert_opt_custom"
+msgid "Custom wait time"
+msgstr "自定义等等时间"
+
+msgctxt "signal_alert_opt_default"
+msgid "Same wait time as global option"
+msgstr "与全局等待时间相同"
+
+msgctxt "signal_alert_opts"
+msgid "Alert on:"
+msgstr "警报:"
+
 msgctxt "signal_dir_m1"
 msgid "-1"
 msgstr "-1"
@@ -2927,6 +3144,30 @@ msgctxt "signal_editor_title_new"
 msgid "New signal"
 msgstr "新建信号"
 
+msgctxt "signal_filter_applies"
+msgid "Applies to all trains"
+msgstr "适用于所有列车"
+
+msgctxt "signal_filter_except"
+msgid "Except:"
+msgstr "排除:"
+
+msgctxt "signal_filter_ignored"
+msgid "Ignored by all trains"
+msgstr "不适用于所有列车"
+
+msgctxt "signal_filter_label"
+msgid "By default:"
+msgstr "默认情况:"
+
+msgctxt "signal_filter_none"
+msgid "<No exceptions>"
+msgstr "<没有例外>"
+
+msgctxt "signal_filter_op_or"
+msgid "OR"
+msgstr "或"
+
 msgctxt "signal_flip"
 msgid "Flip"
 msgstr "切换方向"
@@ -2934,6 +3175,10 @@ msgstr "切换方向"
 msgctxt "signal_kind_block_balise"
 msgid "Block balise"
 msgstr "闭塞区边界"
+
+msgctxt "signal_kind_name_noway"
+msgid "No way"
+msgstr "禁行标志"
 
 msgctxt "signal_kind_name_oneway"
 msgid "One way"
@@ -2995,6 +3240,14 @@ msgctxt "signal_type"
 msgid "Type:"
 msgstr "类型:"
 
+msgctxt "signal_warn_max_length"
+msgid "The block of track protected by this signal is too long. Introduce more signals in the block, like balises, to make it shorter."
+msgstr "闭塞区间过长，建议添加更多信号。"
+
+msgctxt "signal_warn_too_close"
+msgid "Too close"
+msgstr "距离太短"
+
 msgctxt "single_player"
 msgid "Single player"
 msgstr "单人游戏"
@@ -3030,18 +3283,6 @@ msgstr "使用自动生成名称"
 msgctxt "station_pop_area"
 msgid "Area:"
 msgstr "覆盖区域:"
-
-msgctxt "stations_n_0"
-msgid "0 stations"
-msgstr "0 个车站"
-
-msgctxt "stations_n_1"
-msgid "1 station"
-msgstr "1 个车站"
-
-msgctxt "stations_n_many"
-msgid "%d stations"
-msgstr "%d 个车站"
 
 msgctxt "steam_chat"
 msgid "Steam Chat and Friends"
@@ -3155,6 +3396,10 @@ msgctxt "tag_compartments"
 msgid "Compartments"
 msgstr "包间"
 
+msgctxt "tag_del"
+msgid "Delete tag"
+msgstr "删除标签"
+
 msgctxt "tag_diesel"
 msgid "Diesel"
 msgstr "内燃"
@@ -3198,6 +3443,22 @@ msgstr "高速"
 msgctxt "tag_hotel"
 msgid "Hotel"
 msgstr "酒店"
+
+msgctxt "tag_info_builtin"
+msgid "Built-in tag"
+msgstr "内置标签"
+
+msgctxt "tag_info_def_name"
+msgid "New tag"
+msgstr "新增标签"
+
+msgctxt "tag_info_mp"
+msgid "Cannot edit in multiplayer"
+msgstr "无法在多人模式中编辑"
+
+msgctxt "tag_info_top_level"
+msgid "<Top level>"
+msgstr "<最高等级>"
 
 msgctxt "tag_intercity"
 msgid "Intercity"
@@ -3246,6 +3507,10 @@ msgstr "动车组"
 msgctxt "tag_narrow"
 msgid "Narrow"
 msgstr "窄轨"
+
+msgctxt "tag_new"
+msgid "New tag"
+msgstr "新增标签"
 
 msgctxt "tag_observation"
 msgid "Observation"
@@ -3331,6 +3596,10 @@ msgctxt "tag_tyres"
 msgid "Tyres"
 msgstr "轮胎"
 
+msgctxt "tags_empty"
+msgid "<No tags>"
+msgstr "<无标签>"
+
 msgctxt "tags_gauge"
 msgid "Gauge"
 msgstr "轨距"
@@ -3358,10 +3627,6 @@ msgstr "双站台设置单行方向为左行"
 msgctxt "teo.plat_auto_scissors"
 msgid "Auto append scissor intersections and path signals for double platforms"
 msgstr "双站台自动添加站台交叉渡线及信号机"
-
-msgctxt "teo.plat_auto_stops"
-msgid "Auto append platform stop point signals"
-msgstr "双站台自动添加站台停车标志"
 
 msgctxt "teo.twoex_mode"
 msgid "Double track mode"
@@ -3446,6 +3711,18 @@ msgstr "按价格排序"
 msgctxt "track_sort_speed"
 msgid "Max. speed"
 msgstr "按最高速度排序"
+
+msgctxt "train_alert_banner"
+msgid "{} ({})\n{}\nSince: {} UTC{}"
+msgstr "{} ({})\n{}\n发生时间:: {} UTC-{}"
+
+msgctxt "train_alert_center_train"
+msgid "Go to train"
+msgstr "前往列车位置"
+
+msgctxt "train_alert_line_banner"
+msgid "{} ({} / {})\n{}\nSince: {} UTC{}"
+msgstr "{} ({} / {})\n{}\n发生时间: {} UTC{}"
 
 msgctxt "train_base_color_edit"
 msgid "Base color:"
@@ -3579,6 +3856,10 @@ msgctxt "train_info_status"
 msgid "Status:"
 msgstr "数据:"
 
+msgctxt "train_info_status_busy_track"
+msgid "Track is occupied or reserved"
+msgstr "轨道被占用或被保留"
+
 msgctxt "train_info_status_circulation"
 msgid "Running"
 msgstr "运行中"
@@ -3591,6 +3872,10 @@ msgctxt "train_info_status_in_storage"
 msgid "Stored"
 msgstr "停放"
 
+msgctxt "train_info_status_line_closed"
+msgid "Line is closed"
+msgstr "线路已关闭"
+
 msgctxt "train_info_status_lost_or_bad_orders"
 msgid "Lost or bad orders"
 msgstr "丢失或错误的命令"
@@ -3598,6 +3883,10 @@ msgstr "丢失或错误的命令"
 msgctxt "train_info_status_no_path_to_destination"
 msgid "No path to destination"
 msgstr "没有通往目的地的路径"
+
+msgctxt "train_info_status_signal_wait"
+msgid "Waiting at signal"
+msgstr "等待信号"
 
 msgctxt "train_info_storing"
 msgid "Storing in:"
@@ -3627,6 +3916,10 @@ msgctxt "train_list_filter_by_line"
 msgid "Group by line"
 msgstr "按线路分组"
 
+msgctxt "train_list_filter_by_line_tags"
+msgid "Group by line tags"
+msgstr "按线路标签分组"
+
 msgctxt "train_list_filter_by_model"
 msgid "Group by model"
 msgstr "按型号分组"
@@ -3634,6 +3927,10 @@ msgstr "按型号分组"
 msgctxt "train_list_filter_depot"
 msgid "In depot"
 msgstr "在车辆段中"
+
+msgctxt "train_list_filter_tags"
+msgid "Group by tags"
+msgstr "按标签分组"
 
 msgctxt "train_model_edit"
 msgid "Model:"
@@ -4074,18 +4371,13 @@ msgstr "此模组在当前游戏中已启用，但其安装的文件需要更新
 # ----------------------------------------------------------
 #删除的（老版本）字符串
 
-
 msgctxt "accounting_period_lifetme"
 msgid "Lifetime"
 msgstr "全部时间"
 
 msgctxt "editor_tip_branch_shift"
 msgid "Press shift for opposite direction"
-msgstr "按住 shift 键改变道岔方向"
-
-msgctxt "info_table_pax_fare"
-msgid "Paid"
-msgstr "车费"
+msgstr "按 Shift 键改变道岔方向"
 
 msgctxt "key_info"
 msgid "Key: "
@@ -4263,6 +4555,18 @@ msgctxt "speed_up"
 msgid "Speed up"
 msgstr "加快时间流逝"
 
+msgctxt "stations_n_0"
+msgid "0 stations"
+msgstr "0 个车站"
+
+msgctxt "stations_n_1"
+msgid "1 station"
+msgstr "1 个车站"
+
+msgctxt "stations_n_many"
+msgid "%d stations"
+msgstr "%d 个车站"
+
 msgctxt "stop_leg_at_speed"
 msgid "at"
 msgstr "最低"
@@ -4278,6 +4582,10 @@ msgstr "{} m 用时"
 msgctxt "tag_deposit"
 msgid "Deposit"
 msgstr "存包处"
+
+msgctxt "teo.plat_auto_stops"
+msgid "Auto append platform stop point signals"
+msgstr "双站台自动添加站台停车标志"
 
 msgctxt "track_ground"
 msgid "Ground"
@@ -6066,7 +6374,6 @@ msgid "MTR Phase V LRV"
 msgstr "港铁轻铁第五期列车"
 
 
-
 ## ----------------------------------------------------------
 ## 轨道翻译
 
@@ -6508,7 +6815,6 @@ msgstr "NLA 隐形轨道"
 msgctxt "nla_utility_track_2_name"
 msgid "NLA Airway"
 msgstr "NLA 空中航线"
-
 
 
 ## ----------------------------------------------------------
