@@ -1,6 +1,8 @@
 # NIMBY Rails的参考中文翻译
 这是一个中文翻译mod，也是NIMBY Rails的参考翻译。
 
+创意工坊链接：[https://steamcommunity.com/sharedfiles/filedetails/?id=2376057012](https://steamcommunity.com/sharedfiles/filedetails/?id=2376057012)
+
 查看mod开发指南，了解如何创建翻译mod。
 
 [https://steamcommunity.com/sharedfiles/filedetails/?id=2268014666](https://steamcommunity.com/sharedfiles/filedetails/?id=2268014666)
