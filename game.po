@@ -1,4 +1,23 @@
 # ----------------------------------------------------------
+# Beta 1.4.20 版本 新添加字符串
+
+msgctxt "delete_collection"
+msgid "Delete collection"
+msgstr "删除收藏夹"
+
+msgctxt "edit_collection_name"
+msgid "Edit collection name"
+msgstr "编辑收藏夹名称"
+
+msgctxt "new_collection"
+msgid "New collection"
+msgstr "新增收藏夹"
+
+msgctxt "return_game"
+msgid "Return to game"
+msgstr "返回游戏"
+
+# ----------------------------------------------------------
 # 1.4.15 版本 新添加字符串
 
 msgctxt "accounting_construction_buildings"
@@ -2894,11 +2913,11 @@ msgstr "快速入门指南"
 
 msgctxt "quit_desktop"
 msgid "Quit to desktop"
-msgstr "退回到桌面"
+msgstr "退出到桌面"
 
 msgctxt "quit_game"
 msgid "Quit game"
-msgstr "退回到主菜单"
+msgstr "退出到主菜单"
 
 msgctxt "rename_save"
 msgid "Rename and save"
