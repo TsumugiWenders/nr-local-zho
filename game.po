@@ -1,5 +1,53 @@
 # ----------------------------------------------------------
-# Beta 1.4.20 版本 新添加字符串
+# 1.4.22 版本 新添加字符串
+
+msgctxt "building_bottom_side"
+msgid "Bottom side:"
+msgstr "底部:"
+
+msgctxt "building_decal"
+msgid "Decal:"
+msgstr "图案:"
+
+msgctxt "building_decal_color"
+msgid "Decal color:"
+msgstr "图案颜色:"
+
+msgctxt "building_decal_none"
+msgid "<None>"
+msgstr "<空>"
+
+msgctxt "building_end_t"
+msgid "End t (0 to 1):"
+msgstr "终止位置(0-1):"
+
+msgctxt "building_height"
+msgid "Height:"
+msgstr "高度:"
+
+msgctxt "building_start_t"
+msgid "Start t (0 to 1):"
+msgstr "起始位置(0-1):"
+
+msgctxt "building_top_side"
+msgid "Top side:"
+msgstr "顶部:"
+
+msgctxt "building_width"
+msgid "Width:"
+msgstr "宽度:"
+
+msgctxt "confirm_collection_delete"
+msgid "Delete collection"
+msgstr "删除收藏夹"
+
+msgctxt "confirm_collection_delete_body"
+msgid "Delete the selected collection?"
+msgstr "确定要删除选择的收藏夹吗?"
+
+msgctxt "confirm_collection_delete_ok"
+msgid "Delete collection"
+msgstr "删除收藏夹"
 
 msgctxt "delete_collection"
 msgid "Delete collection"
@@ -9,359 +57,44 @@ msgctxt "edit_collection_name"
 msgid "Edit collection name"
 msgstr "编辑收藏夹名称"
 
+msgctxt "local_bp_collection"
+msgid "Collection to upload:"
+msgstr "要上传的收藏夹:"
+
+msgctxt "mod_category_label"
+msgid "Category:"
+msgstr "类别:"
+
+msgctxt "mod_kind_assets"
+msgid "Assets"
+msgstr "资产"
+
+msgctxt "mod_kind_blueprints"
+msgid "Blueprints"
+msgstr "蓝图"
+
+msgctxt "my_collection"
+msgid "My collection"
+msgstr "我的收藏夹"
+
 msgctxt "new_collection"
 msgid "New collection"
 msgstr "新增收藏夹"
+
+msgctxt "pick_a_local_collection"
+msgid "Pick a private collection"
+msgstr "选择一个自己的收藏夹"
 
 msgctxt "return_game"
 msgid "Return to game"
 msgstr "返回游戏"
 
-# ----------------------------------------------------------
-# 1.4.15 版本 新添加字符串
-
-msgctxt "accounting_construction_buildings"
-msgid "Buildings"
-msgstr "建筑"
-
-msgctxt "alerts_pause_game"
-msgid "Alerts pause game"
-msgstr "警报时暂停游戏"
-
-msgctxt "alerts_pause_game_fastest"
-msgid "Even at fastest speed"
-msgstr "最快速度下仍然暂停"
-
-msgctxt "bill_show_full"
-msgid "Show full billing details"
-msgstr "显示完整的账单详情"
-
-msgctxt "building_all_kinds_info"
-msgid "Show all building kinds and pick your favorites"
-msgstr "显示所有建筑类型并选进你的收藏栏"
-
-msgctxt "building_constraint_curved"
-msgid "Trace track curve"
-msgstr "轨迹曲线"
-
-msgctxt "building_constraint_draw_layer"
-msgid "Draw depth:"
-msgstr "绘制图层:"
-
-msgctxt "building_constraint_pick"
-msgid "Pick track"
-msgstr "选择轨道"
-
-msgctxt "building_constraint_type"
-msgid "Locked to track:"
-msgstr "锁定到轨道:"
-
-msgctxt "building_constraints_editor"
-msgid "Building properties"
-msgstr "建筑物"
-
-msgctxt "building_draw_layer_0"
-msgid "Under tracks"
-msgstr "轨道下方"
-
-msgctxt "building_draw_layer_1"
-msgid "Over tracks"
-msgstr "轨道上方"
-
-msgctxt "building_draw_layer_3"
-msgid "Roof"
-msgstr "房顶"
-
-msgctxt "building_info_price_f"
-msgid "${} per m\xC2\xB2"
-msgstr "每平米 ${}"
-
-msgctxt "building_label"
-msgid "[*] Label"
-msgstr "[*]标签"
-
-msgctxt "building_label_bg_fill"
-msgid "Fill background"
-msgstr "填充背景"
-
-msgctxt "building_label_font"
-msgid "Font size:"
-msgstr "字体大小:"
-
-msgctxt "building_label_font_0"
-msgid "Small"
-msgstr "小"
-
-msgctxt "building_label_font_1"
-msgid "Medium"
-msgstr "中"
-
-msgctxt "building_label_font_2"
-msgid "Large"
-msgstr "大"
-
-msgctxt "building_label_text"
-msgid "Text:"
-msgstr "文本:"
-
-msgctxt "building_max_zoom"
-msgid "Max zoom:"
-msgstr "最大缩放:"
-
-msgctxt "building_platform_footprint_extension"
-msgid "[*] Platform footprint extension"
-msgstr "[*]车站扩展平台"
-
-msgctxt "buildings_total"
-msgid "Buildings total"
-msgstr "建筑合计"
-
-msgctxt "client_blueprint_bill_short"
-msgid "My blueprints"
-msgstr "我的蓝图"
-
-msgctxt "clip_auto_name"
-msgid "Clip #{}"
-msgstr "素材#{}"
-
-msgctxt "confirm_clip_unknown"
-msgid "Clip contains unknown objects or mods"
-msgstr "素材中包含物品物品或模组"
-
-msgctxt "confirm_clip_unknown_desc_1"
-msgid "One or more objects in the clip references an unknown object kind:\n"
-msgstr "素材中的部分物品引用了未知的对象类型:\n"
-
-msgctxt "confirm_clip_unknown_desc_2"
-msgid "One or more objects in the clip references an unknown mod:\n"
-msgstr "素材中的部分物品引用了未知的模组:\n"
-
-msgctxt "confirm_clip_unknown_desc_3"
-msgid "Copy with built-in to replace unknown objects with built-in objects, avoiding new mods and object kinds being imported into your game.\n"
-msgstr "用 built-in 中的对象替换未知对象，以避免将新的模组和对象类型导入游戏。\n"
-
-msgctxt "confirm_clip_unknown_desc_4"
-msgid "Copy with new mods to import new object kinds and to enable their mods in your game. You will then need to subscribe to these mods in the Steam Workshop if you are not yet subscribed."
-msgstr "导入新的对象类型，并在游戏中启用对应的模组。若模组未订阅，则需要前往创意工坊先订阅。"
-
-msgctxt "constraint_disp"
-msgid "Displace (m):"
-msgstr "位移(米):"
-
-msgctxt "constraint_straight"
-msgid "Keep straight"
-msgstr "保持直线"
-
-msgctxt "copied_from_coll"
-msgid "Copied! Paste with Ctrl-V"
-msgstr "使用 Ctrl + V 键粘贴"
-
-msgctxt "default_user_label"
-msgid "Edit me"
-msgstr "编辑素材"
-
-msgctxt "delete_clip"
-msgid "Delete clip"
-msgstr "删除素材"
-
-msgctxt "edit_clip_name"
-msgid "Edit clip name"
-msgstr "编辑素材名称"
-
-msgctxt "editor_building"
-msgid "Create new buildings"
-msgstr "创建新的建筑"
-
-msgctxt "editor_pick_building_parent_left"
-msgid "Click a control point to make it the building parent"
-msgstr "点击一个轨道控制点来绑定到建筑节点"
-
-msgctxt "editor_tip_copy"
-msgid "Ctrl-C to copy selected objects into clipboard"
-msgstr "Ctrl + C 键将选定的对象复制到剪贴板"
-
-msgctxt "editor_tip_create_drag_alt"
-msgid "Alt and drag any selected control point to rotate the selection"
-msgstr "点击 Alt 键并拖动选定的控制点来旋转对象"
-
-msgctxt "editor_tip_move_building_sizer"
-msgid "Drag the building control point to resize and rotate the building"
-msgstr "拖动建筑控制点来调整和旋转建筑"
-
-msgctxt "editor_tip_move_building_sizer_ctrl"
-msgid "Hold Ctrl to line up the control point on its current axis."
-msgstr "按住 Ctrl 键将控制点与当前轴对齐"
-
-msgctxt "editor_tip_new_building_fin_left"
-msgid "Left click to finish creating a new building"
-msgstr "左键点击完成创建新的建筑"
-
-msgctxt "editor_tip_new_building_left"
-msgid "Left click to create a new building"
-msgstr "左键单击创建一个新的建筑"
-
-msgctxt "editor_tip_paste"
-msgid "Ctrl-V to paste clipboard objects"
-msgstr "Ctrl + V 键粘贴对象"
-
-msgctxt "editor_tip_rot_left"
-msgid "Release left button to stop rotating the selection"
-msgstr "松开左键停止旋转选择的对象"
-
-msgctxt "empty_clipboard"
-msgid "<Empty clipboard>"
-msgstr "<空剪贴板>"
-
-msgctxt "enable_new_mods"
-msgid "Copy with new mods"
-msgstr "复制并启用新模组"
-
-msgctxt "global_blueprint_bill_short"
-msgid "Global"
-msgstr "全球"
-
-msgctxt "help_show_full"
-msgid "Show help"
-msgstr "显示帮助"
-
-msgctxt "info_company_buildings"
-msgid "Buildings:"
-msgstr "建筑:"
-
-msgctxt "info_company_lines"
-msgid "Lines:"
-msgstr "线路:"
-
-msgctxt "info_company_stations"
-msgid "Stations:"
-msgstr "车站:"
-
-msgctxt "info_company_tracks"
-msgid "Track segments:"
-msgstr "轨道段:"
-
-msgctxt "info_company_trains"
-msgid "Trains:"
-msgstr "列车:"
-
-msgctxt "invalid_size"
-msgid "invalid size"
-msgstr "无效的大小"
-
-msgctxt "kb_track_building"
-msgid "Tracks: new building"
-msgstr "轨道:创建建筑"
-
-msgctxt "layer_ground_g"
-msgid "G"
-msgstr "地"
-
-msgctxt "loader_tracks_n"
-msgid "Validating tracks, {} to go"
-msgstr "正在验证轨道，还剩{}"
-
-msgctxt "mvo_user_labels"
-msgid "User labels"
-msgstr "用户标签"
-
-msgctxt "mvo_user_layer_draw_over_O"
-msgid "O"
-msgstr "上"
-
-msgctxt "mvo_user_layer_draw_roof_R"
-msgid "R"
-msgstr "顶"
-
-msgctxt "mvo_user_layer_draw_under_U"
-msgid "U"
-msgstr "底"
-
-msgctxt "mvo_user_layer_toggles"
-msgid "Display layers:"
-msgstr "显示图层:"
-
-msgctxt "mvo_user_platform_names"
-msgid "Platform names"
-msgstr "站台名称显示"
-
-msgctxt "mvo_user_track_depth"
-msgid "Tunnels under roads"
-msgstr "隧道在地图道路下方显示"
-
-msgctxt "open_games_backup_folder_tooltip"
-msgid "Open saved games auto backup folder"
-msgstr "打开自动存档所在的文件夹"
-
-msgctxt "plat_buildings_base"
-msgid "Auto append building base"
-msgstr "自动添加基础建筑"
-
-msgctxt "plat_buildings_floor"
-msgid "Auto append building floors and ceiling"
-msgstr "自动添加地板和天花板"
-
-msgctxt "plat_curved"
-msgid "Curved tracks and buildings"
-msgstr "轨道和建筑可弯曲"
-
-msgctxt "plats_n_0"
-msgid "0 platforms"
-msgstr "0 个站台"
-
-msgctxt "plats_n_1"
-msgid "1 platform"
-msgstr "1 个站台"
-
-msgctxt "plats_n_many"
-msgid "%d platforms"
-msgstr "%d 个站台"
-
-msgctxt "save_clipboard"
-msgid "Save clipboard"
-msgstr "保存到剪贴板"
-
-msgctxt "selection_blueprint_bill_short"
-msgid "Selected"
-msgstr "已选"
-
-msgctxt "show_all_clips"
-msgid "Show saved clipboard clips"
-msgstr "显示剪贴板"
-
-msgctxt "signal_edit_invalid_track"
-msgid "This signal is still functional but it is not allowed on this kind of track starting from version 1.4. Some train maneuvers might be disabled in this track. Move it to a different track."
-msgstr "该信号仍有效，但从1.4版本开始，此信号不允许在此类轨道上使用。若你仍要使用，则一些列车功能将被禁用。"
-
-msgctxt "signal_edit_plat_stop_obsolete"
-msgid "This signal is still functional but it has been obsoleted. Some train maneuvers might be disabled in this track."
-msgstr "该信号仍有效，但已被淘汰。若你仍要使用，则一些列车功能将被禁用。"
-
-msgctxt "signal_edit_simple_block_obsolete"
-msgid "This signal is still functional but it has been obsoleted by path signals. Replace your simple block signaling with path signals."
-msgstr "该信号仍有效，但已被进路信号机替代。"
-
-msgctxt "station_platform_auto_name"
-msgid "Platform auto name"
-msgstr "自动生成站台名称"
-
-msgctxt "station_platform_user_name"
-msgid "Platform name:"
-msgstr "站台名称:"
-
-msgctxt "trackeditor_hide_controls"
-msgid "Hide control points at low zoom"
-msgstr "低缩放时隐藏控制点"
-
-msgctxt "tracks_total"
-msgid "Tracks total"
-msgstr "轨道合计"
-
-msgctxt "use_placeholders"
-msgid "Copy with built-in"
-msgstr "用内置对象复制"
+msgctxt "stream_catch_up_desc2"
+msgid "You are falling behind the host. Speeding up the clock to catch up. Lag frames: {}"
+msgstr "你的时间已经落后于主机时间 {} 帧了，请加快时间以同步主机时间。"
 
 # ----------------------------------------------------------
-# 1.3.13 及以前版本 字符串
+# 1.4.15 及以前版本 字符串
 
 msgctxt "10_minutes"
 msgid "10 minutes"
@@ -406,6 +139,10 @@ msgstr "总计"
 msgctxt "accounting_construction"
 msgid "Construction"
 msgstr "基础设施"
+
+msgctxt "accounting_construction_buildings"
+msgid "Buildings"
+msgstr "建筑"
 
 msgctxt "accounting_construction_depots"
 msgid "Depots"
@@ -643,6 +380,14 @@ msgctxt "alert_on"
 msgid "Alert on:"
 msgstr "警报:"
 
+msgctxt "alerts_pause_game"
+msgid "Alerts pause game"
+msgstr "警报时暂停游戏"
+
+msgctxt "alerts_pause_game_fastest"
+msgid "Even at fastest speed"
+msgstr "最快速度下仍然暂停"
+
 msgctxt "apply"
 msgid "Apply"
 msgstr "应用"
@@ -743,6 +488,10 @@ msgctxt "banner_prompt_server_join_user"
 msgid "{0} proposes you to join a game hosted by {1}. Do you want to join? WARNING: You are currently hosting a game. All your connected players will be disconnected. Your current game will be autosaved."
 msgstr "{0} 邀请您加入由 {1} 主持的游戏。警告:你目前正在主持一个游戏，当前游戏中所有连接的玩家都会被断开。您当前的游戏将被自动保存。您确认要加入吗？"
 
+msgctxt "bill_show_full"
+msgid "Show full billing details"
+msgstr "显示完整的账单详情"
+
 msgctxt "bill_tab_client"
 msgid "By me"
 msgstr "我的蓝图"
@@ -770,6 +519,86 @@ msgstr "建设我的蓝图"
 msgctxt "build_selected_bp"
 msgid "Build selected blueprints"
 msgstr "建设选择的蓝图"
+
+msgctxt "building_all_kinds_info"
+msgid "Show all building kinds and pick your favorites"
+msgstr "显示所有建筑类型并选进你的收藏栏"
+
+msgctxt "building_constraint_curved"
+msgid "Trace track curve"
+msgstr "轨迹曲线"
+
+msgctxt "building_constraint_draw_layer"
+msgid "Draw depth:"
+msgstr "绘制图层:"
+
+msgctxt "building_constraint_pick"
+msgid "Pick track"
+msgstr "选择轨道"
+
+msgctxt "building_constraint_type"
+msgid "Locked to track:"
+msgstr "锁定到轨道:"
+
+msgctxt "building_constraints_editor"
+msgid "Building properties"
+msgstr "建筑物"
+
+msgctxt "building_draw_layer_0"
+msgid "Under tracks"
+msgstr "轨道下方"
+
+msgctxt "building_draw_layer_1"
+msgid "Over tracks"
+msgstr "轨道上方"
+
+msgctxt "building_draw_layer_3"
+msgid "Roof"
+msgstr "房顶"
+
+msgctxt "building_info_price_f"
+msgid "${} per m\xC2\xB2"
+msgstr "每平米 ${}"
+
+msgctxt "building_label"
+msgid "[*] Label"
+msgstr "[*]标签"
+
+msgctxt "building_label_bg_fill"
+msgid "Fill background"
+msgstr "填充背景"
+
+msgctxt "building_label_font"
+msgid "Font size:"
+msgstr "字体大小:"
+
+msgctxt "building_label_font_0"
+msgid "Small"
+msgstr "小"
+
+msgctxt "building_label_font_1"
+msgid "Medium"
+msgstr "中"
+
+msgctxt "building_label_font_2"
+msgid "Large"
+msgstr "大"
+
+msgctxt "building_label_text"
+msgid "Text:"
+msgstr "文本:"
+
+msgctxt "building_max_zoom"
+msgid "Max zoom:"
+msgstr "最大缩放:"
+
+msgctxt "building_platform_footprint_extension"
+msgid "[*] Platform footprint extension"
+msgstr "[*]车站扩展平台"
+
+msgctxt "buildings_total"
+msgid "Buildings total"
+msgstr "建筑合计"
 
 msgctxt "cancel"
 msgid "Cancel"
@@ -807,6 +636,10 @@ msgctxt "client_blueprint_bill"
 msgid "My blueprint bill"
 msgstr "蓝图费用"
 
+msgctxt "client_blueprint_bill_short"
+msgid "My blueprints"
+msgstr "我的蓝图"
+
 msgctxt "client_conn_info"
 msgid "Host: {0} | {1}ms | {2:.2f}%▲ {3:.2f}%▼ | {4}▲ {5}▼ B/s"
 msgstr "服务器: {0} | {1}ms | {2:.2f}%▲ {3:.2f}%▼ | {4}▲ {5}▼ B/s"
@@ -814,6 +647,10 @@ msgstr "服务器: {0} | {1}ms | {2:.2f}%▲ {3:.2f}%▼ | {4}▲ {5}▼ B/s"
 msgctxt "client_stream_stats"
 msgid "Client stream stats"
 msgstr "客户端信息统计"
+
+msgctxt "clip_auto_name"
+msgid "Clip #{}"
+msgstr "素材#{}"
 
 msgctxt "color"
 msgid "Color:"
@@ -830,6 +667,26 @@ msgstr "您想建造当前的蓝图吗？"
 msgctxt "confirm_bp_price"
 msgid "Do you want to build the current blueprint for ${}?"
 msgstr "您想以 ${} 的价格来建造当前的蓝图吗？"
+
+msgctxt "confirm_clip_unknown"
+msgid "Clip contains unknown objects or mods"
+msgstr "素材中包含物品物品或模组"
+
+msgctxt "confirm_clip_unknown_desc_1"
+msgid "One or more objects in the clip references an unknown object kind:\n"
+msgstr "素材中的部分物品引用了未知的对象类型:\n"
+
+msgctxt "confirm_clip_unknown_desc_2"
+msgid "One or more objects in the clip references an unknown mod:\n"
+msgstr "素材中的部分物品引用了未知的模组:\n"
+
+msgctxt "confirm_clip_unknown_desc_3"
+msgid "Copy with built-in to replace unknown objects with built-in objects, avoiding new mods and object kinds being imported into your game.\n"
+msgstr "用 built-in 中的对象替换未知对象，以避免将新的模组和对象类型导入游戏。\n"
+
+msgctxt "confirm_clip_unknown_desc_4"
+msgid "Copy with new mods to import new object kinds and to enable their mods in your game. You will then need to subscribe to these mods in the Steam Workshop if you are not yet subscribed."
+msgstr "导入新的对象类型，并在游戏中启用对应的模组。若模组未订阅，则需要前往创意工坊先订阅。"
 
 msgctxt "confirm_construction"
 msgid "Confirm construction"
@@ -883,13 +740,17 @@ msgctxt "constraint_direction"
 msgid "Direction:"
 msgstr "方向:"
 
+msgctxt "constraint_disp"
+msgid "Displace:"
+msgstr "位移:"
+
 msgctxt "constraint_flip"
 msgid "Flip"
 msgstr "切换方向"
 
 msgctxt "constraint_offset"
-msgid "Offset (m):"
-msgstr "线间距离(米):"
+msgid "Offset:"
+msgstr "线间距离:"
 
 msgctxt "constraint_pick"
 msgid "Pick parent"
@@ -898,6 +759,10 @@ msgstr "选择节点"
 msgctxt "constraint_remove"
 msgid "Remove constraint"
 msgstr "解除绑定"
+
+msgctxt "constraint_straight"
+msgid "Keep straight"
+msgstr "保持直线"
 
 msgctxt "constraint_t"
 msgid "Segment t (0 to 1):"
@@ -934,6 +799,10 @@ msgstr "有冲突阻碍了施工"
 msgctxt "continue_game"
 msgid "Continue game"
 msgstr "继续游戏"
+
+msgctxt "copied_from_coll"
+msgid "Copied! Paste with Ctrl-V"
+msgstr "使用 Ctrl + V 键粘贴"
 
 msgctxt "copy"
 msgid "Copy"
@@ -1002,6 +871,14 @@ msgstr "繁体中文"
 msgctxt "default_train_name"
 msgid "Train {}"
 msgstr "列车 {}"
+
+msgctxt "default_user_label"
+msgid "Edit me"
+msgstr "编辑素材"
+
+msgctxt "delete_clip"
+msgid "Delete clip"
+msgstr "删除素材"
 
 msgctxt "delete_game_tooltip"
 msgid "Move selected game to the trash bin"
@@ -1079,6 +956,10 @@ msgctxt "done"
 msgid "Done"
 msgstr "确认"
 
+msgctxt "edit_clip_name"
+msgid "Edit clip name"
+msgstr "编辑素材名称"
+
 msgctxt "editor_add"
 msgid "Append to tracks or create new ones"
 msgstr "添加轨道或创建新的轨道"
@@ -1086,6 +967,10 @@ msgstr "添加轨道或创建新的轨道"
 msgctxt "editor_branch"
 msgid "Create new track branches"
 msgstr "创建新的轨道分支"
+
+msgctxt "editor_building"
+msgid "Create new buildings"
+msgstr "创建新的建筑"
 
 msgctxt "editor_depot"
 msgid "Create new depot"
@@ -1102,6 +987,10 @@ msgstr "移动、删除与编辑轨道"
 msgctxt "editor_new_signal"
 msgid "Create new signals"
 msgstr "创建新的信号"
+
+msgctxt "editor_pick_building_parent_left"
+msgid "Click a control point to make it the building parent"
+msgstr "点击一个轨道控制点来绑定到建筑节点"
 
 msgctxt "editor_pick_constraint_parent_esc"
 msgid "Esc to cancel picking"
@@ -1171,6 +1060,10 @@ msgctxt "editor_tip_cont_mouse"
 msgid "Hover the mouse cursor over an existing end of track to see how it would look linked with your current track"
 msgstr "将鼠标指向现有轨道的末端，看看与你刚设计轨道的连接效果"
 
+msgctxt "editor_tip_copy"
+msgid "Ctrl-C to copy selected objects into clipboard"
+msgstr "Ctrl + C 键将选定的对象复制到剪贴板"
+
 msgctxt "editor_tip_create_del"
 msgid "Del to delete selected objects"
 msgstr "按 Delete 键删除选定的对象"
@@ -1178,6 +1071,10 @@ msgstr "按 Delete 键删除选定的对象"
 msgctxt "editor_tip_create_drag"
 msgid "Drag any selected control point to move the selection"
 msgstr "拖动任何选定的控制点来移动选区"
+
+msgctxt "editor_tip_create_drag_alt"
+msgid "Alt and drag any selected control point to rotate the selection"
+msgstr "点击 Alt 键并拖动选定的控制点来旋转对象"
 
 msgctxt "editor_tip_create_esc"
 msgid "Esc to cancel selection"
@@ -1239,6 +1136,14 @@ msgctxt "editor_tip_move_branch_draw"
 msgid "Drag the branch control point near any branchable track to change its position"
 msgstr "在轨道分支上拖动轨道控制点可以改变其位置"
 
+msgctxt "editor_tip_move_building_sizer"
+msgid "Drag the building control point to resize and rotate the building"
+msgstr "拖动建筑控制点来调整和旋转建筑"
+
+msgctxt "editor_tip_move_building_sizer_ctrl"
+msgid "Hold Ctrl to line up the control point on its current axis."
+msgstr "按住 Ctrl 键将控制点与当前轴对齐"
+
 msgctxt "editor_tip_move_esc"
 msgid "Esc to cancel movement"
 msgstr "按 ESC 键取消移动"
@@ -1246,6 +1151,14 @@ msgstr "按 ESC 键取消移动"
 msgctxt "editor_tip_move_left"
 msgid "Release left button to stop moving the selection"
 msgstr "放开左键停止选择"
+
+msgctxt "editor_tip_new_building_fin_left"
+msgid "Left click to finish creating a new building"
+msgstr "左键点击完成创建新的建筑"
+
+msgctxt "editor_tip_new_building_left"
+msgid "Left click to create a new building"
+msgstr "左键单击创建一个新的建筑"
 
 msgctxt "editor_tip_new_signal_esc"
 msgid "Esc to go to signal edit mode"
@@ -1259,9 +1172,17 @@ msgctxt "editor_tip_new_signal_shift"
 msgid "Shift to change signal facing direction"
 msgstr "按 Shift 键改变信号方向"
 
+msgctxt "editor_tip_paste"
+msgid "Ctrl-V to paste clipboard objects"
+msgstr "Ctrl + V 键粘贴对象"
+
 msgctxt "editor_tip_rect_left"
 msgid "Release the left button to end rectangle selection"
 msgstr "松开左键，结束矩形选择"
+
+msgctxt "editor_tip_rot_left"
+msgid "Release left button to stop rotating the selection"
+msgstr "松开左键停止旋转选择的对象"
 
 msgctxt "editor_tip_sel_signal_del"
 msgid "Del to delete selected signals"
@@ -1338,6 +1259,14 @@ msgstr "至少有一个间隔时间被设置为0。编辑完线路后请使用�
 msgctxt "editor_warn_zero_leg"
 msgid "At least one leg travel time is set to 0. Use the timing calculator after you are done editing the line."
 msgstr "至少有一个运行时间被设置为0。编辑完线路后请使用列车时刻计算器。"
+
+msgctxt "empty_clipboard"
+msgid "<Empty clipboard>"
+msgstr "<空剪贴板>"
+
+msgctxt "enable_new_mods"
+msgid "Copy with new mods"
+msgstr "复制并启用新模组"
 
 msgctxt "enabled"
 msgid "Enabled"
@@ -1551,9 +1480,17 @@ msgctxt "global_blueprint_bill"
 msgid "Global blueprint bill"
 msgstr "全部蓝图费用"
 
+msgctxt "global_blueprint_bill_short"
+msgid "Global"
+msgstr "全球"
+
 msgctxt "height_layer_n"
 msgid "Height {}"
 msgstr "高度 {}"
+
+msgctxt "help_show_full"
+msgid "Show help"
+msgstr "显示帮助"
 
 msgctxt "horizon_ground"
 msgid "Ground"
@@ -1586,6 +1523,26 @@ msgstr "图标文件:"
 msgctxt "ignore"
 msgid "Ignore"
 msgstr "忽略"
+
+msgctxt "info_company_buildings"
+msgid "Buildings:"
+msgstr "建筑:"
+
+msgctxt "info_company_lines"
+msgid "Lines:"
+msgstr "线路:"
+
+msgctxt "info_company_stations"
+msgid "Stations:"
+msgstr "车站:"
+
+msgctxt "info_company_tracks"
+msgid "Track segments:"
+msgstr "轨道段:"
+
+msgctxt "info_company_trains"
+msgid "Trains:"
+msgstr "列车:"
 
 msgctxt "info_mode_tp"
 msgid "Info"
@@ -1675,6 +1632,10 @@ msgctxt "invalid_location"
 msgid "Invalid"
 msgstr "无效"
 
+msgctxt "invalid_size"
+msgid "invalid size"
+msgstr "无效的大小"
+
 msgctxt "join"
 msgid "Join"
 msgstr "加入"
@@ -1763,6 +1724,10 @@ msgctxt "kb_track_branch"
 msgid "Tracks: new branch"
 msgstr "轨道:创建轨道分支"
 
+msgctxt "kb_track_building"
+msgid "Tracks: new building"
+msgstr "轨道:创建建筑"
+
 msgctxt "kb_track_depot"
 msgid "Tracks: new depot"
 msgstr "轨道:创建车辆段"
@@ -1822,6 +1787,10 @@ msgstr "末班车"
 msgctxt "layer_ground"
 msgid "Ground"
 msgstr "地面"
+
+msgctxt "layer_ground_g"
+msgid "G"
+msgstr "地"
 
 msgctxt "line_0_stops"
 msgid "0 stops"
@@ -2130,6 +2099,10 @@ msgstr "生成游戏加载器"
 msgctxt "loader_stations_n"
 msgid "Validating stations, {} to go"
 msgstr "正在验证车站，还剩{}"
+
+msgctxt "loader_tracks_n"
+msgid "Validating tracks, {} to go"
+msgstr "正在验证轨道，还剩{}"
 
 msgctxt "loader_updating_rules"
 msgid "Updating game rules"
@@ -2587,6 +2560,26 @@ msgctxt "multiplayer"
 msgid "Multiplayer"
 msgstr "多人游戏"
 
+msgctxt "mvo_user_labels"
+msgid "User labels"
+msgstr "用户标签"
+
+msgctxt "mvo_user_layer_draw_over_O"
+msgid "O"
+msgstr "上"
+
+msgctxt "mvo_user_layer_draw_roof_R"
+msgid "R"
+msgstr "顶"
+
+msgctxt "mvo_user_layer_draw_under_U"
+msgid "U"
+msgstr "底"
+
+msgctxt "mvo_user_layer_toggles"
+msgid "Display layers:"
+msgstr "显示图层:"
+
 msgctxt "mvo_user_line_stops"
 msgid "Line stops"
 msgstr "线路停靠点及导航点显示"
@@ -2594,6 +2587,10 @@ msgstr "线路停靠点及导航点显示"
 msgctxt "mvo_user_map_region_names"
 msgid "Map labels"
 msgstr "地图标签显示"
+
+msgctxt "mvo_user_platform_names"
+msgid "Platform names"
+msgstr "站台名称显示"
 
 msgctxt "mvo_user_signals"
 msgid "Signals"
@@ -2610,6 +2607,10 @@ msgstr "车站及车辆段图标显示"
 msgctxt "mvo_user_station_names"
 msgid "Station names"
 msgstr "车站名称显示"
+
+msgctxt "mvo_user_track_depth"
+msgid "Tunnels under roads"
+msgstr "隧道在地图道路下方显示"
 
 msgctxt "mvo_user_train_counters"
 msgid "Train counters"
@@ -2670,6 +2671,10 @@ msgstr "确认"
 msgctxt "open"
 msgid "Open"
 msgstr "打开"
+
+msgctxt "open_games_backup_folder_tooltip"
+msgid "Open saved games auto backup folder"
+msgstr "打开自动存档所在的文件夹"
 
 msgctxt "open_games_folder_tooltip"
 msgid "Open saved games folder"
@@ -2875,6 +2880,18 @@ msgctxt "plat_auto_direction"
 msgid "Auto append direction signals"
 msgstr "自动添加单行方向标志"
 
+msgctxt "plat_buildings_base"
+msgid "Auto append building base"
+msgstr "自动添加基础建筑"
+
+msgctxt "plat_buildings_floor"
+msgid "Auto append building floors and ceiling"
+msgstr "自动添加地板和天花板"
+
+msgctxt "plat_curved"
+msgid "Curved tracks and buildings"
+msgstr "轨道和建筑可弯曲"
+
 msgctxt "platform_n"
 msgid "Platform "
 msgstr "站台"
@@ -2882,6 +2899,18 @@ msgstr "站台"
 msgctxt "platforms"
 msgid "Platforms"
 msgstr "站台"
+
+msgctxt "plats_n_0"
+msgid "0 platforms"
+msgstr "0 个站台"
+
+msgctxt "plats_n_1"
+msgid "1 platform"
+msgstr "1 个站台"
+
+msgctxt "plats_n_many"
+msgid "%d platforms"
+msgstr "%d 个站台"
 
 msgctxt "plots_button_tp"
 msgid "Open charts window"
@@ -2913,11 +2942,11 @@ msgstr "快速入门指南"
 
 msgctxt "quit_desktop"
 msgid "Quit to desktop"
-msgstr "退出到桌面"
+msgstr "退回到桌面"
 
 msgctxt "quit_game"
 msgid "Quit game"
-msgstr "退出到主菜单"
+msgstr "退回到主菜单"
 
 msgctxt "rename_save"
 msgid "Rename and save"
@@ -3043,6 +3072,10 @@ msgctxt "save"
 msgid "Save"
 msgstr "保存"
 
+msgctxt "save_clipboard"
+msgid "Save clipboard"
+msgstr "保存到剪贴板"
+
 msgctxt "save_file_name"
 msgid "Save file name"
 msgstr "保存存档名称"
@@ -3127,9 +3160,17 @@ msgctxt "selection_blueprint_bill"
 msgid "Selected blueprints bill"
 msgstr "选定的蓝图费用"
 
+msgctxt "selection_blueprint_bill_short"
+msgid "Selected"
+msgstr "已选"
+
 msgctxt "settings"
 msgid "Settings"
 msgstr "设置"
+
+msgctxt "show_all_clips"
+msgid "Show saved clipboard clips"
+msgstr "显示剪贴板"
 
 msgctxt "signal_alert_opt_custom"
 msgid "Custom wait time"
@@ -3154,6 +3195,18 @@ msgstr "1"
 msgctxt "signal_direction"
 msgid "Direction:"
 msgstr "方向:"
+
+msgctxt "signal_edit_invalid_track"
+msgid "This signal is still functional but it is not allowed on this kind of track starting from version 1.4. Some train maneuvers might be disabled in this track. Move it to a different track."
+msgstr "该信号仍有效，但从1.4版本开始，此信号不允许在此类轨道上使用。若你仍要使用，则一些列车功能将被禁用。"
+
+msgctxt "signal_edit_plat_stop_obsolete"
+msgid "This signal is still functional but it has been obsoleted. Some train maneuvers might be disabled in this track."
+msgstr "该信号仍有效，但已被淘汰。若你仍要使用，则一些列车功能将被禁用。"
+
+msgctxt "signal_edit_simple_block_obsolete"
+msgid "This signal is still functional but it has been obsoleted by path signals. Replace your simple block signaling with path signals."
+msgstr "该信号仍有效，但已被进路信号机替代。"
 
 msgctxt "signal_editor_title_edit"
 msgid "Edit signal"
@@ -3299,6 +3352,14 @@ msgctxt "station_name_use_auto"
 msgid "Use automatic name"
 msgstr "使用自动生成名称"
 
+msgctxt "station_platform_auto_name"
+msgid "Platform auto name"
+msgstr "自动生成站台名称"
+
+msgctxt "station_platform_user_name"
+msgid "Platform name:"
+msgstr "站台名称:"
+
 msgctxt "station_pop_area"
 msgid "Area:"
 msgstr "覆盖区域:"
@@ -3354,10 +3415,6 @@ msgstr "陌生人"
 msgctxt "stream_ahead_desc"
 msgid "You are ahead of the host. Pausing your clock to wait for it."
 msgstr "你的时间已经超前于主机时间了，请暂停时间以同步主机时间"
-
-msgctxt "stream_catch_up_desc"
-msgid "You are falling behind the host. Speeding up the clock to catch up."
-msgstr "你的时间已经落后于主机时间了，请加快时间以同步主机时间"
 
 msgctxt "subs_in_workshop"
 msgid "Subscribe in Workshop"
@@ -3730,6 +3787,14 @@ msgstr "按价格排序"
 msgctxt "track_sort_speed"
 msgid "Max. speed"
 msgstr "按最高速度排序"
+
+msgctxt "trackeditor_hide_controls"
+msgid "Hide control points at low zoom"
+msgstr "低缩放时隐藏控制点"
+
+msgctxt "tracks_total"
+msgid "Tracks total"
+msgstr "轨道合计"
 
 msgctxt "train_alert_banner"
 msgid "{} ({})\n{}\nSince: {} UTC{}"
@@ -4271,6 +4336,10 @@ msgctxt "upload_mod"
 msgid "Upload mod"
 msgstr "上传模组"
 
+msgctxt "use_placeholders"
+msgid "Copy with built-in"
+msgstr "用内置对象复制"
+
 msgctxt "used_active_mod"
 msgid "This mod is used by one or more objects in the game, and cannot be disabled."
 msgstr "这个mod会被游戏中的一个或多个对象使用，并且不能被禁用"
@@ -4598,6 +4667,10 @@ msgctxt "stop_leg_m"
 msgid "{}m in"
 msgstr "{} m 用时"
 
+msgctxt "stream_catch_up_desc"
+msgid "You are falling behind the host. Speeding up the clock to catch up."
+msgstr "你的时间已经落后于主机时间了，请加快时间以同步主机时间"
+
 msgctxt "tag_deposit"
 msgid "Deposit"
 msgstr "存包处"
@@ -4709,7 +4782,6 @@ msgstr "列车单价"
 msgctxt "wrong_protocol"
 msgid "Protocol mismatch with server. Make sure both your client and the server are updated to the latest game version."
 msgstr "协议与服务器不匹配。 确保您的客户端和服务器都已更新到最新的游戏版本。"
-
 
 ## ----------------------------------------------------------
 ## 列车翻译
