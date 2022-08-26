@@ -5,6 +5,14 @@ msgctxt "line_timetable"
 msgid "Timetable"
 msgstr "时刻表"
 
+msgctxt "lineeditor_custom_duration"
+msgid "Custom duration:"
+msgstr "运行周期:"
+
+msgctxt "lineeditor_custom_duration_desc"
+msgid "Format: hh:mm:ss \nIf the line duration is shorter than this amount, stops flagged as custom duration wait stops will have extra stop time, until the line duration matches the custom duration. \nThe extra time is distributed evenly between the stops. If no stops are selected as custom wait, the last line stop is used."
+msgstr "格式: hh:mm:ss \n如果线路运行周期小于该值，则将会把额外时间平均补充到所有启用等候时间的站点间。 \n如果没有任何站点启用等候时间，则将默认为仅始发站启用等候时间。"
+
 msgctxt "lineeditor_launch_time"
 msgid "Auto run train launch:"
 msgstr "自动发车时间:"
@@ -32,6 +40,10 @@ msgstr "复制选中的线路"
 msgctxt "lineeditor_tooltip_intervention"
 msgid "Issue an intervention to all trains currently running the selected line"
 msgstr "干预选中线路的所有列车"
+
+msgctxt "pick"
+msgid "Pick"
+msgstr "选择"
 
 # ----------------------------------------------------------
 # 1.4.22 版本 新添加字符串
@@ -1972,8 +1984,8 @@ msgid "Stop time:"
 msgstr "停靠时间:"
 
 msgctxt "lineeditor_min_stop_time_desc"
-msgid "Stops will be scheduled with this wait time. Trains might wait longer if pax are still leaving or boarding."
-msgstr "列车将在停靠时间内停车，如果遇到乘客仍在上下车等情况。将会延长停靠时间。"
+msgid "Format: (hh:)mm:ss \nStops will be scheduled with this wait time. Trains might wait longer if pax are still leaving or boarding."
+msgstr "格式: (hh:)mm:ss \n列车将在停靠时间内停车，如果遇到乘客仍在上下车等情况。将会延长停靠时间。"
 
 msgctxt "lineeditor_move_camera"
 msgid "Pan and zoom view when selecting a line or station"
