@@ -1,4 +1,39 @@
 # ----------------------------------------------------------
+# 1.5.2 版本 新添加字符串
+
+msgctxt "line_timetable"
+msgid "Timetable"
+msgstr "时刻表"
+
+msgctxt "lineeditor_launch_time"
+msgid "Auto run train launch:"
+msgstr "自动发车时间:"
+
+msgctxt "lineeditor_launch_time_desc"
+msgid "Format: hh:mm:ss \nTime of day for the first arrival on the first stop for the first automatic train. \nThis setting only applies for trains in automatic orders mode. \nManual order trains using this line ignore this setting and are not counted towards automatic interval calculation."
+msgstr "格式: hh:mm:ss \n该线路首趟列车到达始发站的时间。\n该设置仅适用于自动模式下的列车。\n如您使用手动模式控制列车，请忽略此功能。\n该时间不计入自动间隔时间计算中。"
+
+msgctxt "lineeditor_tz"
+msgid "Launch time zone:"
+msgstr "发车时区:"
+
+msgctxt "lineeditor_tz_desc"
+msgid "Time zone of the auto launch time input."
+msgstr "自动发车时间所设定的时区。"
+
+msgctxt "lineeditor_tz_first_stop"
+msgid "First stop time zone"
+msgstr "首站所处时区"
+
+msgctxt "lineeditor_tooltip_clone"
+msgid "Clone selected line"
+msgstr "复制选中的线路"
+
+msgctxt "lineeditor_tooltip_intervention"
+msgid "Issue an intervention to all trains currently running the selected line"
+msgstr "干预选中线路的所有列车"
+
+# ----------------------------------------------------------
 # 1.4.22 版本 新添加字符串
 
 msgctxt "building_bottom_side"
@@ -1933,12 +1968,12 @@ msgid "Manual"
 msgstr "手动"
 
 msgctxt "lineeditor_min_stop_time"
-msgid "Min. stop time (mm:ss):"
-msgstr "最小停靠时间(mm:ss):"
+msgid "Stop time:"
+msgstr "停靠时间:"
 
 msgctxt "lineeditor_min_stop_time_desc"
-msgid "Trains will wait at least this long on line stops. They might wait longer if pax are still leaving or boarding."
-msgstr "列车停靠站点的最小时间，如果遇到乘客仍在上下车等情况。将会延长停靠时间。"
+msgid "Stops will be scheduled with this wait time. Trains might wait longer if pax are still leaving or boarding."
+msgstr "列车将在停靠时间内停车，如果遇到乘客仍在上下车等情况。将会延长停靠时间。"
 
 msgctxt "lineeditor_move_camera"
 msgid "Pan and zoom view when selecting a line or station"
