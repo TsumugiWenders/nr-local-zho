@@ -3,7 +3,7 @@
 
 msgctxt "accounting_events_post"
 msgid "events"
-msgstr "事件"
+msgstr "人次"
 
 msgctxt "accounting_pax_found_train_too_full"
 msgid "Boarding failed: full train"
@@ -351,7 +351,7 @@ msgstr "确认干预所有列车"
 
 msgctxt "option_company_parallel_offset"
 msgid "New track par. off.:"
-msgstr "新轨道标准偏差:"
+msgstr "新轨道线间距离:"
 
 msgctxt "option_company_station_label"
 msgid "New station label:"
@@ -483,7 +483,7 @@ msgstr "显示车站和乘客数"
 
 msgctxt "stop_leg_full2"
 msgid "{0}m at {1} km/h avg."
-msgstr "平均 {0}米 {1} km/h "
+msgstr "距离:{0}m, 平均速度 {1} km/h"
 
 msgctxt "timetable_1day"
 msgid "One day"
@@ -970,7 +970,7 @@ msgstr "乘客"
 
 msgctxt "accounting_pax_boarded"
 msgid "Boarded train"
-msgstr "    发送乘客"
+msgstr "    发送旅客"
 
 msgctxt "accounting_pax_compensated"
 msgid "Compensated"
@@ -986,7 +986,7 @@ msgstr "            因线路更改或删除而获得赔偿"
 
 msgctxt "accounting_pax_never_serviced"
 msgid "Never serviced"
-msgstr "    历史新乘客"
+msgstr "    历史新旅客"
 
 msgctxt "accounting_pax_new"
 msgid "New pax"
@@ -994,7 +994,7 @@ msgstr "    新行程旅客"
 
 msgctxt "accounting_pax_post"
 msgid "pax"
-msgstr "乘客"
+msgstr "人"
 
 msgctxt "accounting_pax_reached_depot"
 msgid "Refund: reached depot"
@@ -1002,11 +1002,11 @@ msgstr "        因被送到车辆段而退票"
 
 msgctxt "accounting_pax_reached_destination"
 msgid "Reached destination"
-msgstr "    到达乘客"
+msgstr "    到达旅客"
 
 msgctxt "accounting_pax_reached_transfer"
 msgid "Reached transfer"
-msgstr "    中转乘客"
+msgstr "    中转旅客"
 
 msgctxt "accounting_pax_refunded"
 msgid "Refunded (incl. compen.)"
@@ -1018,7 +1018,7 @@ msgstr "        因票价过高而退票"
 
 msgctxt "accounting_pax_spawned"
 msgid "Started trip"
-msgstr "    购票乘客"
+msgstr "    购票旅客"
 
 msgctxt "accounting_pax_waited_too_long"
 msgid "Compen.: waited too long"
@@ -3878,7 +3878,7 @@ msgstr "预期 {0}， ${1:.2f}"
 
 msgctxt "sax_tooltip2"
 msgid "{0}\nNeutral at {1}, ${2:.2f}"
-msgstr "{0}\n (平淡于 a {1}， ${2:.2f})"
+msgstr "{0}\n (平淡于 {1}， ${2:.2f})"
 
 msgctxt "scaling_mode"
 msgid "Scaling:"
