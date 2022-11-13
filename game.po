@@ -1,884 +1,196 @@
 # ----------------------------------------------------------
-# 1.5.31 版本 新添加字符串
-
-msgctxt "accounting_events_post"
-msgid "events"
-msgstr "人次"
-
-msgctxt "accounting_pax_found_train_too_full"
-msgid "Boarding failed: full train"
-msgstr "    列车满员"
-
-msgctxt "auto_platform_scroll"
-msgid "Automatically track and scroll the list based on the time of day"
-msgstr "整天自动跟踪和滚动列表"
-
-msgctxt "bulk_keep_straight"
-msgid "Platform keep straight:"
-msgstr "平台保持直线:"
-
-msgctxt "bulk_keep_straight_disable"
-msgid "Disable"
-msgstr "禁用"
-
-msgctxt "bulk_keep_straight_enable"
-msgid "Enable"
-msgstr "启用"
-
-msgctxt "bulk_label_mode"
-msgid "Station label:"
-msgstr "车站标签:"
-
-msgctxt "company_tab_loans"
-msgid "Loans"
-msgstr "贷款"
-
-msgctxt "company_tab_options"
-msgid "Options"
-msgstr "选项"
-
-msgctxt "confirm_intervention_line"
-msgid "Confirm line intervention"
-msgstr "线路干预"
-
-msgctxt "confirm_intervention_line_desc"
-msgid "Do you want to issue an intervention to all the trains currently running the line named {0} for a price of ${1}?"
-msgstr "本次干预将重新设定所有 {0} 线路的列车位置，并支付共计 ${1}"
-
-msgctxt "constraint_max_speed"
-msgid "Custom max speed:"
-msgstr "自定义限速"
-
-msgctxt "constraint_max_speed_tip"
-msgid "Values over physical max track speed will be ignored. Set to 0 to disable custom max speed."
-msgstr "列车最大速度取决于轨道限速，当轨道限速超过自定义限速时，将以自定义限速为准。 \n设置为 0 时将忽略自定义限速。"
-
-msgctxt "constraint_offset2"
-msgid "Parallel offset:"
-msgstr "平行偏移:"
-
-msgctxt "constraint_remove_parent"
-msgid "Parallel constraint:"
-msgstr "平行约束:"
-
-msgctxt "constraint_remove_parent_action"
-msgid "Remove"
-msgstr "移除"
-
-msgctxt "constraints_bulk_editor"
-msgid "Track bulk editor"
-msgstr "轨道编辑器"
-
-msgctxt "editor_select_alt_signal"
-msgid "Click signal controls to set a signal as the secondary path signal for the stop"
-msgstr "点击信号控制按钮，将信号设置为该车站的临时站台信号"
-
-msgctxt "editor_select_alt_stop"
-msgid "Click platform letters in stations to add a secondary platform to the stop"
-msgstr "点击车站中的站台编号，添加该站该线路的临时停靠站台"
-
-msgctxt "editor_select_change_platform"
-msgid "Click platform letters in stations to change the stop main platform"
-msgstr "点击车站中的站台编号，选择该站该线路的主站台"
-
-msgctxt "editor_warn_only_trains"
-msgid "Pax will leave and won't board trains running this line."
-msgstr "乘客将离开，并将不会登上这条线路的列车"
-
-msgctxt "editor_warn_too_long_manual_interval"
-msgid "The manual interval exceeds the duration of the line. It will be ignored or work unreliably.\nIncrease the line custom duration value to at least the manual interval value."
-msgstr "手动间隔超过了线路的运行时间，这将可能出错。 \n将线路自定义运行时间增加到手动间隔。"
-
-msgctxt "effective_game_speed"
-msgid "Speed: {:.1f}x"
-msgstr "游戏速度: {:.1f}x"
-
-msgctxt "effective_game_speed_handicap"
-msgid "Speed: {0:.1f}x\nHandicap: {1}%"
-msgstr "游戏速度: {:.1f}x \n延迟: {1}%"
-
-msgctxt "info_table_pax_waiting"
-msgid "Waiting for"
-msgstr "等待"
-
-msgctxt "info_table_pax_waiting_tp"
-msgid "Expected to depart with this line and stop number, based on timetables"
-msgstr "根据时刻表，应该在该站台乘坐这条线路出发"
-
-msgctxt "input_range"
-msgid "{}{} to {}{}"
-msgstr "{}{} 到 {}{}"
-
-msgctxt "intervene_all_trains"
-msgid "Intervene all trains"
-msgstr "干预所有列车"
-
-msgctxt "intervene_line"
-msgid "Intervene line"
-msgstr "干预线路"
-
-msgctxt "line_editor_tip_zoom_pick"
-msgid "Zoom in to pick"
-msgstr "放大以选择"
-
-msgctxt "line_timetable"
-msgid "Timetable"
-msgstr "时刻表"
-
-msgctxt "line_to2"
-msgid "{} [{}] to"
-msgstr "{} [{}] 到"
-
-msgctxt "lineeditor_alt_platforms"
-msgid "Secondary platforms:"
-msgstr "临时停靠站台"
-
-msgctxt "lineeditor_alt_platforms_n"
-msgid "(Total: {})"
-msgstr "(总计: {})"
-
-msgctxt "lineeditor_alt_signal"
-msgid "Secondary plat. signal:"
-msgstr "临时站台信号"
-
-msgctxt "lineeditor_alt_signal_label"
-msgid "Signal {}"
-msgstr "信号 {}"
-
-msgctxt "lineeditor_auto_interval_auto"
-msgid "Auto interval:"
-msgstr "自动间隔:"
-
-msgctxt "lineeditor_auto_interval_auto_no_trains"
-msgid "Add one or more auto run trains"
-msgstr "添加一列或多列自动运行的列车"
-
-msgctxt "lineeditor_auto_interval_kind2"
-msgid "Launch trains:"
-msgstr "启动列车:"
-
-msgctxt "lineeditor_auto_interval_kind2_fit"
-msgid "Evenly spaced to fit one line loop"
-msgstr "自动配置整条线路的调度指令"
-
-msgctxt "lineeditor_auto_interval_kind2_manual"
-msgid "On a fixed, manual interval"
-msgstr "以固定的手动间隔设置调度指令"
-
-msgctxt "lineeditor_auto_timings"
-msgid "Auto run line"
-msgstr "自动运行线路"
-
-msgctxt "lineeditor_custom_duration"
-msgid "Custom duration:"
-msgstr "自定义运行周期:"
-
-msgctxt "lineeditor_custom_duration_desc"
-msgid "Format: hh:mm:ss\nIf the line duration is shorter than this amount, stops flagged as custom duration wait stops will have extra stop time, until the line duration matches the custom duration.\nThe extra time is distributed evenly between the stops. If no stops are selected as custom wait, the last line stop is used."
-msgstr "格式: hh:mm:ss \n如果线路运行周期小于该值，则将会把额外时间平均补充到所有启用等候时间的站点间。 \n如果没有任何站点启用等候时间，则将默认为仅始发站启用等候时间。"
-
-msgctxt "lineeditor_custom_period"
-msgid "Custom period:"
-msgstr "自定义周期"
-
-msgctxt "lineeditor_custom_period_desc"
-msgid "Format: hh:mm:ss\n.Line duration will be choosen to perfectly fit this length of time. This custom setting does not guarantee fitting days or weeks."
-msgstr "格式: hh:mm:ss \n线路持续时间将完全适配这段自定义周期。"
-
-msgctxt "lineeditor_custom_wait_here"
-msgid "Custom duration wait in this stop"
-msgstr "在此站点等待运行周期"
-
-msgctxt "lineeditor_duration_custom"
-msgid "Custom"
-msgstr "自定义"
+# 1.5.41 版本 新添加字符串
+
+msgctxt "auto_clone"
+msgid "(Auto)"
+msgstr "(自动)"
+
+msgctxt "constraint_xform_grid_snap"
+msgid "Snap:"
+msgstr "捕捉:"
+
+msgctxt "constraint_xform_rotate"
+msgid "Rotate:"
+msgstr "选择:"
+
+msgctxt "constraint_xform_rotate_tip"
+msgid "Rotate track end:"
+msgstr "旋转轨道末端:"
+
+msgctxt "constraint_xform_translate"
+msgid "Translate:"
+msgstr "翻译:"
+
+msgctxt "editor_tip_dupe"
+msgid "Ctrl-B to duplicate selected objects in-place"
+msgstr "Ctrl + B 键在原处复制选定对象"
+
+msgctxt "editor_tip_sel_track_flip"
+msgid "{} to flip side of selected parallel tracks"
+msgstr "按 {} 键可以翻转轨道位置"
+
+msgctxt "intervene_all_stale_trains"
+msgid "Intervene all stale"
+msgstr "干预所有原有列车"
+
+msgctxt "line_alert_closed"
+msgid "Line is closed"
+msgstr "线路已停运"
+
+msgctxt "line_alert_invalid_legs"
+msgid "Contains invalid path(s)"
+msgstr "线路包含无效路径"
+
+msgctxt "line_skip_parent_stop"
+msgid "Skip [{0}] {1}"
+msgstr "跳过 [{0}] {1}"
+
+msgctxt "lineeditor_clone_parent"
+msgid "Stop properties:"
+msgstr "车站属性:"
 
-msgctxt "lineeditor_duration_fit_period"
-msgid "Fit a period"
-msgstr "适合时段"
+msgctxt "lineeditor_clone_parent_clone"
+msgid "Copy from parent line"
+msgstr "从父线路复制"
 
-msgctxt "lineeditor_duration_mode"
-msgid "Line duration:"
-msgstr "线路持续时间:"
+msgctxt "lineeditor_clone_parent_custom"
+msgid "Customize for this line service"
+msgstr "自定义线路服务模式"
 
-msgctxt "lineeditor_duration_mode_minimal"
-msgid "Minimal"
-msgstr "最少"
+msgctxt "lineeditor_cruise_speed_ns"
+msgid "Cruise speed:"
+msgstr "巡航速度:"
 
-msgctxt "lineeditor_duration_period"
-msgid "Period:"
-msgstr "周期:"
+msgctxt "lineeditor_leg_eta"
+msgid "Effective time:"
+msgstr "耗时:"
 
-msgctxt "lineeditor_duration_period_custom"
-msgid "Custom"
-msgstr "自定义"
+msgctxt "lineeditor_leg_eta_custom_speed"
+msgid "Custom speed (km/h):"
+msgstr "自定义速度(km/h):"
 
-msgctxt "lineeditor_duration_period_day"
-msgid "Day"
-msgstr "每日"
+msgctxt "lineeditor_leg_eta_custom_time"
+msgid "Custom time:"
+msgstr "自定义耗时:"
 
-msgctxt "lineeditor_duration_period_week"
-msgid "Week"
-msgstr "每周"
+msgctxt "lineeditor_leg_eta_custom_time_desc"
+msgid "Format: (hh:)mm:ss\nThis custom time will be approximated by finding a cruise speed.\nIt will be ignored if the resulting speed is too slow or too fast.\nTrains might speed up if they are late."
+msgstr "格式: (hh:)mm:ss \n自定义耗时将通过巡航速度估算。 \n如果估算的结果速度太快或太慢，它将被忽略。\n如果晚点，列车将会提速。"
 
-msgctxt "lineeditor_duration_waiters"
-msgid "Extra stop time on:"
-msgstr "额外等待时间:"
+msgctxt "lineeditor_leg_eta_mode"
+msgid "Leg timing:"
+msgstr "路线:"
 
-msgctxt "lineeditor_duration_waiters_all"
-msgid "Evenly on all stops"
-msgstr "平均分配到所有站点"
+msgctxt "lineeditor_leg_eta_mode_auto"
+msgid "Automatic"
+msgstr "自动"
 
-msgctxt "lineeditor_duration_waiters_custom"
-msgid "Manually picked stops"
-msgstr "自定义等待站点"
+msgctxt "lineeditor_leg_eta_mode_speed"
+msgid "Custom speed"
+msgstr "自定义速度"
 
-msgctxt "lineeditor_header_full_tooltip"
-msgid "Custom loop: {0}\nCustom non-loop: {1}\nMinimal loop: {2}\nMinimal non-loop: {3}"
-msgstr "自定义循环: {0}\n自定义非循环: {1}\n最小循环: {2}\n最小非循环: {3}"
+msgctxt "lineeditor_leg_eta_mode_time"
+msgid "Custom time"
+msgstr "自定义耗时:"
 
-msgctxt "lineeditor_launch_time"
-msgid "First train departure:"
-msgstr "自动发车时间:"
+msgctxt "lineeditor_service_of"
+msgid "Service of:"
+msgstr "服务状态:"
 
-msgctxt "lineeditor_launch_time_desc"
-msgid "Format: hh:mm:ss\nTime of day for the first departure on the first stop for the first automatic train.\nThis setting only applies for trains in automatic orders mode.\nManual order trains using this line ignore this setting and are not counted towards interval calculation."
-msgstr "格式: hh:mm:ss \n该线路首趟列车从始发站发车的时间。\n该设置仅适用于自动模式下的列车。\n如您使用手动模式控制列车，请忽略此功能。\n该时间不计入间隔时间计算中。"
+msgctxt "lineeditor_stop_panel_leg_title"
+msgid "Leg {0} {1} {2}"
+msgstr "行程 {0} {1} {2}"
 
-msgctxt "lineeditor_main_platform"
-msgid "Main platform:"
-msgstr "主站台:"
+msgctxt "lineeditor_stop_panel_line_service_stop"
+msgid "Line service stop"
+msgstr "线路服务车站"
 
-msgctxt "lineeditor_manual_interval"
-msgid "Manual interval:"
-msgstr "手动间隔:"
+msgctxt "lineeditor_suffix"
+msgid "Suffix:"
+msgstr "后缀:"
 
-msgctxt "lineeditor_stop_panel_editor2"
-msgid "Stop {}"
-msgstr "站点 {}"
+msgctxt "lineeditor_tags_inherit_parent"
+msgid "Parent line tags are also inherited by trains\n"
+msgstr "线路标签由列车继承"
 
-msgctxt "lineeditor_tooltip_clone"
-msgid "Clone selected line"
-msgstr "复制选中的线路"
+msgctxt "lineeditor_tooltip_create_line_service"
+msgid "Create a new line service"
+msgstr "创建新线路服务"
 
-msgctxt "lineeditor_tooltip_depot_new"
-msgid "Create a new depot line"
-msgstr "创建一条新车辆段线路"
+msgctxt "list_sort_compact"
+msgid "Compact"
+msgstr "合约"
 
-msgctxt "lineeditor_tooltip_down_shift"
-msgid "Shift down all line stops"
-msgstr "向下移动所有线路车站"
+msgctxt "mass_intervention_stale_trains_but"
+msgid "All stale trains intervention"
+msgstr "干预所有原有列车"
 
-msgctxt "lineeditor_tooltip_intervention"
-msgid "Issue an intervention to all trains currently running the selected line"
-msgstr "干预选中线路的所有列车"
+msgctxt "mass_intervention_stale_trains_desc"
+msgid "Do you want to issue an intervention to all stale trains for a price of ${}?"
+msgstr "你确定要干预所有原有列车，并支付共计 ${} 吗？"
 
-msgctxt "lineeditor_tooltip_up_shift"
-msgid "Shift up all line stops"
-msgstr "向上移动所有线路车站"
+msgctxt "mass_intervention_stale_trains_title"
+msgid "Confirm all stale trains intervention"
+msgstr "确认干预所有原有列车"
 
-msgctxt "lineeditor_tz"
-msgid "Time zone:"
-msgstr "发车时区:"
+msgctxt "mass_recalc_all_lines_but"
+msgid "Refresh all line timings"
+msgstr "刷新所有线路计时"
 
-msgctxt "lineeditor_tz_desc"
-msgid "Time zone of the first train departure time input."
-msgstr "自动发车时间所设定的时区。"
+msgctxt "picker_mode_flat"
+msgid "Flat"
+msgstr "平台"
 
-msgctxt "lineeditor_tz_first_stop"
-msgid "First stop station time zone"
-msgstr "首站所处时区"
+msgctxt "picker_mode_line_tags"
+msgid "Line tags"
+msgstr "线路标签"
 
-msgctxt "lineeditor_tz_line"
-msgid "Line"
+msgctxt "picker_mode_lines"
+msgid "Lines"
 msgstr "线路"
 
-msgctxt "lineeditor_wait_kind"
-msgid "Stop behavior:"
-msgstr "车站行为:"
-
-msgctxt "lineeditor_wait_kind_limbo"
-msgid "Black hole main, wait secondary"
-msgstr "自动清除优先"
-
-msgctxt "lineeditor_wait_kind_normal"
-msgid "Wait on platforms"
-msgstr "在站台上候车"
-
-msgctxt "loader_timetables_init"
-msgid "Initializing timetables"
-msgstr "初始化时刻表"
-
-msgctxt "mass_del_lines_but"
-msgid "Delete all lines"
-msgstr "删除所有线路"
-
-msgctxt "mass_del_lines_desc"
-msgid "Do you want to delete all lines?"
-msgstr "你确定要删除所有线路吗？"
-
-msgctxt "mass_del_lines_title"
-msgid "Delete all lines"
-msgstr "删除所有线路"
-
-msgctxt "mass_del_lines_yes"
-msgid "Delete all"
-msgstr "删除所有"
-
-msgctxt "mass_del_trains_but"
-msgid "Sell all trains"
-msgstr "出售所有列车"
-
-msgctxt "mass_del_trains_desc"
-msgid "Do you want to sell all trains?"
-msgstr "你确定要出售所有列车吗？"
-
-msgctxt "mass_del_trains_title"
-msgid "Sell all trains"
-msgstr "出售所有列车"
-
-msgctxt "mass_intervention_trains_but"
-msgid "All trains intervention"
-msgstr "干预所有列车"
-
-msgctxt "mass_intervention_trains_desc"
-msgid "Do you want to issue an intervention to all trains for a price of ${}?"
-msgstr "你确定要干预所有列车，并支付共计 ${1} 吗？"
-
-msgctxt "mass_intervention_trains_title"
-msgid "Confirm all trains intervention"
-msgstr "确认干预所有列车"
-
-msgctxt "option_company_parallel_offset"
-msgid "New track par. off.:"
-msgstr "新轨道线间距离:"
-
-msgctxt "option_company_station_label"
-msgid "New station label:"
-msgstr "新车站标签:"
-
-msgctxt "order_error_empty_line"
-msgid "Empty line"
-msgstr "空线路"
-
-msgctxt "order_error_invalid_line"
-msgid "Invalid line"
-msgstr "无效线路"
-
-msgctxt "order_error_not_fit"
-msgid "Runs do not fit between previous and next order"
-msgstr "两个调度指令之间列车不建议运行"
-
-msgctxt "order_error_two_arrival_by"
-msgid "Arrival By orders cannot appear one after the other"
-msgstr "调度指令不能一个接一个出现"
-
-msgctxt "order_invalid_line"
-msgid "Invalid line"
-msgstr "无效线路"
-
-msgctxt "path_not_found_trip"
-msgid "Path not found between {0} and {1}"
-msgstr "在{0}和{1}之间找不到路径"
-
-msgctxt "path_stale_warn"
-msgid "Stale data detected, ignoring step"
-msgstr "检测到过时数据，已忽略"
-
-msgctxt "path2_arrive"
-msgid "Arrive at {}"
-msgstr "在 {} 到达"
-
-msgctxt "path2_ride"
-msgid "Ride {0} for {1}"
-msgstr "乘坐{0}{1}"
-
-msgctxt "path2_take2"
-msgid " Up to {0} [{1}]"
-msgstr "直到 {0} [{1}]"
-
-msgctxt "path2_wait_at"
-msgid " Wait {0} at {1}"
-msgstr "在 {1}  等待  {0}"
-
-msgctxt "path2_wait_line2"
-msgid " For the departure of {0} [{1}]"
-msgstr "离开 {0} [{1}]"
-
-msgctxt "pax_new_time"
-msgid "New"
-msgstr "新"
-
-msgctxt "paxlist_groupby_dominating"
-msgid "Show dominating trips"
-msgstr "显示主要行程"
-
-msgctxt "paxlist_groupby_waiting"
-msgid "Group by waited line stop"
-msgstr "按车站等候线路分组"
-
-msgctxt "paxlist_other_win"
-msgid "(window)"
-msgstr "(窗口)"
-
-msgctxt "pick"
-msgid "Pick"
-msgstr "选择"
-
-msgctxt "run_panel_pad_stop"
-msgid "Train will wait an extra {} in this stop to start the next run at its scheduled time"
-msgstr "列车将在此站额外等待{}，以便在预定时间开始下一次运行"
-
-msgctxt "run_panel_start"
-msgid "{0}: Start path to {1}"
-msgstr "{0}:开始路径 {1}"
-
-msgctxt "run_panel_train"
-msgid "{0} Run {1}"
-msgstr "{0} 运行 {1}"
-
-msgctxt "run_view_tooltip"
-msgid "{0} Run {1}"
-msgstr "{0} 运行 {1}"
-
-msgctxt "run_view_tooltip_full"
-msgid "{0} Run {1}\n{2}"
-msgstr "{0} 运行 {1}\n{2}"
-
-msgctxt "sell_all_trains_yes"
-msgid "Sell all"
-msgstr "出售所有"
-
-msgctxt "stale_run"
-msgid "Stale run"
-msgstr "过时运行"
-
-msgctxt "stale_run_tooltip"
-msgid "The orders for this train have changed. At the end of its current run it will automatically respawn on the new orders stop.\nPax will be automatically relocated to their next stops."
-msgstr "这列火车的指令已经改变了，在当前区段运行结束后，它将运行新的调度指令。\n 旅客将在下一站全部下车。"
-
-msgctxt "station_label_mode"
-msgid "Label:"
-msgstr "标签:"
-
-msgctxt "station_label_mode_dot_only"
-msgid "Dot only"
-msgstr "只显示一个点"
-
-msgctxt "station_label_mode_full"
-msgid "Full"
-msgstr "全部显示"
-
-msgctxt "station_label_mode_icon_only"
-msgid "Icon only"
-msgstr "只显示图标"
-
-msgctxt "station_label_mode_name_only"
-msgid "Name only"
-msgstr "只显示车站名称"
-
-msgctxt "station_label_mode_name_pop"
-msgid "Name and pax"
-msgstr "显示车站和乘客数"
-
-msgctxt "stop_leg_full2"
-msgid "{0}m at {1} km/h avg."
-msgstr "距离:{0}m, 平均速度 {1} km/h"
-
-msgctxt "timetable_1day"
-msgid "One day"
-msgstr "一天"
-
-msgctxt "timetable_3days"
-msgid "Three days"
-msgstr "三天"
-
-msgctxt "timetable_heuristic_building_tp"
-msgid "Refreshing pathfind heuristic..."
-msgstr "正在刷新寻路模式…"
-
-msgctxt "timetable_rebuild_tp"
-msgid "Rebuilding timetables..."
-msgstr "正在重建时刻表…"
-
-msgctxt "timetable_week"
-msgid "Week"
-msgstr "周"
-
-msgctxt "too_many_collections"
-msgid "Too many clips"
-msgstr "素材过多"
-
-msgctxt "too_many_collections_body"
-msgid "Your saved and subscribed clips reached the limit of 50,000 tracks and buildings. Please delete some saved clips and/or unsubscribe from some collections."
-msgstr "你已经保存和订阅了50,000份素材，请删除或取消订阅一些素材。"
-
-msgctxt "train_clone_copier"
-msgid "Clone as copier"
-msgstr "克隆为复制模式"
-
-msgctxt "train_editor_basics"
-msgid "Basics"
-msgstr "基础"
-
-msgctxt "train_editor_group"
-msgid "Group"
-msgstr "组"
-
-msgctxt "train_editor_orders"
-msgid "Orders"
-msgstr "指令"
-
-msgctxt "train_group_duration"
-msgid "Duration:"
-msgstr "持续时间:"
-
-msgctxt "train_group_fixed_shift_by"
-msgid "Interval:"
-msgstr "时间间隔:"
-
-msgctxt "train_group_fixed_shift_by_desc"
-msgid "Format: (-)hh:mm:ss\nIncrementally shift the start of the orders of the auto copier trains by this amount."
-msgstr "格式: (-)hh:mm:ss\nIncrementally shift the start of the orders of the auto copier trains by this amount."
-
-msgctxt "train_group_interval"
-msgid "Interval:"
-msgstr "时间间隔:"
-
-msgctxt "train_group_line_duration_pick"
-msgid "Duration of:"
-msgstr "持续时间:"
-
-msgctxt "train_group_manual_duration_amount"
-msgid "Duration:"
-msgstr "持续时间:"
-
-msgctxt "train_group_manual_duration_amount_desc"
-msgid "Format: hh:mm:ss\nEvenly distribute the start of the orders of the auto copier trains over this duration."
-msgstr "格式:hh:mm:ss\nEvenly distribute the start of the orders of the auto copier trains over this duration."
-
-msgctxt "train_group_migrate_but"
-msgid "Set as copiers"
-msgstr "设置为复制模式"
-
-msgctxt "train_group_migrate_line"
-msgid "Migrate auto run trains"
-msgstr "迁移自动运行列车"
-
-msgctxt "train_group_migrate_line_pick"
-msgid "Auto trains of:"
-msgstr "自动运行列车:"
-
-msgctxt "train_group_mode"
-msgid "Shift mode:"
-msgstr "间隔模式:"
-
-msgctxt "train_group_mode_fixed"
-msgid "Fixed interval"
-msgstr "固定间隔"
-
-msgctxt "train_group_mode_line"
-msgid "Evenly over line duration"
-msgstr "在线路持续时间内均匀间隔"
-
-msgctxt "train_group_mode_manual_duration"
-msgid "Evenly over manual duration"
-msgstr "在手动持续时间内均匀间隔"
-
-msgctxt "train_group_n_name"
-msgid "Trains:"
-msgstr "列车:"
-
-msgctxt "train_group_n_value"
-msgid "{0} copying, {1} managed"
-msgstr "{0} 复制模式, {1} 管理"
-
-msgctxt "train_group_shift_matching"
-msgid "Shift orders:"
-msgstr "订单模式:"
-
-msgctxt "train_group_shift_matching_all"
-msgid "All orders"
-msgstr "所有指令"
-
-msgctxt "train_group_shift_matching_only_pax_service"
-msgid "Only pax service orders"
-msgstr "仅载客调度指令"
-
-msgctxt "train_info_status_waiting_spawn"
-msgid "Waiting for scheduled spawn"
-msgstr "等待计划生成"
-
-msgctxt "train_list_filter_alert_short"
-msgid "Warnings"
-msgstr "警告"
-
-msgctxt "train_list_filter_all_short"
-msgid "All"
-msgstr "所有指令"
-
-msgctxt "train_list_filter_flat"
-msgid "Flat listing"
-msgstr "水平列表"
-
-msgctxt "train_list_filter_manual"
-msgid "Only with manual orders"
-msgstr "仅手动指令"
-
-msgctxt "train_list_filter_manual_short"
-msgid "Manual orders"
-msgstr "手动指令"
-
-msgctxt "train_list_filter_mothballed"
-msgid "Only mothballed"
-msgstr "仅封存"
-
-msgctxt "train_list_filter_mothballed_short"
-msgid "Mothballed"
-msgstr "封存"
-
-msgctxt "train_orders_auto_copy"
-msgid "Auto copy from:"
-msgstr "自动复制:"
-
-msgctxt "train_orders_auto_copy_mode"
-msgid "Shift:"
-msgstr "调度指令:"
-
-msgctxt "train_orders_auto_copy_mode_auto"
-msgid "Managed by parent group"
-msgstr "由组管理"
-
-msgctxt "train_orders_auto_copy_mode_manual"
-msgid "Shift by manual amount"
-msgstr "手动调整差值"
-
-msgctxt "train_orders_auto_copy_shirt"
+msgctxt "picker_mode_recent"
+msgid "Recent"
+msgstr "最近"
+
+msgctxt "picker_mode_tags"
+msgid "Tags"
+msgstr "标签"
+
+msgctxt "plats_show_conflicts"
+msgid "Highlight overlapping train stops"
+msgstr "突出显示重叠的车站"
+
+msgctxt "plats_stacked_lines"
+msgid "Single column per platform"
+msgstr "站台面"
+
+msgctxt "rtstat_leg_late"
+msgid "Lateness estimation"
+msgstr "预计晚点"
+
+msgctxt "train_info_late_predicted"
+msgid "Est. late by {}"
+msgstr "由于 {} 晚点"
+
+msgctxt "train_list_compact"
+msgid "Compact"
+msgstr "合约"
+
+msgctxt "train_orders_auto_copy_shift"
 msgid "Copy:"
 msgstr "复制:"
 
-msgctxt "train_orders_auto_run"
-msgid "Auto run line:"
-msgstr "自动运行线路:"
+msgctxt "train_orders_auto_copy_shift_go_parent"
+msgid "Edit parent orders"
+msgstr "编辑上一级指令"
 
-msgctxt "train_orders_keep_line"
-msgid "< Keep current line >"
-msgstr "<保持当前线路>"
-
-msgctxt "train_orders_mode"
-msgid "Orders:"
-msgstr "调度:"
-
-msgctxt "train_orders_mode_auto_copy"
-msgid "Auto copy manual orders"
-msgstr "自动复制已经设置好的调度指令"
-
-msgctxt "train_orders_mode_auto_line"
-msgid "Auto run a line"
-msgstr "自动运行线路"
-
-msgctxt "train_orders_mode_manual"
-msgid "Manual orders"
-msgstr "手动调整调度指令"
-
-msgctxt "train_orders_mode_mothballed"
-msgid "Mothballed"
-msgstr "封存"
-
-msgctxt "train_orders_run_short"
-msgid "Run line:"
-msgstr "运行线路:"
-
-msgctxt "train_run"
-msgid "Run"
-msgstr "运行"
-
-msgctxt "train_sort_alpha"
-msgid "Alphabetically"
-msgstr "按字母顺序排序"
-
-msgctxt "train_spawn_at"
-msgid "Spawns in {}"
-msgstr "在 {} 生成"
-
-msgctxt "train_spawn_late"
-msgid "Spawns late by {}"
-msgstr "在 {} 延迟生成"
-
-msgctxt "train_status_mothballed"
-msgid "Mothballed"
-msgstr "封存"
-
-msgctxt "traineditor_auto_shift_time_desc"
-msgid "Format: (-)hh:mm:ss\nShift the start of the auto copied orders by this amount."
-msgstr "格式: (-)hh:mm:ss\nShift the start of the auto copied orders by this amount."
-
-msgctxt "traineditor_order_append"
-msgid "Append new order"
-msgstr "添加新指令"
-
-msgctxt "traineditor_order_append_action"
-msgid "Append new order"
-msgstr "添加新指令"
-
-msgctxt "traineditor_order_bulk_edit"
-msgid "Bulk edit orders"
-msgstr "批量编辑指令"
-
-msgctxt "traineditor_order_edit"
-msgid "Edit orders"
-msgstr "编辑指令"
-
-msgctxt "traineditor_order_edit_action_multi"
-msgid "Bulk shift and change"
-msgstr "批量更改指令"
-
-msgctxt "traineditor_order_edit_action_single"
-msgid "Change one order"
-msgstr "更改指令"
-
-msgctxt "traineditor_order_enter"
-msgid "Enter:"
-msgstr "始发站:"
-
-msgctxt "traineditor_order_enter_first_stop"
-msgid "<First line stop>"
-msgstr "<线路起点>"
-
-msgctxt "traineditor_order_exit"
-msgid "Exit:"
-msgstr "终到站:"
-
-msgctxt "traineditor_order_exit_last_stop"
-msgid "<Last line stop>"
-msgstr "<线路终点>"
-
-msgctxt "traineditor_order_loops"
-msgid "Loop until next order"
-msgstr "循环直到下一个调度指令"
-
-msgctxt "traineditor_order_select_all"
-msgid "Select all orders"
-msgstr "选择所有指令"
-
-msgctxt "traineditor_order_select_copy"
-msgid "Copy selected orders"
-msgstr "复制所选的指令"
-
-msgctxt "traineditor_order_select_del"
-msgid "Delete selected orders"
-msgstr "删除所选的指令"
-
-msgctxt "traineditor_order_select_none"
-msgid "Clear selection"
-msgstr "清除所选的指令"
-
-msgctxt "traineditor_order_select_paste"
-msgid "Paste orders"
-msgstr "粘贴指令"
-
-msgctxt "traineditor_order_shift_by"
-msgid "By:"
-msgstr "延时:"
-
-msgctxt "traineditor_order_shift_time"
-msgid "Shift:"
-msgstr "模式:"
-
-msgctxt "traineditor_order_shift_time_desc"
-msgid "Format: (-)hh:mm:ss\nShift the start time of the selected orders by this amount."
-msgstr "格式: (-)hh:mm:ss\nShift the start time of the selected orders by this amount."
-
-msgctxt "traineditor_order_start_event"
-msgid "Enter event:"
-msgstr "确认事件:"
-
-msgctxt "traineditor_order_start_event_arrival"
-msgid "Arrive exactly at"
-msgstr "准确到达"
-
-msgctxt "traineditor_order_start_event_arrival_by"
-msgid "Arrive no later than"
-msgstr "不迟于"
-
-msgctxt "traineditor_order_start_event_departure"
-msgid "Depart exactly at"
-msgstr "准确出发事件"
-
-msgctxt "traineditor_order_start_time_at"
-msgid "At:"
-msgstr "从"
-
-msgctxt "traineditor_order_start_time_by"
-msgid "Than:"
-msgstr "经过"
-
-msgctxt "traineditor_order_start_time_desc"
-msgid "Format: hh:mm:ss\nTime of day to start one or more runs of the selected line."
-msgstr "格式:hh:mm:ss\n一天中开始一次或多次运行选定行的时间。"
-
-msgctxt "traineditor_tz"
-msgid "Time zone:"
-msgstr "时区:"
-
-msgctxt "traineditor_tz_desc"
-msgid "Time zone used for order time/day input."
-msgstr "用于调度指令的时区"
-
-msgctxt "traineditor_tz_first_line"
-msgid "First line time zone"
-msgstr "第一条线路的时区"
-
-msgctxt "traineditor_tz_map"
-msgid "Map"
-msgstr "地图"
-
-msgctxt "traineditor_tz_orders"
-msgid "Orders"
-msgstr "调度指令"
-
-msgctxt "traineditor_tz_station"
-msgid "Station"
-msgstr "车站"
-
-msgctxt "waiting_expired"
-msgid "Expired"
-msgstr "失效"
-
-msgctxt "wedge_mode"
-msgid "Show trip legs as rhombus to better reflect the initial wait time"
-msgstr "运行图"
-
-msgctxt "weekday_shorter_friday"
-msgid "Fr"
-msgstr "五"
-
-msgctxt "weekday_shorter_monday"
-msgid "Mo"
-msgstr "一"
-
-msgctxt "weekday_shorter_saturday"
-msgid "Sa"
-msgstr "六"
-
-msgctxt "weekday_shorter_sunday"
-msgid "Su"
-msgstr "日"
-
-msgctxt "weekday_shorter_thursday"
-msgid "Th"
-msgstr "四"
-
-msgctxt "weekday_shorter_tuesday"
-msgid "Tu"
-msgstr "二"
-
-msgctxt "weekday_shorter_wednesday"
-msgid "We"
-msgstr "三"
+msgctxt "traineditor_order_start_time_arrange_top_desc2"
+msgid "Set time to the earliest possible time which allows the previous order to not have a padding wait on its last run\nIgnores pending day of week and start time edits\nMulti day orders will only consider the first day"
+msgstr "将时间设置为最早的时间，这允许前一个订单在最后一次运行时不进行填充等待\n忽略挂起的星期几和开始时间编辑\n多天订单将只考虑第一天"
 
 # ----------------------------------------------------------
-# 1.4.22 及以前版本 字符串
+# 1.5.31 及以前版本 字符串
 
 msgctxt "10_minutes"
 msgid "10 minutes"
@@ -944,6 +256,10 @@ msgctxt "accounting_construction_tracks"
 msgid "Tracks"
 msgstr "    轨道"
 
+msgctxt "accounting_events_post"
+msgid "events"
+msgstr "人次"
+
 msgctxt "accounting_financing"
 msgid "Financing"
 msgstr "财务"
@@ -975,6 +291,10 @@ msgstr "    发送旅客"
 msgctxt "accounting_pax_compensated"
 msgid "Compensated"
 msgstr "        赔偿"
+
+msgctxt "accounting_pax_found_train_too_full"
+msgid "Boarding failed: full train"
+msgstr "    列车满员"
 
 msgctxt "accounting_pax_intervention"
 msgid "Compen.: intervention"
@@ -1187,6 +507,10 @@ msgstr "车站"
 msgctxt "asset_trains"
 msgid "Trains"
 msgstr "列车"
+
+msgctxt "auto_platform_scroll"
+msgid "Automatically track and scroll the list based on the time of day"
+msgstr "整天自动跟踪和滚动列表"
 
 msgctxt "autoexport_config_name"
 msgid "Autoexport accounting:"
@@ -1420,6 +744,22 @@ msgctxt "buildings_total"
 msgid "Buildings total"
 msgstr "建筑合计"
 
+msgctxt "bulk_keep_straight"
+msgid "Platform keep straight:"
+msgstr "平台保持直线:"
+
+msgctxt "bulk_keep_straight_disable"
+msgid "Disable"
+msgstr "禁用"
+
+msgctxt "bulk_keep_straight_enable"
+msgid "Enable"
+msgstr "启用"
+
+msgctxt "bulk_label_mode"
+msgid "Station label:"
+msgstr "车站标签:"
+
 msgctxt "cancel"
 msgid "Cancel"
 msgstr "取消"
@@ -1479,6 +819,14 @@ msgstr "颜色:"
 msgctxt "company_tab_info"
 msgid "Info"
 msgstr "信息"
+
+msgctxt "company_tab_loans"
+msgid "Loans"
+msgstr "贷款"
+
+msgctxt "company_tab_options"
+msgid "Options"
+msgstr "选项"
 
 msgctxt "confirm_bp"
 msgid "Do you want to build the current blueprint?"
@@ -1540,6 +888,14 @@ msgctxt "confirm_delete_line_desc"
 msgid "Do you want to delete the line named {}?"
 msgstr "你确定要删除线路 {} 吗？"
 
+msgctxt "confirm_intervention_line"
+msgid "Confirm line intervention"
+msgstr "线路干预"
+
+msgctxt "confirm_intervention_line_desc"
+msgid "Do you want to issue an intervention to all the trains currently running the line named {0} for a price of ${1}?"
+msgstr "本次干预将重新设定所有 {0} 线路的列车位置，并支付共计 ${1}"
+
 msgctxt "confirm_set_no_cash"
 msgid "Confirm switching to unlimited money"
 msgstr "确认切换到无限金钱模式"
@@ -1580,9 +936,21 @@ msgctxt "constraint_flip"
 msgid "Flip"
 msgstr "切换方向"
 
+msgctxt "constraint_max_speed"
+msgid "Custom max speed:"
+msgstr "自定义限速"
+
+msgctxt "constraint_max_speed_tip"
+msgid "Values over physical max track speed will be ignored. Set to 0 to disable custom max speed."
+msgstr "列车最大速度取决于轨道限速，当轨道限速超过自定义限速时，将以自定义限速为准。 \n设置为 0 时将忽略自定义限速。"
+
 msgctxt "constraint_offset"
 msgid "Offset:"
 msgstr "线间距离:"
+
+msgctxt "constraint_offset2"
+msgid "Parallel offset:"
+msgstr "平行偏移:"
 
 msgctxt "constraint_pick"
 msgid "Pick parent"
@@ -1591,6 +959,14 @@ msgstr "选择节点"
 msgctxt "constraint_remove"
 msgid "Remove constraint"
 msgstr "解除绑定"
+
+msgctxt "constraint_remove_parent"
+msgid "Parallel constraint:"
+msgstr "平行约束:"
+
+msgctxt "constraint_remove_parent_action"
+msgid "Remove"
+msgstr "移除"
 
 msgctxt "constraint_straight"
 msgid "Keep straight"
@@ -1611,6 +987,10 @@ msgstr "轨道控制点"
 msgctxt "constraint_type_t_tangent"
 msgid "To a track point"
 msgstr "轨迹点"
+
+msgctxt "constraints_bulk_editor"
+msgid "Bulk editor"
+msgstr "多选编辑器"
 
 msgctxt "constraints_editor"
 msgid "Track properties"
@@ -1821,12 +1201,24 @@ msgid "Click a control point to make it the constraint parent"
 msgstr "点击一个轨道控制点来绑定到轨道节点"
 
 msgctxt "editor_select_add_platform"
-msgid "Click platform letters in stations to add stops to the line"
-msgstr "点击车站内的站台字母编号，增加线路的站点"
+msgid "Click platform names in stations to add stops to the line"
+msgstr "点击车站内的站台名称，增加线路的站点"
 
 msgctxt "editor_select_add_waypoint"
 msgid "Click track segments to add waypoints to the line"
 msgstr "点击轨迹段，将路径点添加到线路上"
+
+msgctxt "editor_select_alt_signal"
+msgid "Click signal controls to set a signal as the secondary path signal for the stop"
+msgstr "点击信号控制按钮，将信号设置为该车站的临时站台信号"
+
+msgctxt "editor_select_alt_stop"
+msgid "Click platform names in stations to add a secondary platform to the stop"
+msgstr "点击车站中的站台名称，添加该站该线路的临时停靠站台"
+
+msgctxt "editor_select_change_platform"
+msgid "Click platform names in stations to change the stop main platform"
+msgstr "点击车站中的站台名称，选择该站该线路的主站台"
 
 msgctxt "editor_station"
 msgid "Create new station platforms"
@@ -2048,17 +1440,25 @@ msgctxt "editor_warn_need_train_acc"
 msgid "Buy and schedule at least one train to this line."
 msgstr "请购买或安排至少一列列车到这条线路上。"
 
+msgctxt "editor_warn_only_trains"
+msgid "Pax will leave and won't board trains running this line."
+msgstr "乘客将离开，并将不会登上这条线路的列车"
+
+msgctxt "editor_warn_too_long_manual_interval"
+msgid "The manual interval exceeds the duration of the line. It will be ignored or work unreliably.\nIncrease the line custom duration value to at least the manual interval value."
+msgstr "手动间隔超过了线路的运行时间，这将可能出错。 \n将线路自定义运行时间增加到手动间隔。"
+
 msgctxt "editor_warn_train_speed_too_high"
 msgid "Trains might be unable to make up for delays at this cruise speed."
 msgstr "在这种巡航速度下，火车可能无法弥补延误。"
 
-msgctxt "editor_warn_zero_interval"
-msgid "At least one interval time is set to 0. Use the timing calculator after you are done editing the line."
-msgstr "至少有一个间隔时间被设置为0。编辑完线路后请使用列车时刻计算器。"
+msgctxt "effective_game_speed"
+msgid "Speed: {:.1f}x"
+msgstr "游戏速度: {:.1f}x"
 
-msgctxt "editor_warn_zero_leg"
-msgid "At least one leg travel time is set to 0. Use the timing calculator after you are done editing the line."
-msgstr "至少有一个运行时间被设置为0。编辑完线路后请使用列车时刻计算器。"
+msgctxt "effective_game_speed_handicap"
+msgid "Speed: {0:.1f}x\nHandicap: {1}%"
+msgstr "游戏速度: {:.1f}x \n延迟: {1}%"
 
 msgctxt "empty_clipboard"
 msgid "<Empty clipboard>"
@@ -2412,6 +1812,14 @@ msgctxt "info_table_pax_total_tp"
 msgid "Trip total elapsed time"
 msgstr "行程总耗时"
 
+msgctxt "info_table_pax_waiting"
+msgid "Waiting for"
+msgstr "等待"
+
+msgctxt "info_table_pax_waiting_tp"
+msgid "Expected to depart with this line and stop number, based on timetables"
+msgstr "根据时刻表，应该在该站台乘坐这条线路出发"
+
 msgctxt "info_train_pax"
 msgid "Pax: {0} / {1}"
 msgstr "乘客: {0} / {1}"
@@ -2423,6 +1831,18 @@ msgstr "速度: {} km/h"
 msgctxt "info_train_speed_short"
 msgid "{} km/h"
 msgstr "{} km/h"
+
+msgctxt "input_range"
+msgid "{}{} to {}{}"
+msgstr "{}{} 到 {}{}"
+
+msgctxt "intervene_all_trains"
+msgid "Intervene all trains"
+msgstr "干预所有列车"
+
+msgctxt "intervene_line"
+msgid "Intervene line"
+msgstr "干预线路"
 
 msgctxt "intervention"
 msgid "Intervention"
@@ -2529,8 +1949,8 @@ msgid "Tracks: new depot"
 msgstr "轨道:创建车辆段"
 
 msgctxt "kb_track_flip_signal"
-msgid "Tracks: flip selected signal"
-msgstr "轨道:翻转选择信号"
+msgid "Tracks: flip track side"
+msgstr "轨道:翻转轨道位置"
 
 msgctxt "kb_track_layer_down"
 msgid "Tracks: decr. new track layer"
@@ -2583,6 +2003,10 @@ msgstr "地"
 msgctxt "line_0_stops"
 msgid "0 stops"
 msgstr "0 个车站"
+
+msgctxt "line_editor_tip_zoom_pick"
+msgid "Zoom in to pick"
+msgstr "放大以选择"
 
 msgctxt "line_error_no_path_between_stops"
 msgid "Cannot find path!"
@@ -2648,6 +2072,54 @@ msgctxt "line_stops"
 msgid "Stops"
 msgstr "车站"
 
+msgctxt "line_timetable"
+msgid "Timetable"
+msgstr "时刻表"
+
+msgctxt "line_to2"
+msgid "{} [{}] to"
+msgstr "{} [{}] 到"
+
+msgctxt "lineeditor_alt_platforms"
+msgid "Secondary platforms:"
+msgstr "临时停靠站台"
+
+msgctxt "lineeditor_alt_platforms_n"
+msgid "(Total: {})"
+msgstr "(总计: {})"
+
+msgctxt "lineeditor_alt_signal"
+msgid "Secondary plat. signal:"
+msgstr "临时站台信号"
+
+msgctxt "lineeditor_alt_signal_label"
+msgid "Signal {}"
+msgstr "信号 {}"
+
+msgctxt "lineeditor_auto_interval_auto"
+msgid "Auto interval:"
+msgstr "自动间隔:"
+
+msgctxt "lineeditor_auto_interval_auto_no_trains"
+msgid "Add one or more auto run trains"
+msgstr "添加一列或多列自动运行的列车"
+
+msgctxt "lineeditor_auto_interval_kind2"
+msgid "Launch trains:"
+msgstr "启动列车:"
+
+msgctxt "lineeditor_auto_interval_kind2_fit"
+msgid "Evenly spaced to fit one line loop"
+msgstr "自动配置整条线路的调度指令"
+
+msgctxt "lineeditor_auto_interval_kind2_manual"
+msgid "On a fixed, manual interval"
+msgstr "以固定的手动间隔设置调度指令"
+
+msgctxt "lineeditor_auto_timings"
+msgid "Auto run line"
+msgstr "自动运行线路"
+
 msgctxt "lineeditor_auto_value"
 msgid "Auto"
 msgstr "自动"
@@ -2673,20 +2145,104 @@ msgid "Cruise speed (km/h):"
 msgstr "巡航速度(km/h):"
 
 msgctxt "lineeditor_cruise_speed_desc"
-msgid "Trains will try to accelerate to and keep this speed while traveling between stops. They may speed up if they are late."
-msgstr "列车行驶时将保持到这个速度，如果列车晚点可能将加快速度。"
+msgid "Trains will try to accelerate to and keep this speed while traveling between stops.\nTrains might speed up if they are late."
+msgstr "列车行驶时将保持到这个速度。 \b如果列车晚点可能将加快速度。"
+
+msgctxt "lineeditor_custom_duration"
+msgid "Custom duration:"
+msgstr "自定义运行周期:"
+
+msgctxt "lineeditor_custom_duration_desc"
+msgid "Format: hh:mm:ss\nIf the line duration is shorter than this amount, stops flagged as custom duration wait stops will have extra stop time, until the line duration matches the custom duration.\nThe extra time is distributed evenly between the stops. If no stops are selected as custom wait, the last line stop is used."
+msgstr "格式: hh:mm:ss \n如果线路运行周期小于该值，则将会把额外时间平均补充到所有启用等候时间的站点间。 \n如果没有任何站点启用等候时间，则将默认为仅始发站启用等候时间。"
+
+msgctxt "lineeditor_custom_period"
+msgid "Custom period:"
+msgstr "自定义周期"
+
+msgctxt "lineeditor_custom_period_desc"
+msgid "Format: hh:mm:ss\n.Line duration will be choosen to perfectly fit this length of time. This custom setting does not guarantee fitting days or weeks."
+msgstr "格式: hh:mm:ss \n线路持续时间将完全适配这段自定义周期。"
+
+msgctxt "lineeditor_custom_wait_here"
+msgid "Custom duration wait in this stop"
+msgstr "在此站点等待运行周期"
 
 msgctxt "lineeditor_default_timings"
 msgid "Default timings"
 msgstr "时间表:"
 
+msgctxt "lineeditor_duration_custom"
+msgid "Custom"
+msgstr "自定义"
+
+msgctxt "lineeditor_duration_fit_period"
+msgid "Fit a period"
+msgstr "适合时段"
+
+msgctxt "lineeditor_duration_mode"
+msgid "Line duration:"
+msgstr "线路持续时间:"
+
+msgctxt "lineeditor_duration_mode_minimal"
+msgid "Minimal"
+msgstr "最少"
+
+msgctxt "lineeditor_duration_period"
+msgid "Period:"
+msgstr "周期:"
+
+msgctxt "lineeditor_duration_period_custom"
+msgid "Custom"
+msgstr "自定义"
+
+msgctxt "lineeditor_duration_period_day"
+msgid "Day"
+msgstr "每日"
+
+msgctxt "lineeditor_duration_period_week"
+msgid "Week"
+msgstr "每周"
+
+msgctxt "lineeditor_duration_waiters"
+msgid "Extra stop time on:"
+msgstr "额外等待时间:"
+
+msgctxt "lineeditor_duration_waiters_all"
+msgid "Evenly on all stops"
+msgstr "平均分配到所有站点"
+
+msgctxt "lineeditor_duration_waiters_custom"
+msgid "Manually picked stops"
+msgstr "自定义等待站点"
+
 msgctxt "lineeditor_header_full"
 msgid "{0}, {1} km, {2}, {3} km/h avg."
 msgstr "{0}, {1} km, {2}, 平均速度{3} km/h"
 
+msgctxt "lineeditor_header_full_tooltip"
+msgid "Custom loop: {0}\nCustom non-loop: {1}\nMinimal loop: {2}\nMinimal non-loop: {3}"
+msgstr "自定义循环: {0}\n自定义非循环: {1}\n最小循环: {2}\n最小非循环: {3}"
+
 msgctxt "lineeditor_header_l"
 msgid "{0}, {1} km"
 msgstr "{0}, {1} km"
+
+msgctxt "lineeditor_launch_time"
+msgid "First train departure:"
+msgstr "自动发车时间:"
+
+msgctxt "lineeditor_launch_time_desc"
+msgid "Format: hh:mm:ss\nTime of day for the first departure on the first stop for the first automatic train.\nThis setting only applies for trains in automatic orders mode.\nManual order trains using this line ignore this setting and are not counted towards interval calculation."
+msgstr "格式: hh:mm:ss \n该线路首趟列车从始发站发车的时间。\n该设置仅适用于自动模式下的列车。\n如您使用手动模式控制列车，请忽略此功能。\n该时间不计入间隔时间计算中。"
+
+msgctxt "lineeditor_main_platform"
+msgid "Main platform:"
+msgstr "主站台:"
+
+msgctxt "lineeditor_manual_interval"
+msgid "Manual interval:"
+msgstr "手动间隔:"
 
 msgctxt "lineeditor_min_stop_time"
 msgid "Stop time:"
@@ -2736,6 +2292,10 @@ msgctxt "lineeditor_service_level_only_trains"
 msgid "Technical maneuvers"
 msgstr "空驶"
 
+msgctxt "lineeditor_stop_panel_editor2"
+msgid "Stop {}"
+msgstr "站点 {}"
+
 msgctxt "lineeditor_tags"
 msgid "Tags:"
 msgstr "标签:"
@@ -2748,6 +2308,10 @@ msgctxt "lineeditor_tooltip_add_waypoint_mode"
 msgid "Add waypoints to line"
 msgstr "在线路上添加导航点"
 
+msgctxt "lineeditor_tooltip_clone"
+msgid "Clone selected line"
+msgstr "复制选中的线路"
+
 msgctxt "lineeditor_tooltip_del"
 msgid "Delete selected line"
 msgstr "删除选中线路"
@@ -2756,9 +2320,21 @@ msgctxt "lineeditor_tooltip_del_stop"
 msgid "Delete selected stop"
 msgstr "删除选中车站"
 
+msgctxt "lineeditor_tooltip_depot_new"
+msgid "Create a new depot line"
+msgstr "创建一条新车辆段线路"
+
+msgctxt "lineeditor_tooltip_down_shift"
+msgid "Shift down all line stops"
+msgstr "向下移动所有线路车站"
+
 msgctxt "lineeditor_tooltip_down_stop"
 msgid "Move down selected stop\nHold shift to shift down"
 msgstr "向下移动选定的车站 \n按住 Shift 键缓慢移动"
+
+msgctxt "lineeditor_tooltip_intervention"
+msgid "Issue an intervention to all trains currently running the selected line"
+msgstr "干预选中线路的所有列车"
 
 msgctxt "lineeditor_tooltip_new"
 msgid "Create a new line"
@@ -2768,9 +2344,41 @@ msgctxt "lineeditor_tooltip_purchase_trains"
 msgid "Purchase new trains for this line"
 msgstr "为本线路购买新列车"
 
+msgctxt "lineeditor_tooltip_up_shift"
+msgid "Shift up all line stops"
+msgstr "向上移动所有线路车站"
+
 msgctxt "lineeditor_tooltip_up_stop"
 msgid "Move up selected stop\nHold shift to shift up"
 msgstr "向上移动选定的车站 \n按住 Shift 键缓慢移动"
+
+msgctxt "lineeditor_tz"
+msgid "Time zone:"
+msgstr "发车时区:"
+
+msgctxt "lineeditor_tz_desc"
+msgid "Time zone of the first train departure time input."
+msgstr "自动发车时间所设定的时区。"
+
+msgctxt "lineeditor_tz_first_stop"
+msgid "First stop station time zone"
+msgstr "首站所处时区"
+
+msgctxt "lineeditor_tz_line"
+msgid "Line"
+msgstr "线路"
+
+msgctxt "lineeditor_wait_kind"
+msgid "Stop behavior:"
+msgstr "车站行为:"
+
+msgctxt "lineeditor_wait_kind_limbo"
+msgid "Black hole main, wait secondary"
+msgstr "自动清除优先"
+
+msgctxt "lineeditor_wait_kind_normal"
+msgid "Wait on platforms"
+msgstr "在站台上候车"
 
 msgctxt "lines"
 msgid "Lines"
@@ -2847,6 +2455,10 @@ msgstr "生成游戏加载器"
 msgctxt "loader_stations_n"
 msgid "Validating stations, {} to go"
 msgstr "正在验证车站，还剩{}"
+
+msgctxt "loader_timetables_init"
+msgid "Initializing timetables"
+msgstr "初始化时刻表"
 
 msgctxt "loader_tracks_n"
 msgid "Validating tracks, {} to go"
@@ -2955,6 +2567,46 @@ msgstr "本地语言"
 msgctxt "map_names_prio"
 msgid "Map names priority:"
 msgstr "地图名称优先级:"
+
+msgctxt "mass_del_lines_but"
+msgid "Delete all lines"
+msgstr "删除所有线路"
+
+msgctxt "mass_del_lines_desc"
+msgid "Do you want to delete all lines?"
+msgstr "你确定要删除所有线路吗？"
+
+msgctxt "mass_del_lines_title"
+msgid "Delete all lines"
+msgstr "删除所有线路"
+
+msgctxt "mass_del_lines_yes"
+msgid "Delete all"
+msgstr "删除所有"
+
+msgctxt "mass_del_trains_but"
+msgid "Sell all trains"
+msgstr "出售所有列车"
+
+msgctxt "mass_del_trains_desc"
+msgid "Do you want to sell all trains?"
+msgstr "你确定要出售所有列车吗？"
+
+msgctxt "mass_del_trains_title"
+msgid "Sell all trains"
+msgstr "出售所有列车"
+
+msgctxt "mass_intervention_trains_but"
+msgid "All trains intervention"
+msgstr "干预所有列车"
+
+msgctxt "mass_intervention_trains_desc"
+msgid "Do you want to issue an intervention to all trains for a price of ${}?"
+msgstr "你确定要干预所有列车，并支付共计 ${} 吗？"
+
+msgctxt "mass_intervention_trains_title"
+msgid "Confirm all trains intervention"
+msgstr "确认干预所有列车"
 
 msgctxt "max_speed_desc"
 msgid "Map and UI is disabled in max speed mode. Slow down to cancel."
@@ -3464,6 +3116,14 @@ msgctxt "option_company_name"
 msgid "Company name:"
 msgstr "公司名称:"
 
+msgctxt "option_company_parallel_offset"
+msgid "New track par. off.:"
+msgstr "新轨道线间距离:"
+
+msgctxt "option_company_station_label"
+msgid "New station label:"
+msgstr "新车站标签:"
+
 msgctxt "option_company_switch_no_cash"
 msgid "Switch to unlimited money"
 msgstr "切换到无限金钱模式"
@@ -3491,6 +3151,26 @@ msgstr "热键绑定"
 msgctxt "options_mods_upload"
 msgid "Uploader"
 msgstr "上传器"
+
+msgctxt "order_error_empty_line"
+msgid "Empty line"
+msgstr "空线路"
+
+msgctxt "order_error_invalid_line"
+msgid "Invalid line"
+msgstr "无效线路"
+
+msgctxt "order_error_not_fit"
+msgid "Runs do not fit between previous and next order"
+msgstr "两个调度指令之间列车不建议运行"
+
+msgctxt "order_error_two_arrival_by"
+msgid "Arrive No Later orders cannot appear one after the other"
+msgstr "不迟于时间的调度指令不能一个接一个出现"
+
+msgctxt "order_invalid_line"
+msgid "Invalid line"
+msgstr "无效线路"
 
 msgctxt "osm_admin_level_10"
 msgid "Quarter"
@@ -3568,9 +3248,41 @@ msgctxt "paste"
 msgid "Paste"
 msgstr "粘贴"
 
+msgctxt "path_not_found_trip"
+msgid "Path not found between {0} and {1}"
+msgstr "在{0}和{1}之间找不到路径"
+
 msgctxt "path_pax_train_warn"
 msgid "Path starts at pax next stop"
 msgstr "路径将于下一站开始"
+
+msgctxt "path_stale_warn"
+msgid "Stale data detected, ignoring step"
+msgstr "检测到过时数据，已忽略"
+
+msgctxt "path2_arrive"
+msgid "Arrive at {}"
+msgstr "在 {} 到达"
+
+msgctxt "path2_ride"
+msgid "Ride {0} for {1}"
+msgstr "乘坐{0}{1}"
+
+msgctxt "path2_take2"
+msgid " Up to {0} [{1}]"
+msgstr "直到 {0} [{1}]"
+
+msgctxt "path2_wait_at"
+msgid " Wait {0} at {1}"
+msgstr "在 {1}  等待  {0}"
+
+msgctxt "path2_wait_line2"
+msgid " For the departure of {0} [{1}]"
+msgstr "离开 {0} [{1}]"
+
+msgctxt "pax_new_time"
+msgid "New"
+msgstr "新"
 
 msgctxt "pax_tab"
 msgid "Passengers"
@@ -3583,6 +3295,10 @@ msgstr "等待乘客: {0} / {1}"
 msgctxt "paxlist_groupby_dest"
 msgid "Group by destination"
 msgstr "按目的地分组"
+
+msgctxt "paxlist_groupby_dominating"
+msgid "Show dominating trips"
+msgstr "显示主要行程"
 
 msgctxt "paxlist_groupby_next"
 msgid "Group by next stop"
@@ -3600,9 +3316,17 @@ msgctxt "paxlist_groupby_plan"
 msgid "Show best current trip"
 msgstr "显示最佳行程路线"
 
+msgctxt "paxlist_groupby_waiting"
+msgid "Group by waited line stop"
+msgstr "按车站等候线路分组"
+
 msgctxt "paxlist_n_pax"
 msgid "{} pax"
 msgstr "{} 乘客"
+
+msgctxt "paxlist_other_win"
+msgid "(window)"
+msgstr "(窗口)"
 
 msgctxt "paxlist_waiting_pax"
 msgid "Waiting for pax..."
@@ -3611,6 +3335,10 @@ msgstr "等待乘客…"
 msgctxt "pending_validations"
 msgid "Validating tracks, {} to go"
 msgstr "正在验证轨道，还剩{}"
+
+msgctxt "pick"
+msgid "Pick"
+msgstr "选择"
 
 msgctxt "pick_a_local_collection"
 msgid "Pick a private collection"
@@ -3820,6 +3548,26 @@ msgctxt "rtstat_speed"
 msgid "Speed"
 msgstr "速度"
 
+msgctxt "run_panel_pad_stop"
+msgid "Train will wait an extra {} in this stop to start the next run at its scheduled time"
+msgstr "列车将在此站额外等待{}，以便在预定时间开始下一次运行"
+
+msgctxt "run_panel_start"
+msgid "{0}: Start path to {1}"
+msgstr "{0}:开始路径 {1}"
+
+msgctxt "run_panel_train"
+msgid "{0} Run {1}"
+msgstr "{0} 运行 {1}"
+
+msgctxt "run_view_tooltip"
+msgid "{0} Run {1}"
+msgstr "{0} 运行 {1}"
+
+msgctxt "run_view_tooltip_full"
+msgid "{0} Run {1}\n{2}"
+msgstr "{0} 运行 {1}\n{2}"
+
 msgctxt "save"
 msgid "Save"
 msgstr "保存"
@@ -3915,6 +3663,10 @@ msgstr "选定的蓝图费用"
 msgctxt "selection_blueprint_bill_short"
 msgid "Selected"
 msgstr "已选"
+
+msgctxt "sell_all_trains_yes"
+msgid "Sell all"
+msgstr "出售所有"
 
 msgctxt "settings"
 msgid "Settings"
@@ -4084,6 +3836,14 @@ msgctxt "sort_sep_real_time"
 msgid "--- Real time ---"
 msgstr "---实时---"
 
+msgctxt "stale_run"
+msgid "Stale run"
+msgstr "过时运行"
+
+msgctxt "stale_run_tooltip"
+msgid "The orders for this train have changed. At the end of its current run it will automatically respawn on the new orders stop.\nPax will be automatically relocated to their next stops."
+msgstr "这列火车的指令已经改变了，在当前区段运行结束后，它将运行新的调度指令。\n 旅客将在下一站全部下车。"
+
 msgctxt "start_game"
 msgid "Start game"
 msgstr "开始游戏"
@@ -4091,6 +3851,30 @@ msgstr "开始游戏"
 msgctxt "station_editor"
 msgid "Station properties"
 msgstr "车站属性"
+
+msgctxt "station_label_mode"
+msgid "Label:"
+msgstr "标签:"
+
+msgctxt "station_label_mode_dot_only"
+msgid "Dot only"
+msgstr "只显示一个点"
+
+msgctxt "station_label_mode_full"
+msgid "Full"
+msgstr "全部显示"
+
+msgctxt "station_label_mode_icon_only"
+msgid "Icon only"
+msgstr "只显示图标"
+
+msgctxt "station_label_mode_name_only"
+msgid "Name only"
+msgstr "只显示车站名称"
+
+msgctxt "station_label_mode_name_pop"
+msgid "Name and pax"
+msgstr "显示车站和乘客数"
 
 msgctxt "station_name_edit"
 msgid "Name:"
@@ -4139,6 +3923,10 @@ msgstr "Steamworks ID:"
 msgctxt "stop_idx"
 msgid "Stop {}"
 msgstr "车站 {}"
+
+msgctxt "stop_leg_full2"
+msgid "{0}m at {1} km/h avg."
+msgstr "距离:{0}m, 平均速度 {1} km/h"
 
 msgctxt "stop_leg_l"
 msgid "{0}m"
@@ -4472,9 +4260,37 @@ msgctxt "time_s"
 msgid "{}s"
 msgstr "{}s"
 
+msgctxt "timetable_1day"
+msgid "One day"
+msgstr "一天"
+
+msgctxt "timetable_3days"
+msgid "Three days"
+msgstr "三天"
+
+msgctxt "timetable_heuristic_building_tp"
+msgid "Refreshing pathfind heuristic..."
+msgstr "正在刷新寻路模式…"
+
+msgctxt "timetable_rebuild_tp"
+msgid "Rebuilding timetables..."
+msgstr "正在重建时刻表…"
+
+msgctxt "timetable_week"
+msgid "Week"
+msgstr "周"
+
 msgctxt "title"
 msgid "Title:"
 msgstr "标题:"
+
+msgctxt "too_many_collections"
+msgid "Too many clips"
+msgstr "素材过多"
+
+msgctxt "too_many_collections_body"
+msgid "Your saved and subscribed clips reached the limit of 50,000 tracks and buildings. Please delete some saved clips and/or unsubscribe from some collections."
+msgstr "你已经保存和订阅了50,000份素材，请删除或取消订阅一些素材。"
 
 msgctxt "tooltip_demand"
 msgid "Local {0}%\nRegional {1}%\nLong distance {2}%"
@@ -4572,6 +4388,10 @@ msgctxt "train_clone"
 msgid "Clone"
 msgstr "复制列车"
 
+msgctxt "train_clone_copier"
+msgid "Clone as copier"
+msgstr "克隆为复制模式"
+
 msgctxt "train_code_edit"
 msgid "Serial:"
 msgstr "列车车号:"
@@ -4591,6 +4411,94 @@ msgstr "选择一个装饰"
 msgctxt "train_decal_use_line_color"
 msgid "Use line color"
 msgstr "使用线路颜色"
+
+msgctxt "train_editor_basics"
+msgid "Basics"
+msgstr "基础"
+
+msgctxt "train_editor_group"
+msgid "Group"
+msgstr "组"
+
+msgctxt "train_editor_orders"
+msgid "Orders"
+msgstr "指令"
+
+msgctxt "train_group_duration"
+msgid "Duration:"
+msgstr "持续时间:"
+
+msgctxt "train_group_fixed_shift_by"
+msgid "Interval:"
+msgstr "时间间隔:"
+
+msgctxt "train_group_fixed_shift_by_desc"
+msgid "Format: (-)hh:mm:ss\nIncrementally shift the start of the orders of the auto copier trains by this amount."
+msgstr "格式: (-)hh:mm:ss\n均匀递增自动复制列车的开始时间"
+
+msgctxt "train_group_interval"
+msgid "Interval:"
+msgstr "时间间隔:"
+
+msgctxt "train_group_line_duration_pick"
+msgid "Duration of:"
+msgstr "持续时间:"
+
+msgctxt "train_group_manual_duration_amount"
+msgid "Duration:"
+msgstr "持续时间:"
+
+msgctxt "train_group_manual_duration_amount_desc"
+msgid "Format: hh:mm:ss\nEvenly distribute the start of the orders of the auto copier trains over this duration."
+msgstr "格式:hh:mm:ss\n在这段时间内均匀分配自动复制列车的开始时间"
+
+msgctxt "train_group_migrate_but"
+msgid "Set as copiers"
+msgstr "设置为复制模式"
+
+msgctxt "train_group_migrate_line"
+msgid "Migrate auto run trains"
+msgstr "迁移自动运行列车"
+
+msgctxt "train_group_migrate_line_pick"
+msgid "Auto trains of:"
+msgstr "自动运行列车:"
+
+msgctxt "train_group_mode"
+msgid "Shift mode:"
+msgstr "间隔模式:"
+
+msgctxt "train_group_mode_fixed"
+msgid "Fixed interval"
+msgstr "固定间隔"
+
+msgctxt "train_group_mode_line"
+msgid "Evenly over line duration"
+msgstr "在线路持续时间内均匀间隔"
+
+msgctxt "train_group_mode_manual_duration"
+msgid "Evenly over manual duration"
+msgstr "在手动持续时间内均匀间隔"
+
+msgctxt "train_group_n_name"
+msgid "Trains:"
+msgstr "列车:"
+
+msgctxt "train_group_n_value"
+msgid "{0} copying, {1} managed"
+msgstr "{0} 复制模式, {1} 管理"
+
+msgctxt "train_group_shift_matching"
+msgid "Shift orders:"
+msgstr "订单模式:"
+
+msgctxt "train_group_shift_matching_all"
+msgid "All orders"
+msgstr "所有指令"
+
+msgctxt "train_group_shift_matching_only_pax_service"
+msgid "Only pax service orders"
+msgstr "仅载客调度指令"
 
 msgctxt "train_info_arrives"
 msgid "Arrives in {0}, {1:.1f} km of {2:.1f} km"
@@ -4724,6 +4632,10 @@ msgctxt "train_info_status_signal_wait"
 msgid "Waiting at signal"
 msgstr "等待信号"
 
+msgctxt "train_info_status_waiting_spawn"
+msgid "Waiting for scheduled spawn"
+msgstr "等待计划生成"
+
 msgctxt "train_info_storing"
 msgid "Storing in:"
 msgstr "停放在:"
@@ -4748,9 +4660,17 @@ msgctxt "train_list_filter_alert"
 msgid "Only with warnings"
 msgstr "当前仅有警告列车"
 
+msgctxt "train_list_filter_alert_short"
+msgid "Warnings"
+msgstr "警告"
+
 msgctxt "train_list_filter_all"
 msgid "All trains"
 msgstr "所有列车"
+
+msgctxt "train_list_filter_all_short"
+msgid "All"
+msgstr "所有指令"
 
 msgctxt "train_list_filter_by_line"
 msgid "Group by line"
@@ -4763,6 +4683,26 @@ msgstr "按线路标签分组"
 msgctxt "train_list_filter_by_model"
 msgid "Group by model"
 msgstr "按型号分组"
+
+msgctxt "train_list_filter_flat"
+msgid "Flat listing"
+msgstr "水平列表"
+
+msgctxt "train_list_filter_manual"
+msgid "Only with manual orders"
+msgstr "仅手动指令"
+
+msgctxt "train_list_filter_manual_short"
+msgid "Manual orders"
+msgstr "手动指令"
+
+msgctxt "train_list_filter_mothballed"
+msgid "Only mothballed"
+msgstr "仅封存"
+
+msgctxt "train_list_filter_mothballed_short"
+msgid "Mothballed"
+msgstr "封存"
 
 msgctxt "train_list_filter_tags"
 msgid "Group by tags"
@@ -4780,6 +4720,54 @@ msgctxt "train_name_edit"
 msgid "Name:"
 msgstr "列车名称:"
 
+msgctxt "train_orders_auto_copy"
+msgid "Auto copy from:"
+msgstr "自动复制:"
+
+msgctxt "train_orders_auto_copy_mode"
+msgid "Shift:"
+msgstr "调度指令:"
+
+msgctxt "train_orders_auto_copy_mode_auto"
+msgid "Managed by parent group"
+msgstr "由组管理"
+
+msgctxt "train_orders_auto_copy_mode_manual"
+msgid "Shift by manual amount"
+msgstr "手动调整差值"
+
+msgctxt "train_orders_auto_run"
+msgid "Auto run line:"
+msgstr "自动运行线路:"
+
+msgctxt "train_orders_keep_line"
+msgid "< Keep current line >"
+msgstr "<保持当前线路>"
+
+msgctxt "train_orders_mode"
+msgid "Orders:"
+msgstr "调度:"
+
+msgctxt "train_orders_mode_auto_copy"
+msgid "Auto copy manual orders"
+msgstr "自动复制已经设置好的调度指令"
+
+msgctxt "train_orders_mode_auto_line"
+msgid "Auto run a line"
+msgstr "自动运行线路"
+
+msgctxt "train_orders_mode_manual"
+msgid "Manual orders"
+msgstr "手动调整调度指令"
+
+msgctxt "train_orders_mode_mothballed"
+msgid "Mothballed"
+msgstr "封存"
+
+msgctxt "train_orders_run_short"
+msgid "Run line:"
+msgstr "运行线路:"
+
 msgctxt "train_price"
 msgid "Train price:"
 msgstr "列车单价:"
@@ -4791,6 +4779,26 @@ msgstr "余额不足"
 msgctxt "train_purchase_no_cash_desc"
 msgid "Not enough money to purchase the train(s). Pick a cheaper train, less trains, less cars, or make more money."
 msgstr "没有足够的钱以购买火车。请选择更便宜的火车、更少的火车、更少的车厢或赚更多的钱"
+
+msgctxt "train_run"
+msgid "Run"
+msgstr "运行"
+
+msgctxt "train_sort_alpha"
+msgid "Alphabetically"
+msgstr "按字母顺序排序"
+
+msgctxt "train_spawn_at"
+msgid "Spawns in {}"
+msgstr "在 {} 生成"
+
+msgctxt "train_spawn_late"
+msgid "Spawns late by {}"
+msgstr "在 {} 延迟生成"
+
+msgctxt "train_status_mothballed"
+msgid "Mothballed"
+msgstr "封存"
 
 msgctxt "train_texture_info"
 msgid "Train textures: {} of {} max"
@@ -4812,6 +4820,10 @@ msgctxt "train_units_inst"
 msgid "Units:"
 msgstr "编组"
 
+msgctxt "traineditor_auto_shift_time_desc"
+msgid "Format: (-)hh:mm:ss\nShift the start of the auto copied orders by this amount."
+msgstr "格式: (-)hh:mm:ss\n设置所选自动指令的开始时间"
+
 msgctxt "traineditor_clear_selection"
 msgid "Clear selection"
 msgstr "清除选择"
@@ -4819,6 +4831,110 @@ msgstr "清除选择"
 msgctxt "traineditor_move_camera"
 msgid "Focus camera when selecting a train"
 msgstr "在选择列车时跟踪选择的列车"
+
+msgctxt "traineditor_order_append"
+msgid "Append new order"
+msgstr "添加新指令"
+
+msgctxt "traineditor_order_append_action"
+msgid "Append new order"
+msgstr "添加新指令"
+
+msgctxt "traineditor_order_bulk_edit"
+msgid "Bulk edit orders"
+msgstr "批量编辑指令"
+
+msgctxt "traineditor_order_edit"
+msgid "Edit orders"
+msgstr "编辑指令"
+
+msgctxt "traineditor_order_edit_action_multi"
+msgid "Bulk shift and change"
+msgstr "批量更改指令"
+
+msgctxt "traineditor_order_edit_action_single"
+msgid "Change one order"
+msgstr "更改指令"
+
+msgctxt "traineditor_order_enter"
+msgid "Enter:"
+msgstr "始发站:"
+
+msgctxt "traineditor_order_enter_first_stop"
+msgid "<First line stop>"
+msgstr "<线路起点>"
+
+msgctxt "traineditor_order_exit"
+msgid "Exit:"
+msgstr "终到站:"
+
+msgctxt "traineditor_order_exit_last_stop"
+msgid "<Last line stop>"
+msgstr "<线路终点>"
+
+msgctxt "traineditor_order_loops"
+msgid "Loop until next order"
+msgstr "循环直到下一个调度指令"
+
+msgctxt "traineditor_order_select_all"
+msgid "Select all orders"
+msgstr "选择所有指令"
+
+msgctxt "traineditor_order_select_copy"
+msgid "Copy selected orders"
+msgstr "复制所选的指令"
+
+msgctxt "traineditor_order_select_del"
+msgid "Delete selected orders"
+msgstr "删除所选的指令"
+
+msgctxt "traineditor_order_select_none"
+msgid "Clear selection"
+msgstr "清除所选的指令"
+
+msgctxt "traineditor_order_select_paste"
+msgid "Paste orders"
+msgstr "粘贴指令"
+
+msgctxt "traineditor_order_shift_by"
+msgid "By:"
+msgstr "延时:"
+
+msgctxt "traineditor_order_shift_time"
+msgid "Shift:"
+msgstr "模式:"
+
+msgctxt "traineditor_order_shift_time_desc"
+msgid "Format: (-)hh:mm:ss\nShift the start time of the selected orders by this amount."
+msgstr "格式: (-)hh:mm:ss\n设置所选指令的开始时间"
+
+msgctxt "traineditor_order_start_event"
+msgid "Enter event:"
+msgstr "确认事件:"
+
+msgctxt "traineditor_order_start_event_arrival"
+msgid "Arrive exactly at"
+msgstr "准确到达"
+
+msgctxt "traineditor_order_start_event_arrival_by"
+msgid "Arrive no later than"
+msgstr "不迟于"
+
+msgctxt "traineditor_order_start_event_departure"
+msgid "Depart exactly at"
+msgstr "准确出发事件"
+
+msgctxt "traineditor_order_start_time_at"
+msgid "At:"
+msgstr "从"
+
+msgctxt "traineditor_order_start_time_by"
+msgid "Than:"
+msgstr "经过"
+
+msgctxt "traineditor_order_start_time_desc"
+msgid "Format: hh:mm:ss\nTime of day to start one or more runs of the selected line."
+msgstr "格式:hh:mm:ss\n一天中开始一次或多次运行选定行的时间。"
 
 msgctxt "traineditor_select_all"
 msgid "Select all listed trains"
@@ -4843,6 +4959,30 @@ msgstr "同时编辑多列火车的时间表"
 msgctxt "traineditor_tooltip_sell"
 msgid "Sell selected train"
 msgstr "出售选定的列车"
+
+msgctxt "traineditor_tz"
+msgid "Time zone:"
+msgstr "时区:"
+
+msgctxt "traineditor_tz_desc"
+msgid "Time zone used for order time/day input."
+msgstr "用于调度指令的时区"
+
+msgctxt "traineditor_tz_first_line"
+msgid "First line time zone"
+msgstr "第一条线路的时区"
+
+msgctxt "traineditor_tz_map"
+msgid "Map"
+msgstr "地图"
+
+msgctxt "traineditor_tz_orders"
+msgid "Orders"
+msgstr "调度指令"
+
+msgctxt "traineditor_tz_station"
+msgid "Station"
+msgstr "车站"
 
 msgctxt "trains"
 msgid "Trains"
@@ -4916,150 +5056,6 @@ msgctxt "unit_kmh"
 msgid "km/h"
 msgstr "Km/h"
 
-msgctxt "unit_pax"
-msgid "pax"
-msgstr "乘客"
-
-msgctxt "unknown"
-msgid "Unknown"
-msgstr "未知"
-
-msgctxt "unlimited_depth"
-msgid "Unlimited depth"
-msgstr "深度不限"
-
-msgctxt "unlimited_height"
-msgid "Unlimited height"
-msgstr "高度不限"
-
-msgctxt "update_note"
-msgid "Update note:"
-msgstr "更新说明:"
-
-msgctxt "upload_mod"
-msgid "Upload mod"
-msgstr "上传模组"
-
-msgctxt "use_placeholders"
-msgid "Copy with built-in"
-msgstr "用内置对象复制"
-
-msgctxt "used_active_mod"
-msgid "This mod is used by one or more objects in the game, and cannot be disabled."
-msgstr "这个mod会被游戏中的一个或多个对象使用，并且不能被禁用"
-
-msgctxt "user_signal_light_cones"
-msgid "Signal light cones"
-msgstr "信号灯显示"
-
-msgctxt "view_in_workshop"
-msgid "View in Workshop"
-msgstr "在创意工坊中查看"
-
-msgctxt "visibility"
-msgid "Visibility:"
-msgstr "可见性:"
-
-msgctxt "vsync_mode"
-msgid "VSync:"
-msgstr "VSync(垂直同步):"
-
-msgctxt "warn_mod_in_use"
-msgid "Mod is in use"
-msgstr "使用中的 Mod"
-
-msgctxt "warning"
-msgid "Warning"
-msgstr "警告"
-
-msgctxt "waw_track_hs_1_name"
-msgid "High speed"
-msgstr "高速"
-
-msgctxt "waw_track_mid_1_name"
-msgid "Medium speed"
-msgstr "中速"
-
-msgctxt "waw_track_tram_1_name"
-msgid "Tram"
-msgstr "有轨电车"
-
-msgctxt "waypoint"
-msgid "Waypoint"
-msgstr "路径点"
-
-msgctxt "weekday_friday"
-msgid "Friday"
-msgstr "星期五"
-
-msgctxt "weekday_monday"
-msgid "Monday"
-msgstr "星期一"
-
-msgctxt "weekday_saturday"
-msgid "Saturday"
-msgstr "星期六"
-
-msgctxt "weekday_short_friday"
-msgid "Fri"
-msgstr "周五"
-
-msgctxt "weekday_short_monday"
-msgid "Mon"
-msgstr "周一"
-
-msgctxt "weekday_short_saturday"
-msgid "Sat"
-msgstr "周六"
-
-msgctxt "weekday_short_sunday"
-msgid "Sun"
-msgstr "周日"
-
-msgctxt "weekday_short_thursday"
-msgid "Thu"
-msgstr "周四"
-
-msgctxt "weekday_short_tuesday"
-msgid "Tue"
-msgstr "周二"
-
-msgctxt "weekday_short_wednesday"
-msgid "Wed"
-msgstr "周三"
-
-msgctxt "weekday_sunday"
-msgid "Sunday"
-msgstr "星期日"
-
-msgctxt "weekday_thursday"
-msgid "Thursday"
-msgstr "星期四"
-
-msgctxt "weekday_tuesday"
-msgid "Tuesday"
-msgstr "星期二"
-
-msgctxt "weekday_wednesday"
-msgid "Wednesday"
-msgstr "星期三"
-
-msgctxt "workshop_more_langs"
-msgid "More languages"
-msgstr "更多语言"
-
-msgctxt "wrong_length"
-msgid "wrong length"
-msgstr "车站长度过长"
-
-msgctxt "wrong_protocol_desc"
-msgid "Your serialization and protocol do not match with the server. Make sure both your game and the server are running exactly the same game version, as displayed in the main menu."
-msgstr "您的游戏版本与主机不匹配。确保你的游戏和主机的游戏都是同一个版本"
-
-msgctxt "wrong_schema_mod"
-msgid "This mod data is enabled in the current game, but its installed files require a newer game version. Update the game."
-msgstr "此模组在当前游戏中已启用，但其安装的文件需要更新的游戏版本。请更新游戏"
-
 # ----------------------------------------------------------
 #删除的（老版本）字符串
 
@@ -5110,6 +5106,14 @@ msgstr "左键点击完成创建新的车辆段"
 msgctxt "editor_tip_depot_left"
 msgid "Left click to create a new depot"
 msgstr "左键单击创建一个新的车辆段"
+
+msgctxt "editor_warn_zero_interval"
+msgid "At least one interval time is set to 0. Use the timing calculator after you are done editing the line."
+msgstr "至少有一个间隔时间被设置为0。编辑完线路后请使用列车时刻计算器。"
+
+msgctxt "editor_warn_zero_leg"
+msgid "At least one leg travel time is set to 0. Use the timing calculator after you are done editing the line."
+msgstr "至少有一个运行时间被设置为0。编辑完线路后请使用列车时刻计算器。"
 
 msgctxt "invalid_location"
 msgid "Invalid"
@@ -5483,6 +5487,10 @@ msgctxt "train_new_for_line_name"
 msgid "New train for {}"
 msgstr "{} 的新列车"
 
+msgctxt "train_orders_auto_copy_shirt"
+msgid "Copy:"
+msgstr "复制:"
+
 msgctxt "train_purchase_sched"
 msgid "Schedule:"
 msgstr "时刻表:"
@@ -5650,15 +5658,6 @@ msgstr "%d种 型号"
 msgctxt "twoex_mode"
 msgid "Double track mode"
 msgstr "双轨模式"
-
-msgctxt "unit_price"
-msgid "Unit price"
-msgstr "列车单价"
-
-msgctxt "wrong_protocol"
-msgid "Protocol mismatch with server. Make sure both your client and the server are updated to the latest game version."
-msgstr "协议与服务器不匹配。 确保您的客户端和服务器都已更新到最新的游戏版本。"
-
 
 ## ----------------------------------------------------------
 ## 列车翻译
