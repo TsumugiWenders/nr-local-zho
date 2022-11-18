@@ -2082,7 +2082,7 @@ msgstr "{} [{}] 到"
 
 msgctxt "lineeditor_alt_platforms"
 msgid "Secondary platforms:"
-msgstr "临时停靠站台"
+msgstr "副站台"
 
 msgctxt "lineeditor_alt_platforms_n"
 msgid "(Total: {})"
@@ -2090,11 +2090,11 @@ msgstr "(总计: {})"
 
 msgctxt "lineeditor_alt_signal"
 msgid "Secondary plat. signal:"
-msgstr "临时站台信号"
+msgstr "副站台进站信号机"
 
 msgctxt "lineeditor_alt_signal_label"
 msgid "Signal {}"
-msgstr "信号 {}"
+msgstr "信号机 {}"
 
 msgctxt "lineeditor_auto_interval_auto"
 msgid "Auto interval:"
@@ -2106,15 +2106,15 @@ msgstr "添加一列或多列自动运行的列车"
 
 msgctxt "lineeditor_auto_interval_kind2"
 msgid "Launch trains:"
-msgstr "启动列车:"
+msgstr "班次间隔:"
 
 msgctxt "lineeditor_auto_interval_kind2_fit"
 msgid "Evenly spaced to fit one line loop"
-msgstr "自动配置整条线路的调度指令"
+msgstr "自动平均地分配到整条路线"
 
 msgctxt "lineeditor_auto_interval_kind2_manual"
 msgid "On a fixed, manual interval"
-msgstr "以固定的手动间隔设置调度指令"
+msgstr "手动固定间隔"
 
 msgctxt "lineeditor_auto_timings"
 msgid "Auto run line"
@@ -2146,15 +2146,15 @@ msgstr "巡航速度(km/h):"
 
 msgctxt "lineeditor_cruise_speed_desc"
 msgid "Trains will try to accelerate to and keep this speed while traveling between stops.\nTrains might speed up if they are late."
-msgstr "列车行驶时将保持到这个速度。 \b如果列车晚点可能将加快速度。"
+msgstr "列车行驶时将保持到这个速度。\n如果列车晚点可能加快运行速度。"
 
 msgctxt "lineeditor_custom_duration"
 msgid "Custom duration:"
-msgstr "自定义运行周期:"
+msgstr "自定义循环运行耗时:"
 
 msgctxt "lineeditor_custom_duration_desc"
 msgid "Format: hh:mm:ss\nIf the line duration is shorter than this amount, stops flagged as custom duration wait stops will have extra stop time, until the line duration matches the custom duration.\nThe extra time is distributed evenly between the stops. If no stops are selected as custom wait, the last line stop is used."
-msgstr "格式: hh:mm:ss \n如果线路运行周期小于该值，则将会把额外时间平均补充到所有启用等候时间的站点间。 \n如果没有任何站点启用等候时间，则将默认为仅始发站启用等候时间。"
+msgstr "格式: hh:mm:ss \n如果线路最小循环运行耗时小于该值，则会把多余的时间平均地分配给所有启用「在此站点等待运行周期」的站点。 \n如果没有任何站点启用「在此站点等待运行周期」，则将默认为仅始发站启用「在此站点等待运行周期」。"
 
 msgctxt "lineeditor_custom_period"
 msgid "Custom period:"
@@ -2162,7 +2162,7 @@ msgstr "自定义周期"
 
 msgctxt "lineeditor_custom_period_desc"
 msgid "Format: hh:mm:ss\n.Line duration will be choosen to perfectly fit this length of time. This custom setting does not guarantee fitting days or weeks."
-msgstr "格式: hh:mm:ss \n线路持续时间将完全适配这段自定义周期。"
+msgstr "格式: hh:mm:ss \n循环运行耗时将完美地适配这个自定义周期，但不保证完美地适配以「日」或者「周」为单位周期。"
 
 msgctxt "lineeditor_custom_wait_here"
 msgid "Custom duration wait in this stop"
@@ -2178,11 +2178,11 @@ msgstr "自定义"
 
 msgctxt "lineeditor_duration_fit_period"
 msgid "Fit a period"
-msgstr "适合时段"
+msgstr "适配周期"
 
 msgctxt "lineeditor_duration_mode"
 msgid "Line duration:"
-msgstr "列车运行周期:"
+msgstr "列车循环运行耗时:"
 
 msgctxt "lineeditor_duration_mode_minimal"
 msgid "Minimal"
@@ -2222,7 +2222,7 @@ msgstr "{0}, {1} km, {2}, 平均速度{3} km/h"
 
 msgctxt "lineeditor_header_full_tooltip"
 msgid "Custom loop: {0}\nCustom non-loop: {1}\nMinimal loop: {2}\nMinimal non-loop: {3}"
-msgstr "自定义循环: {0}\n自定义非循环: {1}\n最小循环: {2}\n最小非循环: {3}"
+msgstr "自定义循环运行耗时: {0}\n自定义非循环运行耗时: {1}\n最小循环运行耗时: {2}\n最小非循环运行耗时: {3}"
 
 msgctxt "lineeditor_header_l"
 msgid "{0}, {1} km"
@@ -2230,11 +2230,11 @@ msgstr "{0}, {1} km"
 
 msgctxt "lineeditor_launch_time"
 msgid "First train departure:"
-msgstr "自动发车时间:"
+msgstr "自动首班列车发车时间:"
 
 msgctxt "lineeditor_launch_time_desc"
 msgid "Format: hh:mm:ss\nTime of day for the first departure on the first stop for the first automatic train.\nThis setting only applies for trains in automatic orders mode.\nManual order trains using this line ignore this setting and are not counted towards interval calculation."
-msgstr "格式: hh:mm:ss \n该线路首趟列车从始发站发车的时间。\n该设置仅适用于自动模式下的列车。\n如您使用手动模式控制列车，请忽略此功能。\n该时间不计入间隔时间计算中。"
+msgstr "格式: hh:mm:ss \n该线路首趟列车从始发站发车的时间。\n该设置仅适用于自动模式下的列车。\n如您使用手动模式控制列车时刻表，请忽略此功能。\n该时间不计入间隔时间计算中。"
 
 msgctxt "lineeditor_main_platform"
 msgid "Main platform:"
@@ -2250,7 +2250,7 @@ msgstr "停靠时间:"
 
 msgctxt "lineeditor_min_stop_time_desc"
 msgid "Format: (hh:)mm:ss\nStops will be scheduled with this wait time. Trains might wait longer if pax are still leaving or boarding."
-msgstr "格式: (hh:)mm:ss \n列车将在停靠时间内停车，如果遇到乘客仍在上下车等情况。将会延长停靠时间。"
+msgstr "格式: (hh:)mm:ss \n列车会按照停靠时间决定停车时长，如果遇到乘客仍在上下车等情况，将会延长停靠时间。"
 
 msgctxt "lineeditor_move_camera"
 msgid "Pan and zoom view when selecting a line or station"
@@ -2274,7 +2274,7 @@ msgstr "参照列车:"
 
 msgctxt "lineeditor_reference_train_desc"
 msgid "An internal simulation of this train running on the tracks will be used for calculating the leg times."
-msgstr "用于计算列车在轨道上行驶的时间 。"
+msgstr "用于计算列车行驶耗时。"
 
 msgctxt "lineeditor_service_level"
 msgid "Service level:"
