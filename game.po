@@ -7346,7 +7346,7 @@ msgid "MTR_M-Train"
 msgstr "港铁 M-Train"
 
 # ----- 
-# JR Kyushu YC1 series
+# JR九州YC1系
 # ID:2805979299
 
 msgctxt "JR_kyushu_yc1_1100_name"
@@ -7398,7 +7398,7 @@ msgid "MTR_C-Train"
 msgstr "港铁 C-Train"
 
 # ----- 
-# Standardized Japanese Commuter Train
+# 标准化日本近郊列车（130km/h版）
 # ID:2755171129
 
 msgctxt "jp_generic_jr_817_130_mu_name"
@@ -7414,7 +7414,7 @@ msgid "Jp. Generic S. (Mixed orientation, 130KPH)"
 msgstr "日本通用型近郊電車 (130KPH)"
 
 # ----- 
-# JR Hokkaido H100 series
+# JR北海道H100形
 # ID:2812992533
 
 msgctxt "jr_hokkaido_h100_name"
@@ -8368,7 +8368,7 @@ msgstr "CRH-(O)中国普速雨棚"
 
 # ----- 
 # Smaller built-in buildings
-# ID: 2779938162
+# ID:2779938162
 
 msgctxt "s_waw_glass_01_100_name"
 msgid "Glass tile (100²cm²)"
@@ -8472,7 +8472,7 @@ msgstr "墙面 (100cm)"
 
 # ----- 
 # Transfer Access | 换乘通道
-# ID: 2782859410
+# ID:2782859410
 
 msgctxt "unroofed_stairs_name"
 msgid "unroofed_stairs"
@@ -8840,7 +8840,7 @@ msgstr "桁架"
 
 # ----- 
 # 站台门和半高站台门
-# ID: 2801724482
+# ID:2801724482
 
 msgctxt "more_e_psd_psp_name"
 msgid "Plat. Screen Door Panel"
