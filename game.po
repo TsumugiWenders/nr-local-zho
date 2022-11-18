@@ -111,11 +111,11 @@ msgstr "后缀:"
 
 msgctxt "lineeditor_tags_inherit_parent"
 msgid "Parent line tags are also inherited by trains\n"
-msgstr "列车会继承主线路的线路标签"
+msgstr "列车会继承主线路的线路标签\n"
 
 msgctxt "lineeditor_tooltip_create_line_service"
 msgid "Create a new line service"
-msgstr "创建副线路"
+msgstr "创建一条副线路"
 
 msgctxt "list_sort_compact"
 msgid "Compact"
@@ -1210,7 +1210,7 @@ msgstr "点击轨迹段，将路径点添加到线路上"
 
 msgctxt "editor_select_alt_signal"
 msgid "Click signal controls to set a signal as the secondary path signal for the stop"
-msgstr "点击信号机图标，将信号机设置为该站副站台的进站信号机"
+msgstr "点击信号机图标，将信号机设置为该线该站副站台的进站信号机"
 
 msgctxt "editor_select_alt_stop"
 msgid "Click platform names in stations to add a secondary platform to the stop"
@@ -1218,7 +1218,7 @@ msgstr "点击车站中的站台名称，添加为该线该站路的副站台"
 
 msgctxt "editor_select_change_platform"
 msgid "Click platform names in stations to change the stop main platform"
-msgstr "点击车站中的站台名称，选择该线该站路的主站台"
+msgstr "点击车站里的站台名称，选择该线该站的主站台"
 
 msgctxt "editor_station"
 msgid "Create new station platforms"
@@ -2082,7 +2082,7 @@ msgstr "{} [{}] 到"
 
 msgctxt "lineeditor_alt_platforms"
 msgid "Secondary platforms:"
-msgstr "副站台"
+msgstr "副站台:"
 
 msgctxt "lineeditor_alt_platforms_n"
 msgid "(Total: {})"
@@ -2090,7 +2090,7 @@ msgstr "(总计: {})"
 
 msgctxt "lineeditor_alt_signal"
 msgid "Secondary plat. signal:"
-msgstr "副站台进站信号机"
+msgstr "副站台进站信号机:"
 
 msgctxt "lineeditor_alt_signal_label"
 msgid "Signal {}"
@@ -2154,7 +2154,7 @@ msgstr "自定义循环运行耗时:"
 
 msgctxt "lineeditor_custom_duration_desc"
 msgid "Format: hh:mm:ss\nIf the line duration is shorter than this amount, stops flagged as custom duration wait stops will have extra stop time, until the line duration matches the custom duration.\nThe extra time is distributed evenly between the stops. If no stops are selected as custom wait, the last line stop is used."
-msgstr "格式: hh:mm:ss \n如果线路最小循环运行耗时小于该值，则会把多余的时间平均地分配给所有启用「在此站点等待运行周期」的站点。 \n如果没有任何站点启用「在此站点等待运行周期」，则将默认为仅始发站启用「在此站点等待运行周期」。"
+msgstr "格式: hh:mm:ss \n如果线路最小循环运行耗时小于该值，则会把多余的时间平均地分配给所有启用「在此站点等候运行周期」的站点。 \n如果没有任何站点启用「在此站点等候运行周期」，则将默认为仅始发站启用「在此站点等候运行周期」。"
 
 msgctxt "lineeditor_custom_period"
 msgid "Custom period:"
@@ -2166,7 +2166,7 @@ msgstr "格式: hh:mm:ss \n循环运行耗时将完美地适配这个自定义�
 
 msgctxt "lineeditor_custom_wait_here"
 msgid "Custom duration wait in this stop"
-msgstr "在此站点等待运行周期"
+msgstr "在此站点等候运行周期"
 
 msgctxt "lineeditor_default_timings"
 msgid "Default timings"
@@ -3550,7 +3550,7 @@ msgstr "速度"
 
 msgctxt "run_panel_pad_stop"
 msgid "Train will wait an extra {} in this stop to start the next run at its scheduled time"
-msgstr "列车将在此站额外等待{}，以便在预定时间开始下一次运行"
+msgstr "列车将在此站额外等候{}，以便在预定时间开始下一次运行"
 
 msgctxt "run_panel_start"
 msgid "{0}: Start path to {1}"
