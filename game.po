@@ -7285,28 +7285,25 @@ msgctxt "MLR_Yellow_name"
 msgid "MLR Yellow train"
 msgstr "MLR (翻新前)"
 
-# --------------------
+# ----- 
 # 五车齐发|中国重庆轨道交通2号线
-# ID: 2791552408
-# Language: zho
+# ID:2791552408
 
 msgctxt "ChongQing2_name"
 msgid "ChongQing2"
 msgstr "重庆轨道交通2号线列车"
 
-# --------------------
+# ----- 
 # 五车齐发|中国厦门地铁二号线
-# ID: 2791552725
-# Language: zho
+# ID:2791552725
 
 msgctxt "XiaMen2_name"
 msgid "XiaMen2"
 msgstr "厦门地铁二号线列车"
 
-# --------------------
+# ----- 
 # 五车齐发|中国洛阳地铁
-# ID: 2791553010
-# Language: zho
+# ID:2791553010
 
 msgctxt "LuoYang1_name"
 msgid "LuoYang1"
@@ -7316,46 +7313,41 @@ msgctxt "LuoYang2_name"
 msgid "LuoYang2"
 msgstr "洛阳地铁2号线列车"
 
-# --------------------
+# ----- 
 # 五车齐发|中国神24电力机车
-# ID: 2791553399
-# Language: zho
+# ID:2791553399
 
 msgctxt "Shen24_name"
 msgid "Shen24"
 msgstr "神24电力机车"
 
-# --------------------
+# ----- 
 # MTR K-Train
-# ID: 2804801643
-# Language: yue
+# ID:2804801643
 
 msgctxt "MTR_K-Train"
 msgid "MTR_K-Train"
 msgstr "港铁 K-Train"
 
-# --------------------
+# ----- 
 # MTR TCL K-Train
-# ID: 2804840630
-# Language: yue
+# ID:2804840630
 
 msgctxt "MTR_TCL_K-Train"
 msgid "MTR_TCL_K-Train"
 msgstr "港铁 K-Train (东涌线)"
 
-# --------------------
+# ----- 
 # MTR M-Train
-# ID: 2805920642
-# Language: yue
+# ID:2805920642
 
 msgctxt "MTR_M-Train"
 msgid "MTR_M-Train"
 msgstr "港铁 M-Train"
 
-# --------------------
+# ----- 
 # JR Kyushu YC1 series
-# ID: 2805979299
-# Language: jpn
+# ID:2805979299
 
 msgctxt "JR_kyushu_yc1_1100_name"
 msgid "YC1-1100"
@@ -7397,19 +7389,17 @@ msgctxt "jr_yc1_c_6"
 msgid "JR Kyushu YC1 (10 Cars)"
 msgstr "JR九州YC1系 (10节)"
 
-# --------------------
+# ----- 
 # MTR C-Train
-# ID: 2810334852
-# Language: yue
+# ID:2810334852
 
 msgctxt "MTR_C-Train"
 msgid "MTR_C-Train"
 msgstr "港铁 C-Train"
 
-# --------------------
+# ----- 
 # Standardized Japanese Commuter Train
-# ID: 2755171129
-# Language: jpn
+# ID:2755171129
 
 msgctxt "jp_generic_jr_817_130_mu_name"
 msgid "Jp. Generic S. (Seat oriented, 130KPH)"
@@ -7423,10 +7413,9 @@ msgctxt "jp_generic_jr_e129_130_mu_name"
 msgid "Jp. Generic S. (Mixed orientation, 130KPH)"
 msgstr "日本通用型近郊電車 (130KPH)"
 
-# --------------------
+# ----- 
 # JR Hokkaido H100 series
-# ID: 2812992533
-# Language: jpn
+# ID:2812992533
 
 msgctxt "jr_hokkaido_h100_name"
 msgid "JR Hokkaido H100"
@@ -7440,28 +7429,25 @@ msgctxt "jr_hokkaido_h100_c_1"
 msgid "JR Hokkaido H100 (1-10 Cars)"
 msgstr "JR北海道H100形 (1-10节)"
 
-# --------------------
+# ----- 
 # Taiwan High Speed Rail 700T
-# ID: 2813012199
-# Language: yue
+# ID:2813012199
 
 msgctxt "THSR700T_name"
 msgid "THSR 700T"
 msgstr "台湾高速铁路700T"
 
-# --------------------
+# ----- 
 # MTR DRL M-Train
-# ID: 2814214113
-# Language: yue
+# ID:2814214113
 
 msgctxt "MTR_DRL_M-Train"
 msgid "MTR_DRL_M-Train"
 msgstr "港铁 M-Train (迪士尼线)"
 
-# --------------------
+# ----- 
 # Airbus A380
-# ID: 2862644032
-# Language: eng
+# ID:2862644032
 
 msgctxt "comp1_airbus"
 msgid "Airbus A380 Regular"
@@ -7475,19 +7461,17 @@ msgctxt "comp3_airbus"
 msgid "Airbus A380 OP Capacity"
 msgstr "Airbus A380 (非现实载客量)"
 
-# --------------------
+# ----- 
 # JNR 183 Series
-# ID: 2884180130
-# Language: jpn
+# ID:2884180130
 
 msgctxt "KM_JR183"
 msgid "JR 183 Series"
 msgstr "国鉄183系"
 
-# --------------------
+# ----- 
 # JNR 151/181 Series
-# ID: 2884432880
-# Language: jpn
+# ID:2884432880
 
 msgctxt "KM_JNR151"
 msgid "JNR 151 Series"
@@ -7497,10 +7481,9 @@ msgctxt "KM_JNR181"
 msgid "JNR 181 Series"
 msgstr "国鉄181系"
 
-# --------------------
+# ----- 
 # JNR 581 Series
-# ID: 2884674771
-# Language: jpn
+# ID:2884674771
 
 msgctxt "KM_JNR581"
 msgid "JNR 581 Series"
@@ -7510,37 +7493,33 @@ msgctxt "KM_JNR581s"
 msgid "JNR 581 Series Sleeper"
 msgstr "国鉄581系(寝台)"
 
-# --------------------
+# ----- 
 # JNR 0 Series Shinkansen
-# ID: 2884847657
-# Language: jpn
+# ID:2884847657
 
 msgctxt "KM_0SKS"
 msgid "JNR 0 Series Shinkansen"
 msgstr "新幹線0系電車"
 
-# --------------------
+# ----- 
 # JNR 485 Series
-# ID: 2885233678
-# Language: jpn
+# ID:2885233678
 
 msgctxt "KM_JNR485l"
 msgid "JNR 485 Series Latter Model"
 msgstr "国鉄485系"
 
-# --------------------
+# ----- 
 # JRW 485-2000 Series
-# ID: 2885256035
-# Language: jpn
+# ID:2885256035
 
 msgctxt "KM_JNR485_2000"
 msgid "JRW 485-2000 Series"
 msgstr "JR西日本485系2000番台"
 
-# --------------------
+# ----- 
 # JNR 381 Series
-# ID: 2885672774
-# Language: jpn
+# ID:2885672774
 
 msgctxt "KM_JNR381"
 msgid "JNR 381 Series"
@@ -7552,10 +7531,6 @@ msgstr "国鉄381系"
 msgctxt "JR_Hokkaido_201_name"
 msgid "JR Hokkaido KiHa201"
 msgstr "JR北海道キハ201系"
-
-msgctxt "JR_Hokkaido_H100_name"
-msgid "JR Hokkaido H100"
-msgstr "JR北海道H100形"
 
 msgctxt "JR_Hokkaido_KiHa285_name"
 msgid "JR Hokkaido KiHa285"
@@ -8391,10 +8366,9 @@ msgctxt "CRH_(O)PlatformCanopy_shutter"
 msgid "CRH_(O)PlatformCanopy_shutter"
 msgstr "CRH-(O)中国普速雨棚"
 
-# --------------------
+# ----- 
 # Smaller built-in buildings
 # ID: 2779938162
-# Language: eng
 
 msgctxt "s_waw_glass_01_100_name"
 msgid "Glass tile (100²cm²)"
@@ -8496,10 +8470,9 @@ msgctxt "s_waw_wall_profile_100_name"
 msgid "Wall (100cm)"
 msgstr "墙面 (100cm)"
 
-# --------------------
+# ----- 
 # Transfer Access | 换乘通道
 # ID: 2782859410
-# Language: eng
 
 msgctxt "unroofed_stairs_name"
 msgid "unroofed_stairs"
@@ -8533,10 +8506,9 @@ msgctxt "unroofed_footway_name"
 msgid "unroofed_footway_cross"
 msgstr "换乘通道 (无遮盖)"
 
-# --------------------
+# ----- 
 # More E&M Equipments
-# ID: 2798036123
-# Language: eng
+# ID:2798036123
 
 msgctxt "more-e_grating_1_name"
 msgid "Metal Grating (Rectangular)"
@@ -8738,10 +8710,9 @@ msgctxt "more-e_wire_t_name"
 msgid "Overhead Wire type T"
 msgstr "接触网电缆 T型"
 
-# --------------------
+# ----- 
 # More Civil Structures
-# ID: 2798037491
-# Language: eng
+# ID:2798037491
 
 msgctxt "more-c_conc_circle_name"
 msgid "Concrete (single circle)"
@@ -8867,10 +8838,9 @@ msgctxt "more-c_truss_1_name"
 msgid "Truss"
 msgstr "桁架"
 
-# --------------------
-# Platform Gates & Screen Doors
+# ----- 
+# 站台门和半高站台门
 # ID: 2801724482
-# Language: eng
 
 msgctxt "more_e_psd_psp_name"
 msgid "Plat. Screen Door Panel"
@@ -8920,10 +8890,9 @@ msgctxt "more_e_psg_chi_metro_d_g_name"
 msgid "Plat. Gate CHI M-D"
 msgstr "半高站台门 CHI D型地铁"
 
-# --------------------
+# ----- 
 # Lights and Shadow Pack
-# ID: 2873471390
-# Language: eng
+# ID:2873471390
 
 msgctxt "LASBox25"
 msgid "LAS-Box-25%"
@@ -9021,12 +8990,11 @@ msgctxt "LASOvalline75"
 msgid "LAS-Ovalline-75%"
 msgstr "LAS-椭圆形-75%"
 
-# --------------------
+# ----- 
 # Trees and Vegetation Pack
-# ID: 2873472265
+# ID:2873472265
 # Trees and Vegetation Pack Pre-Shadowed
-# ID: 2876526520
-# Language: eng
+# ID:2876526520
 
 msgctxt "Hedge01R"
 msgid "TAV-Hedge01-R"
@@ -9172,10 +9140,9 @@ msgctxt "Grass01R"
 msgid "TAV-Grass01-R"
 msgstr "TAV-草地01-重复"
 
-# --------------------
+# ----- 
 # Station Elements Pack
-# ID: 2886256319
-# Language: eng
+# ID:2886256319
 
 msgctxt "Stairs01R"
 msgid "SE-Stairs01-R"
