@@ -7,11 +7,11 @@ msgstr "(自动)"
 
 msgctxt "constraint_xform_grid_snap"
 msgid "Snap:"
-msgstr "捕捉:"
+msgstr "移至固定点:"
 
 msgctxt "constraint_xform_rotate"
 msgid "Rotate:"
-msgstr "选择:"
+msgstr "旋转:"
 
 msgctxt "constraint_xform_rotate_tip"
 msgid "Rotate track end:"
@@ -19,7 +19,7 @@ msgstr "旋转轨道末端:"
 
 msgctxt "constraint_xform_translate"
 msgid "Translate:"
-msgstr "翻译:"
+msgstr "平移:"
 
 msgctxt "editor_tip_dupe"
 msgid "Ctrl-B to duplicate selected objects in-place"
@@ -51,11 +51,11 @@ msgstr "车站属性:"
 
 msgctxt "lineeditor_clone_parent_clone"
 msgid "Copy from parent line"
-msgstr "从父线路复制"
+msgstr "从主线路复制"
 
 msgctxt "lineeditor_clone_parent_custom"
 msgid "Customize for this line service"
-msgstr "自定义线路服务模式"
+msgstr "为此副线路自定义属性"
 
 msgctxt "lineeditor_cruise_speed_ns"
 msgid "Cruise speed:"
@@ -91,7 +91,7 @@ msgstr "自定义速度"
 
 msgctxt "lineeditor_leg_eta_mode_time"
 msgid "Custom time"
-msgstr "自定义耗时:"
+msgstr "自定义耗时"
 
 msgctxt "lineeditor_service_of"
 msgid "Service of:"
@@ -103,7 +103,7 @@ msgstr "行程 {0} {1} {2}"
 
 msgctxt "lineeditor_stop_panel_line_service_stop"
 msgid "Line service stop"
-msgstr "线路服务车站"
+msgstr "副线路车站"
 
 msgctxt "lineeditor_suffix"
 msgid "Suffix:"
@@ -111,15 +111,15 @@ msgstr "后缀:"
 
 msgctxt "lineeditor_tags_inherit_parent"
 msgid "Parent line tags are also inherited by trains\n"
-msgstr "线路标签由列车继承"
+msgstr "列车会继承主线路的线路标签"
 
 msgctxt "lineeditor_tooltip_create_line_service"
 msgid "Create a new line service"
-msgstr "创建新线路服务"
+msgstr "创建副线路"
 
 msgctxt "list_sort_compact"
 msgid "Compact"
-msgstr "合约"
+msgstr "紧凑"
 
 msgctxt "mass_intervention_stale_trains_but"
 msgid "All stale trains intervention"
@@ -139,7 +139,7 @@ msgstr "刷新所有线路计时"
 
 msgctxt "picker_mode_flat"
 msgid "Flat"
-msgstr "平台"
+msgstr "扁平"
 
 msgctxt "picker_mode_line_tags"
 msgid "Line tags"
@@ -175,7 +175,7 @@ msgstr "由于 {} 晚点"
 
 msgctxt "train_list_compact"
 msgid "Compact"
-msgstr "合约"
+msgstr "紧凑"
 
 msgctxt "train_orders_auto_copy_shift"
 msgid "Copy:"
@@ -746,7 +746,7 @@ msgstr "建筑合计"
 
 msgctxt "bulk_keep_straight"
 msgid "Platform keep straight:"
-msgstr "平台保持直线:"
+msgstr "站台保持直线:"
 
 msgctxt "bulk_keep_straight_disable"
 msgid "Disable"
@@ -758,7 +758,7 @@ msgstr "启用"
 
 msgctxt "bulk_label_mode"
 msgid "Station label:"
-msgstr "车站标签:"
+msgstr "车站图标:"
 
 msgctxt "cancel"
 msgid "Cancel"
@@ -950,7 +950,7 @@ msgstr "线间距离:"
 
 msgctxt "constraint_offset2"
 msgid "Parallel offset:"
-msgstr "平行偏移:"
+msgstr "线间距离:"
 
 msgctxt "constraint_pick"
 msgid "Pick parent"
@@ -962,7 +962,7 @@ msgstr "解除绑定"
 
 msgctxt "constraint_remove_parent"
 msgid "Parallel constraint:"
-msgstr "平行约束:"
+msgstr "平行绑定:"
 
 msgctxt "constraint_remove_parent_action"
 msgid "Remove"
@@ -1210,15 +1210,15 @@ msgstr "点击轨迹段，将路径点添加到线路上"
 
 msgctxt "editor_select_alt_signal"
 msgid "Click signal controls to set a signal as the secondary path signal for the stop"
-msgstr "点击信号控制按钮，将信号设置为该车站的临时站台信号"
+msgstr "点击信号机图标，将信号机设置为该站副站台的进站信号机"
 
 msgctxt "editor_select_alt_stop"
 msgid "Click platform names in stations to add a secondary platform to the stop"
-msgstr "点击车站中的站台名称，添加该站该线路的临时停靠站台"
+msgstr "点击车站中的站台名称，添加为该线该站路的副站台"
 
 msgctxt "editor_select_change_platform"
 msgid "Click platform names in stations to change the stop main platform"
-msgstr "点击车站中的站台名称，选择该站该线路的主站台"
+msgstr "点击车站中的站台名称，选择该线该站路的主站台"
 
 msgctxt "editor_station"
 msgid "Create new station platforms"
@@ -2138,7 +2138,7 @@ msgstr "线路编号:"
 
 msgctxt "lineeditor_color"
 msgid "Color:"
-msgstr "线路颜色:"
+msgstr "颜色:"
 
 msgctxt "lineeditor_cruise_speed"
 msgid "Cruise speed (km/h):"
@@ -2182,7 +2182,7 @@ msgstr "适合时段"
 
 msgctxt "lineeditor_duration_mode"
 msgid "Line duration:"
-msgstr "线路持续时间:"
+msgstr "列车运行周期:"
 
 msgctxt "lineeditor_duration_mode_minimal"
 msgid "Minimal"
@@ -2206,7 +2206,7 @@ msgstr "每周"
 
 msgctxt "lineeditor_duration_waiters"
 msgid "Extra stop time on:"
-msgstr "额外等待时间:"
+msgstr "额外停靠时间:"
 
 msgctxt "lineeditor_duration_waiters_all"
 msgid "Evenly on all stops"
@@ -2214,7 +2214,7 @@ msgstr "平均分配到所有站点"
 
 msgctxt "lineeditor_duration_waiters_custom"
 msgid "Manually picked stops"
-msgstr "自定义等待站点"
+msgstr "在自定义站点等候"
 
 msgctxt "lineeditor_header_full"
 msgid "{0}, {1} km, {2}, {3} km/h avg."
@@ -2370,15 +2370,15 @@ msgstr "线路"
 
 msgctxt "lineeditor_wait_kind"
 msgid "Stop behavior:"
-msgstr "车站行为:"
+msgstr "车站停靠行为:"
 
 msgctxt "lineeditor_wait_kind_limbo"
 msgid "Black hole main, wait secondary"
-msgstr "自动清除优先"
+msgstr "仅剩余主站台时清除列车"
 
 msgctxt "lineeditor_wait_kind_normal"
 msgid "Wait on platforms"
-msgstr "在站台上候车"
+msgstr "在站台轨道上等候"
 
 msgctxt "lines"
 msgid "Lines"
