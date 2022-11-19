@@ -1446,7 +1446,7 @@ msgstr "乘客将离开，并将不会登上这条线路的列车"
 
 msgctxt "editor_warn_too_long_manual_interval"
 msgid "The manual interval exceeds the duration of the line. It will be ignored or work unreliably.\nIncrease the line custom duration value to at least the manual interval value."
-msgstr "手动间隔时间超过了循环运行耗时，这将可能出错。 \n请自定义运行耗时，把循环运行耗时增加至手动间隔的时间。"
+msgstr "手动间隔时间超过了线路时长，这将可能出错。 \n请自定义线路时长，把循环运行耗时增加至手动间隔的时间。"
 
 msgctxt "editor_warn_train_speed_too_high"
 msgid "Trains might be unable to make up for delays at this cruise speed."
@@ -2150,7 +2150,7 @@ msgstr "列车行驶时将保持到这个速度。\n如果列车晚点可能加�
 
 msgctxt "lineeditor_custom_duration"
 msgid "Custom duration:"
-msgstr "自定义循环运行耗时:"
+msgstr "自定义线路时长:"
 
 msgctxt "lineeditor_custom_duration_desc"
 msgid "Format: hh:mm:ss\nIf the line duration is shorter than this amount, stops flagged as custom duration wait stops will have extra stop time, until the line duration matches the custom duration.\nThe extra time is distributed evenly between the stops. If no stops are selected as custom wait, the last line stop is used."
@@ -2162,7 +2162,7 @@ msgstr "自定义周期"
 
 msgctxt "lineeditor_custom_period_desc"
 msgid "Format: hh:mm:ss\n.Line duration will be choosen to perfectly fit this length of time. This custom setting does not guarantee fitting days or weeks."
-msgstr "格式: hh:mm:ss \n循环运行耗时将完美地适配这个自定义周期，但不保证完美地适配以「日」或者「周」为单位周期。"
+msgstr "格式: hh:mm:ss \n线路时长将完美地适配这个自定义周期，但不保证完美地适配以「日」或者「周」为单位周期。"
 
 msgctxt "lineeditor_custom_wait_here"
 msgid "Custom duration wait in this stop"
@@ -2182,7 +2182,7 @@ msgstr "适配周期"
 
 msgctxt "lineeditor_duration_mode"
 msgid "Line duration:"
-msgstr "列车循环运行耗时:"
+msgstr "线路时长:"
 
 msgctxt "lineeditor_duration_mode_minimal"
 msgid "Minimal"
@@ -4426,7 +4426,7 @@ msgstr "指令"
 
 msgctxt "train_group_duration"
 msgid "Duration:"
-msgstr "循环运行耗时:"
+msgstr "线路时长:"
 
 msgctxt "train_group_fixed_shift_by"
 msgid "Interval:"
@@ -4474,7 +4474,7 @@ msgstr "固定间隔"
 
 msgctxt "train_group_mode_line"
 msgid "Evenly over line duration"
-msgstr "根据线路的循环运行耗时平均地分配"
+msgstr "根据线路时长平均地分配"
 
 msgctxt "train_group_mode_manual_duration"
 msgid "Evenly over manual duration"
