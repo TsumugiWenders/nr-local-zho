@@ -1446,7 +1446,7 @@ msgstr "乘客将离开，并将不会登上这条线路的列车"
 
 msgctxt "editor_warn_too_long_manual_interval"
 msgid "The manual interval exceeds the duration of the line. It will be ignored or work unreliably.\nIncrease the line custom duration value to at least the manual interval value."
-msgstr "手动间隔超过了线路的运行时间，这将可能出错。 \n将线路自定义运行时间增加到手动间隔。"
+msgstr "手动间隔时间超过了循环运行耗时，这将可能出错。 \n请自定义时间，把循环运行耗时增加至手动间隔的时间。"
 
 msgctxt "editor_warn_train_speed_too_high"
 msgid "Trains might be unable to make up for delays at this cruise speed."
@@ -2114,7 +2114,7 @@ msgstr "自动平均地分配到整条路线"
 
 msgctxt "lineeditor_auto_interval_kind2_manual"
 msgid "On a fixed, manual interval"
-msgstr "手动固定间隔"
+msgstr "固定手动间隔"
 
 msgctxt "lineeditor_auto_timings"
 msgid "Auto run line"
@@ -4426,43 +4426,43 @@ msgstr "指令"
 
 msgctxt "train_group_duration"
 msgid "Duration:"
-msgstr "持续时间:"
+msgstr "持续时间1:"
 
 msgctxt "train_group_fixed_shift_by"
 msgid "Interval:"
-msgstr "时间间隔:"
+msgstr "间隔时间a:"
 
 msgctxt "train_group_fixed_shift_by_desc"
 msgid "Format: (-)hh:mm:ss\nIncrementally shift the start of the orders of the auto copier trains by this amount."
-msgstr "格式: (-)hh:mm:ss\n均匀递增自动复制列车的开始时间"
+msgstr "格式: (-)hh:mm:ss\n均匀地递增下属列车的始发时间"
 
 msgctxt "train_group_interval"
 msgid "Interval:"
-msgstr "时间间隔:"
+msgstr "间隔时间b:"
 
 msgctxt "train_group_line_duration_pick"
 msgid "Duration of:"
-msgstr "持续时间:"
+msgstr "持续时间2:"
 
 msgctxt "train_group_manual_duration_amount"
 msgid "Duration:"
-msgstr "持续时间:"
+msgstr "持续时间3:"
 
 msgctxt "train_group_manual_duration_amount_desc"
 msgid "Format: hh:mm:ss\nEvenly distribute the start of the orders of the auto copier trains over this duration."
-msgstr "格式:hh:mm:ss\n在这段时间内均匀分配自动复制列车的开始时间"
+msgstr "格式:hh:mm:ss\n根据这循环运行耗时均匀地递增下属列车的始发时间"
 
 msgctxt "train_group_migrate_but"
 msgid "Set as copiers"
-msgstr "设置为复制模式"
+msgstr "设置为自动复制模式"
 
 msgctxt "train_group_migrate_line"
 msgid "Migrate auto run trains"
-msgstr "迁移自动运行列车"
+msgstr "迁移自动运行线路的列车"
 
 msgctxt "train_group_migrate_line_pick"
 msgid "Auto trains of:"
-msgstr "自动运行列车:"
+msgstr "自动运行列车的线路:"
 
 msgctxt "train_group_mode"
 msgid "Shift mode:"
@@ -4474,11 +4474,11 @@ msgstr "固定间隔"
 
 msgctxt "train_group_mode_line"
 msgid "Evenly over line duration"
-msgstr "在线路持续时间内均匀间隔"
+msgstr "根据线路的循环运行耗时平均地分配"
 
 msgctxt "train_group_mode_manual_duration"
 msgid "Evenly over manual duration"
-msgstr "在手动持续时间内均匀间隔"
+msgstr "根据自定义循环运行耗时平均地分配"
 
 msgctxt "train_group_n_name"
 msgid "Trains:"
@@ -4486,15 +4486,15 @@ msgstr "列车:"
 
 msgctxt "train_group_n_value"
 msgid "{0} copying, {1} managed"
-msgstr "{0} 复制模式, {1} 管理"
+msgstr "{0} 正在复制, {1} 由组管理"
 
 msgctxt "train_group_shift_matching"
 msgid "Shift orders:"
-msgstr "订单模式:"
+msgstr "编辑指令:"
 
 msgctxt "train_group_shift_matching_all"
 msgid "All orders"
-msgstr "所有指令"
+msgstr "所有调度指令"
 
 msgctxt "train_group_shift_matching_only_pax_service"
 msgid "Only pax service orders"
