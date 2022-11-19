@@ -187,7 +187,7 @@ msgstr "编辑上一级指令"
 
 msgctxt "traineditor_order_start_time_arrange_top_desc2"
 msgid "Set time to the earliest possible time which allows the previous order to not have a padding wait on its last run\nIgnores pending day of week and start time edits\nMulti day orders will only consider the first day"
-msgstr "将时间设置为最早的时间，这允许前一个订单在最后一次运行时不进行填充等待\n忽略挂起的星期几和开始时间编辑\n多天订单将只考虑第一天"
+msgstr "将时间设置为最早的可行时间，这允许前一个指令在最后一次运行后不增加额外停靠时间。\n忽略星期几和开始时间编辑\n多天指令将只考虑第一天"
 
 # ----------------------------------------------------------
 # 1.5.31 及以前版本 字符串
@@ -1446,11 +1446,11 @@ msgstr "乘客将离开，并将不会登上这条线路的列车"
 
 msgctxt "editor_warn_too_long_manual_interval"
 msgid "The manual interval exceeds the duration of the line. It will be ignored or work unreliably.\nIncrease the line custom duration value to at least the manual interval value."
-msgstr "手动间隔时间超过了循环运行耗时，这将可能出错。 \n请自定义时间，把循环运行耗时增加至手动间隔的时间。"
+msgstr "手动间隔时间超过了循环运行耗时，这将可能出错。 \n请自定义运行耗时，把循环运行耗时增加至手动间隔的时间。"
 
 msgctxt "editor_warn_train_speed_too_high"
 msgid "Trains might be unable to make up for delays at this cruise speed."
-msgstr "在这种巡航速度下，火车可能无法弥补延误。"
+msgstr "在这种巡航速度下，火车可能无法追回延误。"
 
 msgctxt "effective_game_speed"
 msgid "Speed: {:.1f}x"
@@ -4390,7 +4390,7 @@ msgstr "复制列车"
 
 msgctxt "train_clone_copier"
 msgid "Clone as copier"
-msgstr "克隆为复制模式"
+msgstr "克隆为本列车的下属列车"
 
 msgctxt "train_code_edit"
 msgid "Serial:"
@@ -4426,11 +4426,11 @@ msgstr "指令"
 
 msgctxt "train_group_duration"
 msgid "Duration:"
-msgstr "持续时间1:"
+msgstr "循环运行耗时:"
 
 msgctxt "train_group_fixed_shift_by"
 msgid "Interval:"
-msgstr "间隔时间a:"
+msgstr "间隔时间:"
 
 msgctxt "train_group_fixed_shift_by_desc"
 msgid "Format: (-)hh:mm:ss\nIncrementally shift the start of the orders of the auto copier trains by this amount."
@@ -4438,15 +4438,15 @@ msgstr "格式: (-)hh:mm:ss\n均匀地递增下属列车的始发时间"
 
 msgctxt "train_group_interval"
 msgid "Interval:"
-msgstr "间隔时间b:"
+msgstr "间隔时间:"
 
 msgctxt "train_group_line_duration_pick"
 msgid "Duration of:"
-msgstr "持续时间2:"
+msgstr "参照线路:"
 
 msgctxt "train_group_manual_duration_amount"
 msgid "Duration:"
-msgstr "持续时间3:"
+msgstr "自定义循环运行耗时:"
 
 msgctxt "train_group_manual_duration_amount_desc"
 msgid "Format: hh:mm:ss\nEvenly distribute the start of the orders of the auto copier trains over this duration."
@@ -4486,7 +4486,7 @@ msgstr "列车:"
 
 msgctxt "train_group_n_value"
 msgid "{0} copying, {1} managed"
-msgstr "{0} 正在复制, {1} 由组管理"
+msgstr "{0} 列正在复制, {1} 列由组管理"
 
 msgctxt "train_group_shift_matching"
 msgid "Shift orders:"
@@ -4874,7 +4874,7 @@ msgstr "<线路终点>"
 
 msgctxt "traineditor_order_loops"
 msgid "Loop until next order"
-msgstr "循环直到下一个调度指令"
+msgstr "循环执行直到下一个调度指令"
 
 msgctxt "traineditor_order_select_all"
 msgid "Select all orders"
@@ -4890,7 +4890,7 @@ msgstr "删除所选的指令"
 
 msgctxt "traineditor_order_select_none"
 msgid "Clear selection"
-msgstr "清除所选的指令"
+msgstr "取消选择所选的指令"
 
 msgctxt "traineditor_order_select_paste"
 msgid "Paste orders"
@@ -4902,39 +4902,39 @@ msgstr "延时:"
 
 msgctxt "traineditor_order_shift_time"
 msgid "Shift:"
-msgstr "模式:"
+msgstr "调动:"
 
 msgctxt "traineditor_order_shift_time_desc"
 msgid "Format: (-)hh:mm:ss\nShift the start time of the selected orders by this amount."
-msgstr "格式: (-)hh:mm:ss\n设置所选指令的开始时间"
+msgstr "格式: (-)hh:mm:ss\n调动所选指令的开始时间"
 
 msgctxt "traineditor_order_start_event"
 msgid "Enter event:"
-msgstr "确认事件:"
+msgstr "时间事件:"
 
 msgctxt "traineditor_order_start_event_arrival"
 msgid "Arrive exactly at"
-msgstr "准确到达"
+msgstr "以下时间准确到达"
 
 msgctxt "traineditor_order_start_event_arrival_by"
 msgid "Arrive no later than"
-msgstr "不迟于"
+msgstr "不迟于以下时间到达"
 
 msgctxt "traineditor_order_start_event_departure"
 msgid "Depart exactly at"
-msgstr "准确出发事件"
+msgstr "以下时间准确发车"
 
 msgctxt "traineditor_order_start_time_at"
 msgid "At:"
-msgstr "从"
+msgstr "时间:"
 
 msgctxt "traineditor_order_start_time_by"
 msgid "Than:"
-msgstr "经过"
+msgstr "时间:"
 
 msgctxt "traineditor_order_start_time_desc"
 msgid "Format: hh:mm:ss\nTime of day to start one or more runs of the selected line."
-msgstr "格式:hh:mm:ss\n一天中开始一次或多次运行选定行的时间。"
+msgstr "格式:hh:mm:ss\n一天中开始一次或多次运行选定线路的时间。"
 
 msgctxt "traineditor_select_all"
 msgid "Select all listed trains"
