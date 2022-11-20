@@ -5056,6 +5056,186 @@ msgctxt "unit_kmh"
 msgid "km/h"
 msgstr "Km/h"
 
+msgctxt "unit_pax"
+msgid "pax"
+msgstr "乘客"
+
+msgctxt "unknown"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "unlimited_depth"
+msgid "Unlimited depth"
+msgstr "深度不限"
+
+msgctxt "unlimited_height"
+msgid "Unlimited height"
+msgstr "高度不限"
+
+msgctxt "update_note"
+msgid "Update note:"
+msgstr "更新说明:"
+
+msgctxt "upload_mod"
+msgid "Upload mod"
+msgstr "上传模组"
+
+msgctxt "use_placeholders"
+msgid "Copy with built-in"
+msgstr "用内置对象复制"
+
+msgctxt "used_active_mod"
+msgid "This mod is used by one or more objects in the game, and cannot be disabled."
+msgstr "这个mod会被游戏中的一个或多个对象使用，并且不能被禁用"
+
+msgctxt "user_signal_light_cones"
+msgid "Signal light cones"
+msgstr "信号灯显示"
+
+msgctxt "view_in_workshop"
+msgid "View in Workshop"
+msgstr "在创意工坊中查看"
+
+msgctxt "visibility"
+msgid "Visibility:"
+msgstr "可见性:"
+
+msgctxt "vsync_mode"
+msgid "VSync:"
+msgstr "VSync(垂直同步):"
+
+msgctxt "waiting_expired"
+msgid "Expired"
+msgstr "失效"
+
+msgctxt "warn_mod_in_use"
+msgid "Mod is in use"
+msgstr "使用中的 Mod"
+
+msgctxt "warning"
+msgid "Warning"
+msgstr "警告"
+
+msgctxt "waw_track_hs_1_name"
+msgid "High speed"
+msgstr "高速"
+
+msgctxt "waw_track_mid_1_name"
+msgid "Medium speed"
+msgstr "中速"
+
+msgctxt "waw_track_tram_1_name"
+msgid "Tram"
+msgstr "有轨电车"
+
+msgctxt "waypoint"
+msgid "Waypoint"
+msgstr "路径点"
+
+msgctxt "wedge_mode"
+msgid "Show trip legs as rhombus to better reflect the initial wait time"
+msgstr "运行图"
+
+msgctxt "weekday_friday"
+msgid "Friday"
+msgstr "星期五"
+
+msgctxt "weekday_monday"
+msgid "Monday"
+msgstr "星期一"
+
+msgctxt "weekday_saturday"
+msgid "Saturday"
+msgstr "星期六"
+
+msgctxt "weekday_short_friday"
+msgid "Fri"
+msgstr "周五"
+
+msgctxt "weekday_short_monday"
+msgid "Mon"
+msgstr "周一"
+
+msgctxt "weekday_short_saturday"
+msgid "Sat"
+msgstr "周六"
+
+msgctxt "weekday_short_sunday"
+msgid "Sun"
+msgstr "周日"
+
+msgctxt "weekday_short_thursday"
+msgid "Thu"
+msgstr "周四"
+
+msgctxt "weekday_short_tuesday"
+msgid "Tue"
+msgstr "周二"
+
+msgctxt "weekday_short_wednesday"
+msgid "Wed"
+msgstr "周三"
+
+msgctxt "weekday_shorter_friday"
+msgid "Fr"
+msgstr "五"
+
+msgctxt "weekday_shorter_monday"
+msgid "Mo"
+msgstr "一"
+
+msgctxt "weekday_shorter_saturday"
+msgid "Sa"
+msgstr "六"
+
+msgctxt "weekday_shorter_sunday"
+msgid "Su"
+msgstr "日"
+
+msgctxt "weekday_shorter_thursday"
+msgid "Th"
+msgstr "四"
+
+msgctxt "weekday_shorter_tuesday"
+msgid "Tu"
+msgstr "二"
+
+msgctxt "weekday_shorter_wednesday"
+msgid "We"
+msgstr "三"
+
+msgctxt "weekday_sunday"
+msgid "Sunday"
+msgstr "星期日"
+
+msgctxt "weekday_thursday"
+msgid "Thursday"
+msgstr "星期四"
+
+msgctxt "weekday_tuesday"
+msgid "Tuesday"
+msgstr "星期二"
+
+msgctxt "weekday_wednesday"
+msgid "Wednesday"
+msgstr "星期三"
+
+msgctxt "workshop_more_langs"
+msgid "More languages"
+msgstr "更多语言"
+
+msgctxt "wrong_length"
+msgid "wrong length"
+msgstr "车站长度过长"
+
+msgctxt "wrong_protocol_desc"
+msgid "Your serialization and protocol do not match with the server. Make sure both your game and the server are running exactly the same game version, as displayed in the main menu."
+msgstr "您的游戏版本与主机不匹配。确保你的游戏和主机的游戏都是同一个版本"
+
+msgctxt "wrong_schema_mod"
+msgid "This mod data is enabled in the current game, but its installed files require a newer game version. Update the game."
+msgstr "此模组在当前游戏中已启用，但其安装的文件需要更新的游戏版本。请更新游戏"
+
 # ----------------------------------------------------------
 #删除的（老版本）字符串
 
@@ -5658,6 +5838,14 @@ msgstr "%d种 型号"
 msgctxt "twoex_mode"
 msgid "Double track mode"
 msgstr "双轨模式"
+
+msgctxt "unit_price"
+msgid "Unit price"
+msgstr "列车单价"
+
+msgctxt "wrong_protocol"
+msgid "Protocol mismatch with server. Make sure both your client and the server are updated to the latest game version."
+msgstr "协议与服务器不匹配。 确保您的客户端和服务器都已更新到最新的游戏版本。"
 
 ## ----------------------------------------------------------
 ## 列车翻译
