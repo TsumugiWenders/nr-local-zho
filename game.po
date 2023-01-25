@@ -247,7 +247,7 @@ msgstr "出售选择的列车"
 
 msgctxt "train_info_camera"
 msgid "Auto scroll map following train position"
-msgstr "放置列车后自动跟随视角"
+msgstr "跟随列车视角"
 
 msgctxt "train_info_path_probe"
 msgid "Pathfind probe from train to mouse position\nClick for fixed mouse position"
