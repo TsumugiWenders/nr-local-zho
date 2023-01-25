@@ -75,7 +75,7 @@ msgstr "点击轨道，放置一条新车站"
 
 msgctxt "editor_tip_sat_track_tape_left"
 msgid "Click on tracks to tape them over with new kind and layer of track"
-msgstr "点击轨道，替代选择的轨道为其他轨道或其他维度"
+msgstr "点击轨道，替代选择的轨道为其他轨道或其他深度"
 
 msgctxt "editor_tip_weight_left"
 msgid "Release left button to stop moving the track weighting"
