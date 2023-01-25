@@ -1946,7 +1946,7 @@ msgstr "{}{} 到 {}{}"
 
 msgctxt "intervene_all_stale_trains"
 msgid "Intervene all stale"
-msgstr "干预所有原有列车"
+msgstr "干预有警告列车"
 
 msgctxt "intervene_all_trains"
 msgid "Intervene all trains"
@@ -2466,7 +2466,7 @@ msgstr "空驶"
 
 msgctxt "lineeditor_service_of"
 msgid "Service of:"
-msgstr "服务状态:"
+msgstr "主线路:"
 
 msgctxt "lineeditor_stop_panel_editor2"
 msgid "Stop {}"
@@ -2570,7 +2570,7 @@ msgstr "车站停靠行为:"
 
 msgctxt "lineeditor_wait_kind_limbo"
 msgid "Black hole main, wait secondary"
-msgstr "仅剩余主站台时清除列车"
+msgstr "优先清除列车"
 
 msgctxt "lineeditor_wait_kind_normal"
 msgid "Wait on platforms"
@@ -2786,15 +2786,15 @@ msgstr "出售所有列车"
 
 msgctxt "mass_intervention_stale_trains_but"
 msgid "All stale trains intervention"
-msgstr "干预所有原有列车"
+msgstr "干预有警告列车"
 
 msgctxt "mass_intervention_stale_trains_desc"
 msgid "Do you want to issue an intervention to all stale trains for a price of ${}?"
-msgstr "你确定要干预所有原有列车，并支付共计 ${} 吗？"
+msgstr "你确定要干预全部的有警告列车，并支付共计 ${} 吗？"
 
 msgctxt "mass_intervention_stale_trains_title"
 msgid "Confirm all stale trains intervention"
-msgstr "确认干预所有原有列车"
+msgstr "确认干预有警告列车"
 
 msgctxt "mass_intervention_trains_but"
 msgid "All trains intervention"
@@ -3618,7 +3618,7 @@ msgstr "突出显示重叠的车站"
 
 msgctxt "plats_stacked_lines"
 msgid "Single column per platform"
-msgstr "站台面"
+msgstr "按站台显示"
 
 msgctxt "plots_button_tp"
 msgid "Open charts window"
@@ -4774,11 +4774,11 @@ msgstr "空重:"
 
 msgctxt "train_info_late"
 msgid "Late by {0}, {1:.1f} km of {2:.1f} km"
-msgstr "晚点 {0}, {1:.1f} km / {2:.1f} km"
+msgstr "已晚点 {0}, {1:.1f} km / {2:.1f} km"
 
 msgctxt "train_info_late_predicted"
 msgid "Est. late by {}"
-msgstr "由于 {} 晚点"
+msgstr "估算晚点 {} "
 
 msgctxt "train_info_line"
 msgid "Line:"
