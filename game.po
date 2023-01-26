@@ -11,15 +11,15 @@ msgstr "仅删除蓝图"
 
 msgctxt "editor_sat_building_tape"
 msgid "Building tape"
-msgstr "轨道建筑带"
+msgstr "轨道附属建筑工具"
 
 msgctxt "editor_sat_parallel_tape"
 msgid "Parallel track tape"
-msgstr "平行轨道带"
+msgstr "平行轨道工具"
 
 msgctxt "editor_sat_platform_tape"
 msgid "Station platform tape"
-msgstr "站台轨道带"
+msgstr "站台轨道工具"
 
 msgctxt "editor_sat_promote_station"
 msgid "Promote tracks into station platforms"
@@ -31,11 +31,11 @@ msgstr "拆分轨道"
 
 msgctxt "editor_sat_track_tape"
 msgid "Track tape"
-msgstr "轨道带"
+msgstr "替代轨道工具"
 
 msgctxt "editor_tip_create_del_inline"
 msgid "Shift-Del to delete selected inner tracks"
-msgstr "Ctrl + Del 键删除选定建筑的内部轨道"
+msgstr "Shift + Del 键删除选定轨道但不断开连接"
 
 msgctxt "editor_tip_sat_building_tape_alt"
 msgid "Alt to create symmetrical buildings on both sides of the track"
@@ -47,11 +47,11 @@ msgstr "点击轨道附近以添加新的附属建筑"
 
 msgctxt "editor_tip_sat_building_tape_shift"
 msgid "Shift to create buildings in all children when starting in a parent track"
-msgstr "按 Shift 键在轨道新增时，在所有子对象中创建建筑"
+msgstr "按 Shift 键时，同时在子节点创建建筑"
 
 msgctxt "editor_tip_sat_esc"
 msgid "Esc to go to edit mode"
-msgstr "按 ESC 键转到修改模式"
+msgstr "按 ESC 键转到编辑模式"
 
 msgctxt "editor_tip_sat_parallel_tape_left"
 msgid "Click on tracks to attach new parallel tracks"
@@ -75,7 +75,7 @@ msgstr "点击轨道，放置一条新车站"
 
 msgctxt "editor_tip_sat_track_tape_left"
 msgid "Click on tracks to tape them over with new kind and layer of track"
-msgstr "点击轨道，放置一条新的轨道或轨道层"
+msgstr "点击轨道，替代选择的轨道为其他轨道或其他深度"
 
 msgctxt "editor_tip_weight_left"
 msgid "Release left button to stop moving the track weighting"
@@ -151,11 +151,11 @@ msgstr "时间、列车运动和乘客模拟在所有客户端之间共享和同
 
 msgctxt "kb_track_sat_building_tape"
 msgid "Tracks: building tape"
-msgstr "轨道:轨道建筑带"
+msgstr "轨道:轨道附属建筑工具"
 
 msgctxt "kb_track_sat_parallel_tape"
 msgid "Tracks: parallel tape"
-msgstr "轨道:平行轨道带"
+msgstr "轨道:平行轨道工具"
 
 msgctxt "kb_track_sat_split"
 msgid "Tracks: split"
@@ -163,11 +163,11 @@ msgstr "轨道:拆分轨道"
 
 msgctxt "kb_track_sat_station_tape"
 msgid "Tracks: station tape"
-msgstr "轨道:站台轨道带"
+msgstr "轨道:站台轨道工具"
 
 msgctxt "kb_track_sat_track_tape"
 msgid "Tracks: track tape"
-msgstr "轨道:轨道带"
+msgstr "轨道:替代轨道工具"
 
 msgctxt "key_info_hold"
 msgid "[Hold: {}]"
@@ -227,7 +227,7 @@ msgstr "过长"
 
 msgctxt "track_sat_tools"
 msgid "Split and tape tools"
-msgstr "拆分和轨道带工具"
+msgstr "拆分和轨道编辑工具"
 
 msgctxt "trackeditor_hold_keybinds"
 msgid "Track tool keybind hold mode"
@@ -247,7 +247,7 @@ msgstr "出售选择的列车"
 
 msgctxt "train_info_camera"
 msgid "Auto scroll map following train position"
-msgstr "放置列车后自动跟随视角"
+msgstr "跟随列车视角"
 
 msgctxt "train_info_path_probe"
 msgid "Pathfind probe from train to mouse position\nClick for fixed mouse position"
@@ -1946,7 +1946,7 @@ msgstr "{}{} 到 {}{}"
 
 msgctxt "intervene_all_stale_trains"
 msgid "Intervene all stale"
-msgstr "干预所有原有列车"
+msgstr "干预有警告列车"
 
 msgctxt "intervene_all_trains"
 msgid "Intervene all trains"
@@ -2466,7 +2466,7 @@ msgstr "空驶"
 
 msgctxt "lineeditor_service_of"
 msgid "Service of:"
-msgstr "服务状态:"
+msgstr "主线路:"
 
 msgctxt "lineeditor_stop_panel_editor2"
 msgid "Stop {}"
@@ -2570,7 +2570,7 @@ msgstr "车站停靠行为:"
 
 msgctxt "lineeditor_wait_kind_limbo"
 msgid "Black hole main, wait secondary"
-msgstr "仅剩余主站台时清除列车"
+msgstr "优先清除列车"
 
 msgctxt "lineeditor_wait_kind_normal"
 msgid "Wait on platforms"
@@ -2786,15 +2786,15 @@ msgstr "出售所有列车"
 
 msgctxt "mass_intervention_stale_trains_but"
 msgid "All stale trains intervention"
-msgstr "干预所有原有列车"
+msgstr "干预有警告列车"
 
 msgctxt "mass_intervention_stale_trains_desc"
 msgid "Do you want to issue an intervention to all stale trains for a price of ${}?"
-msgstr "你确定要干预所有原有列车，并支付共计 ${} 吗？"
+msgstr "你确定要干预全部的有警告列车，并支付共计 ${} 吗？"
 
 msgctxt "mass_intervention_stale_trains_title"
 msgid "Confirm all stale trains intervention"
-msgstr "确认干预所有原有列车"
+msgstr "确认干预有警告列车"
 
 msgctxt "mass_intervention_trains_but"
 msgid "All trains intervention"
@@ -3618,7 +3618,7 @@ msgstr "突出显示重叠的车站"
 
 msgctxt "plats_stacked_lines"
 msgid "Single column per platform"
-msgstr "站台面"
+msgstr "按站台显示"
 
 msgctxt "plots_button_tp"
 msgid "Open charts window"
@@ -4774,11 +4774,11 @@ msgstr "空重:"
 
 msgctxt "train_info_late"
 msgid "Late by {0}, {1:.1f} km of {2:.1f} km"
-msgstr "晚点 {0}, {1:.1f} km / {2:.1f} km"
+msgstr "已晚点 {0}, {1:.1f} km / {2:.1f} km"
 
 msgctxt "train_info_late_predicted"
 msgid "Est. late by {}"
-msgstr "由于 {} 晚点"
+msgstr "估算晚点 {} "
 
 msgctxt "train_info_line"
 msgid "Line:"
