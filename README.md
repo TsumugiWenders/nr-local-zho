@@ -3,6 +3,10 @@
 
 创意工坊链接：[https://steamcommunity.com/sharedfiles/filedetails/?id=2376057012](https://steamcommunity.com/sharedfiles/filedetails/?id=2376057012)
 
+GitHub仓库：[https://github.com/WONDEO/nr-local-zho](https://github.com/WONDEO/nr-local-zho)
+
+Gitee备份仓库：[https://gitee.com/wondeo/nr-local-zho](https://gitee.com/wondeo/nr-local-zho)
+
 查看mod开发指南，了解如何创建翻译mod。
 
 [https://steamcommunity.com/sharedfiles/filedetails/?id=2268014666](https://steamcommunity.com/sharedfiles/filedetails/?id=2268014666)
