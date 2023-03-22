@@ -1,273 +1,577 @@
 # ----------------------------------------------------------
-# 1.6.13 版本 新添加字符串
-
-msgctxt "constraint_demote_platforms"
-msgid "Demote into normal track"
-msgstr "降级到正常轨道"
-
-msgctxt "delete_only_bp"
-msgid "Delete only blueprints"
-msgstr "仅删除蓝图"
-
-msgctxt "editor_sat_building_tape"
-msgid "Building tape"
-msgstr "轨道附属建筑工具"
-
-msgctxt "editor_sat_parallel_tape"
-msgid "Parallel track tape"
-msgstr "平行轨道工具"
-
-msgctxt "editor_sat_platform_tape"
-msgid "Station platform tape"
-msgstr "站台轨道工具"
-
-msgctxt "editor_sat_promote_station"
-msgid "Promote tracks into station platforms"
-msgstr "将轨道升级为站台"
-
-msgctxt "editor_sat_split"
-msgid "Split tracks"
-msgstr "拆分轨道"
-
-msgctxt "editor_sat_track_tape"
-msgid "Track tape"
-msgstr "替代轨道工具"
-
-msgctxt "editor_tip_create_del_inline"
-msgid "Shift-Del to delete selected inner tracks"
-msgstr "Shift + Del 键删除选定轨道但不断开连接"
-
-msgctxt "editor_tip_sat_building_tape_alt"
-msgid "Alt to create symmetrical buildings on both sides of the track"
-msgstr "按 Alt 键在轨道两侧创建对称建筑"
-
-msgctxt "editor_tip_sat_building_tape_left"
-msgid "Click near tracks to create new attached buildings"
-msgstr "点击轨道附近以添加新的附属建筑"
-
-msgctxt "editor_tip_sat_building_tape_shift"
-msgid "Shift to create buildings in all children when starting in a parent track"
-msgstr "按 Shift 键时，同时在子节点创建建筑"
-
-msgctxt "editor_tip_sat_esc"
-msgid "Esc to go to edit mode"
-msgstr "按 ESC 键转到编辑模式"
-
-msgctxt "editor_tip_sat_parallel_tape_left"
-msgid "Click on tracks to attach new parallel tracks"
-msgstr "点击轨道，添加一条新的平行轨道"
-
-msgctxt "editor_tip_sat_platform_tape_left"
-msgid "Click on tracks to tape them over with a new station platform"
-msgstr "点击轨道，将轨道和站台粘在一起"
-
-msgctxt "editor_tip_sat_promote_station_left"
-msgid "Click on tracks to promote them and their nearest sibling into a station platform"
-msgstr "点击轨道，将轨道和附件轨道升级为车站站台"
-
-msgctxt "editor_tip_sat_split_left"
-msgid "Click on tracks to split them at the point of click"
-msgstr "点击轨道，将轨道拆分为两段"
-
-msgctxt "editor_tip_sat_station_tape_left"
-msgid "Click on tracks to tape them over with a new station"
-msgstr "点击轨道，放置一条新车站"
-
-msgctxt "editor_tip_sat_track_tape_left"
-msgid "Click on tracks to tape them over with new kind and layer of track"
-msgstr "点击轨道，替代选择的轨道为其他轨道或其他深度"
-
-msgctxt "editor_tip_weight_left"
-msgid "Release left button to stop moving the track weighting"
-msgstr "放开左键停止移动两侧轨道比例"
-
-msgctxt "game_wiki"
-msgid "NIMBY Rails Wiki"
-msgstr "NIMBY Rails 百科"
-
-msgctxt "host_server_bad_ip"
-msgid "Cannot detect public IP, use Steam Relay"
-msgstr "无法检测到公共 IP 地址，请使用 Steam 中继网络"
-
-msgctxt "host_server_direct_warn"
-msgid "Your PC or router must have a direct connection to the internet with a public IP. You must forward UDP port {} in your router to your PC and set up your firewall to allow connections. VPNs, proxies and CG-NAT will defeat this feature. Weird and Wry cannot offer technical support if this feature does not work for your connection."
-msgstr "您的电脑或路由器必须通过公共 IP 直接连接到互联网。您必须将路由器中的 UDP 端口 {} 转发到 PC ，并设置防火墙以允许连接。VPN、代理和CG-NAT将无法使用此功能。如果此功能不适用于您的连接，作者将无法提供技术支持。"
-
-msgctxt "host_server_ipv4"
-msgid "Detected public IPv4:"
-msgstr "检测到 IPv4 地址:"
-
-msgctxt "host_server_ipv6"
-msgid "Detected public IPv6:"
-msgstr "检测到 IPv6 地址:"
-
-msgctxt "host_server_mode"
-msgid "Connection:"
-msgstr "连接:"
-
-msgctxt "host_server_mode_direct"
-msgid "Direct"
-msgstr "直连"
-
-msgctxt "host_server_mode_direct_desc"
-msgid "Clients will attempt to directly connect to your PC with your connection public IP address.\nEnables hosting of much larger builds if your connection has enough upload bandwidth."
-msgstr "客户端将尝试使用您的连接公共 IP 地址直接连接到您的电脑。\n如果您的连接有足够的上传带宽，则允许托管更大的版本。"
-
-msgctxt "host_server_mode_relay"
-msgid "Steam Relay Network"
-msgstr "Steam 中继网络"
-
-msgctxt "host_server_mode_relay_desc"
-msgid "Clients connect to your PC via the Steam Relay Network.\nThis is a safe, optimized CDN which hides your IP but has built-in bandwidth cap."
-msgstr "客户端将通过 Steam 中继网络连接到您的PC。\n这是一个安全、优秀的CDN，它隐藏了您的IP，但带宽受限。"
-
-msgctxt "host_server_port"
-msgid "UDP Port:"
-msgstr "UDP 端口"
-
-msgctxt "host_server_wait_ip"
-msgid "Detecting public IP..."
-msgstr "正在检测 IP 地址……"
-
-msgctxt "host_sim_mode"
-msgid "Simulation:"
-msgstr "模拟:"
-
-msgctxt "host_sim_mode_private"
-msgid "Private"
-msgstr "私有"
-
-msgctxt "host_sim_mode_private_desc"
-msgid "Time, train motion and pax simulation is independent for each client.\nTracks, lines and trains are edited cooperatively.\nScales to larger build sizes than shared simulation.\nGames are always set to unlimited money."
-msgstr "每个玩家的时间、列车运动和乘客模拟都是独立的。\n轨道、线路和列车可协同编辑。\n缩放到比共享模拟更大的构建尺寸。\n游戏总是设置为无限金钱。"
-
-msgctxt "host_sim_mode_shared"
-msgid "Shared"
-msgstr "公共"
-
-msgctxt "host_sim_mode_shared_desc"
-msgid "Time, train motion and pax simulation is shared and synchronized between all clients.\nTracks, lines and trains are edited cooperatively."
-msgstr "时间、列车运动和乘客模拟在所有客户端之间共享和同步。\n轨道、线路和列车可协同编辑。"
-
-msgctxt "kb_track_sat_building_tape"
-msgid "Tracks: building tape"
-msgstr "轨道:轨道附属建筑工具"
-
-msgctxt "kb_track_sat_parallel_tape"
-msgid "Tracks: parallel tape"
-msgstr "轨道:平行轨道工具"
-
-msgctxt "kb_track_sat_split"
-msgid "Tracks: split"
-msgstr "轨道:拆分轨道"
-
-msgctxt "kb_track_sat_station_tape"
-msgid "Tracks: station tape"
-msgstr "轨道:站台轨道工具"
-
-msgctxt "kb_track_sat_track_tape"
-msgid "Tracks: track tape"
-msgstr "轨道:替代轨道工具"
-
-msgctxt "key_info_hold"
-msgid "[Hold: {}]"
-msgstr "[保留: {} ]"
-
-msgctxt "key_info_hold_missing"
-msgid "[Missing key bind]"
-msgstr "[缺少键绑定]"
-
-msgctxt "loader_loading_db"
-msgid "Loading database"
-msgstr "正在加载数据库"
-
-msgctxt "loader_loading_sim"
-msgid "Loading simulation state"
-msgstr "正在加载模拟状态"
-
-msgctxt "loader_validating_db"
-msgid "Validating database"
-msgstr "验证数据库"
-
-msgctxt "mod_open_folder"
-msgid "Open mod.txt"
-msgstr "打开mod.txt"
-
-msgctxt "station_platform_demote"
-msgid "Demote platform into normal track"
-msgstr "将站台降级为轨道"
-
-msgctxt "stream_waiting_for_player"
-msgid "Waiting for player {}"
-msgstr "正在等待玩家 {}"
-
-msgctxt "tape_building_props"
-msgid "Tape building properties"
-msgstr "轨道带构建属性"
-
-msgctxt "tape_warn_built"
-msgid "Already built"
-msgstr "已构建"
-
-msgctxt "tape_warn_invalid_elements"
-msgid "Invalid geometry or elements"
-msgstr "无效的形状或元素"
-
-msgctxt "tape_warn_invalid_length"
-msgid "Invalid length"
-msgstr "长度无效"
-
-msgctxt "tape_warn_too_complex"
-msgid "Too complex"
-msgstr "过于复杂"
-
-msgctxt "tape_warn_too_long"
-msgid "Too long"
-msgstr "过长"
-
-msgctxt "track_sat_tools"
-msgid "Split and tape tools"
-msgstr "拆分和轨道编辑工具"
-
-msgctxt "trackeditor_hold_keybinds"
-msgid "Track tool keybind hold mode"
-msgstr "轨道工具绑定按键模式"
-
-msgctxt "train_bulk_change_orders"
-msgid "Change orders in selection"
-msgstr "更改选中列车的指令"
-
-msgctxt "train_bulk_intervention"
-msgid "Intervene selection"
-msgstr "干预选择的列车"
-
-msgctxt "train_bulk_sell"
-msgid "Sell selection"
-msgstr "出售选择的列车"
-
-msgctxt "train_info_camera"
-msgid "Auto scroll map following train position"
-msgstr "跟随列车视角"
-
-msgctxt "train_info_path_probe"
-msgid "Pathfind probe from train to mouse position\nClick for fixed mouse position"
-msgstr "查找从列车到鼠标位置的路径\n点击固定鼠标位置"
-
-msgctxt "train_info_path_probe_dest"
-msgid "Pathfind probe from train to its current destination"
-msgstr "查找从列车到当前目的地的路径"
-
-msgctxt "train_info_pin"
-msgid "Scroll map to train position"
-msgstr "查看列车位置"
-
-msgctxt "train_list_filter_alert_stale"
-msgid "Stale"
-msgstr "失效"
-
-msgctxt "train_orders_mode_ignore"
-msgid "< Do not change >"
-msgstr "< 不更改>"
+# 1.7.15 版本 新添加字符串
+
+msgctxt "accounting_trains_departure"
+msgid "Departures"
+msgstr "出发"
+
+msgctxt "accounting_trains_running_distance"
+msgid "Running distance"
+msgstr "运行距离"
+
+msgctxt "accounting_trains_running_time"
+msgid "Running time"
+msgstr "运行时间"
+
+msgctxt "accounting_trains_stop_time"
+msgid "Stop time"
+msgstr "停靠时间"
+
+msgctxt "back_to_main_menu"
+msgid "Back to main menu"
+msgstr "返回主菜单"
+
+msgctxt "banner_prompt_load_cmd_line"
+msgid "Load saved game {}?"
+msgstr "加载保存的游戏 {} ?"
+
+msgctxt "banner_prompt_quit_load_cmd_line"
+msgid "Quit current game and load saved game {}?"
+msgstr "退出并加载保存的游戏 {} ?"
+
+msgctxt "browse_shared_games"
+msgid "Browse shared games"
+msgstr "浏览共享游戏"
+
+msgctxt "cancel_replace"
+msgid "Cancel replacement"
+msgstr "取消更换"
+
+msgctxt "cars_uncategorized"
+msgid "Uncategorized"
+msgstr "未分类"
+
+msgctxt "cat_train_interior"
+msgid "Interior"
+msgstr "内部"
+
+msgctxt "confirm_set_no_couplers"
+msgid "Confirm switching to unrestricted coupling"
+msgstr "确认切换至无限制连接"
+
+msgctxt "confirm_set_no_couplers_desc"
+msgid "Switching to unrestricted coupling cannot be undone. Are you sure?"
+msgstr "切换至无限制连接是无法撤销的，您确定吗？"
+
+msgctxt "constraint_select_parent"
+msgid "Select parent track"
+msgstr "选择轨道"
+
+msgctxt "effective_leg_time"
+msgid "Middle point to middle point effective leg time: {}\nPrev. stop arrival braking time: -{}s\nThis stop braking time: +{}s"
+msgstr "中点之间有效运行时间: {}\n上一站到达制动时间: -{}s\n此站制动时间: +{}s"
+
+msgctxt "effective_leg_time_desc"
+msgid "Time from crossing the middle of one platform to the middle of the next one, not counting stop time"
+msgstr "两站之间的运行时间，不包括停靠时间"
+
+msgctxt "effective_times_desc"
+msgid "Showing effective leg times: arrival matches the time of train crossing the middle of platform.\nLeg time matches the time from crossing the middle of one platform to the middle of the next one, minus stop time."
+msgstr "显示有效运行时间:到达时间与列车通过站台中点时间相匹配\n运行时间是列车通过两站的中点时间减去停靠时间"
+
+msgctxt "file_picker_file_size"
+msgid "Size:"
+msgstr "尺寸:"
+
+msgctxt "file_picker_sort_date"
+msgid "Date"
+msgstr "日期"
+
+msgctxt "file_picker_sort_name"
+msgid "Name"
+msgstr "名称"
+
+msgctxt "file_picker_sort_size"
+msgid "Size"
+msgstr "尺寸:"
+
+msgctxt "file_picker_stats"
+msgid "Stats:"
+msgstr "状态"
+
+msgctxt "file_picker_stats_values"
+msgid "{} tracks, {} buildings, {} stations, {} trains, {} lines"
+msgstr "{} 轨道, {} 建筑, {} 车站, {} 列车, {} 线路"
+
+msgctxt "game_sharing"
+msgid "Game sharing"
+msgstr "分享游戏"
+
+msgctxt "geo_export_desc"
+msgid "Tracks and buildings GeoJSON has been exported to {}"
+msgstr "轨道和建筑的 GeoJson 已导出至 {}"
+
+msgctxt "geo_export_title"
+msgid "Exported GeoJSON"
+msgstr "导出的 GeoJson"
+
+msgctxt "intuitive_times_desc"
+msgid "Showing intuitive leg times: arrival and departure matches the time of train stop and start.\nLeg time matches the running time between train start and stop."
+msgstr "显示直观运行时间:到达与出发时间和列车停车和启动时间相匹配。\n运行时间是列车出发时间到停车时间的间隔"
+
+msgctxt "line_warn_custom_duration_too_short"
+msgid "Custom duration is too short and it is ignored"
+msgstr "自定义等候时间太短，将被忽略"
+
+msgctxt "line_warn_no_custom_duration_stops"
+msgid "Custom or fit duration mode needs at least one stop with some wait time after the last fixed departure stop"
+msgstr "自定义或修改运行时间模式需要在最后一次固定出发站点后至少停留一次并等待一段时间"
+
+msgctxt "line_warn_unachievable_fixed_departure"
+msgid "One or more fixed departure stops are unachievable"
+msgstr "无法实现固定发车站点"
+
+msgctxt "lineeditor_default_timings_go_ref_train"
+msgid "Edit reference train"
+msgstr "编辑参考列车"
+
+msgctxt "lineeditor_display_in_map"
+msgid "Display in map:"
+msgstr "在地图中显示:"
+
+msgctxt "lineeditor_display_in_map_v"
+msgid "Display in map"
+msgstr "在地图中显示"
+
+msgctxt "lineeditor_fixed_departure_at"
+msgid "Depart at:"
+msgstr "出发时间:"
+
+msgctxt "lineeditor_fixed_departure_at_shift"
+msgid "Shift click to also apply the time delta to all following fixed departures"
+msgstr "按 Shift 键并单击可将时间增量应用于下列所有出发时间"
+
+msgctxt "lineeditor_fixed_departure_desc"
+msgid "Format: (hh:)mm:ss\nThe train will depart at this exact time, counting from the start of the line.\nTrains might wait longer if pax are still leaving or boarding."
+msgstr "格式: (hh:)mm:ss \n列车将在这个确切的时间从线路起点发车，如果遇到乘客仍在上下车等情况，将会延长停靠时间。"
+
+msgctxt "lineeditor_implied_stop_time"
+msgid "Implied stop time:"
+msgstr "停车时间:"
+
+msgctxt "lineeditor_intuitive"
+msgid "Intuitive arrival at:"
+msgstr "到达:"
+
+msgctxt "lineeditor_stop_mode"
+msgid "Stop time mode:"
+msgstr "停车时间模式:"
+
+msgctxt "lineeditor_stop_mode_auto"
+msgid "Automatic"
+msgstr "自动"
+
+msgctxt "lineeditor_stop_mode_custom"
+msgid "Custom time"
+msgstr "自定义时间"
+
+msgctxt "lineeditor_stop_mode_fixed_departure"
+msgid "Fixed departure"
+msgstr "固定发车"
+
+msgctxt "lineeditor_unachievable_depart"
+msgid "Unachievable departure"
+msgstr "禁止离开"
+
+msgctxt "loader_downloading"
+msgid "Downloading"
+msgstr "正在下载"
+
+msgctxt "loader_http_error"
+msgid "Error downloading shared game file"
+msgstr "下载共享游戏时发生错误"
+
+msgctxt "mod_contents"
+msgid "Mod contents: {} rules"
+msgstr "Mod 目录:{} 规则"
+
+msgctxt "mod_disable_all_unused"
+msgid "Disable all unused mods"
+msgstr "禁用所有未使用的MOD"
+
+msgctxt "mod_panel_list_only_enabled"
+msgid "Enabled mods in this game"
+msgstr "启用本游戏中使用的MOD"
+
+msgctxt "mod_remove_all_orphaned"
+msgid "Remove all orphaned and unused rules"
+msgstr "删除所有独立和未使用的规则"
+
+msgctxt "my_shared_games"
+msgid "My shared games"
+msgstr "我分享的游戏"
+
+msgctxt "option_company_geo_export"
+msgid "Export GeoJSON"
+msgstr "导出的 GeoJson"
+
+msgctxt "option_company_switch_no_couplers"
+msgid "Switch to unrestricted coupling"
+msgstr "切换到无限制连接"
+
+msgctxt "option_no_couplers"
+msgid "Unrestricted coupling"
+msgstr "无限制连接"
+
+msgctxt "purchase_trains"
+msgid "Purchase new train(s)"
+msgstr "购买新列车"
+
+msgctxt "replace_trains"
+msgid "Replace existing train(s)"
+msgstr "更换现有列车"
+
+msgctxt "right_bar_like"
+msgid "Like this shared save"
+msgstr "点赞"
+
+msgctxt "run_view_tooltip_click"
+msgid "Click to see all {} stops"
+msgstr "点击查看所有 {} 车站"
+
+msgctxt "share_deleting"
+msgid "Deleting slot"
+msgstr "删除列表"
+
+msgctxt "share_empty_slot"
+msgid "< Empty slot >"
+msgstr "<空列表>"
+
+msgctxt "share_game"
+msgid "Share game"
+msgstr "分享游戏"
+
+msgctxt "share_game_attribution"
+msgid "Attribution:"
+msgstr "昵称:"
+
+msgctxt "share_game_attribution_anon"
+msgid "Anonymous"
+msgstr "匿名"
+
+msgctxt "share_game_attribution_name"
+msgid "Steam user name"
+msgstr "steam用户名"
+
+msgctxt "share_game_attribution_profile"
+msgid "Steam user name and profile link"
+msgstr "steam用户名和连接"
+
+msgctxt "share_game_copy_link"
+msgid "Copy link"
+msgstr "复制连接"
+
+msgctxt "share_game_copy_link_desc"
+msgid "Copy game link into clipboard"
+msgstr "复制连接到剪贴板"
+
+msgctxt "share_game_delete_desc"
+msgid "Delete the existing uploaded game"
+msgstr "删除已上传的游戏"
+
+msgctxt "share_game_open_link"
+msgid "Open link"
+msgstr "打开连接"
+
+msgctxt "share_game_open_link_desc"
+msgid "Open game link in a web browser"
+msgstr "用浏览器打开连接"
+
+msgctxt "share_game_own_likes"
+msgid "Likes:"
+msgstr "点赞:"
+
+msgctxt "share_game_replace"
+msgid "Replace with current game"
+msgstr "替换为当前游戏"
+
+msgctxt "share_game_replace_desc"
+msgid "Delete existing game and upload current game to nimbyrails.com and create a link to share it"
+msgstr "删除当前游戏并将其上传至 nimbyrails.com，并创建一个共享连接"
+
+msgctxt "share_game_upload"
+msgid "Upload current game"
+msgstr "上传当前游戏"
+
+msgctxt "share_game_upload_desc"
+msgid "Upload current game to nimbyrails.com and create a link to share it"
+msgstr "上传当前游戏并将其上传至 nimbyrails.com，并创建一个共享连接"
+
+msgctxt "share_home_by"
+msgid "By {}"
+msgstr "{} 的游戏"
+
+msgctxt "share_home_click_load"
+msgid "Click to load game"
+msgstr "点击加载游戏"
+
+msgctxt "share_listing"
+msgid "Listing slots"
+msgstr "加载列表"
+
+msgctxt "share_net_error_api"
+msgid "Sharing API error {}"
+msgstr "共享 API 错误 {}"
+
+msgctxt "share_net_error_cannot_connect"
+msgid "Cannot connect to sharing service"
+msgstr "无法连接至共享服务"
+
+msgctxt "share_querying_slot"
+msgid "< Loading... >"
+msgstr "<加载中…>"
+
+msgctxt "share_upload_map_preview"
+msgid "Uploading map preview {}%"
+msgstr "正在上传地图预览 {}%"
+
+msgctxt "share_upload_save"
+msgid "Uploading saved game {}%"
+msgstr "正在上传保存的游戏 {}%"
+
+msgctxt "share_upload_screenshot"
+msgid "Uploading screenshot {}%"
+msgstr "正在上传屏幕截图 {}%"
+
+msgctxt "stop_times_tp_line0"
+msgid "Leg time from middle to middle w/o wait time"
+msgstr "不包含等待的从中点到中点运行时间"
+
+msgctxt "stop_times_tp_line2"
+msgid "Brake to a halt"
+msgstr "制动"
+
+msgctxt "stop_times_tp_line3"
+msgid "Intuitive arrival at"
+msgstr "到达"
+
+msgctxt "stop_times_tp_line5"
+msgid "Depart at"
+msgstr "出发时间:"
+
+msgctxt "stop_times_tp_reach"
+msgid "Stop {} reach middle of platform at"
+msgstr "停车 {} 到达站台中间位置"
+
+msgctxt "stop_times_tp_wait"
+msgid "Stop {} wait time"
+msgstr "停车 {} 等待时间"
+
+msgctxt "switch_no_couplers"
+msgid "Switch to unrestricted"
+msgstr "切换到无限制"
+
+msgctxt "tag_couchette"
+msgid "Couchette"
+msgstr "卧铺"
+
+msgctxt "tag_kitchen"
+msgid "Kitchen"
+msgstr "餐车"
+
+msgctxt "tag_open_coach"
+msgid "Open coach"
+msgstr "开放式车厢"
+
+msgctxt "tag_toilet"
+msgid "Toilet"
+msgstr "厕所"
+
+msgctxt "tag_vending"
+msgid "Vending"
+msgstr "出售"
+
+msgctxt "tags_interior"
+msgid "Interior"
+msgstr "内部"
+
+msgctxt "train_bulk_replace"
+msgid "Replace selection"
+msgstr "替换所选"
+
+msgctxt "train_car_append"
+msgid "Append {} car(s)"
+msgstr "添加 {} 车厢"
+
+msgctxt "train_car_append_listing_cursor"
+msgid "Append here"
+msgstr "添加"
+
+msgctxt "train_car_base_color_edit"
+msgid "Base color:"
+msgstr "基本颜色:"
+
+msgctxt "train_car_decal_color_edit"
+msgid "Decal color:"
+msgstr "装饰颜色:"
+
+msgctxt "train_car_decal_edit"
+msgid "Decal:"
+msgstr "列车装饰:"
+
+msgctxt "train_car_default"
+msgid "Default"
+msgstr "默认"
+
+msgctxt "train_car_flip"
+msgid "Flip"
+msgstr "交换"
+
+msgctxt "train_car_n_cars"
+msgid "{} cars"
+msgstr " {} 车厢"
+
+msgctxt "train_car_replace"
+msgid "Replace {} car(s)"
+msgstr "更换 {} 车厢"
+
+msgctxt "train_cars_inst"
+msgid "Cars:"
+msgstr "车厢:"
+
+msgctxt "train_cars_new_cars"
+msgid "New cars"
+msgstr "新车厢"
+
+msgctxt "train_create_order_from_run"
+msgid "Create new order from this run"
+msgstr "对此运行创建新的指令"
+
+msgctxt "train_decal_change"
+msgid "Change"
+msgstr "更改"
+
+msgctxt "train_decal_change_desc"
+msgid "This feature only works properly if all cars are from the same mod and train composition"
+msgstr "当所有车厢东来自相同的列车时，此功能才能生效"
+
+msgctxt "train_final_price"
+msgid "Final price:"
+msgstr "最终价格:"
+
+msgctxt "train_info_coupler_back"
+msgid "Back coupling:"
+msgstr "后方连接:"
+
+msgctxt "train_info_coupler_front"
+msgid "Front coupling:"
+msgstr "前方连接:"
+
+msgctxt "train_info_coupler_mandatory"
+msgid "mandatory"
+msgstr "强制"
+
+msgctxt "train_info_coupler_none"
+msgid "none"
+msgstr "无"
+
+msgctxt "train_info_coupler_optional"
+msgid "optional"
+msgstr "选择"
+
+msgctxt "train_info_coupler_universal"
+msgid "universal"
+msgstr "常规"
+
+msgctxt "train_info_description"
+msgid "Description:"
+msgstr "说明:"
+
+msgctxt "train_info_running_cost_f2"
+msgid "${0:.2} per km, ${1:.2} per km per pax"
+msgstr "每公里 ${0:.2} 每乘客公里 ${1:.2}"
+
+msgctxt "train_list_filter_alert_only_stale"
+msgid "Only stale"
+msgstr "仅旧列车"
+
+msgctxt "train_list_filter_alert_only_warning"
+msgid "Only with warnings"
+msgstr "仅带警告列车"
+
+msgctxt "train_model_edit_custom"
+msgid "Custom"
+msgstr "定制"
+
+msgctxt "train_recompo_apply"
+msgid "Apply changes"
+msgstr "应用"
+
+msgctxt "train_recompo_disabled"
+msgid "Editing disabled by mod author"
+msgstr "mod 作者禁止编辑"
+
+msgctxt "train_recompo_error_cash"
+msgid "Cannot afford new car(s)"
+msgstr "买不起新车厢"
+
+msgctxt "train_recompo_error_coupling"
+msgid "Invalid coupling"
+msgstr "无效的连接"
+
+msgctxt "train_recompo_error_empty"
+msgid "Empty train"
+msgstr "空列车"
+
+msgctxt "train_recompo_error_long"
+msgid "Too many cars"
+msgstr "车厢过多"
+
+msgctxt "train_recompo_error_unpowered"
+msgid "Unpowered"
+msgstr "无动力"
+
+msgctxt "train_recompo_price"
+msgid "Price: ${}"
+msgstr "价格: ${}"
+
+msgctxt "train_recompo_refund"
+msgid "Refund: ${}"
+msgstr "退款: ${}"
+
+msgctxt "train_recompo_reset"
+msgid "Reset changes"
+msgstr "重置"
+
+msgctxt "train_refund"
+msgid "Total refund:"
+msgstr "退款总额:"
+
+msgctxt "train_replace"
+msgid "Replace"
+msgstr "替换"
+
+msgctxt "train_tmu_as_custom"
+msgid "Edit as custom train"
+msgstr "编辑为自定义列车"
+
+msgctxt "train_tmu_copy_custom"
+msgid "Copy for custom train"
+msgstr "复制为自定义列车"
+
+msgctxt "traineditor_buy_custom_mode"
+msgid "Purchase custom train"
+msgstr "购买自定义列车"
+
+msgctxt "traineditor_buy_tmu_mode"
+msgid "Purchase preconfigured train"
+msgstr "购买预设列车"
+
+msgctxt "traineditor_replace_custom_mode"
+msgid "Replacing with custom train"
+msgstr "更换为自定义列车"
+
+msgctxt "traineditor_replace_tmu_mode"
+msgid "Replacing with preconfigured train"
+msgstr "更换为预设列车"
+
+msgctxt "traineditor_tooltip_buy_custom_mode"
+msgid "Purchase custom train"
+msgstr "购买自定义列车"
+
+msgctxt "traineditor_tooltip_buy_tmu_mode"
+msgid "Purchase preconfigured train"
+msgstr "购买预设列车"
 
 # ----------------------------------------------------------
 # 1.5.41 及以前版本 字符串
@@ -322,19 +626,19 @@ msgstr "建筑"
 
 msgctxt "accounting_construction_depots"
 msgid "Depots"
-msgstr "    车辆段"
+msgstr "  车辆段"
 
 msgctxt "accounting_construction_stations"
 msgid "Platforms"
-msgstr "    站台"
+msgstr "  站台"
 
 msgctxt "accounting_construction_total"
 msgid "Total construction"
-msgstr "    总计"
+msgstr "  总计"
 
 msgctxt "accounting_construction_tracks"
 msgid "Tracks"
-msgstr "    轨道"
+msgstr "  轨道"
 
 msgctxt "accounting_events_post"
 msgid "events"
@@ -346,15 +650,15 @@ msgstr "财务"
 
 msgctxt "accounting_financing_credit"
 msgid "Credit"
-msgstr "    贷款"
+msgstr "  贷款"
 
 msgctxt "accounting_financing_interest"
 msgid "Interest"
-msgstr "    偿还贷款"
+msgstr "  偿还贷款"
 
 msgctxt "accounting_found_station_too_full"
 msgid "Compen.: full station"
-msgstr "            因车站爆满无法进站而获得赔偿"
+msgstr "      因车站爆满无法进站而获得赔偿"
 
 msgctxt "accounting_km_post"
 msgid "km"
@@ -366,31 +670,31 @@ msgstr "乘客"
 
 msgctxt "accounting_pax_boarded"
 msgid "Boarded train"
-msgstr "    发送旅客"
+msgstr "  发送旅客"
 
 msgctxt "accounting_pax_compensated"
 msgid "Compensated"
-msgstr "        赔偿"
+msgstr "    赔偿"
 
 msgctxt "accounting_pax_found_train_too_full"
 msgid "Boarding failed: full train"
-msgstr "    列车满员"
+msgstr "  列车满员"
 
 msgctxt "accounting_pax_intervention"
 msgid "Compen.: intervention"
-msgstr "            因列车干预而获得赔偿"
+msgstr "      因列车干预而获得赔偿"
 
 msgctxt "accounting_pax_lost"
 msgid "Compen.: lost"
-msgstr "            因线路更改或删除而获得赔偿"
+msgstr "      因线路更改或删除而获得赔偿"
 
 msgctxt "accounting_pax_never_serviced"
 msgid "Never serviced"
-msgstr "    历史新旅客"
+msgstr "  历史新旅客"
 
 msgctxt "accounting_pax_new"
 msgid "New pax"
-msgstr "    新行程旅客"
+msgstr "  新行程旅客"
 
 msgctxt "accounting_pax_post"
 msgid "pax"
@@ -398,31 +702,31 @@ msgstr "人"
 
 msgctxt "accounting_pax_reached_depot"
 msgid "Refund: reached depot"
-msgstr "        因被送到车辆段而退票"
+msgstr "    因被送到车辆段而退票"
 
 msgctxt "accounting_pax_reached_destination"
 msgid "Reached destination"
-msgstr "    到达旅客"
+msgstr "  到达旅客"
 
 msgctxt "accounting_pax_reached_transfer"
 msgid "Reached transfer"
-msgstr "    中转旅客"
+msgstr "  中转旅客"
 
 msgctxt "accounting_pax_refunded"
 msgid "Refunded (incl. compen.)"
-msgstr "    总退票人数(含赔偿)"
+msgstr "  总退票人数(含赔偿)"
 
 msgctxt "accounting_pax_refused_fare"
 msgid "Refund: too high fare"
-msgstr "        因票价过高而退票"
+msgstr "    因票价过高而退票"
 
 msgctxt "accounting_pax_spawned"
 msgid "Started trip"
-msgstr "    购票旅客"
+msgstr "  购票旅客"
 
 msgctxt "accounting_pax_waited_too_long"
 msgid "Compen.: waited too long"
-msgstr "            因等待时间过长而获得赔偿"
+msgstr "      因等待时间过长而获得赔偿"
 
 msgctxt "accounting_period_day"
 msgid "Day"
@@ -478,19 +782,19 @@ msgstr "票务"
 
 msgctxt "accounting_ticketing_compensations"
 msgid "Compensations"
-msgstr "    赔偿"
+msgstr "  赔偿"
 
 msgctxt "accounting_ticketing_fares"
 msgid "Fares"
-msgstr "    售票"
+msgstr "  售票"
 
 msgctxt "accounting_ticketing_profit"
 msgid "Profit"
-msgstr "    收益"
+msgstr "  收益"
 
 msgctxt "accounting_ticketing_refunds"
 msgid "Refunds"
-msgstr "    退票"
+msgstr "  退票"
 
 msgctxt "accounting_trains"
 msgid "Trains"
@@ -498,23 +802,23 @@ msgstr "列车"
 
 msgctxt "accounting_trains_intervention"
 msgid "Interventions"
-msgstr "    干预"
+msgstr "  干预"
 
 msgctxt "accounting_trains_maintenance"
 msgid "Maintenance"
-msgstr "    维护"
+msgstr "  维护"
 
 msgctxt "accounting_trains_purchases"
 msgid "New trains"
-msgstr "    购买"
+msgstr "  购买"
 
 msgctxt "accounting_trains_running"
 msgid "Running costs"
-msgstr "    运营"
+msgstr "  运营"
 
 msgctxt "accounting_trains_sales"
 msgid "Train sales"
-msgstr "    出售"
+msgstr "  出售"
 
 msgctxt "accounting_utc_warn"
 msgid "Accounting time: {} UTC0"
@@ -1008,6 +1312,10 @@ msgctxt "connection_denied"
 msgid "Connection denied"
 msgstr "连接失败"
 
+msgctxt "constraint_demote_platforms"
+msgid "Demote into normal track"
+msgstr "降级到正常轨道"
+
 msgctxt "constraint_direction"
 msgid "Direction:"
 msgstr "方向:"
@@ -1208,6 +1516,10 @@ msgctxt "delete_line_sell_trains"
 msgid "Delete and sell trains"
 msgstr "删除线路并出售列车"
 
+msgctxt "delete_only_bp"
+msgid "Delete only blueprints"
+msgstr "仅删除蓝图"
+
 msgctxt "delete_tracks"
 msgid "Delete objects"
 msgstr "删除对象"
@@ -1300,6 +1612,30 @@ msgctxt "editor_pick_constraint_parent_left"
 msgid "Click a control point to make it the constraint parent"
 msgstr "点击一个轨道控制点来绑定到轨道节点"
 
+msgctxt "editor_sat_building_tape"
+msgid "Building tape"
+msgstr "轨道附属建筑工具"
+
+msgctxt "editor_sat_parallel_tape"
+msgid "Parallel track tape"
+msgstr "平行轨道工具"
+
+msgctxt "editor_sat_platform_tape"
+msgid "Station platform tape"
+msgstr "站台轨道工具"
+
+msgctxt "editor_sat_promote_station"
+msgid "Promote tracks into station platforms"
+msgstr "将轨道升级为站台"
+
+msgctxt "editor_sat_split"
+msgid "Split tracks"
+msgstr "拆分轨道"
+
+msgctxt "editor_sat_track_tape"
+msgid "Track tape"
+msgstr "替代轨道工具"
+
 msgctxt "editor_select_add_platform"
 msgid "Click platform names in stations to add stops to the line"
 msgstr "点击车站内的站台名称，增加线路的站点"
@@ -1375,6 +1711,10 @@ msgstr "Ctrl + C 键将选定的对象复制到剪贴板"
 msgctxt "editor_tip_create_del"
 msgid "Del to delete selected objects"
 msgstr "按 Delete 键删除选定的对象"
+
+msgctxt "editor_tip_create_del_inline"
+msgid "Shift-Del to delete selected inner tracks"
+msgstr "Shift + Del 键删除选定轨道但不断开连接"
 
 msgctxt "editor_tip_create_drag"
 msgid "Drag any selected control point to move the selection"
@@ -1480,6 +1820,46 @@ msgctxt "editor_tip_rot_left"
 msgid "Release left button to stop rotating the selection"
 msgstr "松开左键停止旋转选择的对象"
 
+msgctxt "editor_tip_sat_building_tape_alt"
+msgid "Alt to create symmetrical buildings on both sides of the track"
+msgstr "按 Alt 键在轨道两侧创建对称建筑"
+
+msgctxt "editor_tip_sat_building_tape_left"
+msgid "Click near tracks to create new attached buildings"
+msgstr "点击轨道附近以添加新的附属建筑"
+
+msgctxt "editor_tip_sat_building_tape_shift"
+msgid "Shift to create buildings in all children when starting in a parent track"
+msgstr "按 Shift 键时，同时在子节点创建建筑"
+
+msgctxt "editor_tip_sat_esc"
+msgid "Esc to go to edit mode"
+msgstr "按 ESC 键转到编辑模式"
+
+msgctxt "editor_tip_sat_parallel_tape_left"
+msgid "Click on tracks to attach new parallel tracks"
+msgstr "点击轨道，添加一条新的平行轨道"
+
+msgctxt "editor_tip_sat_platform_tape_left"
+msgid "Click on tracks to tape them over with a new station platform"
+msgstr "点击轨道，将轨道和站台粘在一起"
+
+msgctxt "editor_tip_sat_promote_station_left"
+msgid "Click on tracks to promote them and their nearest sibling into a station platform"
+msgstr "点击轨道，将轨道和附件轨道升级为车站站台"
+
+msgctxt "editor_tip_sat_split_left"
+msgid "Click on tracks to split them at the point of click"
+msgstr "点击轨道，将轨道拆分为两段"
+
+msgctxt "editor_tip_sat_station_tape_left"
+msgid "Click on tracks to tape them over with a new station"
+msgstr "点击轨道，放置一条新车站"
+
+msgctxt "editor_tip_sat_track_tape_left"
+msgid "Click on tracks to tape them over with new kind and layer of track"
+msgstr "点击轨道，替代选择的轨道为其他轨道或其他深度"
+
 msgctxt "editor_tip_sel_signal_del"
 msgid "Del to delete selected signals"
 msgstr "按 Delete 键删除选中的信号"
@@ -1535,6 +1915,10 @@ msgstr "左键点击创建一个新的车站"
 msgctxt "editor_tip_undo"
 msgid "Ctrl-Z to undo the last edit"
 msgstr "Ctrl + Z 键撤销最后一次编辑"
+
+msgctxt "editor_tip_weight_left"
+msgid "Release left button to stop moving the track weighting"
+msgstr "放开左键停止移动两侧轨道比例"
 
 msgctxt "editor_tip_zoom"
 msgid "Zoom in to edit"
@@ -1604,10 +1988,6 @@ msgctxt "error_saving_internal"
 msgid "Internal error while saving game"
 msgstr "保存游戏时出现内部错误"
 
-msgctxt "error_too_new_save"
-msgid "The game version that created this save file is newer than your game version. Update the game to load this file."
-msgstr "创建此存档的游戏版本比你的游戏版本新，请更新游戏以加载这个文件"
-
 msgctxt "error_too_new_save_v"
 msgid "The game version ({}.{}.{}.{}) that created this save file is newer than your game version ({}.{}.{}.{}). Update the game to load this file."
 msgstr "创建此存档的游戏版本({}.{}.{}.{})比当前的游戏版本({}.{}.{}.{})新，更新游戏以加载该存档"
@@ -1615,10 +1995,6 @@ msgstr "创建此存档的游戏版本({}.{}.{}.{})比当前的游戏版本({}.{
 msgctxt "error_too_old_save"
 msgid "The game version that created this save file is too old and it cannot be loaded. Try the older v1.1 legacy branches in Steam."
 msgstr "创建此存档的游戏版本太旧，无法加载。请尝试Steam上过时的v1.1分支版本。"
-
-msgctxt "error_too_old_save_v"
-msgid "The game version ({}.{}.{}.{}) that created this save file is too old and it cannot be loaded. Try the legacy branches in Steam."
-msgstr "创建此存档的游戏版本({}.{}.{}.{})比当前的游戏版本旧，请尝试使用Steam中的旧版分支"
 
 msgctxt "error_writing_file"
 msgid "Error writing to file"
@@ -1636,14 +2012,6 @@ msgctxt "ev_too_short_warn"
 msgid "Too short stop time and/or train full"
 msgstr "停靠时间太短或列车满员"
 
-msgctxt "file_header_date"
-msgid "Date"
-msgstr "日期"
-
-msgctxt "file_header_name"
-msgid "Name"
-msgstr "名称"
-
 msgctxt "file_picker_company"
 msgid "Company:"
 msgstr "公司名称:"
@@ -1653,8 +2021,8 @@ msgid "In-game date:"
 msgstr "游戏时间:"
 
 msgctxt "file_picker_file_modified"
-msgid "File modified:"
-msgstr "修改时间:"
+msgid "Modified:"
+msgstr "修改:"
 
 msgctxt "file_picker_file_name"
 msgid "File name:"
@@ -1663,10 +2031,6 @@ msgstr "存档名称:"
 msgctxt "file_picker_version"
 msgid "Game version:"
 msgstr "游戏版本:"
-
-msgctxt "file_picker_version_old"
-msgid "1.1.35 or earlier (model v{})"
-msgstr "1.1.35 或更早 (model v{})"
 
 msgctxt "filter_all_matches"
 msgid "{} models"
@@ -1784,6 +2148,10 @@ msgctxt "game_speed_up"
 msgid "Game speed up"
 msgstr "加快时间流逝"
 
+msgctxt "game_wiki"
+msgid "NIMBY Rails Wiki"
+msgstr "NIMBY Rails 百科"
+
 msgctxt "global_blueprint_bill"
 msgid "Global blueprint bill"
 msgstr "全部蓝图费用"
@@ -1823,6 +2191,70 @@ msgstr "游戏速度:"
 msgctxt "host_game_speed_warn"
 msgid "Large and complex builds, with many trains and stations, may not be playable at more than 1x speed in a multiplayer session."
 msgstr "在多人游戏中可能无法以超过1倍的速度进行游戏，因为游戏中包含许多需要大量复杂的创建与运算的场景。"
+
+msgctxt "host_server_bad_ip"
+msgid "Cannot detect public IP, use Steam Relay"
+msgstr "无法检测到公共 IP 地址，请使用 Steam 中继网络"
+
+msgctxt "host_server_direct_warn"
+msgid "Your PC or router must have a direct connection to the internet with a public IP. You must forward UDP port {} in your router to your PC and set up your firewall to allow connections. VPNs, proxies and CG-NAT will defeat this feature. Weird and Wry cannot offer technical support if this feature does not work for your connection."
+msgstr "您的电脑或路由器必须通过公共 IP 直接连接到互联网。您必须将路由器中的 UDP 端口 {} 转发到 PC ，并设置防火墙以允许连接。VPN、代理和CG-NAT将无法使用此功能。如果此功能不适用于您的连接，作者将无法提供技术支持。"
+
+msgctxt "host_server_ipv4"
+msgid "Detected public IPv4:"
+msgstr "检测到 IPv4 地址:"
+
+msgctxt "host_server_ipv6"
+msgid "Detected public IPv6:"
+msgstr "检测到 IPv6 地址:"
+
+msgctxt "host_server_mode"
+msgid "Connection:"
+msgstr "连接:"
+
+msgctxt "host_server_mode_direct"
+msgid "Direct"
+msgstr "直连"
+
+msgctxt "host_server_mode_direct_desc"
+msgid "Clients will attempt to directly connect to your PC with your connection public IP address.\nEnables hosting of much larger builds if your connection has enough upload bandwidth."
+msgstr "客户端将尝试使用您的连接公共 IP 地址直接连接到您的电脑。\n如果您的连接有足够的上传带宽，则允许托管更大的版本。"
+
+msgctxt "host_server_mode_relay"
+msgid "Steam Relay Network"
+msgstr "Steam 中继网络"
+
+msgctxt "host_server_mode_relay_desc"
+msgid "Clients connect to your PC via the Steam Relay Network.\nThis is a safe, optimized CDN which hides your IP but has built-in bandwidth cap."
+msgstr "客户端将通过 Steam 中继网络连接到您的PC。\n这是一个安全、优秀的CDN，它隐藏了您的IP，但带宽受限。"
+
+msgctxt "host_server_port"
+msgid "UDP Port:"
+msgstr "UDP 端口"
+
+msgctxt "host_server_wait_ip"
+msgid "Detecting public IP..."
+msgstr "正在检测 IP 地址……"
+
+msgctxt "host_sim_mode"
+msgid "Simulation:"
+msgstr "模拟:"
+
+msgctxt "host_sim_mode_private"
+msgid "Private"
+msgstr "私有"
+
+msgctxt "host_sim_mode_private_desc"
+msgid "Time, train motion and pax simulation is independent for each client.\nTracks, lines and trains are edited cooperatively.\nScales to larger build sizes than shared simulation.\nGames are always set to unlimited money."
+msgstr "每个玩家的时间、列车运动和乘客模拟都是独立的。\n轨道、线路和列车可协同编辑。\n缩放到比共享模拟更大的构建尺寸。\n游戏总是设置为无限金钱。"
+
+msgctxt "host_sim_mode_shared"
+msgid "Shared"
+msgstr "公共"
+
+msgctxt "host_sim_mode_shared_desc"
+msgid "Time, train motion and pax simulation is shared and synchronized between all clients.\nTracks, lines and trains are edited cooperatively."
+msgstr "时间、列车运动和乘客模拟在所有客户端之间共享和同步。\n轨道、线路和列车可协同编辑。"
 
 msgctxt "icon_file"
 msgid "Icon file:"
@@ -2084,6 +2516,26 @@ msgctxt "kb_track_new_signal"
 msgid "Tracks: new signal"
 msgstr "轨道:创建信号"
 
+msgctxt "kb_track_sat_building_tape"
+msgid "Tracks: building tape"
+msgstr "轨道:轨道附属建筑工具"
+
+msgctxt "kb_track_sat_parallel_tape"
+msgid "Tracks: parallel tape"
+msgstr "轨道:平行轨道工具"
+
+msgctxt "kb_track_sat_split"
+msgid "Tracks: split"
+msgstr "轨道:拆分轨道"
+
+msgctxt "kb_track_sat_station_tape"
+msgid "Tracks: station tape"
+msgstr "轨道:站台轨道工具"
+
+msgctxt "kb_track_sat_track_tape"
+msgid "Tracks: track tape"
+msgstr "轨道:替代轨道工具"
+
 msgctxt "kb_track_sel_signal"
 msgid "Tracks: select signal"
 msgstr "轨道:选择信号"
@@ -2095,6 +2547,14 @@ msgstr "轨道:创建站台"
 msgctxt "kb_tracks_unbp"
 msgid "Tracks: unblueprint"
 msgstr "轨道:转为蓝图"
+
+msgctxt "key_info_hold"
+msgid "[Hold: {}]"
+msgstr "[保留: {} ]"
+
+msgctxt "key_info_hold_missing"
+msgid "[Missing key bind]"
+msgstr "[缺少键绑定]"
 
 msgctxt "key_info2"
 msgid "[Key: {}]"
@@ -2361,8 +2821,8 @@ msgid "{0}, {1} km, {2}, {3} km/h avg."
 msgstr "{0}, {1} km, {2}, 平均速度{3} km/h"
 
 msgctxt "lineeditor_header_full_tooltip"
-msgid "Custom loop: {0}\nCustom non-loop: {1}\nMinimal loop: {2}\nMinimal non-loop: {3}"
-msgstr "自定义循环运行耗时: {0}\n自定义非循环运行耗时: {1}\n最小循环运行耗时: {2}\n最小非循环运行耗时: {3}"
+msgid "Custom loop: {0}\nCustom non-loop: {1}\nMinimal loop: {2}\nMinimal non-loop: {3}\nLoop time is the sum of all leg times and all stop times, including the last to first leg.\nNon-loop time is the same as loop time, minus the last to first leg."
+msgstr "自定义循环运行耗时: {0}\n自定义非循环运行耗时: {1}\n最小循环运行耗时: {2}\n最小非循环运行耗时: {3}\n循环时间是所有运行时间和停靠时间的总和，包括最后一个到第一个循环。\n非循环时间与循环时间计算方式相同，只是没有从最后一段到第一段的循环。"
 
 msgctxt "lineeditor_header_l"
 msgid "{0}, {1} km"
@@ -2421,7 +2881,7 @@ msgid "Stop time:"
 msgstr "停靠时间:"
 
 msgctxt "lineeditor_min_stop_time_desc"
-msgid "Format: (hh:)mm:ss\nStops will be scheduled with this wait time. Trains might wait longer if pax are still leaving or boarding."
+msgid "Format: (hh:)mm:ss\nStops will be scheduled with this wait time.\nTrains might wait longer if pax are still leaving or boarding."
 msgstr "格式: (hh:)mm:ss \n列车会按照停靠时间决定停车时长，如果遇到乘客仍在上下车等情况，将会延长停靠时间。"
 
 msgctxt "lineeditor_move_camera"
@@ -2628,6 +3088,14 @@ msgctxt "loader_final"
 msgid "Finalizing"
 msgstr "少女祈祷中"
 
+msgctxt "loader_loading_db"
+msgid "Loading database"
+msgstr "正在加载数据库"
+
+msgctxt "loader_loading_sim"
+msgid "Loading simulation state"
+msgstr "正在加载模拟状态"
+
 msgctxt "loader_parsing_header"
 msgid "Parsing header"
 msgstr "正在解析标头"
@@ -2655,6 +3123,10 @@ msgstr "初始化时刻表"
 msgctxt "loader_tracks_n"
 msgid "Validating tracks, {} to go"
 msgstr "正在验证轨道，还剩{}"
+
+msgctxt "loader_validating_db"
+msgid "Validating database"
+msgstr "验证数据库"
 
 msgctxt "loading_elip"
 msgid "Loading..."
@@ -2698,7 +3170,7 @@ msgstr "贷款时间:"
 
 msgctxt "loan_n"
 msgid "Loan {0} of {1}"
-msgstr "贷款  {0} / {1}"
+msgstr "贷款 {0} / {1}"
 
 msgctxt "loan_need_admin"
 msgid "Only admins can take loans"
@@ -2872,9 +3344,13 @@ msgctxt "mod_name"
 msgid "Name:"
 msgstr "名称:"
 
+msgctxt "mod_open_folder"
+msgid "Open mod.txt"
+msgstr "打开mod.txt"
+
 msgctxt "mod_panel_list_title"
-msgid "Subscribed mods:"
-msgstr "订阅的模组:"
+msgid "All subscribed mods"
+msgstr "订阅的全部模组:"
 
 msgctxt "mod_panel_steamworks"
 msgid "Subscribe to new mods in the Workshop"
@@ -3640,10 +4116,6 @@ msgctxt "public"
 msgid "Public"
 msgstr "公开"
 
-msgctxt "purchase"
-msgid "Purchase"
-msgstr "购买"
-
 msgctxt "quit_desktop"
 msgid "Quit to desktop"
 msgstr "退回到桌面"
@@ -3779,10 +4251,6 @@ msgstr "乘客生成速度"
 msgctxt "rtstat_speed"
 msgid "Speed"
 msgstr "速度"
-
-msgctxt "run_panel_pad_stop"
-msgid "Train will wait an extra {} in this stop to start the next run at its scheduled time"
-msgstr "列车将在此站额外等候{}，以便在预定时间开始下一次运行"
 
 msgctxt "run_panel_start"
 msgid "{0}: Start path to {1}"
@@ -4124,6 +4592,10 @@ msgctxt "station_platform_auto_name"
 msgid "Platform auto name"
 msgstr "自动生成站台名称"
 
+msgctxt "station_platform_demote"
+msgid "Demote platform into normal track"
+msgstr "将站台降级为轨道"
+
 msgctxt "station_platform_user_name"
 msgid "Platform name:"
 msgstr "站台名称:"
@@ -4187,6 +4659,10 @@ msgstr "你的时间已经超前于主机时间了，请暂停时间以同步主
 msgctxt "stream_catch_up_desc2"
 msgid "You are falling behind the host. Speeding up the clock to catch up. Lag frames: {}"
 msgstr "你的时间已经落后于主机时间 {} 帧了，请加快时间以同步主机时间。"
+
+msgctxt "stream_waiting_for_player"
+msgid "Waiting for player {}"
+msgstr "正在等待玩家 {}"
 
 msgctxt "subs_in_workshop"
 msgid "Subscribe in Workshop"
@@ -4468,6 +4944,30 @@ msgctxt "tags_units"
 msgid "Units"
 msgstr "编组"
 
+msgctxt "tape_building_props"
+msgid "Tape building properties"
+msgstr "轨道带构建属性"
+
+msgctxt "tape_warn_built"
+msgid "Already built"
+msgstr "已构建"
+
+msgctxt "tape_warn_invalid_elements"
+msgid "Invalid geometry or elements"
+msgstr "无效的形状或元素"
+
+msgctxt "tape_warn_invalid_length"
+msgid "Invalid length"
+msgstr "长度无效"
+
+msgctxt "tape_warn_too_complex"
+msgid "Too complex"
+msgstr "过于复杂"
+
+msgctxt "tape_warn_too_long"
+msgid "Too long"
+msgstr "过长"
+
 msgctxt "teo.plat_auto_direction_lr"
 msgid "Drive on left for double platforms"
 msgstr "双站台设置单行方向为左行"
@@ -4576,6 +5076,10 @@ msgctxt "track_not_favorited"
 msgid "Not favorited"
 msgstr "未收藏"
 
+msgctxt "track_sat_tools"
+msgid "Split and tape tools"
+msgstr "拆分和轨道编辑工具"
+
 msgctxt "track_sort_alpha"
 msgid "Alphabetical"
 msgstr "按首字母排序"
@@ -4591,6 +5095,10 @@ msgstr "按最高速度排序"
 msgctxt "trackeditor_hide_controls"
 msgid "Hide control points at low zoom"
 msgstr "低缩放时隐藏控制点"
+
+msgctxt "trackeditor_hold_keybinds"
+msgid "Track tool keybind hold mode"
+msgstr "轨道工具绑定按键模式"
 
 msgctxt "tracks_total"
 msgid "Tracks total"
@@ -4609,12 +5117,24 @@ msgid "{} ({} / {})\n{}\nSince: {} UTC{}"
 msgstr "{} ({} / {})\n{}\n发生时间: {} UTC{}"
 
 msgctxt "train_base_color_edit"
-msgid "Base color:"
-msgstr "基本颜色:"
+msgid "Default base color:"
+msgstr "默认基本颜色:"
 
 msgctxt "train_bill"
 msgid "Train bill"
 msgstr "列车费用"
+
+msgctxt "train_bulk_change_orders"
+msgid "Change orders in selection"
+msgstr "更改选中列车的指令"
+
+msgctxt "train_bulk_intervention"
+msgid "Intervene selection"
+msgstr "干预选择的列车"
+
+msgctxt "train_bulk_sell"
+msgid "Sell selection"
+msgstr "出售选择的列车"
 
 msgctxt "train_clone"
 msgid "Clone"
@@ -4629,12 +5149,12 @@ msgid "Serial:"
 msgstr "列车车号:"
 
 msgctxt "train_decal_color_edit"
-msgid "Decal color:"
-msgstr "装饰颜色:"
+msgid "Default decal color:"
+msgstr "默认装饰颜色:"
 
 msgctxt "train_decal_edit"
-msgid "Decal:"
-msgstr "列车装饰:"
+msgid "Change all decals:"
+msgstr "更改所有列车装饰:"
 
 msgctxt "train_decal_pick_edit"
 msgid "Pick a decal"
@@ -4736,6 +5256,10 @@ msgctxt "train_info_arrives"
 msgid "Arrives in {0}, {1:.1f} km of {2:.1f} km"
 msgstr "预计到站 {0}, {1:.1f} km / {2:.1f} km"
 
+msgctxt "train_info_camera"
+msgid "Auto scroll map following train position"
+msgstr "跟随列车视角"
+
 msgctxt "train_info_car_name"
 msgid "Car:"
 msgstr "车厢:"
@@ -4761,7 +5285,7 @@ msgid "{0:.2f}m / {1:.2f}m"
 msgstr "{0:.2f}m / {1:.2f}m"
 
 msgctxt "train_info_dim_d"
-msgid "{0} units / {1:.2f}m / {2:.2f}m"
+msgid "{0} cars / {1:.2f}m / {2:.2f}m"
 msgstr "{0} 车厢 / {1:.2f}m / {2:.2f}m"
 
 msgctxt "train_info_dynamics"
@@ -4808,9 +5332,21 @@ msgctxt "train_info_max_speed"
 msgid "Max speed:"
 msgstr "最快速度:"
 
+msgctxt "train_info_path_probe"
+msgid "Pathfind probe from train to mouse position\nClick for fixed mouse position"
+msgstr "查找从列车到鼠标位置的路径\n点击固定鼠标位置"
+
+msgctxt "train_info_path_probe_dest"
+msgid "Pathfind probe from train to its current destination"
+msgstr "查找从列车到当前目的地的路径"
+
 msgctxt "train_info_pax"
 msgid "Pax / max:"
 msgstr "乘客数 / 最大乘客数:"
+
+msgctxt "train_info_pin"
+msgid "Scroll map to train position"
+msgstr "查看列车位置"
 
 msgctxt "train_info_power"
 msgid "Power:"
@@ -4823,10 +5359,6 @@ msgstr "单价:"
 msgctxt "train_info_running_cost"
 msgid "Running cost:"
 msgstr "运行费用:"
-
-msgctxt "train_info_running_cost_f"
-msgid "${:.4} per km per pax"
-msgstr "每公里${:.4}(人)"
 
 msgctxt "train_info_speed"
 msgid "Speed / max:"
@@ -4899,6 +5431,10 @@ msgstr "紧凑"
 msgctxt "train_list_filter_alert_short"
 msgid "Warnings"
 msgstr "警告"
+
+msgctxt "train_list_filter_alert_stale"
+msgid "Stale"
+msgstr "失效"
 
 msgctxt "train_list_filter_all"
 msgid "All trains"
@@ -5000,6 +5536,10 @@ msgctxt "train_orders_mode_auto_line"
 msgid "Auto run a line"
 msgstr "自动运行线路"
 
+msgctxt "train_orders_mode_ignore"
+msgid "< Do not change >"
+msgstr "<不更改>"
+
 msgctxt "train_orders_mode_manual"
 msgid "Manual orders"
 msgstr "手动调整调度指令"
@@ -5013,7 +5553,7 @@ msgid "Run line:"
 msgstr "运行线路:"
 
 msgctxt "train_price"
-msgid "Train price:"
+msgid "Per train price:"
 msgstr "列车单价:"
 
 msgctxt "train_purchase_no_cash"
@@ -5059,10 +5599,6 @@ msgstr "共计 1列 总价:"
 msgctxt "train_total_price_many"
 msgid "Total for %d trains:"
 msgstr "共计 %d列 总价:"
-
-msgctxt "train_units_inst"
-msgid "Units:"
-msgstr "编组"
 
 msgctxt "traineditor_auto_shift_time_desc"
 msgid "Format: (-)hh:mm:ss\nShift the start of the auto copied orders by this amount."
@@ -5192,17 +5728,9 @@ msgctxt "traineditor_sell_all_selected"
 msgid "Sell selected trains"
 msgstr "出售选定的列车"
 
-msgctxt "traineditor_tooltip_buy_mode"
-msgid "Purchase new trains"
-msgstr "购买新列车"
-
 msgctxt "traineditor_tooltip_list_mode"
 msgid "List trains and edit their details and schedule"
 msgstr "列出火车并编辑其详细资讯和时间表"
-
-msgctxt "traineditor_tooltip_sched_mode"
-msgid "Edit the schedule of multiple trains simultaneously"
-msgstr "同时编辑多列火车的时间表"
 
 msgctxt "traineditor_tooltip_sell"
 msgid "Sell selected train"
@@ -5543,6 +6071,26 @@ msgctxt "editor_warn_zero_leg"
 msgid "At least one leg travel time is set to 0. Use the timing calculator after you are done editing the line."
 msgstr "至少有一个运行时间被设置为0。编辑完线路后请使用列车时刻计算器。"
 
+msgctxt "error_too_new_save"
+msgid "The game version that created this save file is newer than your game version. Update the game to load this file."
+msgstr "创建此存档的游戏版本比你的游戏版本新，请更新游戏以加载这个文件"
+
+msgctxt "error_too_old_save_v"
+msgid "The game version ({}.{}.{}.{}) that created this save file is too old and it cannot be loaded. Try the legacy branches in Steam."
+msgstr "创建此存档的游戏版本({}.{}.{}.{})比当前的游戏版本旧，请尝试使用Steam中的旧版分支"
+
+msgctxt "file_header_date"
+msgid "Date"
+msgstr "日期"
+
+msgctxt "file_header_name"
+msgid "Name"
+msgstr "名称"
+
+msgctxt "file_picker_version_old"
+msgid "1.1.35 or earlier (model v{})"
+msgstr "1.1.35 或更早 (model v{})"
+
 msgctxt "invalid_location"
 msgid "Invalid"
 msgstr "无效"
@@ -5791,9 +6339,17 @@ msgctxt "plat_auto_stops"
 msgid "Auto append platform stop point signals"
 msgstr "自动添加站台停车标志"
 
+msgctxt "purchase"
+msgid "Purchase"
+msgstr "购买"
+
 msgctxt "quickstart_guide"
 msgid "Quickstart guide"
 msgstr "快速入门指南"
+
+msgctxt "run_panel_pad_stop"
+msgid "Train will wait an extra {} in this stop to start the next run at its scheduled time"
+msgstr "列车将在此站额外等候{}，以便在预定时间开始下一次运行"
 
 msgctxt "sax_tooltip"
 msgid "Overall: {0:+.2f} ({1}) | Time: {2:+.2f} | Fare: {3:+.2f}"
@@ -5906,6 +6462,10 @@ msgstr "高架桥"
 msgctxt "train_info_force"
 msgid "Tractive force:"
 msgstr "牵引力:"
+
+msgctxt "train_info_running_cost_f"
+msgid "${:.4} per km per pax"
+msgstr "每公里${:.4}(人)"
 
 msgctxt "train_list_filter_alert"
 msgid "Only with warnings"
@@ -6067,6 +6627,10 @@ msgctxt "train_sched_start_stop"
 msgid "Start from:"
 msgstr "开始于:"
 
+msgctxt "train_units_inst"
+msgid "Units:"
+msgstr "编组"
+
 msgctxt "train_want_clone_schedule"
 msgid "Clone from {}"
 msgstr "从 {} 克隆时间表"
@@ -6079,9 +6643,17 @@ msgctxt "traineditor_overflow_desc"
 msgid "Too many trains selected to show the slot editor, but it is still possible to use some bulk editing operations."
 msgstr "选择的列车太多，无法显示时刻编辑器，但仍可进行一些批量编辑操作"
 
+msgctxt "traineditor_tooltip_buy_mode"
+msgid "Purchase new trains"
+msgstr "购买新列车"
+
 msgctxt "traineditor_tooltip_del"
 msgid "Delete selected train"
 msgstr "删除选择列车"
+
+msgctxt "traineditor_tooltip_sched_mode"
+msgid "Edit the schedule of multiple trains simultaneously"
+msgstr "同时编辑多列火车的时间表"
 
 msgctxt "traineditor_tooltip_tz_selector"
 msgid "Time zone"
