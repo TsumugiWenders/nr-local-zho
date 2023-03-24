@@ -71,7 +71,7 @@ msgstr "显示有效运行时间:到达时间与列车通过站台中点时间�
 
 msgctxt "file_picker_file_size"
 msgid "Size:"
-msgstr "尺寸:"
+msgstr "文件大小:"
 
 msgctxt "file_picker_sort_date"
 msgid "Date"
@@ -83,7 +83,7 @@ msgstr "名称"
 
 msgctxt "file_picker_sort_size"
 msgid "Size"
-msgstr "尺寸:"
+msgstr "文件大小:"
 
 msgctxt "file_picker_stats"
 msgid "Stats:"
@@ -103,7 +103,7 @@ msgstr "轨道和建筑的 GeoJson 已导出至 {}"
 
 msgctxt "geo_export_title"
 msgid "Exported GeoJSON"
-msgstr "导出的 GeoJson"
+msgstr "导出 GeoJson"
 
 msgctxt "intuitive_times_desc"
 msgid "Showing intuitive leg times: arrival and departure matches the time of train stop and start.\nLeg time matches the running time between train start and stop."
@@ -4118,11 +4118,11 @@ msgstr "公开"
 
 msgctxt "quit_desktop"
 msgid "Quit to desktop"
-msgstr "退回到桌面"
+msgstr "退出游戏"
 
 msgctxt "quit_game"
 msgid "Quit game"
-msgstr "退回到主菜单"
+msgstr "返回到主菜单"
 
 msgctxt "rename_save"
 msgid "Rename and save"
