@@ -1026,11 +1026,11 @@ msgstr "如果切换到无限金钱模式将无法切换回来，您确定要切
 
 msgctxt "confirm_set_no_couplers"
 msgid "Confirm switching to unrestricted coupling"
-msgstr "确认切换到无车钩种类限制模式"
+msgstr "确认车厢相接无车钩限制"
 
 msgctxt "confirm_set_no_couplers_desc"
 msgid "Switching to unrestricted coupling cannot be undone. Are you sure?"
-msgstr "如果切换到无车钩种类限制模式将无法切换回来，您确定要切换吗?"
+msgstr "如果切换到车厢相接无车钩限制模式将无法切换回来，您确定要切换吗?"
 
 msgctxt "conflict_map_hit"
 msgid "water or road hits"
@@ -3690,7 +3690,7 @@ msgstr "切换到无限金钱模式"
 
 msgctxt "option_company_switch_no_couplers"
 msgid "Switch to unrestricted coupling"
-msgstr "切换到无车钩种类限制模式"
+msgstr "切换到车厢相接无车钩限制模式"
 
 msgctxt "option_no_cash"
 msgid "Unlimited money"
@@ -3698,7 +3698,7 @@ msgstr "无限金钱"
 
 msgctxt "option_no_couplers"
 msgid "Unrestricted coupling"
-msgstr "无车钩种类限制"
+msgstr "车厢相接无车钩限制"
 
 msgctxt "options"
 msgid "Options"
