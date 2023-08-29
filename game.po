@@ -3,7 +3,7 @@
 
 msgctxt "alerts_pause_game_only_0_delay"
 msgid "Only if delay is 0"
-msgstr "仅当延时为0时"
+msgstr "仅当延迟为0时"
 
 msgctxt "assets_live_update"
 msgid "Live updates"
@@ -11,7 +11,7 @@ msgstr "实时更新"
 
 msgctxt "built_bill"
 msgid "Built objects report"
-msgstr "构建对象报告"
+msgstr "基础设施报告"
 
 msgctxt "constraint_offset2_add"
 msgid "Add"
@@ -27,15 +27,15 @@ msgstr "设"
 
 msgctxt "constraint_platforms"
 msgid "Platforms:"
-msgstr "站台:"
+msgstr "升降级为:"
 
 msgctxt "constraint_platforms_demote"
 msgid "Demote"
-msgstr "降级"
+msgstr "轨道"
 
 msgctxt "constraint_platforms_promote"
 msgid "Promote"
-msgstr "升级"
+msgstr "站台"
 
 msgctxt "dep_grp_destination"
 msgid "Destination"
@@ -67,19 +67,19 @@ msgstr "目的地"
 
 msgctxt "editor_sel_only_buildings"
 msgid "Keep only buildings in the selection"
-msgstr "仅保留选择中的建筑"
+msgstr "仅选择建筑"
 
 msgctxt "editor_sel_only_child_tracks"
 msgid "Keep only parallel child tracks in the selection"
-msgstr "在选择中仅保持平行的子轨道"
+msgstr "仅选择已绑定轨道"
 
 msgctxt "editor_sel_only_parent_tracks"
 msgid "Keep only parallel parent tracks in the selection"
-msgstr "在选择中仅保持平行的父轨道"
+msgstr "仅选择未绑定轨道"
 
 msgctxt "editor_sel_only_tracks"
 msgid "Keep only tracks in the selection"
-msgstr "仅保留选定内容中的轨道"
+msgstr "仅选择轨道"
 
 msgctxt "editor_shapemode_full"
 msgid "Full shapes: tracks are shaped using line segments, circle arcs and clothoids"
@@ -123,11 +123,11 @@ msgstr "轨道:替代站台工具"
 
 msgctxt "lineeditor_adding_sec_stop_s1"
 msgid "Click on tracks to add a new secondary stop point"
-msgstr "单击轨道以添加新的副停车标志"
+msgstr "点击轨道以设置副站台停靠点"
 
 msgctxt "lineeditor_adding_sec_stop_title"
 msgid "Selecting secondary signal"
-msgstr "选择副信号"
+msgstr "选择副站台信号机"
 
 msgctxt "lineeditor_change_stop_basic"
 msgid "Click on station platform arrows to change the stop platform"
@@ -135,23 +135,23 @@ msgstr "点击站台箭头以更改停靠站台"
 
 msgctxt "lineeditor_change_stop_s1"
 msgid "Click on tracks to change stop point"
-msgstr "点击轨道以更改停止点"
+msgstr "点击轨道以更改停靠点"
 
 msgctxt "lineeditor_change_stop_title"
 msgid "Changing stop point"
-msgstr "更改停止点"
+msgstr "更改停靠点"
 
 msgctxt "lineeditor_creating_new_stop_basic"
 msgid "Click on station platform arrows to create new line stops"
-msgstr "点击站台箭头以创建新的线路停靠站"
+msgstr "点击站台箭头为线路新增停靠站"
 
 msgctxt "lineeditor_creating_new_stop_s1"
 msgid "Click on tracks to set the stop point"
-msgstr "点击轨道以设置停止点"
+msgstr "点击轨道为线路设置停靠点"
 
 msgctxt "lineeditor_creating_new_stop_title"
 msgid "Creating new stop"
-msgstr "创建新站点"
+msgstr "创建新停靠站"
 
 msgctxt "lineeditor_facing_tip"
 msgid "Move the mouse to select the facing direction of the train, then click to confirm"
@@ -159,7 +159,7 @@ msgstr "移动鼠标选择列车的朝向，然后单击确认"
 
 msgctxt "lineeditor_new_alt_stop_basic"
 msgid "Click on station platform arrows to create a new secondary platform stop"
-msgstr "单击车站站台箭头以创建新的二级站台停靠站"
+msgstr "点击站台箭头新增副站台"
 
 msgctxt "loader_legacy_rebuild_19"
 msgid "Rebuilding pre-1.9 tracks"
@@ -171,11 +171,11 @@ msgstr "节点模式："
 
 msgctxt "option_company_pax_train_matching"
 msgid "Pax board trains:"
-msgstr "帕克斯板列车："
+msgstr "乘客搭乘列车："
 
 msgctxt "option_company_pax_train_matching_line_stop"
 msgid "Matching line and stop"
-msgstr "匹配行和停止"
+msgstr "匹配线路和车站"
 
 msgctxt "option_company_pax_train_matching_train_run_line_stop"
 msgid "Matching train, run, line and stop"
@@ -183,11 +183,11 @@ msgstr "匹配列车、运行、线路和停车"
 
 msgctxt "refresh_built_report"
 msgid "Refresh built objects report"
-msgstr "刷新生成的对象报告"
+msgstr "刷新已建造基础设施报告"
 
 msgctxt "report_no_built"
 msgid "There are no built objects"
-msgstr "没有构建的对象"
+msgstr "没有已建造基础设施"
 
 msgctxt "reset_boundary"
 msgid "Reset boundary"
@@ -203,7 +203,7 @@ msgstr "注意：轨迹编辑器显示的圆半径只是近似值，可能会偏
 
 msgctxt "reset_boundary_tan"
 msgid "Reset boundary to middle point"
-msgstr "将边界重置为中点"
+msgstr "重置边界至中点"
 
 msgctxt "reset_tangent"
 msgid "Reset tangent"
@@ -223,7 +223,7 @@ msgstr "有限的"
 
 msgctxt "station_platform_promote"
 msgid "Promote track into platform"
-msgstr "将轨道提升为车站"
+msgstr "将轨道升级为车站"
 
 msgctxt "stop_picker_adv"
 msgid "Advanced mode"
@@ -243,7 +243,7 @@ msgstr "切线模式"
 
 msgctxt "warn_straight"
 msgid "Requires exactly 2 tracks"
-msgstr "需要额外的两个轨道"
+msgstr "需要刚好两条轨道"
 
 # ----------------------------------------------------------
 # 1.8.24 及以前版本 字符串
@@ -1022,15 +1022,15 @@ msgstr "确认切换到无限金钱模式"
 
 msgctxt "confirm_set_no_cash_desc"
 msgid "Switching to unlimited money cannot be undone. Are you sure?"
-msgstr "如果切换成无限金钱模式将无法切换回来，您确定要切换吗?"
+msgstr "如果切换到无限金钱模式将无法切换回来，您确定要切换吗?"
 
 msgctxt "confirm_set_no_couplers"
 msgid "Confirm switching to unrestricted coupling"
-msgstr "确认切换至无限制连接"
+msgstr "确认车厢相接无车钩限制"
 
 msgctxt "confirm_set_no_couplers_desc"
 msgid "Switching to unrestricted coupling cannot be undone. Are you sure?"
-msgstr "切换至无限制连接是无法撤销的，您确定吗？"
+msgstr "如果切换到车厢相接无车钩限制模式将无法切换回来，您确定要切换吗?"
 
 msgctxt "conflict_map_hit"
 msgid "water or road hits"
@@ -3690,7 +3690,7 @@ msgstr "切换到无限金钱模式"
 
 msgctxt "option_company_switch_no_couplers"
 msgid "Switch to unrestricted coupling"
-msgstr "切换到无限制连接"
+msgstr "切换到车厢相接无车钩限制模式"
 
 msgctxt "option_no_cash"
 msgid "Unlimited money"
@@ -3698,7 +3698,7 @@ msgstr "无限金钱"
 
 msgctxt "option_no_couplers"
 msgid "Unrestricted coupling"
-msgstr "无限制连接"
+msgstr "车厢相接无车钩限制"
 
 msgctxt "options"
 msgid "Options"
