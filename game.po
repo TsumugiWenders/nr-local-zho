@@ -18,11 +18,11 @@ msgstr "重置模拟"
 
 msgctxt "handicap_game_speed"
 msgid "Handicap: {:.1f}x"
-msgstr "#用途未知#Handicap: {:.1f}x"
+msgstr "Handicap: {:.1f}x"
 
 msgctxt "last_frame_game_speed"
 msgid "Last frame speed: {:.1f}x"
-msgstr "#用途未知#最后一帧速度: {:.1f}x"
+msgstr "最后一帧速度: {:.1f}x"
 
 msgctxt "lineeditor_min_pax_departure_leg_time"
 msgid "Pax min. ride time:"
