@@ -1,4 +1,178 @@
 # ----------------------------------------------------------
+# 1.11.14 版本 新添加字符串
+msgctxt "editor_tip_station_move"
+msgid "Move mouse to start creating the station platform"
+msgstr "移动滑鼠开始建造站台"
+
+msgctxt "full_simulation_reset"
+msgid "Full simulation reset"
+msgstr "完全重置模拟"
+
+msgctxt "full_simulation_reset_desc"
+msgid "All pax will be removed from stations and trains, all trains will be intervened, line and orders timing will be refreshed. Are you sure?"
+msgstr "所有车站和列车上的乘客将被移除，所有列车都将受到干预，线路和线路计时将被刷新，你确定吗？"
+
+msgctxt "full_simulation_reset_yes"
+msgid "Reset simulation"
+msgstr "重置模拟"
+
+msgctxt "handicap_game_speed"
+msgid "Handicap: {:.1f}x"
+msgstr "Handicap: {:.1f}x"
+
+msgctxt "last_frame_game_speed"
+msgid "Last frame speed: {:.1f}x"
+msgstr "Velocidad último frame: {:.1f}x"
+
+msgctxt "lineeditor_min_pax_departure_leg_time"
+msgid "Pax min. ride time:"
+msgstr "Pax tiempo min. en tren:"
+
+msgctxt "lineeditor_min_pax_departure_leg_time_desc"
+msgid "Format: (hh:)mm:ss\nPax will only board the train if they plan to ride it for at least this amount of time,\nnot including the initial wait time."
+msgstr "Formato: (hh:)mm:ss\nLos pax solo entran al tren si planean estar en su interior por al menos esta cantidad de tiempo,\nsin incluir la espera inicial."
+
+msgctxt "lineeditor_stop_boardable"
+msgid "Board"
+msgstr "Entrar"
+
+msgctxt "lineeditor_stop_leaveable"
+msgid "Disembark"
+msgstr "Salir"
+
+msgctxt "lineeditor_stop_no_pax_behavior"
+msgid "Not board or disembark"
+msgstr "No entrar ni salir"
+
+msgctxt "lineeditor_stop_pax_behavior"
+msgid "Allow pax to:"
+msgstr "Permitr a pax:"
+
+msgctxt "lineeditor_tz_custom"
+msgid "Custom"
+msgstr "Custom"
+
+msgctxt "lineeditor_tz_custom_input"
+msgid "Custom time zone:"
+msgstr "Zona horaria custom:"
+
+msgctxt "lineeditor_tz_custom_input_desc"
+msgid "Format: (-)hh:mm:ss"
+msgstr "Formato: (-)hh:mm:ss"
+
+msgctxt "option_company_acc_utc0_offset_s"
+msgid "Accounting time shift:"
+msgstr "Tiempo contable:"
+
+msgctxt "option_company_acc_utc0_offset_s_change"
+msgid "Change accounting day shift time"
+msgstr "Cambiar inicio de tiempo contable"
+
+msgctxt "option_company_acc_utc0_offset_s_change_desc"
+msgid "Current day accounting will be lost and/or incorrect. Proper accounting won't be restablished until 24 hours of in-game time passes. Some historical accounting might be lost. No historical accounting will be time shifted. This setting only applies starting at the moment it is changed. Are you sure?"
+msgstr "La contabilidad del día actual se perderá o será incorrecta. Hay que esperar 24h hasta que se corrija la contabilidad. Es posible que se pierda alguna contabilidad. La contabilidad histórica no será corregida. Esta opción solo se aplica desde el momento en que se activa. Estás seguro?"
+
+msgctxt "option_company_acc_utc0_offset_s_change_yes"
+msgid "Change time"
+msgstr "Cambiar tiempo"
+
+msgctxt "option_company_acc_utc0_offset_s_desc"
+msgid "Format: (-)hh:mm:ss\nAccounting new day will be considered to start at this shifted time relative to UTC0"
+msgstr "Formato: (-)hh:mm:ss\nEl inicio de un nuevo día contable se corresponde a UTC0 mas esta cantidad de tiempo"
+
+msgctxt "option_company_pax_pf_bias"
+msgid "Pax pathfind bias:"
+msgstr "Bias de pax pathfind:"
+
+msgctxt "option_company_pax_pf_bias_less"
+msgid "Better paths"
+msgstr "Mejor recorrido"
+
+msgctxt "option_company_pax_pf_bias_more"
+msgid "Faster sim"
+msgstr "Mas rendimiento"
+
+msgctxt "option_company_time_zones"
+msgid "Map time zones:"
+msgstr "Zonas horarias:"
+
+msgctxt "option_company_time_zones_approximate"
+msgid "Approximate"
+msgstr "Aproximadas"
+
+msgctxt "option_company_time_zones_change"
+msgid "Change map time zones mode"
+msgstr "Cambiar modo de zona horaria"
+
+msgctxt "option_company_time_zones_simplified"
+msgid "Simplified"
+msgstr "Simplificadas"
+
+msgctxt "option_company_time_zones_zero"
+msgid "Always 0"
+msgstr "Siempre 0"
+
+msgctxt "options_performance"
+msgid "Performance"
+msgstr "Rendimiento"
+
+msgctxt "perf_bg_fps"
+msgid "Background UI FPS:"
+msgstr "FPS UI de fondo:"
+
+msgctxt "perf_fg_fps"
+msgid "Foreground UI FPS:"
+msgstr "FPS UI activo:"
+
+msgctxt "perf_fps_limited"
+msgid "Manual limit"
+msgstr "Límite manual"
+
+msgctxt "perf_fps_unlimited"
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+msgctxt "perf_fps_vsync"
+msgid "Limited by VSync"
+msgstr "Limitado por VSync"
+
+msgctxt "perf_linenet_threads"
+msgid "Timetable CPU threads:"
+msgstr "Threads CPU horarios:"
+
+msgctxt "perf_sim_threads"
+msgid "Sim CPU threads:"
+msgstr "Threads CPU simulación:"
+
+msgctxt "setting_game_speed"
+msgid "Speed setting: {}x"
+msgstr "Velocidad: {}x"
+
+msgctxt "train_rt_pax"
+msgid "Pax"
+msgstr "Pax"
+
+msgctxt "traineditor_order_start_time_day_on"
+msgid "On:"
+msgstr "Los:"
+
+msgctxt "traineditor_restrict_trains_map"
+msgid "Restrict listing to visible trains on map (approximately)"
+msgstr "Restringir listado a los trenes visibles (aproximadamente)"
+
+msgctxt "traineditor_tz_custom"
+msgid "Custom"
+msgstr "Custom"
+
+msgctxt "traineditor_tz_custom_input"
+msgid "Custom time zone:"
+msgstr "Zona horaria custom:"
+
+msgctxt "traineditor_tz_custom_input_desc"
+msgid "Format: (-)hh:mm:ss"
+msgstr "Formato: (-)hh:mm:ss"
+
+# ----------------------------------------------------------
 # 1.10.16 版本 新添加字符串
 
 msgctxt "all"
@@ -469,8 +643,8 @@ msgid "Scheduled stop"
 msgstr "停靠时间"
 
 msgctxt "accounting_utc_warn"
-msgid "Accounting time: {} UTC0"
-msgstr "财务时间: {} UTC-0"
+msgid "Accounting time: {}"
+msgstr "财务时间: {}"
 
 msgctxt "accounting_week_title"
 msgid "Week of {0} {1} {2}"
@@ -2057,20 +2231,20 @@ msgid "Detecting public IP..."
 msgstr "正在检测 IP 地址……"
 
 msgctxt "host_sim_mode"
-msgid "Simulation:"
-msgstr "模拟:"
+msgid "Clock and bank:"
+msgstr "时间与金钱:"
 
 msgctxt "host_sim_mode_private"
-msgid "Private"
-msgstr "私有"
+msgid "Private for each player"
+msgstr "各自模拟"
 
 msgctxt "host_sim_mode_private_desc"
 msgid "Time, train motion and pax simulation is independent for each client.\nTracks, lines and trains are edited cooperatively.\nScales to larger build sizes than shared simulation.\nGames are always set to unlimited money."
-msgstr "每个玩家的时间、列车运动和乘客模拟都是独立的。\n轨道、线路和列车可协同编辑。\n缩放到比共享模拟更大的构建尺寸。\n游戏总是设置为无限金钱。"
+msgstr "每个玩家的时间、列车运动和乘客模拟都是独立的。\n轨道、线路和列车可协同编辑。\n比完全同步更适合大构建尺寸。\n强制启用无限金钱。"
 
 msgctxt "host_sim_mode_shared"
-msgid "Shared"
-msgstr "公共"
+msgid "Shared between all players"
+msgstr "完全同步"
 
 msgctxt "host_sim_mode_shared_desc"
 msgid "Time, train motion and pax simulation is shared and synchronized between all clients.\nTracks, lines and trains are edited cooperatively."
