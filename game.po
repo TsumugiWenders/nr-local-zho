@@ -1,4 +1,178 @@
 # ----------------------------------------------------------
+# 1.11.14 版本 新添加字符串
+msgctxt "editor_tip_station_move"
+msgid "Move mouse to start creating the station platform"
+msgstr "移动滑鼠开始建造站台"
+
+msgctxt "full_simulation_reset"
+msgid "Full simulation reset"
+msgstr "完全重置模拟"
+
+msgctxt "full_simulation_reset_desc"
+msgid "All pax will be removed from stations and trains, all trains will be intervened, line and orders timing will be refreshed. Are you sure?"
+msgstr "所有车站和列车上的乘客将被移除，所有列车都将受到干预，线路和线路计时将被刷新，你确定吗？"
+
+msgctxt "full_simulation_reset_yes"
+msgid "Reset simulation"
+msgstr "重置模拟"
+
+msgctxt "handicap_game_speed"
+msgid "Handicap: {:.1f}x"
+msgstr "Handicap: {:.1f}x"
+
+msgctxt "last_frame_game_speed"
+msgid "Last frame speed: {:.1f}x"
+msgstr "最后一帧速度: {:.1f}x"
+
+msgctxt "lineeditor_min_pax_departure_leg_time"
+msgid "Pax min. ride time:"
+msgstr "乘客最低乘搭时间:"
+
+msgctxt "lineeditor_min_pax_departure_leg_time_desc"
+msgid "Format: (hh:)mm:ss\nPax will only board the train if they plan to ride it for at least this amount of time,\nnot including the initial wait time."
+msgstr "格式: (hh:)mm:ss\n乘客计划乘车时间大于该时间才会上车，\n不含候车时间。"
+
+msgctxt "lineeditor_stop_boardable"
+msgid "Board"
+msgstr "上车"
+
+msgctxt "lineeditor_stop_leaveable"
+msgid "Disembark"
+msgstr "下车"
+
+msgctxt "lineeditor_stop_no_pax_behavior"
+msgid "Not board or disembark"
+msgstr "不允许上下车"
+
+msgctxt "lineeditor_stop_pax_behavior"
+msgid "Allow pax to:"
+msgstr "允许乘客:"
+
+msgctxt "lineeditor_tz_custom"
+msgid "Custom"
+msgstr "自定义"
+
+msgctxt "lineeditor_tz_custom_input"
+msgid "Custom time zone:"
+msgstr "自定义时区:"
+
+msgctxt "lineeditor_tz_custom_input_desc"
+msgid "Format: (-)hh:mm:ss"
+msgstr "格式: (-)hh:mm:ss"
+
+msgctxt "option_company_acc_utc0_offset_s"
+msgid "Accounting time shift:"
+msgstr "会计时间偏移:"
+
+msgctxt "option_company_acc_utc0_offset_s_change"
+msgid "Change accounting day shift time"
+msgstr "更改会计日时间偏移"
+
+msgctxt "option_company_acc_utc0_offset_s_change_desc"
+msgid "Current day accounting will be lost and/or incorrect. Proper accounting won't be restablished until 24 hours of in-game time passes. Some historical accounting might be lost. No historical accounting will be time shifted. This setting only applies starting at the moment it is changed. Are you sure?"
+msgstr "本会计日数据将会丢失或不正确，在游戏时间流动24小时之前，无法重新建立正确的会计数据。一些历史会计数据可能会丢失，历史会计数据不会发生偏移，此设置仅在应用时开始生效。你确定吗？"
+
+msgctxt "option_company_acc_utc0_offset_s_change_yes"
+msgid "Change time"
+msgstr "更改时间偏移"
+
+msgctxt "option_company_acc_utc0_offset_s_desc"
+msgid "Format: (-)hh:mm:ss\nAccounting new day will be considered to start at this shifted time relative to UTC0"
+msgstr "格式: (-)hh:mm:ss\n新会计日将从已偏移的时间(相对于UTC+0)开始"
+
+msgctxt "option_company_pax_pf_bias"
+msgid "Pax pathfind bias:"
+msgstr "乘客寻路偏好:"
+
+msgctxt "option_company_pax_pf_bias_less"
+msgid "Better paths"
+msgstr "更佳路径"
+
+msgctxt "option_company_pax_pf_bias_more"
+msgid "Faster sim"
+msgstr "更快速模拟"
+
+msgctxt "option_company_time_zones"
+msgid "Map time zones:"
+msgstr "地图时区分界:"
+
+msgctxt "option_company_time_zones_approximate"
+msgid "Approximate"
+msgstr "近似"
+
+msgctxt "option_company_time_zones_change"
+msgid "Change map time zones mode"
+msgstr "更改地图时区分界"
+
+msgctxt "option_company_time_zones_simplified"
+msgid "Simplified"
+msgstr "简化"
+
+msgctxt "option_company_time_zones_zero"
+msgid "Always 0"
+msgstr "永远UTC+0"
+
+msgctxt "options_performance"
+msgid "Performance"
+msgstr "性能"
+
+msgctxt "perf_bg_fps"
+msgid "Background UI FPS:"
+msgstr "后台UI帧率:"
+
+msgctxt "perf_fg_fps"
+msgid "Foreground UI FPS:"
+msgstr "前端UI帧率:"
+
+msgctxt "perf_fps_limited"
+msgid "Manual limit"
+msgstr "手动限制"
+
+msgctxt "perf_fps_unlimited"
+msgid "Unlimited"
+msgstr "无限制"
+
+msgctxt "perf_fps_vsync"
+msgid "Limited by VSync"
+msgstr "受垂直同步限制"
+
+msgctxt "perf_linenet_threads"
+msgid "Timetable CPU threads:"
+msgstr "时刻表CPU线程:"
+
+msgctxt "perf_sim_threads"
+msgid "Sim CPU threads:"
+msgstr "模拟CPU线程:"
+
+msgctxt "setting_game_speed"
+msgid "Speed setting: {}x"
+msgstr "速度设置: {}x"
+
+msgctxt "train_rt_pax"
+msgid "Pax"
+msgstr "乘客"
+
+msgctxt "traineditor_order_start_time_day_on"
+msgid "On:"
+msgstr "周:"
+
+msgctxt "traineditor_restrict_trains_map"
+msgid "Restrict listing to visible trains on map (approximately)"
+msgstr "仅列出地图上可见的列车（近似）"
+
+msgctxt "traineditor_tz_custom"
+msgid "Custom"
+msgstr "自定义"
+
+msgctxt "traineditor_tz_custom_input"
+msgid "Custom time zone:"
+msgstr "自定义时区:"
+
+msgctxt "traineditor_tz_custom_input_desc"
+msgid "Format: (-)hh:mm:ss"
+msgstr "格式: (-)hh:mm:ss"
+
+# ----------------------------------------------------------
 # 1.10.16 版本 新添加字符串
 
 msgctxt "all"
@@ -23,7 +197,7 @@ msgstr "轨道:选择父轨道"
 
 msgctxt "lineeditor_restrict_lines_map"
 msgid "Restrict listing to visible lines on map (approximately)"
-msgstr "将列表限制为地图上的可见线（大约）"
+msgstr "仅列出地图上可见的线路（近似）"
 
 msgctxt "map_hillshade_pos"
 msgid "Hillshading:"
@@ -469,8 +643,8 @@ msgid "Scheduled stop"
 msgstr "停靠时间"
 
 msgctxt "accounting_utc_warn"
-msgid "Accounting time: {} UTC0"
-msgstr "财务时间: {} UTC-0"
+msgid "Accounting time: {}"
+msgstr "财务时间: {}"
 
 msgctxt "accounting_week_title"
 msgid "Week of {0} {1} {2}"
@@ -2057,20 +2231,20 @@ msgid "Detecting public IP..."
 msgstr "正在检测 IP 地址……"
 
 msgctxt "host_sim_mode"
-msgid "Simulation:"
-msgstr "模拟:"
+msgid "Clock and bank:"
+msgstr "时间与金钱:"
 
 msgctxt "host_sim_mode_private"
-msgid "Private"
-msgstr "私有"
+msgid "Private for each player"
+msgstr "各自模拟"
 
 msgctxt "host_sim_mode_private_desc"
 msgid "Time, train motion and pax simulation is independent for each client.\nTracks, lines and trains are edited cooperatively.\nScales to larger build sizes than shared simulation.\nGames are always set to unlimited money."
-msgstr "每个玩家的时间、列车运动和乘客模拟都是独立的。\n轨道、线路和列车可协同编辑。\n缩放到比共享模拟更大的构建尺寸。\n游戏总是设置为无限金钱。"
+msgstr "每个玩家的时间、列车运动和乘客模拟都是独立的。\n轨道、线路和列车可协同编辑。\n比完全同步更适合大构建尺寸。\n强制启用无限金钱。"
 
 msgctxt "host_sim_mode_shared"
-msgid "Shared"
-msgstr "公共"
+msgid "Shared between all players"
+msgstr "完全同步"
 
 msgctxt "host_sim_mode_shared_desc"
 msgid "Time, train motion and pax simulation is shared and synchronized between all clients.\nTracks, lines and trains are edited cooperatively."
