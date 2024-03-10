@@ -62,23 +62,23 @@ msgstr "格式: (-)hh:mm:ss"
 
 msgctxt "option_company_acc_utc0_offset_s"
 msgid "Accounting time shift:"
-msgstr "#用途未知#会计时间偏移:"
+msgstr "会计时间偏移:"
 
 msgctxt "option_company_acc_utc0_offset_s_change"
 msgid "Change accounting day shift time"
-msgstr "#用途未知#更改会计日期偏移"
+msgstr "更改会计日时间偏移"
 
 msgctxt "option_company_acc_utc0_offset_s_change_desc"
 msgid "Current day accounting will be lost and/or incorrect. Proper accounting won't be restablished until 24 hours of in-game time passes. Some historical accounting might be lost. No historical accounting will be time shifted. This setting only applies starting at the moment it is changed. Are you sure?"
-msgstr "本日会计数据将会丢失或不正确，在游戏时间流动24小时之前，无法重新建立正确的会计数据。一些历史会计数据可能会丢失，历史会计数据不会发生偏移，此设置仅在应用时开始生效。你确定吗？"
+msgstr "本会计日数据将会丢失或不正确，在游戏时间流动24小时之前，无法重新建立正确的会计数据。一些历史会计数据可能会丢失，历史会计数据不会发生偏移，此设置仅在应用时开始生效。你确定吗？"
 
 msgctxt "option_company_acc_utc0_offset_s_change_yes"
 msgid "Change time"
-msgstr "#用途未知#更改时间"
+msgstr "更改时间偏移"
 
 msgctxt "option_company_acc_utc0_offset_s_desc"
 msgid "Format: (-)hh:mm:ss\nAccounting new day will be considered to start at this shifted time relative to UTC0"
-msgstr "#用途未知#格式: (-)hh:mm:ss\n新会计日将被视为从已偏移的时间(相对于UTC+0)开始"
+msgstr "格式: (-)hh:mm:ss\n新会计日将从已偏移的时间(相对于UTC+0)开始"
 
 msgctxt "option_company_pax_pf_bias"
 msgid "Pax pathfind bias:"
@@ -94,7 +94,7 @@ msgstr "更快速模拟"
 
 msgctxt "option_company_time_zones"
 msgid "Map time zones:"
-msgstr "地图时区:"
+msgstr "地图时区分界:"
 
 msgctxt "option_company_time_zones_approximate"
 msgid "Approximate"
@@ -102,7 +102,7 @@ msgstr "近似"
 
 msgctxt "option_company_time_zones_change"
 msgid "Change map time zones mode"
-msgstr "更改地图时区模式"
+msgstr "更改地图时区分界"
 
 msgctxt "option_company_time_zones_simplified"
 msgid "Simplified"
@@ -118,11 +118,11 @@ msgstr "性能"
 
 msgctxt "perf_bg_fps"
 msgid "Background UI FPS:"
-msgstr "后台UI FPS:"
+msgstr "后台UI帧率:"
 
 msgctxt "perf_fg_fps"
 msgid "Foreground UI FPS:"
-msgstr "前端UI FPS:"
+msgstr "前端UI帧率:"
 
 msgctxt "perf_fps_limited"
 msgid "Manual limit"
