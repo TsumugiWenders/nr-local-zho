@@ -1,370 +1,280 @@
 # ----------------------------------------------------------
-# 1.11.14 版本 新添加字符串
-msgctxt "editor_tip_station_move"
-msgid "Move mouse to start creating the station platform"
-msgstr "移动滑鼠开始建造站台"
+# 1.12.11 版本 新添加字符串
 
-msgctxt "full_simulation_reset"
-msgid "Full simulation reset"
-msgstr "完全重置模拟"
+msgctxt "building_poi_curve"
+msgid "Demand curve:"
+msgstr "需求曲线:"
 
-msgctxt "full_simulation_reset_desc"
-msgid "All pax will be removed from stations and trains, all trains will be intervened, line and orders timing will be refreshed. Are you sure?"
-msgstr "所有车站和列车上的乘客将被移除，所有列车都将受到干预，线路和线路计时将被刷新，你确定吗？"
+msgctxt "building_poi_pop"
+msgid "Population:"
+msgstr "人口:"
 
-msgctxt "full_simulation_reset_yes"
-msgid "Reset simulation"
-msgstr "重置模拟"
+msgctxt "confirm_clip_unknown_desc_2d"
+msgid "One or more objects in the clip references an unknown demand curve:\n"
+msgstr "素材中的一个或多个对象引用了未知的需求曲线：\n"
 
-msgctxt "handicap_game_speed"
-msgid "Handicap: {:.1f}x"
-msgstr "Handicap: {:.1f}x"
+msgctxt "demand_cache_warmup"
+msgid "Warming up tile pax path cache, game speed is limited\nIf perfomance does not improve consider selecting Random spawn station mode in Company options"
+msgstr "正在加载乘客路径缓存，游戏速度已被限制\n如果性能没有改善，请考虑在公司-乘客在车站生成模式设为随机"
 
-msgctxt "last_frame_game_speed"
-msgid "Last frame speed: {:.1f}x"
-msgstr "最后一帧速度: {:.1f}x"
+msgctxt "demand_clone"
+msgid "Clone demand curve"
+msgstr "复制需求曲线"
 
-msgctxt "lineeditor_min_pax_departure_leg_time"
-msgid "Pax min. ride time:"
-msgstr "乘客最低乘搭时间:"
+msgctxt "demand_curve_disabled"
+msgid "<Disabled>"
+msgstr "<禁用>"
 
-msgctxt "lineeditor_min_pax_departure_leg_time_desc"
-msgid "Format: (hh:)mm:ss\nPax will only board the train if they plan to ride it for at least this amount of time,\nnot including the initial wait time."
-msgstr "格式: (hh:)mm:ss\n乘客计划乘车时间大于该时间才会上车，\n不含候车时间。"
+msgctxt "demand_default_name"
+msgid "Population"
+msgstr "人口:"
 
-msgctxt "lineeditor_stop_boardable"
-msgid "Board"
-msgstr "上车"
+msgctxt "demand_delete"
+msgid "Delete selected demand curve"
+msgstr "删除选定的需求曲线"
 
-msgctxt "lineeditor_stop_leaveable"
-msgid "Disembark"
-msgstr "下车"
+msgctxt "demand_editor_focus_dest"
+msgid "Destination"
+msgstr "目的地"
 
-msgctxt "lineeditor_stop_no_pax_behavior"
-msgid "Not board or disembark"
-msgstr "不允许上下车"
+msgctxt "demand_editor_focus_distance"
+msgid "Distance"
+msgstr "距离"
 
-msgctxt "lineeditor_stop_pax_behavior"
-msgid "Allow pax to:"
-msgstr "允许乘客:"
+msgctxt "demand_editor_focus_info"
+msgid "Info"
+msgstr "信息"
 
-msgctxt "lineeditor_tz_custom"
-msgid "Custom"
-msgstr "自定义"
+msgctxt "demand_editor_focus_origin"
+msgid "Origin"
+msgstr "出发地"
 
-msgctxt "lineeditor_tz_custom_input"
-msgid "Custom time zone:"
-msgstr "自定义时区:"
+msgctxt "demand_editor_focus_range0"
+msgid "0 km to 95 km"
+msgstr "0 km - 95 km"
 
-msgctxt "lineeditor_tz_custom_input_desc"
-msgid "Format: (-)hh:mm:ss"
-msgstr "格式: (-)hh:mm:ss"
+msgctxt "demand_editor_title"
+msgid "Demand curves editor"
+msgstr "需求曲线编辑器"
 
-msgctxt "option_company_acc_utc0_offset_s"
-msgid "Accounting time shift:"
-msgstr "会计时间偏移:"
+msgctxt "demand_export"
+msgid "Export to TSV file"
+msgstr "导出到 TSV 文件"
 
-msgctxt "option_company_acc_utc0_offset_s_change"
-msgid "Change accounting day shift time"
-msgstr "更改会计日时间偏移"
+msgctxt "demand_import_new"
+msgid "Import new demand curve from TSV file"
+msgstr "从 TSV 文件导入需求曲线"
 
-msgctxt "option_company_acc_utc0_offset_s_change_desc"
-msgid "Current day accounting will be lost and/or incorrect. Proper accounting won't be restablished until 24 hours of in-game time passes. Some historical accounting might be lost. No historical accounting will be time shifted. This setting only applies starting at the moment it is changed. Are you sure?"
-msgstr "本会计日数据将会丢失或不正确，在游戏时间流动24小时之前，无法重新建立正确的会计数据。一些历史会计数据可能会丢失，历史会计数据不会发生偏移，此设置仅在应用时开始生效。你确定吗？"
+msgctxt "demand_import_replace"
+msgid "Replace with curve from TSV file"
+msgstr "替换为 TSV 文件中的需求曲线"
 
-msgctxt "option_company_acc_utc0_offset_s_change_yes"
-msgid "Change time"
-msgstr "更改时间偏移"
+msgctxt "demand_info_file_ops"
+msgid "Export and replace"
+msgstr "导出和替换"
 
-msgctxt "option_company_acc_utc0_offset_s_desc"
-msgid "Format: (-)hh:mm:ss\nAccounting new day will be considered to start at this shifted time relative to UTC0"
-msgstr "格式: (-)hh:mm:ss\n新会计日将从已偏移的时间(相对于UTC+0)开始"
+msgctxt "demand_info_move_pois"
+msgid "Bulk change POIs into a different curve"
+msgstr "将 POI 批量更改为不同的需求曲线"
 
-msgctxt "option_company_pax_pf_bias"
-msgid "Pax pathfind bias:"
-msgstr "乘客寻路偏好:"
+msgctxt "demand_info_move_pois_but"
+msgid "Change all POIs"
+msgstr "更改所有 POI"
 
-msgctxt "option_company_pax_pf_bias_less"
-msgid "Better paths"
-msgstr "更佳路径"
+msgctxt "demand_info_move_pois_label"
+msgid "Change to:"
+msgstr "更改为:"
 
-msgctxt "option_company_pax_pf_bias_more"
-msgid "Faster sim"
-msgstr "更快速模拟"
+msgctxt "demand_info_name"
+msgid "Name:"
+msgstr "名称:"
 
-msgctxt "option_company_time_zones"
-msgid "Map time zones:"
-msgstr "地图时区分界:"
+msgctxt "demand_info_poi"
+msgid "Points of interest:"
+msgstr "信息点:"
 
-msgctxt "option_company_time_zones_approximate"
-msgid "Approximate"
-msgstr "近似"
+msgctxt "demand_info_pop"
+msgid "Population:"
+msgstr "人口:"
 
-msgctxt "option_company_time_zones_change"
-msgid "Change map time zones mode"
-msgstr "更改地图时区分界"
+msgctxt "demand_pax_spawn"
+msgid "{} new pax/min."
+msgstr "{} 新乘客/分钟"
 
-msgctxt "option_company_time_zones_simplified"
-msgid "Simplified"
-msgstr "简化"
+msgctxt "demand_rebuild_tp"
+msgid "Rebuilding demand data..."
+msgstr "重建需求数据中…"
 
-msgctxt "option_company_time_zones_zero"
-msgid "Always 0"
-msgstr "永远UTC+0"
+msgctxt "demand_replace_default"
+msgid "Replace with default curve"
+msgstr "重置为默认需求曲线"
 
-msgctxt "options_performance"
-msgid "Performance"
-msgstr "性能"
+msgctxt "demand_replace_file"
+msgid "Replace from TSV file"
+msgstr "从 TSV 文件导入需求曲线"
 
-msgctxt "perf_bg_fps"
-msgid "Background UI FPS:"
-msgstr "后台UI帧率:"
+msgctxt "demand_time_copy_day"
+msgid "Copy day"
+msgstr "复制日期"
 
-msgctxt "perf_fg_fps"
-msgid "Foreground UI FPS:"
-msgstr "前端UI帧率:"
+msgctxt "demand_time_paste_day"
+msgid "Paste day"
+msgstr "粘贴日期"
 
-msgctxt "perf_fps_limited"
-msgid "Manual limit"
-msgstr "手动限制"
+msgctxt "demand_time_set_0"
+msgid "All 0%"
+msgstr "全部 0%"
 
-msgctxt "perf_fps_unlimited"
-msgid "Unlimited"
-msgstr "无限制"
+msgctxt "demand_time_set_100"
+msgid "All 100%"
+msgstr "全部 100%"
 
-msgctxt "perf_fps_vsync"
-msgid "Limited by VSync"
-msgstr "受垂直同步限制"
+msgctxt "editor_poi"
+msgid "Create new points of interest and signs"
+msgstr "创建新的信息点和标志"
 
-msgctxt "perf_linenet_threads"
-msgid "Timetable CPU threads:"
-msgstr "时刻表CPU线程:"
+msgctxt "editor_tip_new_poi_left"
+msgid "Left click to create a new point of interest or sign"
+msgstr "左键单击可创建新的信息点和标志"
 
-msgctxt "perf_sim_threads"
-msgid "Sim CPU threads:"
-msgstr "模拟CPU线程:"
+msgctxt "fmt_copy_of"
+msgid "Copy of {}"
+msgstr "复制 {}"
 
-msgctxt "setting_game_speed"
-msgid "Speed setting: {}x"
-msgstr "速度设置: {}x"
+msgctxt "info_company_active_tiles"
+msgid "Active pax tiles:"
+msgstr "活动乘客平铺显示:"
 
-msgctxt "train_rt_pax"
-msgid "Pax"
-msgstr "乘客"
+msgctxt "info_table_pax_location"
+msgid "Location"
+msgstr "位置"
 
-msgctxt "traineditor_order_start_time_day_on"
-msgid "On:"
-msgstr "周:"
+msgctxt "info_table_pax_location_tp"
+msgid "Current location"
+msgstr "当前位置"
 
-msgctxt "traineditor_restrict_trains_map"
-msgid "Restrict listing to visible trains on map (approximately)"
-msgstr "仅列出地图上可见的列车（近似）"
+msgctxt "info_table_station_city_tp"
+msgid "Group by city"
+msgstr "按城市分组"
 
-msgctxt "traineditor_tz_custom"
-msgid "Custom"
-msgstr "自定义"
+msgctxt "info_table_station_dist_tp"
+msgid "Sort by distance"
+msgstr "按距离排序"
 
-msgctxt "traineditor_tz_custom_input"
-msgid "Custom time zone:"
-msgstr "自定义时区:"
+msgctxt "mod_poi_layer_options_title"
+msgid "Mod POI layer options"
+msgstr "模组 POI 层选项"
 
-msgctxt "traineditor_tz_custom_input_desc"
-msgid "Format: (-)hh:mm:ss"
-msgstr "格式: (-)hh:mm:ss"
+msgctxt "mplo_default_demand"
+msgid "<Controlled by the mod>"
+msgstr "<由模组控制>"
+
+msgctxt "mplo_demand_curve"
+msgid "Demand curve:"
+msgstr "需求曲线:"
+
+msgctxt "mplo_hidden"
+msgid "Hidden"
+msgstr "隐藏"
+
+msgctxt "mplo_icons_only"
+msgid "Icons only"
+msgstr "仅图标"
+
+msgctxt "mplo_labels_and_icons"
+msgid "Labels and icons"
+msgstr "标签和图标"
+
+msgctxt "mplo_map_vis"
+msgid "Map display:"
+msgstr "地图显示:"
+
+msgctxt "mvo_mod_poi_labels"
+msgid "POI mod labels"
+msgstr "POI 模组标签"
+
+msgctxt "option_company_demand_editor"
+msgid "Demand curve editor"
+msgstr "需求曲线编辑器"
+
+msgctxt "option_company_mod_poi_layer_editor"
+msgid "Mod POI layer options"
+msgstr "模组 POI 层选项"
+
+msgctxt "option_company_pax_spawn_station_pick"
+msgid "Pax spawn station:"
+msgstr "乘客在车站生成"
+
+msgctxt "option_company_pax_spawn_station_random"
+msgid "Random"
+msgstr "随机"
+
+msgctxt "option_company_pax_spawn_station_shortest_walk"
+msgid "Shortest walk"
+msgstr "最短步行"
+
+msgctxt "option_company_pax_spawn_station_shortest_walk_best_path"
+msgid "Shortest walk, best path"
+msgstr "最优路径"
+
+msgctxt "pax_total_demand"
+msgid "Total: {0}"
+msgstr "全部: {0}"
+
+msgctxt "pax_total_demand_as_destination"
+msgid "As destination: {0}"
+msgstr "目的地: {0}"
+
+msgctxt "pax_total_demand_as_origin"
+msgid "As origin: {0}"
+msgstr "出发地: {0}"
+
+msgctxt "poi_instance_editor"
+msgid "Point of interest properties"
+msgstr "信息点属性"
+
+msgctxt "poi_instance_editor_new"
+msgid "New point of interest properties"
+msgstr "新的信息点属性"
+
+msgctxt "sign_instance_editor"
+msgid "Sign properties"
+msgstr "标志属性"
+
+msgctxt "sign_instance_editor_new"
+msgid "New sign properties"
+msgstr "新的标志属性"
+
+msgctxt "station_demand_aggregate"
+msgid "Aggregate"
+msgstr "合计"
+
+msgctxt "station_demand_aggregated_started_at"
+msgid "Started at {}"
+msgstr "开始于 {}"
+
+msgctxt "station_demand_realtime"
+msgid "Realtime"
+msgstr "实时"
+
+msgctxt "station_infowin_demand"
+msgid "Ridership"
+msgstr "客流量"
+
+msgctxt "station_rt_demand_dest"
+msgid "As destination"
+msgstr "目的地"
+
+msgctxt "station_rt_demand_origin"
+msgid "As origin"
+msgstr "出发地"
+
+msgctxt "waiting_at_station"
+msgid "Waiting at station"
+msgstr "候车"
 
 # ----------------------------------------------------------
-# 1.10.16 版本 新添加字符串
-
-msgctxt "all"
-msgid "All"
-msgstr "全部"
-
-msgctxt "error_cannot_delete_save"
-msgid "Cannot delete old save for overwriting: "
-msgstr "无法覆盖旧存档:"
-
-msgctxt "error_cannot_open_temp_file"
-msgid "Cannot open temporary file: "
-msgstr "无法打开临时文件:"
-
-msgctxt "error_cannot_rename_save"
-msgid "Cannot rename temporary file: {} into {} "
-msgstr "无法重命名临时文件: {} 至 {}"
-
-msgctxt "kb_track_pick_parent"
-msgid "Tracks: pick par. parent"
-msgstr "轨道:选择父轨道"
-
-msgctxt "lineeditor_restrict_lines_map"
-msgid "Restrict listing to visible lines on map (approximately)"
-msgstr "仅列出地图上可见的线路（近似）"
-
-msgctxt "map_hillshade_pos"
-msgid "Hillshading:"
-msgstr "阴影:"
-
-msgctxt "map_hillshade_pos_0"
-msgid "Under ground"
-msgstr "地下"
-
-msgctxt "map_hillshade_pos_1"
-msgid "Over ground"
-msgstr "地上"
-
-msgctxt "map_land_alpha"
-msgid "Land background mix:"
-msgstr "土地背景混合:"
-
-msgctxt "map_land_hsv_sat"
-msgid "Land HSV saturation:"
-msgstr "土地HSV饱和度:"
-
-msgctxt "map_option_font"
-msgid "Label font size:"
-msgstr "标签字号:"
-
-msgctxt "map_option_font_0"
-msgid "Small"
-msgstr "小"
-
-msgctxt "map_option_font_1"
-msgid "Default"
-msgstr "标准"
-
-msgctxt "map_option_font_2"
-msgid "Big"
-msgstr "大"
-
-msgctxt "map_option_font_3"
-msgid "Huge"
-msgstr "巨大"
-
-msgctxt "map_show_land_tex_max_zoom"
-msgid "Show land texture at max zoom"
-msgstr "在最大缩放时显示土地纹理"
-
-msgctxt "map_style_mods"
-msgid "Map style mods"
-msgstr "地图样式模组"
-
-msgctxt "map_style_show_in_panel"
-msgid "Show in map options panel"
-msgstr "在地图选项中显示"
-
-msgctxt "mod_less_prio"
-msgid "Less priority"
-msgstr "低优先"
-
-msgctxt "mod_more_prio"
-msgid "More priority"
-msgstr "高优先"
-
-msgctxt "mvo_toggle_map_style_mods"
-msgid "Map style mods:"
-msgstr "地图样式模组:"
-
-msgctxt "mvo_track_editor_always_on_top"
-msgid "Track editor always on top"
-msgstr "轨道永远在最上层"
-
-msgctxt "mvo_user_track_depth_bridge"
-msgid "Map bridges over track layers"
-msgstr "地图桥梁在轨道上方显示"
-
-msgctxt "option_company_pax_train_matching_strict"
-msgid "If same line, within the run"
-msgstr "如果是相同线路，直接运行"
-
-msgctxt "option_company_pax_train_matching_train_pf"
-msgid "Any, bounded by leg time"
-msgstr "任意,受运行事件限制"
-
-msgctxt "options_alerts"
-msgid "Alerts"
-msgstr "警报"
-
-msgctxt "options_autosave"
-msgid "Autosave"
-msgstr "自动保存"
-
-msgctxt "options_interface"
-msgid "Interface"
-msgstr "界面"
-
-msgctxt "options_map"
-msgid "Map"
-msgstr "地图"
-
-msgctxt "osm_admin_level_11"
-msgid "Neighborhood"
-msgstr "街区"
-
-msgctxt "poi_settlement_0"
-msgid "Capital"
-msgstr "首都"
-
-msgctxt "poi_settlement_1"
-msgid "City"
-msgstr "城市"
-
-msgctxt "poi_settlement_2"
-msgid "Town"
-msgstr "城镇"
-
-msgctxt "poi_settlement_3"
-msgid "Suburb"
-msgstr "郊区"
-
-msgctxt "poi_settlement_4"
-msgid "Quarter"
-msgstr "城区"
-
-msgctxt "poi_settlement_5"
-msgid "Neighbourhood"
-msgstr "街区"
-
-msgctxt "poi_settlement_6"
-msgid "Village"
-msgstr "村庄"
-
-msgctxt "poi_settlement_7"
-msgid "Hamlet"
-msgstr "小村庄"
-
-msgctxt "poi_settlement_8"
-msgid "Dwelling"
-msgstr "住所"
-
-msgctxt "poi_settlement_9"
-msgid "Farm"
-msgstr "农场"
-
-msgctxt "renderer_dx12"
-msgid "DirectX 12"
-msgstr "DirectX 12"
-
-msgctxt "renderer_vulkan"
-msgid "Vulkan"
-msgstr "Vulkan"
-
-msgctxt "station_platform_set_name_all"
-msgid "All"
-msgstr "全部"
-
-msgctxt "timing_lines_n"
-msgid "Timing line legs, {} to go"
-msgstr "正在验证车站，还剩{}"
-
-msgctxt "trackeditor_clickable_tracks"
-msgid "Clickable tracks"
-msgstr "可点击轨道"
-
-msgctxt "warn_alpha_renderer1"
-msgid "Experimental renderer! Only use if DirectX 11 crashes often."
-msgstr "实验中！仅在DirectX 11经常崩溃时使用。"
-
-# ----------------------------------------------------------
-# 1.9.18 及以前版本 字符串
+# 1.11.14 及以前版本 字符串
 
 msgctxt "10_minutes"
 msgid "10 minutes"
@@ -701,6 +611,10 @@ msgstr "最快速度下仍然暂停"
 msgctxt "alerts_pause_game_only_0_delay"
 msgid "Only if delay is 0"
 msgstr "仅当延迟为0时"
+
+msgctxt "all"
+msgid "All"
+msgstr "全部"
 
 msgctxt "apply"
 msgid "Apply"
@@ -1099,12 +1013,12 @@ msgid "One or more objects in the clip references an unknown mod:\n"
 msgstr "素材中的部分物品引用了未知的模组:\n"
 
 msgctxt "confirm_clip_unknown_desc_3"
-msgid "Copy with built-in to replace unknown objects with built-in objects, avoiding new mods and object kinds being imported into your game.\n"
-msgstr "用 built-in 中的对象替换未知对象，以避免将新的模组和对象类型导入游戏。\n"
+msgid "Copy with built-in to replace unknown objects with built-in objects, avoiding new mods, object kinds and demand curves being imported into your game.\n"
+msgstr "用 built-in 中的对象替换未知对象，以避免将新的模组、对象类型和需求曲线导入游戏。\n"
 
 msgctxt "confirm_clip_unknown_desc_4"
-msgid "Copy with new mods to import new object kinds and to enable their mods in your game. You will then need to subscribe to these mods in the Steam Workshop if you are not yet subscribed."
-msgstr "导入新的对象类型，并在游戏中启用对应的模组。若模组未订阅，则需要前往创意工坊先订阅。"
+msgid "Copy with new mods to import new object kinds and to enable their mods and demand curves in your game. You will then need to subscribe to these mods in the Steam Workshop if you are not yet subscribed."
+msgstr "导入新的对象类型，并在游戏中启用对应的模组和需求曲线。若模组未订阅，则需要前往创意工坊先订阅。"
 
 msgctxt "confirm_collection_delete"
 msgid "Delete collection"
@@ -1410,10 +1324,6 @@ msgctxt "delete_tracks"
 msgid "Delete objects"
 msgstr "删除对象"
 
-msgctxt "demand_pax_overall"
-msgid "{:.1f} pax/s"
-msgstr "{:.1f} 乘客/秒"
-
 msgctxt "dep_grp_destination"
 msgid "Destination"
 msgstr "目的地"
@@ -1592,7 +1502,7 @@ msgstr "按 ESC 键回到编辑模式"
 
 msgctxt "editor_tip_add_left1"
 msgid "Left click on the end of track control points to continue an existing track"
-msgstr "左键点击轨道控制点(十字点)，以延伸现有的轨道"
+msgstr "左键单击轨道控制点(十字点)，以延伸现有的轨道"
 
 msgctxt "editor_tip_add_left2"
 msgid "Left click anywhere else to create a new track"
@@ -1676,15 +1586,15 @@ msgstr "按 ESC 键取消选择"
 
 msgctxt "editor_tip_create_left1"
 msgid "Left click on object control points to select them"
-msgstr "左键点击控制点来选择它们"
+msgstr "左键单击控制点来选择它们"
 
 msgctxt "editor_tip_create_left2"
 msgid "Left click on station name plates to edit station details"
-msgstr "左键点击站名板，以编辑站点详情"
+msgstr "左键单击站名板，以编辑站点详情"
 
 msgctxt "editor_tip_create_left3"
 msgid "Left click on control points to reset selection"
-msgstr "左键点击控制点来重新选择"
+msgstr "左键单击控制点来重新选择"
 
 msgctxt "editor_tip_create_prompt_sel"
 msgid "To move or delete objects, you must select their control points"
@@ -1708,7 +1618,7 @@ msgstr "按 ESC 键回到编辑模式"
 
 msgctxt "editor_tip_link_left"
 msgid "Left click to link tracks"
-msgstr "左键点击以连接轨道"
+msgstr "左键单击以连接轨道"
 
 msgctxt "editor_tip_link_move"
 msgid "Move away the mouse cursor to cancel"
@@ -1736,7 +1646,7 @@ msgstr "放开左键停止选择"
 
 msgctxt "editor_tip_new_building_fin_left"
 msgid "Left click to finish creating a new building"
-msgstr "左键点击完成创建新的建筑"
+msgstr "左键单击完成创建新的建筑"
 
 msgctxt "editor_tip_new_building_left"
 msgid "Left click to create a new building"
@@ -1856,7 +1766,11 @@ msgstr "左键单击完成创建新的车站"
 
 msgctxt "editor_tip_station_left"
 msgid "Left click to create a new station platform"
-msgstr "左键点击创建一个新的车站"
+msgstr "左键单击创建一个新的车站"
+
+msgctxt "editor_tip_station_move"
+msgid "Move mouse to start creating the station platform"
+msgstr "移动鼠标开始建造站台"
 
 msgctxt "editor_tip_tangent_left"
 msgid "Release left button to stop rotating the track tangent"
@@ -1898,10 +1812,6 @@ msgctxt "effective_game_speed"
 msgid "Speed: {:.1f}x"
 msgstr "游戏速度: {:.1f}x"
 
-msgctxt "effective_game_speed_handicap"
-msgid "Speed: {0:.1f}x\nHandicap: {1}%"
-msgstr "游戏速度: {:.1f}x \n延迟: {1}%"
-
 msgctxt "effective_leg_time_desc"
 msgid "Time from crossing the middle of one platform to the middle of the next one, not counting stop time"
 msgstr "两站之间的运行时间，不包括停靠时间"
@@ -1918,9 +1828,21 @@ msgctxt "enabled"
 msgid "Enabled"
 msgstr "启用"
 
+msgctxt "error_cannot_delete_save"
+msgid "Cannot delete old save for overwriting: "
+msgstr "无法覆盖旧存档:"
+
 msgctxt "error_cannot_open_file"
 msgid "Cannot open file: "
 msgstr "无法打开文件:"
+
+msgctxt "error_cannot_open_temp_file"
+msgid "Cannot open temporary file: "
+msgstr "无法打开临时文件:"
+
+msgctxt "error_cannot_rename_save"
+msgid "Cannot rename temporary file: {} into {} "
+msgstr "无法重命名临时文件: {} 至 {}"
 
 msgctxt "error_corrupted_file"
 msgid "Corrupted file: "
@@ -2118,6 +2040,18 @@ msgctxt "full_date_time"
 msgid "{weekday} {day} {month}, {year} / {hours:02d}:{mins:02d}:{secs:02d}"
 msgstr "{year}年 {month} {day}日 ，{weekday} / {hours:02d}:{mins:02d}:{secs:02d}"
 
+msgctxt "full_simulation_reset"
+msgid "Full simulation reset"
+msgstr "完全重置模拟"
+
+msgctxt "full_simulation_reset_desc"
+msgid "All pax will be removed from stations and trains, all trains will be intervened, line and orders timing will be refreshed. Are you sure?"
+msgstr "所有车站和列车上的乘客将被移除，所有列车都将受到干预，线路和线路计时将被刷新，你确定吗？"
+
+msgctxt "full_simulation_reset_yes"
+msgid "Reset simulation"
+msgstr "重置模拟"
+
 msgctxt "game_restart_req"
 msgid "Game restart is required"
 msgstr "需要重新启动游戏"
@@ -2153,6 +2087,10 @@ msgstr "全部蓝图费用"
 msgctxt "global_blueprint_bill_short"
 msgid "Global"
 msgstr "全球"
+
+msgctxt "handicap_game_speed"
+msgid "Handicap: {:.1f}x"
+msgstr "性能阻碍: {:.1f}x"
 
 msgctxt "height_layer_n"
 msgid "Height {}"
@@ -2232,7 +2170,7 @@ msgstr "正在检测 IP 地址……"
 
 msgctxt "host_sim_mode"
 msgid "Clock and bank:"
-msgstr "时间与金钱:"
+msgstr "时间与财务模式:"
 
 msgctxt "host_sim_mode_private"
 msgid "Private for each player"
@@ -2510,6 +2448,10 @@ msgctxt "kb_track_new_signal"
 msgid "Tracks: new signal"
 msgstr "轨道:创建信号"
 
+msgctxt "kb_track_pick_parent"
+msgid "Tracks: pick par. parent"
+msgstr "轨道:选择父轨道"
+
 msgctxt "kb_track_sat_building_tape"
 msgid "Tracks: building tape"
 msgstr "轨道:轨道附属建筑工具"
@@ -2557,6 +2499,10 @@ msgstr "[按键:{}]"
 msgctxt "language_pick"
 msgid "Language:"
 msgstr "语言:"
+
+msgctxt "last_frame_game_speed"
+msgid "Last frame speed: {:.1f}x"
+msgstr "最后一帧速度: {:.1f}x"
 
 msgctxt "layer_ground"
 msgid "Ground"
@@ -2966,6 +2912,14 @@ msgctxt "lineeditor_max_brake_desc"
 msgid "Upper bound for train braking. Actual braking may be lower depending on train capabilities."
 msgstr "列车制动减速度上限。实际制动可能会更低，具体取决于列车性能。"
 
+msgctxt "lineeditor_min_pax_departure_leg_time"
+msgid "Pax min. ride time:"
+msgstr "乘客最低乘搭时间:"
+
+msgctxt "lineeditor_min_pax_departure_leg_time_desc"
+msgid "Format: (hh:)mm:ss\nPax will only board the train if they plan to ride it for at least this amount of time,\nnot including the initial wait time."
+msgstr "格式: (hh:)mm:ss\n乘客计划乘车时间大于该时间才会上车，\n不含候车时间。"
+
 msgctxt "lineeditor_min_stop_time"
 msgid "Stop time:"
 msgstr "停靠时间:"
@@ -3002,6 +2956,10 @@ msgctxt "lineeditor_reference_train_desc"
 msgid "An internal simulation of this train running on the tracks will be used for calculating the leg times."
 msgstr "用于计算列车行驶耗时。"
 
+msgctxt "lineeditor_restrict_lines_map"
+msgid "Restrict listing to visible lines on map (approximately)"
+msgstr "仅列出地图上可见的线路（近似）"
+
 msgctxt "lineeditor_service_level"
 msgid "Service level:"
 msgstr "提供服务:"
@@ -3026,6 +2984,14 @@ msgctxt "lineeditor_stop_arrive"
 msgid "Arrive at:"
 msgstr "到达:"
 
+msgctxt "lineeditor_stop_boardable"
+msgid "Board"
+msgstr "上车"
+
+msgctxt "lineeditor_stop_leaveable"
+msgid "Disembark"
+msgstr "下车"
+
 msgctxt "lineeditor_stop_mode"
 msgid "Stop time mode:"
 msgstr "停车时间模式:"
@@ -3042,6 +3008,10 @@ msgctxt "lineeditor_stop_mode_fixed_departure"
 msgid "Fixed departure"
 msgstr "固定发车"
 
+msgctxt "lineeditor_stop_no_pax_behavior"
+msgid "Not board or disembark"
+msgstr "不允许上下车"
+
 msgctxt "lineeditor_stop_panel_editor2"
 msgid "Stop {}"
 msgstr "站点 {}"
@@ -3053,6 +3023,10 @@ msgstr "行程 {0} {1} {2}"
 msgctxt "lineeditor_stop_panel_line_service_stop"
 msgid "Line service stop"
 msgstr "副线路车站"
+
+msgctxt "lineeditor_stop_pax_behavior"
+msgid "Allow pax to:"
+msgstr "允许乘客:"
 
 msgctxt "lineeditor_suffix"
 msgid "Suffix:"
@@ -3126,9 +3100,17 @@ msgctxt "lineeditor_tz"
 msgid "Time zone:"
 msgstr "发车时区:"
 
-msgctxt "lineeditor_tz_desc"
-msgid "Time zone of the first train departure time input."
-msgstr "自动发车时间所设定的时区。"
+msgctxt "lineeditor_tz_custom"
+msgid "Custom"
+msgstr "自定义"
+
+msgctxt "lineeditor_tz_custom_input"
+msgid "Custom time zone:"
+msgstr "自定义时区:"
+
+msgctxt "lineeditor_tz_custom_input_desc"
+msgid "Format: (-)hh:mm:ss"
+msgstr "格式: (-)hh:mm:ss"
 
 msgctxt "lineeditor_tz_first_stop"
 msgid "First stop station time zone"
@@ -3336,7 +3318,7 @@ msgstr "要上传的收藏夹:"
 
 msgctxt "local_mod"
 msgid "Local mod to upload:"
-msgstr "要上传的本地Mod:"
+msgstr "要上传的本地模组:"
 
 msgctxt "lonely_station"
 msgid "Lonely Station"
@@ -3345,6 +3327,26 @@ msgstr "独立的车站"
 msgctxt "main_options"
 msgid "Options"
 msgstr "选项"
+
+msgctxt "map_hillshade_pos"
+msgid "Hillshading:"
+msgstr "阴影:"
+
+msgctxt "map_hillshade_pos_0"
+msgid "Under ground"
+msgstr "地下"
+
+msgctxt "map_hillshade_pos_1"
+msgid "Over ground"
+msgstr "地上"
+
+msgctxt "map_land_alpha"
+msgid "Land background mix:"
+msgstr "土地背景混合:"
+
+msgctxt "map_land_hsv_sat"
+msgid "Land HSV saturation:"
+msgstr "土地HSV饱和度:"
 
 msgctxt "map_names_eng"
 msgid "English"
@@ -3357,6 +3359,38 @@ msgstr "本地语言"
 msgctxt "map_names_prio"
 msgid "Map names priority:"
 msgstr "地图名称优先级:"
+
+msgctxt "map_option_font"
+msgid "Label font size:"
+msgstr "标签字号:"
+
+msgctxt "map_option_font_0"
+msgid "Small"
+msgstr "小"
+
+msgctxt "map_option_font_1"
+msgid "Default"
+msgstr "标准"
+
+msgctxt "map_option_font_2"
+msgid "Big"
+msgstr "大"
+
+msgctxt "map_option_font_3"
+msgid "Huge"
+msgstr "巨大"
+
+msgctxt "map_show_land_tex_max_zoom"
+msgid "Show land texture at max zoom"
+msgstr "在最大缩放时显示土地纹理"
+
+msgctxt "map_style_mods"
+msgid "Map style mods"
+msgstr "地图样式模组"
+
+msgctxt "map_style_show_in_panel"
+msgid "Show in map options panel"
+msgstr "在地图选项中显示"
 
 msgctxt "mass_del_lines_but"
 msgid "Delete all lines"
@@ -3424,7 +3458,7 @@ msgstr "分钟后"
 
 msgctxt "missing_mod"
 msgid "This mod data is enabled in the current game, but it is not installed in this PC. Some textures might be missing."
-msgstr "此mod数据在当前游戏中已被启用，但此电脑上并未安装。一些列车贴图可能会丢失"
+msgstr "此模组数据在当前游戏中已被启用，但此电脑上并未安装。一些列车贴图可能会丢失"
 
 msgctxt "mod_author"
 msgid "Author:"
@@ -3436,7 +3470,7 @@ msgstr "类别:"
 
 msgctxt "mod_contents"
 msgid "Mod contents: {} rules"
-msgstr "Mod 目录:{} 规则"
+msgstr "模组目录:{} 规则"
 
 msgctxt "mod_desc"
 msgid "Description:"
@@ -3444,7 +3478,7 @@ msgstr "描述:"
 
 msgctxt "mod_disable_all_unused"
 msgid "Disable all unused mods"
-msgstr "禁用所有未使用的MOD"
+msgstr "禁用所有未使用的模组"
 
 msgctxt "mod_disable_in_game"
 msgid "Disable in this game"
@@ -3478,6 +3512,14 @@ msgctxt "mod_kind_blueprints"
 msgid "Blueprints"
 msgstr "蓝图"
 
+msgctxt "mod_less_prio"
+msgid "Less priority"
+msgstr "低优先"
+
+msgctxt "mod_more_prio"
+msgid "More priority"
+msgstr "高优先"
+
 msgctxt "mod_name"
 msgid "Name:"
 msgstr "名称:"
@@ -3488,7 +3530,7 @@ msgstr "打开mod.txt"
 
 msgctxt "mod_panel_list_only_enabled"
 msgid "Enabled mods in this game"
-msgstr "启用本游戏中使用的MOD"
+msgstr "启用本游戏中使用的模组"
 
 msgctxt "mod_panel_list_title"
 msgid "All subscribed mods"
@@ -3524,15 +3566,15 @@ msgstr "订阅所有缺失的模组"
 
 msgctxt "mod_uploader_busy"
 msgid "Uploading mod..."
-msgstr "上传 mod 中……"
+msgstr "上传模组中……"
 
 msgctxt "mod_uploader_info"
 msgid "The mod uploader is a tool for mod developers. If you want to use mods when playing the game, subscribe to them in the Steam Workshop and enable them when creating a new game."
-msgstr "mod 上传器是 mod 开发者的工具。如果你想在游戏中使用 mod ，请在 Steam 创意工坊中订阅，并在创建新游戏时启用模组"
+msgstr "模组上传器是模组开发者的工具。如果你想在游戏中使用模组，请在 Steam 创意工坊中订阅，并在创建新游戏时启用模组"
 
 msgctxt "mod_uploader_info_guide"
 msgid "Mod development guide"
-msgstr "mod 开发指南"
+msgstr "模组开发指南"
 
 msgctxt "mod_uploader_info_open_browser"
 msgid "Visit Workshop"
@@ -3544,7 +3586,7 @@ msgstr "管理创意工坊"
 
 msgctxt "mod_uploader_info_use_uploader"
 msgid "Use Mod Uploader"
-msgstr "使用 mod 上传器"
+msgstr "使用模组上传器"
 
 msgctxt "mod_uploader_new_mod"
 msgid "New mod"
@@ -3592,7 +3634,7 @@ msgstr "速度视图"
 
 msgctxt "mods"
 msgid "Mods"
-msgstr "Mods"
+msgstr "模组"
 
 msgctxt "month_april"
 msgid "April"
@@ -3802,6 +3844,14 @@ msgctxt "multiplayer"
 msgid "Multiplayer"
 msgstr "多人游戏"
 
+msgctxt "mvo_toggle_map_style_mods"
+msgid "Map style mods:"
+msgstr "地图样式模组:"
+
+msgctxt "mvo_track_editor_always_on_top"
+msgid "Track editor always on top"
+msgstr "轨道永远在最上层"
+
 msgctxt "mvo_user_labels"
 msgid "User labels"
 msgstr "用户标签"
@@ -3853,6 +3903,10 @@ msgstr "车站名称显示"
 msgctxt "mvo_user_track_depth"
 msgid "Map over track layers"
 msgstr "地图在轨道上方显示"
+
+msgctxt "mvo_user_track_depth_bridge"
+msgid "Map bridges over track layers"
+msgstr "地图桥梁在轨道上方显示"
 
 msgctxt "mvo_user_train_counters"
 msgid "Train counters"
@@ -3938,9 +3992,29 @@ msgctxt "option_company_acc_export"
 msgid "Export accounting data"
 msgstr "导出财务数据"
 
+msgctxt "option_company_acc_utc0_offset_s"
+msgid "Accounting time shift:"
+msgstr "财务时间偏移:"
+
+msgctxt "option_company_acc_utc0_offset_s_change"
+msgid "Change accounting day shift time"
+msgstr "更改财务日时间偏移"
+
+msgctxt "option_company_acc_utc0_offset_s_change_desc"
+msgid "Current day accounting will be lost and/or incorrect. Proper accounting won't be restablished until 24 hours of in-game time passes. Some historical accounting might be lost. No historical accounting will be time shifted. This setting only applies starting at the moment it is changed. Are you sure?"
+msgstr "本财务日数据将会丢失或不正确，在游戏时间流动24小时之前，无法重新建立正确的财务数据。一些历史财务数据可能会丢失，历史财务数据不会发生偏移，此设置仅在应用时开始生效。你确定吗？"
+
+msgctxt "option_company_acc_utc0_offset_s_change_yes"
+msgid "Change time"
+msgstr "更改时间偏移"
+
+msgctxt "option_company_acc_utc0_offset_s_desc"
+msgid "Format: (-)hh:mm:ss\nAccounting new day will be considered to start at this shifted time relative to UTC0"
+msgstr "格式: (-)hh:mm:ss\n新财务日将从已偏移的时间(相对于UTC+0)开始"
+
 msgctxt "option_company_demand"
-msgid "Pax demand factor:"
-msgstr "旅客需求系数:"
+msgid "Global demand factor:"
+msgstr "全球需求系数:"
 
 msgctxt "option_company_geo_export"
 msgid "Export GeoJSON"
@@ -3954,9 +4028,17 @@ msgctxt "option_company_parallel_offset"
 msgid "New track par. off.:"
 msgstr "新轨道线间距离:"
 
-msgctxt "option_company_pax_train_matching"
-msgid "Board alternate trains:"
-msgstr "搭乘备用列车："
+msgctxt "option_company_pax_pf_bias"
+msgid "Pax pathfind bias:"
+msgstr "乘客寻路偏好:"
+
+msgctxt "option_company_pax_pf_bias_less"
+msgid "Better paths"
+msgstr "更佳路径"
+
+msgctxt "option_company_pax_pf_bias_more"
+msgid "Faster sim"
+msgstr "更快速模拟"
 
 msgctxt "option_company_station_label"
 msgid "New station label:"
@@ -3970,6 +4052,26 @@ msgctxt "option_company_switch_no_couplers"
 msgid "Switch to unrestricted coupling"
 msgstr "切换到车厢相接无车钩限制模式"
 
+msgctxt "option_company_time_zones"
+msgid "Map time zones:"
+msgstr "地图时区分界:"
+
+msgctxt "option_company_time_zones_approximate"
+msgid "Approximate"
+msgstr "近似"
+
+msgctxt "option_company_time_zones_change"
+msgid "Change map time zones mode"
+msgstr "更改地图时区分界"
+
+msgctxt "option_company_time_zones_simplified"
+msgid "Simplified"
+msgstr "简化"
+
+msgctxt "option_company_time_zones_zero"
+msgid "Always 0"
+msgstr "保持UTC+0"
+
 msgctxt "option_no_cash"
 msgid "Unlimited money"
 msgstr "无限金钱"
@@ -3982,17 +4084,37 @@ msgctxt "options"
 msgid "Options"
 msgstr "选项"
 
+msgctxt "options_alerts"
+msgid "Alerts"
+msgstr "警报"
+
+msgctxt "options_autosave"
+msgid "Autosave"
+msgstr "自动保存"
+
 msgctxt "options_graphics"
 msgid "Graphics"
 msgstr "图形"
+
+msgctxt "options_interface"
+msgid "Interface"
+msgstr "界面"
 
 msgctxt "options_keybinds"
 msgid "Keybinds"
 msgstr "热键绑定"
 
+msgctxt "options_map"
+msgid "Map"
+msgstr "地图"
+
 msgctxt "options_mods_upload"
 msgid "Uploader"
 msgstr "上传器"
+
+msgctxt "options_performance"
+msgid "Performance"
+msgstr "性能"
 
 msgctxt "order_error_empty_line"
 msgid "Empty line"
@@ -4017,6 +4139,10 @@ msgstr "无效线路"
 msgctxt "osm_admin_level_10"
 msgid "Quarter"
 msgstr "村、社区"
+
+msgctxt "osm_admin_level_11"
+msgid "Neighborhood"
+msgstr "街区"
 
 msgctxt "osm_admin_level_2"
 msgid "Country"
@@ -4174,9 +4300,33 @@ msgctxt "paxlist_waiting_pax"
 msgid "Waiting for pax..."
 msgstr "等待乘客…"
 
-msgctxt "pending_validations"
-msgid "Validating tracks, {} to go"
-msgstr "正在验证轨道，还剩{}"
+msgctxt "perf_bg_fps"
+msgid "Background UI FPS:"
+msgstr "后台UI帧率:"
+
+msgctxt "perf_fg_fps"
+msgid "Foreground UI FPS:"
+msgstr "前端UI帧率:"
+
+msgctxt "perf_fps_limited"
+msgid "Manual limit"
+msgstr "手动限制"
+
+msgctxt "perf_fps_unlimited"
+msgid "Unlimited"
+msgstr "无限制"
+
+msgctxt "perf_fps_vsync"
+msgid "Limited by VSync"
+msgstr "受垂直同步限制"
+
+msgctxt "perf_linenet_threads"
+msgid "Timetable CPU threads:"
+msgstr "时刻表CPU线程:"
+
+msgctxt "perf_sim_threads"
+msgid "Sim CPU threads:"
+msgstr "模拟CPU线程:"
 
 msgctxt "pick"
 msgid "Pick"
@@ -4262,6 +4412,46 @@ msgctxt "plots_button_tp"
 msgid "Open charts window"
 msgstr "打开图表窗口"
 
+msgctxt "poi_settlement_0"
+msgid "Capital"
+msgstr "首都"
+
+msgctxt "poi_settlement_1"
+msgid "City"
+msgstr "城市"
+
+msgctxt "poi_settlement_2"
+msgid "Town"
+msgstr "城镇"
+
+msgctxt "poi_settlement_3"
+msgid "Suburb"
+msgstr "郊区"
+
+msgctxt "poi_settlement_4"
+msgid "Quarter"
+msgstr "城区"
+
+msgctxt "poi_settlement_5"
+msgid "Neighbourhood"
+msgstr "街区"
+
+msgctxt "poi_settlement_6"
+msgid "Village"
+msgstr "村庄"
+
+msgctxt "poi_settlement_7"
+msgid "Hamlet"
+msgstr "小村庄"
+
+msgctxt "poi_settlement_8"
+msgid "Dwelling"
+msgstr "住所"
+
+msgctxt "poi_settlement_9"
+msgid "Farm"
+msgstr "农场"
+
 msgctxt "pop_reach"
 msgid "Reach: {}"
 msgstr "覆盖人口: {}"
@@ -4309,6 +4499,14 @@ msgstr "渲染器:"
 msgctxt "renderer_dx11"
 msgid "DirectX 11"
 msgstr "DirectX 11"
+
+msgctxt "renderer_dx12"
+msgid "DirectX 12"
+msgstr "DirectX 12"
+
+msgctxt "renderer_vulkan"
+msgid "Vulkan"
+msgstr "Vulkan"
 
 msgctxt "replace_trains"
 msgid "Replace existing train(s)"
@@ -4577,6 +4775,10 @@ msgstr "已选"
 msgctxt "sell_all_trains_yes"
 msgid "Sell all"
 msgstr "出售所有"
+
+msgctxt "setting_game_speed"
+msgid "Speed setting: {}x"
+msgstr "速度设置: {}x"
 
 msgctxt "settings"
 msgid "Settings"
@@ -4942,6 +5144,10 @@ msgctxt "station_platform_promote"
 msgid "Promote track into platform"
 msgstr "将轨道升级为车站"
 
+msgctxt "station_platform_set_name_all"
+msgid "All"
+msgstr "全部"
+
 msgctxt "station_platform_user_name"
 msgid "Platform name:"
 msgstr "站台名称:"
@@ -5021,14 +5227,6 @@ msgstr "%d 个车站"
 msgctxt "strangers"
 msgid "Strangers"
 msgstr "陌生人"
-
-msgctxt "stream_ahead_desc"
-msgid "You are ahead of the host. Pausing your clock to wait for it."
-msgstr "你的时间已经超前于主机时间了，请暂停时间以同步主机时间"
-
-msgctxt "stream_catch_up_desc2"
-msgid "You are falling behind the host. Speeding up the clock to catch up. Lag frames: {}"
-msgstr "你的时间已经落后于主机时间 {} 帧了，请加快时间以同步主机时间。"
 
 msgctxt "stream_waiting_for_player"
 msgid "Waiting for player {}"
@@ -5414,6 +5612,10 @@ msgctxt "timetable_week"
 msgid "Week"
 msgstr "周"
 
+msgctxt "timing_lines_n"
+msgid "Timing line legs, {} to go"
+msgstr "正在验证车站，还剩{}"
+
 msgctxt "title"
 msgid "Title:"
 msgstr "标题:"
@@ -5425,10 +5627,6 @@ msgstr "素材过多"
 msgctxt "too_many_collections_body"
 msgid "Your saved and subscribed clips reached the limit of 50,000 tracks and buildings. Please delete some saved clips and/or unsubscribe from some collections."
 msgstr "你已经保存和订阅了50,000份素材，请删除或取消订阅一些素材。"
-
-msgctxt "tooltip_demand"
-msgid "Local {0}%\nRegional {1}%\nLong distance {2}%"
-msgstr "本地 {0}% \n区域 {1}%\n长距离 {2}%"
 
 msgctxt "total"
 msgid "Total"
@@ -5497,6 +5695,10 @@ msgstr "按价格排序"
 msgctxt "track_sort_speed"
 msgid "Max. speed"
 msgstr "按最高速度排序"
+
+msgctxt "trackeditor_clickable_tracks"
+msgid "Clickable tracks"
+msgstr "可点击轨道"
 
 msgctxt "trackeditor_hide_controls"
 msgid "Hide control points at low zoom"
@@ -5652,7 +5854,7 @@ msgstr "内置标签:"
 
 msgctxt "train_editable_builtin_tags_locked"
 msgid "Locked by mod"
-msgstr "被 mod 锁定"
+msgstr "被模组锁定"
 
 msgctxt "train_editor_basics"
 msgid "Basics"
@@ -6132,7 +6334,7 @@ msgstr "应用"
 
 msgctxt "train_recompo_disabled"
 msgid "Editing disabled by mod author"
-msgstr "mod 作者禁止编辑"
+msgstr "模组作者禁止编辑"
 
 msgctxt "train_recompo_error_cash"
 msgid "Cannot afford new car(s)"
@@ -6181,6 +6383,10 @@ msgstr "预计晚点 (s)"
 msgctxt "train_rt_leg"
 msgid "Remaining leg (m)"
 msgstr "剩余距离 (m)"
+
+msgctxt "train_rt_pax"
+msgid "Pax"
+msgstr "乘客"
 
 msgctxt "train_rt_speed"
 msgid "Speed (km/h)"
@@ -6346,6 +6552,10 @@ msgctxt "traineditor_order_start_time_by"
 msgid "Than:"
 msgstr "时间:"
 
+msgctxt "traineditor_order_start_time_day_on"
+msgid "On:"
+msgstr "周:"
+
 msgctxt "traineditor_order_start_time_desc"
 msgid "Format: hh:mm:ss\nTime of day to start one or more runs of the selected line."
 msgstr "格式:hh:mm:ss\n一天中开始一次或多次运行选定线路的时间。"
@@ -6357,6 +6567,10 @@ msgstr "更换为自定义列车"
 msgctxt "traineditor_replace_tmu_mode"
 msgid "Replacing with preconfigured train"
 msgstr "更换为预设列车"
+
+msgctxt "traineditor_restrict_trains_map"
+msgid "Restrict listing to visible trains on map (approximately)"
+msgstr "仅列出地图上可见的列车（近似）"
 
 msgctxt "traineditor_select_all"
 msgid "Select all listed trains"
@@ -6386,9 +6600,17 @@ msgctxt "traineditor_tz"
 msgid "Time zone:"
 msgstr "时区:"
 
-msgctxt "traineditor_tz_desc"
-msgid "Time zone used for order time/day input."
-msgstr "用于调度指令的时区"
+msgctxt "traineditor_tz_custom"
+msgid "Custom"
+msgstr "自定义"
+
+msgctxt "traineditor_tz_custom_input"
+msgid "Custom time zone:"
+msgstr "自定义时区:"
+
+msgctxt "traineditor_tz_custom_input_desc"
+msgid "Format: (-)hh:mm:ss"
+msgstr "格式: (-)hh:mm:ss"
 
 msgctxt "traineditor_tz_first_line"
 msgid "First line time zone"
@@ -6508,7 +6730,7 @@ msgstr "用内置对象复制"
 
 msgctxt "used_active_mod"
 msgid "This mod is used by one or more objects in the game, and cannot be disabled."
-msgstr "这个mod会被游戏中的一个或多个对象使用，并且不能被禁用"
+msgstr "这个模组会被游戏中的一个或多个对象使用，并且不能被禁用"
 
 msgctxt "user_signal_light_cones"
 msgid "Signal light cones"
@@ -6530,9 +6752,13 @@ msgctxt "waiting_expired"
 msgid "Expired"
 msgstr "失效"
 
+msgctxt "warn_alpha_renderer1"
+msgid "Experimental renderer! Only use if DirectX 11 crashes often."
+msgstr "实验中！仅在DirectX 11经常崩溃时使用。"
+
 msgctxt "warn_mod_in_use"
 msgid "Mod is in use"
-msgstr "使用中的 Mod"
+msgstr "使用中的模组"
 
 msgctxt "warn_straight"
 msgid "Requires exactly 2 tracks"
@@ -6677,6 +6903,10 @@ msgctxt "custom_admin_level_transport"
 msgid "Transportation"
 msgstr "交通"
 
+msgctxt "demand_pax_overall"
+msgid "{:.1f} pax/s"
+msgstr "{:.1f} 乘客/秒"
+
 msgctxt "depot_at"
 msgid "Depot at"
 msgstr "车辆段"
@@ -6739,7 +6969,7 @@ msgstr "按 ESC 键取消"
 
 msgctxt "editor_tip_depot_fin_left"
 msgid "Left click to finish creating a new depot"
-msgstr "左键点击完成创建新的车辆段"
+msgstr "左键单击完成创建新的车辆段"
 
 msgctxt "editor_tip_depot_left"
 msgid "Left click to create a new depot"
@@ -6752,6 +6982,10 @@ msgstr "至少有一个间隔时间被设置为0。编辑完线路后请使用�
 msgctxt "editor_warn_zero_leg"
 msgid "At least one leg travel time is set to 0. Use the timing calculator after you are done editing the line."
 msgstr "至少有一个运行时间被设置为0。编辑完线路后请使用列车时刻计算器。"
+
+msgctxt "effective_game_speed_handicap"
+msgid "Speed: {0:.1f}x\nHandicap: {1}%"
+msgstr "游戏速度: {:.1f}x \n延迟: {1}%"
 
 msgctxt "effective_leg_time"
 msgid "Middle point to middle point effective leg time: {}\nPrev. stop arrival braking time: -{}s\nThis stop braking time: +{}s"
@@ -6985,6 +7219,10 @@ msgctxt "lineeditor_tooltip_unlock_all_stops"
 msgid "Unlock all stop times"
 msgstr "解锁所有停站时间"
 
+msgctxt "lineeditor_tz_desc"
+msgid "Time zone of the first train departure time input."
+msgstr "自动发车时间所设定的时区。"
+
 msgctxt "loader_importing_db"
 msgid "Importing database"
 msgstr "导入数据库"
@@ -7017,9 +7255,21 @@ msgctxt "mvo_user_zoom_out_tracks"
 msgid "Zoomed out tracks"
 msgstr "当缩小视图时继续显示轨道"
 
+msgctxt "option_company_pax_train_matching"
+msgid "Board alternate trains:"
+msgstr "搭乘备用列车："
+
 msgctxt "option_company_pax_train_matching_line_stop"
 msgid "Matching line and stop"
 msgstr "匹配线路和车站"
+
+msgctxt "option_company_pax_train_matching_strict"
+msgid "If same line, within the run"
+msgstr "如果是相同线路，直接运行"
+
+msgctxt "option_company_pax_train_matching_train_pf"
+msgid "Any, bounded by leg time"
+msgstr "任意,受运行事件限制"
 
 msgctxt "option_company_pax_train_matching_train_run_line_stop"
 msgid "Matching train, run, line and stop"
@@ -7056,6 +7306,10 @@ msgstr "新乘客: {0} \n中转乘客: {1}"
 msgctxt "paxlist_n_new_pax"
 msgid "{} new"
 msgstr "{} 新乘客"
+
+msgctxt "pending_validations"
+msgid "Validating tracks, {} to go"
+msgstr "正在验证轨道，还剩{}"
 
 msgctxt "plat_auto_direction_lr"
 msgid "Drive on left for double platforms"
@@ -7165,9 +7419,17 @@ msgctxt "stop_times_tp_reach"
 msgid "Stop {} reach middle of platform at"
 msgstr "停车 {} 到达站台中间位置"
 
+msgctxt "stream_ahead_desc"
+msgid "You are ahead of the host. Pausing your clock to wait for it."
+msgstr "你的时间已经超前于主机时间了，请暂停时间以同步主机时间"
+
 msgctxt "stream_catch_up_desc"
 msgid "You are falling behind the host. Speeding up the clock to catch up."
 msgstr "你的时间已经落后于主机时间了，请加快时间以同步主机时间"
+
+msgctxt "stream_catch_up_desc2"
+msgid "You are falling behind the host. Speeding up the clock to catch up. Lag frames: {}"
+msgstr "你的时间已经落后于主机时间 {} 帧了，请加快时间以同步主机时间。"
 
 msgctxt "tag_deposit"
 msgid "Deposit"
@@ -7176,6 +7438,10 @@ msgstr "存包处"
 msgctxt "teo.plat_auto_stops"
 msgid "Auto append platform stop point signals"
 msgstr "双站台自动添加站台停车标志"
+
+msgctxt "tooltip_demand"
+msgid "Local {0}%\nRegional {1}%\nLong distance {2}%"
+msgstr "本地 {0}% \n区域 {1}%\n长距离 {2}%"
 
 msgctxt "track_ground"
 msgid "Ground"
@@ -7456,6 +7722,10 @@ msgstr "时区"
 msgctxt "traineditor_tz_auto"
 msgid "Auto"
 msgstr "自动"
+
+msgctxt "traineditor_tz_desc"
+msgid "Time zone used for order time/day input."
+msgstr "用于调度指令的时区"
 
 msgctxt "trains_models_n_0"
 msgid "0 models"
