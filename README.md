@@ -1,3 +1,9 @@
+# 新地址
+
+https://github.com/WONDEO/nr-local-zho
+
+感谢@[WONDEO](https://github.com/WONDEO)的贡献与不断维护。❤️
+
 # NIMBY Rails的参考中文翻译
 这是一个中文翻译mod，也是NIMBY Rails的参考翻译。
 
