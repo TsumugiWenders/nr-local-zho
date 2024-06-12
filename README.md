@@ -7,6 +7,12 @@ https://github.com/WONDEO/nr-local-zho
 # NIMBY Rails的参考中文翻译
 这是一个中文翻译mod，也是NIMBY Rails的参考翻译。
 
+创意工坊链接：[https://steamcommunity.com/sharedfiles/filedetails/?id=2376057012](https://steamcommunity.com/sharedfiles/filedetails/?id=2376057012)
+
+GitHub仓库：[https://github.com/WONDEO/nr-local-zho](https://github.com/WONDEO/nr-local-zho)
+
+Gitee备份仓库：[https://gitee.com/wondeo/nr-local-zho](https://gitee.com/wondeo/nr-local-zho)
+
 查看mod开发指南，了解如何创建翻译mod。
 
 [https://steamcommunity.com/sharedfiles/filedetails/?id=2268014666](https://steamcommunity.com/sharedfiles/filedetails/?id=2268014666)
@@ -15,28 +21,48 @@ https://github.com/WONDEO/nr-local-zho
 
 #列车及轨道MOD翻译指南
 ```
+
 ## ----------------------------------------------------------
 ## 列车翻译
 
-#车厢
+# ----- 
+# （MOD名称）
+# ID:（Steam创意工坊ID）
+
 msgctxt "（TrainUnit.name_loc）"
 msgid "（TrainUnit.name_en）"
-msgstr "（翻译）"
+msgstr "（车厢翻译）"
 
-#列车
 msgctxt "（TrainMultipleUnit.name_loc）"
 msgid "（TrainMultipleUnit.name_en）"
-msgstr "（翻译）"
+msgstr "（列车翻译）"
 
-#编组
 msgctxt "（TrainMultipleUnit.composition[0]）"
 msgid "（TrainMultipleUnit.composition[1]）"
-msgstr "（翻译）"
+msgstr "（编组翻译）"
+
 
 ## ----------------------------------------------------------
 ## 轨道翻译
 
+# ----- 
+# （MOD名称）
+# ID:（Steam创意工坊ID）
+
 msgctxt "（TrackKind.Name_loc）"
 msgid "（TrackKind.Name_en）"
-msgstr "（翻译）"
+msgstr "（轨道翻译）"
+
+
+## ----------------------------------------------------------
+## 建筑翻译
+
+# ----- 
+# （MOD名称）
+# ID:（Steam创意工坊ID）
+
+msgctxt "（BuildingKind.Name_loc）"
+msgid "（BuildingKind.Name_en）"
+msgstr "（建筑翻译）"
+
 ```
