@@ -1,280 +1,200 @@
 # ----------------------------------------------------------
-# 1.12.11 版本 新添加字符串
-
-msgctxt "building_poi_curve"
-msgid "Demand curve:"
-msgstr "需求曲线:"
-
-msgctxt "building_poi_pop"
-msgid "Population:"
-msgstr "人口:"
-
-msgctxt "confirm_clip_unknown_desc_2d"
-msgid "One or more objects in the clip references an unknown demand curve:\n"
-msgstr "素材中的一个或多个对象引用了未知的需求曲线：\n"
-
-msgctxt "demand_cache_warmup"
-msgid "Warming up tile pax path cache, game speed is limited\nIf perfomance does not improve consider selecting Random spawn station mode in Company options"
-msgstr "正在加载乘客路径缓存，游戏速度已被限制\n如果性能没有改善，请考虑在公司-乘客在车站生成模式设为随机"
-
-msgctxt "demand_clone"
-msgid "Clone demand curve"
-msgstr "复制需求曲线"
-
-msgctxt "demand_curve_disabled"
-msgid "<Disabled>"
-msgstr "<禁用>"
-
-msgctxt "demand_default_name"
-msgid "Population"
-msgstr "人口:"
-
-msgctxt "demand_delete"
-msgid "Delete selected demand curve"
-msgstr "删除选定的需求曲线"
-
-msgctxt "demand_editor_focus_dest"
-msgid "Destination"
-msgstr "目的地"
-
-msgctxt "demand_editor_focus_distance"
-msgid "Distance"
-msgstr "距离"
-
-msgctxt "demand_editor_focus_info"
-msgid "Info"
-msgstr "信息"
-
-msgctxt "demand_editor_focus_origin"
-msgid "Origin"
-msgstr "出发地"
-
-msgctxt "demand_editor_focus_range0"
-msgid "0 km to 95 km"
-msgstr "0 km - 95 km"
-
-msgctxt "demand_editor_title"
-msgid "Demand curves editor"
-msgstr "需求曲线编辑器"
-
-msgctxt "demand_export"
-msgid "Export to TSV file"
-msgstr "导出到 TSV 文件"
-
-msgctxt "demand_import_new"
-msgid "Import new demand curve from TSV file"
-msgstr "从 TSV 文件导入需求曲线"
-
-msgctxt "demand_import_replace"
-msgid "Replace with curve from TSV file"
-msgstr "替换为 TSV 文件中的需求曲线"
-
-msgctxt "demand_info_file_ops"
-msgid "Export and replace"
-msgstr "导出和替换"
-
-msgctxt "demand_info_move_pois"
-msgid "Bulk change POIs into a different curve"
-msgstr "将 POI 批量更改为不同的需求曲线"
-
-msgctxt "demand_info_move_pois_but"
-msgid "Change all POIs"
-msgstr "更改所有 POI"
-
-msgctxt "demand_info_move_pois_label"
-msgid "Change to:"
-msgstr "更改为:"
-
-msgctxt "demand_info_name"
-msgid "Name:"
-msgstr "名称:"
-
-msgctxt "demand_info_poi"
-msgid "Points of interest:"
-msgstr "信息点:"
-
-msgctxt "demand_info_pop"
-msgid "Population:"
-msgstr "人口:"
-
-msgctxt "demand_pax_spawn"
-msgid "{} new pax/min."
-msgstr "{} 新乘客/分钟"
-
-msgctxt "demand_rebuild_tp"
-msgid "Rebuilding demand data..."
-msgstr "重建需求数据中…"
-
-msgctxt "demand_replace_default"
-msgid "Replace with default curve"
-msgstr "重置为默认需求曲线"
-
-msgctxt "demand_replace_file"
-msgid "Replace from TSV file"
-msgstr "从 TSV 文件导入需求曲线"
-
-msgctxt "demand_time_copy_day"
-msgid "Copy day"
-msgstr "复制日期"
-
-msgctxt "demand_time_paste_day"
-msgid "Paste day"
-msgstr "粘贴日期"
-
-msgctxt "demand_time_set_0"
-msgid "All 0%"
-msgstr "全部 0%"
-
-msgctxt "demand_time_set_100"
-msgid "All 100%"
-msgstr "全部 100%"
-
-msgctxt "editor_poi"
-msgid "Create new points of interest and signs"
-msgstr "创建新的信息点和标志"
-
-msgctxt "editor_tip_new_poi_left"
-msgid "Left click to create a new point of interest or sign"
-msgstr "左键单击可创建新的信息点和标志"
-
-msgctxt "fmt_copy_of"
-msgid "Copy of {}"
-msgstr "复制 {}"
-
-msgctxt "info_company_active_tiles"
-msgid "Active pax tiles:"
-msgstr "活动乘客平铺显示:"
-
-msgctxt "info_table_pax_location"
-msgid "Location"
-msgstr "位置"
-
-msgctxt "info_table_pax_location_tp"
-msgid "Current location"
-msgstr "当前位置"
-
-msgctxt "info_table_station_city_tp"
-msgid "Group by city"
-msgstr "按城市分组"
-
-msgctxt "info_table_station_dist_tp"
-msgid "Sort by distance"
-msgstr "按距离排序"
-
-msgctxt "mod_poi_layer_options_title"
-msgid "Mod POI layer options"
-msgstr "模组 POI 层选项"
-
-msgctxt "mplo_default_demand"
-msgid "<Controlled by the mod>"
-msgstr "<由模组控制>"
-
-msgctxt "mplo_demand_curve"
-msgid "Demand curve:"
-msgstr "需求曲线:"
-
-msgctxt "mplo_hidden"
-msgid "Hidden"
-msgstr "隐藏"
-
-msgctxt "mplo_icons_only"
-msgid "Icons only"
-msgstr "仅图标"
-
-msgctxt "mplo_labels_and_icons"
-msgid "Labels and icons"
-msgstr "标签和图标"
-
-msgctxt "mplo_map_vis"
-msgid "Map display:"
-msgstr "地图显示:"
-
-msgctxt "mvo_mod_poi_labels"
-msgid "POI mod labels"
-msgstr "POI 模组标签"
-
-msgctxt "option_company_demand_editor"
-msgid "Demand curve editor"
-msgstr "需求曲线编辑器"
-
-msgctxt "option_company_mod_poi_layer_editor"
-msgid "Mod POI layer options"
-msgstr "模组 POI 层选项"
-
-msgctxt "option_company_pax_spawn_station_pick"
-msgid "Pax spawn station:"
-msgstr "乘客在车站生成"
-
-msgctxt "option_company_pax_spawn_station_random"
-msgid "Random"
-msgstr "随机"
-
-msgctxt "option_company_pax_spawn_station_shortest_walk"
-msgid "Shortest walk"
-msgstr "最短步行"
-
-msgctxt "option_company_pax_spawn_station_shortest_walk_best_path"
-msgid "Shortest walk, best path"
-msgstr "最优路径"
-
-msgctxt "pax_total_demand"
-msgid "Total: {0}"
-msgstr "全部: {0}"
-
-msgctxt "pax_total_demand_as_destination"
-msgid "As destination: {0}"
-msgstr "目的地: {0}"
-
-msgctxt "pax_total_demand_as_origin"
-msgid "As origin: {0}"
-msgstr "出发地: {0}"
-
-msgctxt "poi_instance_editor"
-msgid "Point of interest properties"
-msgstr "信息点属性"
-
-msgctxt "poi_instance_editor_new"
-msgid "New point of interest properties"
-msgstr "新的信息点属性"
-
-msgctxt "sign_instance_editor"
-msgid "Sign properties"
-msgstr "标志属性"
-
-msgctxt "sign_instance_editor_new"
-msgid "New sign properties"
-msgstr "新的标志属性"
-
-msgctxt "station_demand_aggregate"
-msgid "Aggregate"
-msgstr "合计"
-
-msgctxt "station_demand_aggregated_started_at"
-msgid "Started at {}"
-msgstr "开始于 {}"
-
-msgctxt "station_demand_realtime"
-msgid "Realtime"
-msgstr "实时"
-
-msgctxt "station_infowin_demand"
-msgid "Ridership"
-msgstr "客流量"
-
-msgctxt "station_rt_demand_dest"
-msgid "As destination"
-msgstr "目的地"
-
-msgctxt "station_rt_demand_origin"
-msgid "As origin"
-msgstr "出发地"
-
-msgctxt "waiting_at_station"
-msgid "Waiting at station"
-msgstr "候车"
+# 1.13.11 版本 新添加字符串
+
+msgctxt "accounting_pax_walked_in"
+msgid "Walked in"
+msgstr "进入"
+
+msgctxt "accounting_pax_walked_out"
+msgid "Walked out"
+msgstr "退出"
+
+msgctxt "accounting_train_arrived_full"
+msgid "Arrived full"
+msgstr "到达时满员"
+
+msgctxt "accounting_train_departed_full"
+msgid "Departed full"
+msgstr "离开时满员"
+
+msgctxt "assets_on_map_labels"
+msgid "Labels"
+msgstr "标签"
+
+msgctxt "assets_on_map_max_radius"
+msgid "Max. radius:"
+msgstr "最大半径:"
+
+msgctxt "assets_on_map_neg_color"
+msgid "Negative color:"
+msgstr "阴性颜色:"
+
+msgctxt "assets_on_map_pos_color"
+msgid "Positive color:"
+msgstr "阳性颜色"
+
+msgctxt "assets_view_on_map"
+msgid "View on map"
+msgstr "在地图上查看"
+
+msgctxt "bulk_edit_all_stations"
+msgid "Bulk edit all stations"
+msgstr "批量更改所有车站"
+
+msgctxt "editor_new_plat_extension"
+msgid "Create platform footprint extensions"
+msgstr "创建平台占地扩展"
+
+msgctxt "editor_new_walk_link"
+msgid "Create walk link"
+msgstr "创建步行通道"
+
+msgctxt "editor_tip_new_plat_extension_fin_left"
+msgid "Left click to finish creating a new platform footprint extension"
+msgstr "左键单击以完成创建平台占地扩展"
+
+msgctxt "editor_tip_new_plat_extension_left"
+msgid "Left click to create a new platform footprint extension"
+msgstr "左键单击以创建新的平台占地扩展"
+
+msgctxt "editor_tip_new_walk_link_fin_left"
+msgid "Left click to finish creating a new walk link"
+msgstr "左键单击以完成创建步行通道"
+
+msgctxt "editor_tip_new_walk_link_left"
+msgid "Left click to create a new walk link"
+msgstr "左键单击以创建新的步行通道"
+
+msgctxt "hall"
+msgid "Hall"
+msgstr "大厅"
+
+msgctxt "hall_row_many"
+msgid "(Many)"
+msgstr "(很多)"
+
+msgctxt "hall_station_full"
+msgid "Full"
+msgstr "满员"
+
+msgctxt "info_table_pax_hall"
+msgid "Hall"
+msgstr "大厅"
+
+msgctxt "info_table_pax_hall_tp"
+msgid "Reason to be in the hall, platform due time"
+msgstr "在大厅、平台等待的原因"
+
+msgctxt "kb_track_build_selection"
+msgid "Tracks: build selection"
+msgstr "轨道:选择建筑"
+
+msgctxt "kb_track_plat_extension"
+msgid "Tracks: new plat. ext."
+msgstr "轨道:新平台扩展"
+
+msgctxt "kb_track_poi"
+msgid "Tracks: new POI"
+msgstr "轨道:新 POI"
+
+msgctxt "kb_track_walk_link"
+msgid "Tracks: new walk link"
+msgstr "轨道:新步行通道"
+
+msgctxt "list_lines_closed"
+msgid "Closed"
+msgstr "关闭"
+
+msgctxt "list_lines_open"
+msgid "Open"
+msgstr "开启"
+
+msgctxt "list_lines_tech"
+msgid "Technical"
+msgstr "技术"
+
+msgctxt "list_lines_warn"
+msgid "With warnings"
+msgstr "有警告的"
+
+msgctxt "mvo_user_poi_labels"
+msgid "User POI labels"
+msgstr "用户 POI 标签"
+
+msgctxt "new_station_defaults"
+msgid "New station defaults"
+msgstr "新车站默认值"
+
+msgctxt "order_error_unpowered_train"
+msgid "Underpowered train"
+msgstr "动力不足列表"
+
+msgctxt "path2_walk"
+msgid "Walk for {}"
+msgstr "步行至 {}"
+
+msgctxt "pax_waiting3"
+msgid "Pax:"
+msgstr "乘客:"
+
+msgctxt "perf_editor_holds_rebuild"
+msgid "Hold updates when paused in editors"
+msgstr "在编辑器中暂停时保持更新"
+
+msgctxt "rebuild_demand_stalled_tp"
+msgid "Tile demand rebuild is pending due to an editing action\nPress F1 or unpause the simulation to start the rebuild"
+msgstr "由于编辑操作，需要重建需求\n按F1或取消暂停模拟以开始重建 "
+
+msgctxt "rebuild_timetable_stalled_tp"
+msgid "Pax timetable rebuild is pending due to an editing action\nPress F1 or unpause the simulation to start the rebuild"
+msgstr "由于编辑操作，需要重建时间表\n按F1或取消暂停模拟以开始重建"
+
+msgctxt "reset_all_stations"
+msgid "Reset all stations"
+msgstr "重置所有车站"
+
+msgctxt "station_max_plat_pax"
+msgid "Platforms pax capacity:"
+msgstr "平台乘客容量:"
+
+msgctxt "station_max_plat_pax_nc"
+msgid "Plat. pax capacity"
+msgstr "平台乘客容量"
+
+msgctxt "station_max_walk"
+msgid "Auto walk transfer:"
+msgstr "自动步行中转:"
+
+msgctxt "station_max_walk_nc"
+msgid "Max. walk transfer"
+msgstr "最大步行中转"
+
+msgctxt "station_platform_user_footprint"
+msgid "Platform footprint:"
+msgstr "平台占地面积:"
+
+msgctxt "station_pop_area_nc"
+msgid "Population radius"
+msgstr "覆盖人口半径"
+
+msgctxt "station_transfer_overflow_into_hall"
+msgid "Transfers overflow into hall"
+msgstr "将多余的旅客转移到车站大厅"
+
+msgctxt "station_transfer_overflow_into_hall_nc"
+msgid "(Change) Overflow"
+msgstr "(更改)多余的旅客"
+
+msgctxt "timetable"
+msgid "Timetable"
+msgstr "时间表"
+
+msgctxt "track_station_tools"
+msgid "Create stations and extensions"
+msgstr "创建车站和扩展平台"
 
 # ----------------------------------------------------------
-# 1.11.14 及以前版本 字符串
+# 1.12.11 及以前版本 字符串
 
 msgctxt "10_minutes"
 msgid "10 minutes"
@@ -375,10 +295,6 @@ msgstr "  发送旅客"
 msgctxt "accounting_pax_compensated"
 msgid "Compensated"
 msgstr "    赔偿"
-
-msgctxt "accounting_pax_found_train_too_full"
-msgid "Boarding failed: full train"
-msgstr "  列车满员"
 
 msgctxt "accounting_pax_intervention"
 msgid "Compen.: intervention"
@@ -876,6 +792,14 @@ msgctxt "building_platform_footprint_extension"
 msgid "[*] Platform footprint extension"
 msgstr "[*]车站扩展平台"
 
+msgctxt "building_poi_curve"
+msgid "Demand curve:"
+msgstr "需求曲线:"
+
+msgctxt "building_poi_pop"
+msgid "Population:"
+msgstr "人口:"
+
 msgctxt "building_start_t"
 msgid "Start t (0 to 1):"
 msgstr "起始位置(0-1):"
@@ -1011,6 +935,10 @@ msgstr "素材中的部分物品引用了未知的对象类型:\n"
 msgctxt "confirm_clip_unknown_desc_2"
 msgid "One or more objects in the clip references an unknown mod:\n"
 msgstr "素材中的部分物品引用了未知的模组:\n"
+
+msgctxt "confirm_clip_unknown_desc_2d"
+msgid "One or more objects in the clip references an unknown demand curve:\n"
+msgstr "素材中的一个或多个对象引用了未知的需求曲线：\n"
 
 msgctxt "confirm_clip_unknown_desc_3"
 msgid "Copy with built-in to replace unknown objects with built-in objects, avoiding new mods, object kinds and demand curves being imported into your game.\n"
@@ -1324,6 +1252,118 @@ msgctxt "delete_tracks"
 msgid "Delete objects"
 msgstr "删除对象"
 
+msgctxt "demand_clone"
+msgid "Clone demand curve"
+msgstr "复制需求曲线"
+
+msgctxt "demand_curve_disabled"
+msgid "<Disabled>"
+msgstr "<禁用>"
+
+msgctxt "demand_default_name"
+msgid "Population"
+msgstr "人口:"
+
+msgctxt "demand_delete"
+msgid "Delete selected demand curve"
+msgstr "删除选定的需求曲线"
+
+msgctxt "demand_editor_focus_dest"
+msgid "Destination"
+msgstr "目的地"
+
+msgctxt "demand_editor_focus_distance"
+msgid "Distance"
+msgstr "距离"
+
+msgctxt "demand_editor_focus_info"
+msgid "Info"
+msgstr "信息"
+
+msgctxt "demand_editor_focus_origin"
+msgid "Origin"
+msgstr "出发地"
+
+msgctxt "demand_editor_focus_range0"
+msgid "0 km to 95 km"
+msgstr "0 km - 95 km"
+
+msgctxt "demand_editor_title"
+msgid "Demand curves editor"
+msgstr "需求曲线编辑器"
+
+msgctxt "demand_export"
+msgid "Export to TSV file"
+msgstr "导出到 TSV 文件"
+
+msgctxt "demand_import_new"
+msgid "Import new demand curve from TSV file"
+msgstr "从 TSV 文件导入需求曲线"
+
+msgctxt "demand_import_replace"
+msgid "Replace with curve from TSV file"
+msgstr "替换为 TSV 文件中的需求曲线"
+
+msgctxt "demand_info_file_ops"
+msgid "Export and replace"
+msgstr "导出和替换"
+
+msgctxt "demand_info_move_pois"
+msgid "Bulk change POIs into a different curve"
+msgstr "将 POI 批量更改为不同的需求曲线"
+
+msgctxt "demand_info_move_pois_but"
+msgid "Change all POIs"
+msgstr "更改所有 POI"
+
+msgctxt "demand_info_move_pois_label"
+msgid "Change to:"
+msgstr "更改为:"
+
+msgctxt "demand_info_name"
+msgid "Name:"
+msgstr "名称:"
+
+msgctxt "demand_info_poi"
+msgid "Points of interest:"
+msgstr "信息点:"
+
+msgctxt "demand_info_pop"
+msgid "Population:"
+msgstr "人口:"
+
+msgctxt "demand_pax_spawn"
+msgid "{} new pax/min."
+msgstr "{} 新乘客/分钟"
+
+msgctxt "demand_rebuild_tp"
+msgid "Rebuilding demand data..."
+msgstr "重建需求数据中…"
+
+msgctxt "demand_replace_default"
+msgid "Replace with default curve"
+msgstr "重置为默认需求曲线"
+
+msgctxt "demand_replace_file"
+msgid "Replace from TSV file"
+msgstr "从 TSV 文件导入需求曲线"
+
+msgctxt "demand_time_copy_day"
+msgid "Copy day"
+msgstr "复制日期"
+
+msgctxt "demand_time_paste_day"
+msgid "Paste day"
+msgstr "粘贴日期"
+
+msgctxt "demand_time_set_0"
+msgid "All 0%"
+msgstr "全部 0%"
+
+msgctxt "demand_time_set_100"
+msgid "All 100%"
+msgstr "全部 100%"
+
 msgctxt "dep_grp_destination"
 msgid "Destination"
 msgstr "目的地"
@@ -1436,6 +1476,10 @@ msgctxt "editor_pick_constraint_parent_left"
 msgid "Click a control point to make it the constraint parent"
 msgstr "点击一个轨道控制点来绑定到轨道节点"
 
+msgctxt "editor_poi"
+msgid "Create new points of interest and signs"
+msgstr "创建新的信息点和标志"
+
 msgctxt "editor_sat_building_tape"
 msgid "Building tape"
 msgstr "轨道附属建筑工具"
@@ -1485,8 +1529,8 @@ msgid "Limited shapes: tracks are shaped using line segments and circle arcs"
 msgstr "有限的形状：轨道是使用线段和圆弧形成的"
 
 msgctxt "editor_station"
-msgid "Create stations"
-msgstr "创建新车站"
+msgid "Create station platforms"
+msgstr "创建车站平台"
 
 msgctxt "editor_tangent_fix"
 msgid "Keep last tangent: preserve previous track tangent and approximate a circle arc"
@@ -1651,6 +1695,10 @@ msgstr "左键单击完成创建新的建筑"
 msgctxt "editor_tip_new_building_left"
 msgid "Left click to create a new building"
 msgstr "左键单击创建一个新的建筑"
+
+msgctxt "editor_tip_new_poi_left"
+msgid "Left click to create a new point of interest or sign"
+msgstr "左键单击可创建新的信息点和标志"
 
 msgctxt "editor_tip_new_signal_esc"
 msgid "Esc to go to signal edit mode"
@@ -1992,6 +2040,10 @@ msgctxt "filter_year_retired"
 msgid "Year retired"
 msgstr "封存年份"
 
+msgctxt "fmt_copy_of"
+msgid "Copy of {}"
+msgstr "复制 {}"
+
 msgctxt "friend_state_away"
 msgid "Away"
 msgstr "离开"
@@ -2196,6 +2248,10 @@ msgctxt "ignore"
 msgid "Ignore"
 msgstr "忽略"
 
+msgctxt "info_company_active_tiles"
+msgid "Active pax tiles:"
+msgstr "活动乘客平铺显示:"
+
 msgctxt "info_company_buildings"
 msgid "Buildings:"
 msgstr "建筑:"
@@ -2252,6 +2308,14 @@ msgctxt "info_table_pax_leg_tp"
 msgid "Elapsed time of the current trip leg, including station waits"
 msgstr "当前行程段的耗时，包括车站等待时间"
 
+msgctxt "info_table_pax_location"
+msgid "Location"
+msgstr "位置"
+
+msgctxt "info_table_pax_location_tp"
+msgid "Current location"
+msgstr "当前位置"
+
 msgctxt "info_table_pax_next"
 msgid "Next stop"
 msgstr "下一站"
@@ -2291,6 +2355,14 @@ msgstr "等待"
 msgctxt "info_table_pax_waiting_tp"
 msgid "Expected to depart with this line and stop number, based on timetables"
 msgstr "根据时刻表，应该在该站台乘坐这条线路出发"
+
+msgctxt "info_table_station_city_tp"
+msgid "Group by city"
+msgstr "按城市分组"
+
+msgctxt "info_table_station_dist_tp"
+msgid "Sort by distance"
+msgstr "按距离排序"
 
 msgctxt "info_train_pax"
 msgid "Pax: {0} / {1}"
@@ -3540,6 +3612,10 @@ msgctxt "mod_panel_steamworks"
 msgid "Subscribe to new mods in the Workshop"
 msgstr "在创意工坊中订阅新的模组"
 
+msgctxt "mod_poi_layer_options_title"
+msgid "Mod POI layer options"
+msgstr "模组 POI 层选项"
+
 msgctxt "mod_remove_all_orphaned"
 msgid "Remove all orphaned and unused rules"
 msgstr "删除所有独立和未使用的规则"
@@ -3820,6 +3896,30 @@ msgctxt "mpinfo_stats_stream"
 msgid "Stream stats (hoster UI)"
 msgstr "流统计(主机界面)"
 
+msgctxt "mplo_default_demand"
+msgid "<Controlled by the mod>"
+msgstr "<由模组控制>"
+
+msgctxt "mplo_demand_curve"
+msgid "Demand curve:"
+msgstr "需求曲线:"
+
+msgctxt "mplo_hidden"
+msgid "Hidden"
+msgstr "隐藏"
+
+msgctxt "mplo_icons_only"
+msgid "Icons only"
+msgstr "仅图标"
+
+msgctxt "mplo_labels_and_icons"
+msgid "Labels and icons"
+msgstr "标签和图标"
+
+msgctxt "mplo_map_vis"
+msgid "Map display:"
+msgstr "地图显示:"
+
 msgctxt "msaa_mode"
 msgid "MSAA:"
 msgstr "MSAA(多重采样抗锯齿):"
@@ -3843,6 +3943,10 @@ msgstr "正在加载游戏"
 msgctxt "multiplayer"
 msgid "Multiplayer"
 msgstr "多人游戏"
+
+msgctxt "mvo_mod_poi_labels"
+msgid "Mod POI labels"
+msgstr "模组 POI 标签"
 
 msgctxt "mvo_toggle_map_style_mods"
 msgid "Map style mods:"
@@ -4016,9 +4120,17 @@ msgctxt "option_company_demand"
 msgid "Global demand factor:"
 msgstr "全球需求系数:"
 
+msgctxt "option_company_demand_editor"
+msgid "Demand curve editor"
+msgstr "需求曲线编辑器"
+
 msgctxt "option_company_geo_export"
 msgid "Export GeoJSON"
-msgstr "导出的 GeoJson"
+msgstr "导出 GeoJson"
+
+msgctxt "option_company_mod_poi_layer_editor"
+msgid "Mod POI layer options"
+msgstr "模组 POI 层选项"
 
 msgctxt "option_company_name"
 msgid "Company name:"
@@ -4040,9 +4152,25 @@ msgctxt "option_company_pax_pf_bias_more"
 msgid "Faster sim"
 msgstr "更快速模拟"
 
+msgctxt "option_company_pax_spawn_station_pick"
+msgid "Pax spawn station:"
+msgstr "乘客在车站生成"
+
+msgctxt "option_company_pax_spawn_station_random"
+msgid "Random"
+msgstr "随机"
+
+msgctxt "option_company_pax_spawn_station_shortest_walk"
+msgid "Shortest walk"
+msgstr "最短步行"
+
+msgctxt "option_company_pax_spawn_station_shortest_walk_best_path"
+msgid "Shortest walk, best path"
+msgstr "最优路径"
+
 msgctxt "option_company_station_label"
-msgid "New station label:"
-msgstr "新车站标签:"
+msgid "Station label:"
+msgstr "车站标签:"
 
 msgctxt "option_company_switch_no_cash"
 msgid "Switch to unlimited money"
@@ -4256,9 +4384,17 @@ msgctxt "pax_tab"
 msgid "Passengers"
 msgstr "乘客"
 
-msgctxt "pax_waiting"
-msgid "Pax: {0} / {1}"
-msgstr "等待乘客: {0} / {1}"
+msgctxt "pax_total_demand"
+msgid "Total: {0}"
+msgstr "全部: {0}"
+
+msgctxt "pax_total_demand_as_destination"
+msgid "As destination: {0}"
+msgstr "目的地: {0}"
+
+msgctxt "pax_total_demand_as_origin"
+msgid "As origin: {0}"
+msgstr "出发地: {0}"
 
 msgctxt "paxlist_groupby_dest"
 msgid "Group by destination"
@@ -4411,6 +4547,14 @@ msgstr "按站台显示"
 msgctxt "plots_button_tp"
 msgid "Open charts window"
 msgstr "打开图表窗口"
+
+msgctxt "poi_instance_editor"
+msgid "Point of interest properties"
+msgstr "信息点属性"
+
+msgctxt "poi_instance_editor_new"
+msgid "New point of interest properties"
+msgstr "新的信息点属性"
 
 msgctxt "poi_settlement_0"
 msgid "Capital"
@@ -4584,10 +4728,6 @@ msgctxt "right_bar_tags"
 msgid "Tags"
 msgstr "标签"
 
-msgctxt "rtstat_coverage"
-msgid "Coverage"
-msgstr "覆盖人口"
-
 msgctxt "rtstat_creation"
 msgid "Creation date"
 msgstr "创建日期"
@@ -4647,10 +4787,6 @@ msgstr "在本站始发乘客"
 msgctxt "rtstat_sax_avg"
 msgid "Satisfaction"
 msgstr "满意度"
-
-msgctxt "rtstat_spawn_rate"
-msgid "Spawn rate"
-msgstr "乘客生成速度"
 
 msgctxt "rtstat_speed"
 msgid "Speed"
@@ -4900,6 +5036,14 @@ msgctxt "show_all_clips"
 msgid "Show saved clipboard clips"
 msgstr "显示剪贴板"
 
+msgctxt "sign_instance_editor"
+msgid "Sign properties"
+msgstr "标志属性"
+
+msgctxt "sign_instance_editor_new"
+msgid "New sign properties"
+msgstr "新的标志属性"
+
 msgctxt "signal_alert_opt_custom"
 msgid "Custom wait time"
 msgstr "自定义等等时间"
@@ -5092,9 +5236,25 @@ msgctxt "start_game"
 msgid "Start game"
 msgstr "开始游戏"
 
+msgctxt "station_demand_aggregate"
+msgid "Aggregate"
+msgstr "合计"
+
+msgctxt "station_demand_aggregated_started_at"
+msgid "Started at {}"
+msgstr "开始于 {}"
+
+msgctxt "station_demand_realtime"
+msgid "Realtime"
+msgstr "实时"
+
 msgctxt "station_editor"
 msgid "Station properties"
 msgstr "车站属性"
+
+msgctxt "station_infowin_demand"
+msgid "Ridership"
+msgstr "客流量"
 
 msgctxt "station_label_mode"
 msgid "Label:"
@@ -5153,8 +5313,16 @@ msgid "Platform name:"
 msgstr "站台名称:"
 
 msgctxt "station_pop_area"
-msgid "Area:"
-msgstr "覆盖区域:"
+msgid "Population radius:"
+msgstr "覆盖人口半径:"
+
+msgctxt "station_rt_demand_dest"
+msgid "As destination"
+msgstr "目的地"
+
+msgctxt "station_rt_demand_origin"
+msgid "As origin"
+msgstr "出发地"
 
 msgctxt "steam_chat"
 msgid "Steam Chat and Friends"
@@ -6748,6 +6916,10 @@ msgctxt "vsync_mode"
 msgid "VSync:"
 msgstr "VSync(垂直同步):"
 
+msgctxt "waiting_at_station"
+msgid "Waiting at station"
+msgstr "候车"
+
 msgctxt "waiting_expired"
 msgid "Expired"
 msgstr "失效"
@@ -6887,6 +7059,10 @@ msgstr "此模组在当前游戏中已启用，但其安装的文件需要更新
 # ----------------------------------------------------------
 #删除的（老版本）字符串
 
+msgctxt "accounting_pax_found_train_too_full"
+msgid "Boarding failed: full train"
+msgstr "  列车满员"
+
 msgctxt "accounting_period_lifetme"
 msgid "Lifetime"
 msgstr "全部时间"
@@ -6902,6 +7078,10 @@ msgstr "POI"
 msgctxt "custom_admin_level_transport"
 msgid "Transportation"
 msgstr "交通"
+
+msgctxt "demand_cache_warmup"
+msgid "Warming up tile pax path cache, game speed is limited\nIf perfomance does not improve consider selecting Random spawn station mode in Company options"
+msgstr "正在加载乘客路径缓存，游戏速度已被限制\n如果性能没有改善，请考虑在公司-乘客在车站生成模式设为随机"
 
 msgctxt "demand_pax_overall"
 msgid "{:.1f} pax/s"
@@ -7299,6 +7479,10 @@ msgctxt "path_board_at"
 msgid "Wait and board at platform {}"
 msgstr "在 {} 站台等候上车"
 
+msgctxt "pax_waiting"
+msgid "Pax: {0} / {1}"
+msgstr "等待乘客: {0} / {1}"
+
 msgctxt "pax_waiting_detail"
 msgid "New pax: {0}\nTransfer pax: {1} "
 msgstr "新乘客: {0} \n中转乘客: {1}"
@@ -7334,6 +7518,14 @@ msgstr "快速入门指南"
 msgctxt "renderer_opengl"
 msgid "OpenGL 3.3"
 msgstr "OpenGL 3.3"
+
+msgctxt "rtstat_coverage"
+msgid "Coverage"
+msgstr "覆盖人口"
+
+msgctxt "rtstat_spawn_rate"
+msgid "Spawn rate"
+msgstr "乘客生成速度"
 
 msgctxt "run_panel_pad_stop"
 msgid "Train will wait an extra {} in this stop to start the next run at its scheduled time"
